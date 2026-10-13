@@ -1,0 +1,92 @@
+{
+  "201": {
+    "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_autorelay_20261008/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_cross_gap1_occ10_s201_phase1_g90_eb8",
+    "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_autorelay_20261008/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_cross_gap1_occ10_s201_phase1_g90_eb8_eigsh25_fresh",
+    "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_autorelay_20261008/metadata/task_GaAs_cross_gap1_occ10_s201.json",
+    "record_sha256": "fd7d834c51aac5cd19ad7558bb1a8c7e845171b9a0194d8f5316b5a988f69001",
+    "state_files": {
+      "final_state.npz": "52e628e42a547baea5babb6b086d63e74d5c4b0c59e4156fa402ef903f2bc3b3",
+      "config.json": "58c856b8ec337f23c31338994a0abcfcfb318ad196bbcbb7000ce32365c07697",
+      "summary.json": "5232cd6ba962d6e5e00d11d2a3c211ae7e52dbc5d29f058a4812835c0c7bf541",
+      "endpoint.json": "b263459ef3bfa240006ea07fbd8422692006d3c9496f2f13556e473525f94f40",
+      "provenance.json": "ccf6921cb72c1efa7916b2cc275fbc6e9d20772083c3a2f69ee7e91344aa0d33"
+    },
+    "prefix_steps": 20000,
+    "prefix_optimization_seconds": 10325.318404220045,
+    "gate_tests": {
+      "external": true,
+      "commutator": true,
+      "occupation": true,
+      "density": true,
+      "free_energy": true
+    },
+    "fully_stationary": false
+  },
+  "202": {
+    "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_autorelay_20261008/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_cross_gap1_occ10_s202_phase1_g90_eb8",
+    "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_autorelay_20261008/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_cross_gap1_occ10_s202_phase1_g90_eb8_eigsh25_fresh",
+    "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_autorelay_20261008/metadata/task_GaAs_cross_gap1_occ10_s202.json",
+    "record_sha256": "2e7ad23336e64a84594a35130f2a0172764dcfb8a1e74c33ec108130fa5e402e",
+    "state_files": {
+      "final_state.npz": "eefd184a9c9d9fccaa9d7809fa97c986d2f66049221ee977a5e95a77a4fec4ef",
+      "config.json": "29a94431fa2b4a927ed04c62bec5d9be39714e227524dd419812d36fdb3598d3",
+      "summary.json": "265bd458f7a971d281e84ec80526ff5b4d8556a47730b1dfbdb4c662eaa6aeb0",
+      "endpoint.json": "f4ae5ae0f441b2a2105e417b754895015ee3764098dbd683d78b283406ad2116",
+      "provenance.json": "a063b996711bfcb60a5d5b66320f29bd9d9ece9b348bd70437a585b0366be78b"
+    },
+    "prefix_steps": 20000,
+    "prefix_optimization_seconds": 10418.03705762932,
+    "gate_tests": {
+      "external": true,
+      "commutator": true,
+      "occupation": true,
+      "density": true,
+      "free_energy": true
+    },
+    "fully_stationary": false
+  },
+  "early_201": {
+    "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/convergence_diagnostics_20261008/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_roundoff_s201_phase2_g90_eb8",
+    "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/convergence_diagnostics_20261008/metadata/task_GaAs_roundoff_s201.json",
+    "record_sha256": "c23bdb4ab3e9fec576ab7d4a3aec50e867cc199ab794bf49cdf2dc38fccc8650",
+    "state_files": {
+      "final_state.npz": "f5455eb99a1958dc9da5c52acda164617591401fa0375122594206517b3f6301",
+      "config.json": "08f4c0b10fb489a8aa0d82fe433f3764f8469e35153222527c71e4cd9587a50a",
+      "summary.json": "65f1a754e6d462c20c2bdcbc940d389c35a31cbf256cd2c515769e1b6a8990cd",
+      "endpoint.json": "39e901e584440ff78b8229d7b6973c56f91437e2578713320f907f6a6321a8ae",
+      "provenance.json": "8c03ec235e6c0cd29f8fad068ccef56ef58736b3f5c047fc1c31acc54ad86f89"
+    },
+    "prefix_steps": 12000,
+    "prefix_optimization_seconds": 8273.612044308335,
+    "gate_tests": {
+      "external": true,
+      "commutator": true,
+      "occupation": true,
+      "density": true,
+      "free_energy": true
+    },
+    "fully_stationary": false
+  },
+  "early_202": {
+    "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/convergence_diagnostics_20261008/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_roundoff_s202_phase2_g90_eb8",
+    "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/convergence_diagnostics_20261008/metadata/task_GaAs_roundoff_s202.json",
+    "record_sha256": "5b282c67d696f464b5e42b62e211ac212124fcf2d91fad2d56018f578e40b838",
+    "state_files": {
+      "final_state.npz": "aca7e90188dd6f3b530889f2fcf77dd26e37c09a24db38297096cbdb05566cc4",
+      "config.json": "268fce5fbac9c857c874efd86f4ebffb1c52af659aa86d35a376857e5fc3dbcb",
+      "summary.json": "dd2b34deba79328fa26ab294f7c2a91f17403666bb2048c9e0530ba5b2186481",
+      "endpoint.json": "748e985daad41d7ef3bd610d0f6db88ea618bb2eef19ccb81679631f507acb60",
+      "provenance.json": "847add77dbc3161cadf8691bb2272975176c24869c16f6cf45d2e999be610527"
+    },
+    "prefix_steps": 12000,
+    "prefix_optimization_seconds": 8354.905013572425,
+    "gate_tests": {
+      "external": true,
+      "commutator": true,
+      "occupation": true,
+      "density": true,
+      "free_energy": true
+    },
+    "fully_stationary": false
+  }
+}

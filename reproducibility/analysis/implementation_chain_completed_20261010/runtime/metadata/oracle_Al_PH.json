@@ -1,0 +1,16 @@
+{
+  "material": "Al",
+  "phase": "PH",
+  "random_states_per_material_phase": 50,
+  "random_generator_seed": 72000,
+  "checkpoints": [
+    {
+      "name": "real_s301_step1000",
+      "path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment0_to1000_eb8/final_state.npz",
+      "sha256": "87785735c7167834c525d0d0b569c1da45c1ce24a1e7b9a1d1210a07cfb66c33",
+      "temperature_Ha": 0.010023052380778996,
+      "actual_checkpoint_source": "roundoff",
+      "task_metadata": "paper/jctc/final_validation_20261009/metadata/task_validation_Al_s301.json"
+    }
+  ]
+}

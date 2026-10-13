@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-30T03:38:28.828759+00:00",
+  "purpose": "JCTC method-comparison source provenance",
+  "sources": {
+    "jrystal_raw_0930": {
+      "source_path": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/work/DFT/jrystal_raw_0930",
+      "archive": "jrystal_raw_0930.tar.gz",
+      "archive_sha256": "aaf1916a1a378c9a52817e36def4734ef126de87ab0ea26c874b7a95cc226c15",
+      "file_count": 208,
+      "tree_sha256": "0b54cdc4c15a2f47f6fb244e85db1b3b61c3966d24f0aeabe55ace0df8ee82ef",
+      "selection": "all regular files"
+    },
+    "d3ft_main": {
+      "source_path": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft2/d3ft-main",
+      "archive": "d3ft_main.tar.gz",
+      "archive_sha256": "f127612bbf31dd711a39fa9db0429dc880f4e6cea4f51e1dccaf3c6625506fec",
+      "file_count": 43,
+      "tree_sha256": "25201f08d3358e9cdeb94a22b80b98b88e8c27ec3128aabee3457cce6bf08ac8",
+      "selection": "Git-tracked d3ft/ plus README.md, requirements.txt, setup.py; current working-tree bytes",
+      "git_head": "00f7a2b4f0fe1edc0e54bcc54944f6e1c6934392",
+      "tracked_changes": [
+        "d3ft/occupation/sinkhorn.py",
+        "d3ft/optim/riemannian_adam.py"
+      ],
+      "untracked_roots_excluded": [
+        "validation/results/nmi_eb_v1",
+        "validation/results/nmi_ep_v1"
+      ]
+    },
+    "jrystal_d3ft_dependency": {
+      "source_path": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/work/DFT/jrystal",
+      "archive": "jrystal_d3ft_dependency.tar.gz",
+      "archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+      "file_count": 66,
+      "tree_sha256": "6b31df11227382af5f55533075914069f2962dae3b45b4069c0f830215805fc5",
+      "selection": "Git-tracked jrystal/ package; current working-tree bytes",
+      "git_head": "daf5642c75c3b8e8f9d234e061fd7f8561ed667b",
+      "tracked_changes": []
+    }
+  },
+  "dependency_added_utc": "2026-09-30T04:55:40.935255+00:00"
+}

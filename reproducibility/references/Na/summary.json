@@ -1,0 +1,55 @@
+{
+  "complete": true,
+  "material": "Na",
+  "name": "QE_Na_k2",
+  "free_energy_Ha": -0.6846936491407964,
+  "physical_temperature_Ha": 0.01,
+  "bands": 13,
+  "cutoff_Ha": 30,
+  "fft_grid": [
+    64,
+    64,
+    64
+  ],
+  "kmesh": 2,
+  "nelectrons": 2.0,
+  "input": {
+    "atoms": 2,
+    "valence_electrons": 2,
+    "structure_sha256": "c10813cfe66ce006c7d01c30eacb621e9ef4641be4a5f3b9460e4b61a2af71b4",
+    "upf_file": "Na.pz-n-vbc.UPF",
+    "upf_sha256": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90",
+    "cell_A": [
+      [
+        4.23,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.23,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.23
+      ]
+    ],
+    "kmesh": 2,
+    "cutoff_Ha": 30,
+    "xc": "lda_x+lda_c_pw",
+    "represented_bands": 9,
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "scope": "bcc2atom, a4.23A, NC VBC1e/atom, same mainAl30Ha LDA_X+PW correlation and k2 gamma/64^3/T.01 settings; not official AE Na."
+  },
+  "reference_recovery": "Same convergedSCF density, CG NSCF after Davidson failure; failure files retained; thresholds unchanged.",
+  "recovery_folder": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2_CG_recovery",
+  "job": "250285",
+  "SCF_input_sha256": "7509ad8621592f601796a4d84cd28dde7f217d6700b9038dd22c131f9aab212b"
+}

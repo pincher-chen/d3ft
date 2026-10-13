@@ -1,0 +1,24 @@
+&control
+ calculation='scf', prefix='calc', outdir='./tmp', pseudo_dir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/inputs/pseudopotentials', verbosity='high'
+/
+&system
+ ibrav=0, nat=4, ntyp=1, ecutwfc=60, ecutrho=240, nbnd=14,
+ input_dft='SLA PW', occupations='smearing', smearing='fd', degauss=.02,
+ nosym=.true., noinv=.true.,nr1=64,nr2=64,nr3=64,nr1s=64,nr2s=64,nr3s=64
+/
+&electrons
+ conv_thr=1d-11, electron_maxstep=200, mixing_beta=.5, diagonalization='david'
+/
+CELL_PARAMETERS angstrom
+4.05 0.0 0.0
+0.0 4.05 0.0
+0.0 0.0 4.05
+ATOMIC_SPECIES
+Al 26.9815385 Al.pz-vbc.UPF
+ATOMIC_POSITIONS crystal
+Al 0 0 0
+Al 0 0.5 0.5
+Al 0.5 0 0.5
+Al 0.5 0.5 0
+K_POINTS automatic
+2 2 2 0 0 0

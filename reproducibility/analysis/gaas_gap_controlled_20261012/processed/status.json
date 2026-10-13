@@ -1,0 +1,41 @@
+{
+  "prior_infrastructure_failure_cases": 8,
+  "updated_local": "2026-10-12 23:29:57",
+  "complete": true,
+  "n_pairs": 8,
+  "count_by_arm": {
+    "PH_gap": {
+      "queued": 0,
+      "running": 0,
+      "completed": 8,
+      "completed_censored": 0,
+      "infrastructure_failure": 0,
+      "execution_failure": 0
+    },
+    "PH_only": {
+      "queued": 0,
+      "running": 0,
+      "completed": 0,
+      "completed_censored": 8,
+      "infrastructure_failure": 0,
+      "execution_failure": 0
+    }
+  },
+  "paper_edits_performed_by_this_campaign": false,
+  "externally_changed_tex": [],
+  "thresholds": {
+    "charge_error_e": 1e-10,
+    "orthogonality_max": 1e-10,
+    "external_max_Ha": 1e-06,
+    "commutator_max_Ha": 1e-06,
+    "FD_occupation_error": 1e-06,
+    "Ritz_max_Ha": 1e-08,
+    "spectral_density_L1_per_electron": 1e-06,
+    "spectral_deltaF_abs_Ha": 1e-08,
+    "QE_deltaF_abs_Ha_cell": 0.0001,
+    "QE_aligned_band_MAE_eV": 0.001,
+    "QE_density_L1_per_electron": 0.0002
+  },
+  "strict_acceptance": "alloriginal11tests",
+  "early_stop_scope": "20000residuals are n.a.forfirstpass-stoppedcases; endpoint_steps distinguishesactualaudit"
+}

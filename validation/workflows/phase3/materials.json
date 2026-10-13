@@ -1,0 +1,12 @@
+{
+  "Si": {"symbols":["Si","Si"],"pp":"si","a0":5.47891,"Bguess":88.0,"grid":60,"empty":0,"a_ref":5.430935,"C11":165.64,"C12":63.94,"C44":79.51,"sigma_rel":0.002,"role":"train"},
+  "AlAs": {"symbols":["Al","As"],"pp":"alas","a0":5.73085,"Bguess":67.4,"grid":60,"empty":4,"a_ref":5.66172,"C11":119.9,"C12":57.5,"C44":56.6,"sigma_rel":0.012,"role":"train"},
+  "GaP": {"symbols":["Ga","P"],"pp":"gap","a0":5.49464,"Bguess":77.2,"grid":60,"empty":0,"a_ref":5.4505,"C11":140.5,"C12":62.0,"C44":null,"sigma_rel":0.02,"role":"train"},
+  "SiC": {"symbols":["Si","C"],"pp":"sic","a0":4.38133,"Bguess":211.4,"grid":48,"empty":0,"a_ref":4.3596,"C11":399.0,"C12":133.0,"C44":251.0,"sigma_rel":0.015,"role":"train"},
+  "BN": {"symbols":["B","N"],"pp":"bn","a0":3.62100,"Bguess":369.8,"grid":40,"empty":0,"a_ref":3.6157,"C11":798.4,"C12":172.4,"C44":469.0,"sigma_rel":0.003,"role":"train"},
+  "diamond": {"symbols":["C","C"],"pp":"diamond","a0":3.56779,"Bguess":432.8,"grid":40,"empty":0,"a_ref":3.566986,"C11":1079.0,"C12":124.0,"C44":578.0,"sigma_rel":0.005,"role":"train"},
+  "AlP": {"symbols":["Al","P"],"pp":"alp","a0":5.50782,"Bguess":82.7,"grid":60,"empty":4,"a_ref":5.4635,"C11":null,"C12":null,"C44":null,"sigma_rel":0.02,"role":"train_a0_only"},
+  "GaAs": {"symbols":["Ga","As"],"pp":"gaas","a0":5.75039,"Bguess":58.7,"grid":64,"empty":0,"a_ref":5.65325,"C11":118.41,"C12":53.70,"C44":null,"sigma_rel":0.0254,"role":"holdout"},
+  "BP": {"symbols":["B","P"],"pp":"bp","a0":4.54252,"Bguess":160.5,"grid":50,"empty":0,"a_ref":4.53991,"C11":354.0,"C12":83.0,"C44":190.0,"sigma_rel":0.06,"role":"exploratory_holdout"},
+  "Ge": {"symbols":["Ge","Ge"],"pp":"ge","a0":5.75,"Bguess":75.02,"grid":64,"empty":0,"a_ref":5.6579060,"C11":128.53,"C12":48.26,"C44":66.80,"sigma_rel":null,"role":"diagnostic_control","note":"a0 is a diagnostic geometry, not a computed equilibrium. Reference values transcribed from reference_exp.md; no statistical uncertainty assigned. Fixed-occupation force control only until band/occupation validity is checked."}
+}

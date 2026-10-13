@@ -1,0 +1,111 @@
+{
+  "decision": "narrow_contributions",
+  "counts": {
+    "PH_earlier": 1,
+    "same_observed_audit": 6,
+    "PH_later": 0,
+    "both_censored_unresolved": 0,
+    "pending": 0
+  },
+  "rule": {
+    "seeds": [
+      201,
+      202,
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "PH_numerical_contribution_if": {
+      "PH_earlier_at_least": 4,
+      "PH_later": 0,
+      "all_seven_scientifically_closed": true
+    },
+    "otherwise": "Narrow contributions to implicit FD charge coordinates, corrected positive-occupation energy estimator, anneal-then-switch and stable algebra; PH an effective choice with symmetry/bounds, no superiority claim.",
+    "comparison": "First observed full8+3 passing audit; upper bound on true crossing; same audit is unresolved at this audit resolution, not proof of equality. One scientific20k censor versus an accepted endpoint ranks accepted arm earlier; two scientific censors remain unresolved and do not satisfy a superiority decision. Infrastructure/execution failures are excluded and must be retried before the rule can be evaluated.",
+    "statistics_scope": "Fixed settings and this seven-seed GaAs comparison; five301\u2013305 previously used for validation, not five new independent validation endpoints. Criterion is an editorial decision rule, not a significance test or universal advantage.",
+    "no_parameter_tuning": true
+  },
+  "pairs": [
+    {
+      "seed": 201,
+      "cohort": "development",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 2000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "same_observed_audit"
+    },
+    {
+      "seed": 202,
+      "cohort": "development",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 3000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "PH_earlier"
+    },
+    {
+      "seed": 301,
+      "cohort": "existing_validation",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 2000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "same_observed_audit"
+    },
+    {
+      "seed": 302,
+      "cohort": "existing_validation",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 2000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "same_observed_audit"
+    },
+    {
+      "seed": 303,
+      "cohort": "existing_validation",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 2000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "same_observed_audit"
+    },
+    {
+      "seed": 304,
+      "cohort": "existing_validation",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 2000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "same_observed_audit"
+    },
+    {
+      "seed": 305,
+      "cohort": "existing_validation",
+      "PH_first_pass": 2000,
+      "occupation_difference_first_pass": 2000,
+      "PH_status": "completed",
+      "occupation_difference_status": "completed",
+      "paired_initial_verified": true,
+      "scientifically_closed": true,
+      "relation": "same_observed_audit"
+    }
+  ],
+  "scope": "Only these GaAs settings/cohort; no claim of general or full-ETDM superiority",
+  "raw_records_retained": true
+}

@@ -1,0 +1,100 @@
+{
+  "records": [
+    {
+      "name": "oracle_Al_PH",
+      "states": 52,
+      "random": 50,
+      "operator_checks": 4,
+      "relative": {
+        "F": 0.0,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_Al_corrected",
+      "states": 53,
+      "random": 50,
+      "operator_checks": 5,
+      "relative": {
+        "F": 1.313394527437524e-16,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_Si_PH",
+      "states": 52,
+      "random": 50,
+      "operator_checks": 4,
+      "relative": {
+        "F": 0.0,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_Si_corrected",
+      "states": 53,
+      "random": 50,
+      "operator_checks": 5,
+      "relative": {
+        "F": 1.649111261976264e-15,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_SiC_PH",
+      "states": 52,
+      "random": 50,
+      "operator_checks": 4,
+      "relative": {
+        "F": 0.0,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_SiC_corrected",
+      "states": 53,
+      "random": 50,
+      "operator_checks": 5,
+      "relative": {
+        "F": 2.370024104024513e-16,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_GaAs_PH",
+      "states": 52,
+      "random": 50,
+      "operator_checks": 4,
+      "relative": {
+        "F": 0.0,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "oracle_GaAs_corrected",
+      "states": 53,
+      "random": 50,
+      "operator_checks": 5,
+      "relative": {
+        "F": 2.1076504984568448e-16,
+        "gradient": 0.0,
+        "direction": 0.0
+      }
+    }
+  ],
+  "random_state_checks": 400,
+  "all_state_checks": 420,
+  "operator_checks": 36,
+  "maximum_relative": {
+    "F": 1.649111261976264e-15,
+    "gradient": 0.0,
+    "direction": 0.0
+  }
+}

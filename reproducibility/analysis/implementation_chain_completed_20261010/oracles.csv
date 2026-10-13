@@ -1,0 +1,9 @@
+material,phase,states,random_states,maximum_relative,operator_bitwise_passed
+Al,PH,52,50,"{'F': 0.0, 'gradient': 0.0, 'direction': 0.0}",True
+Al,corrected,53,50,"{'F': 1.313394527437524e-16, 'gradient': 0.0, 'direction': 0.0}",True
+Si,PH,52,50,"{'F': 0.0, 'gradient': 0.0, 'direction': 0.0}",True
+Si,corrected,53,50,"{'F': 1.649111261976264e-15, 'gradient': 0.0, 'direction': 0.0}",True
+SiC,PH,52,50,"{'F': 0.0, 'gradient': 0.0, 'direction': 0.0}",True
+SiC,corrected,53,50,"{'F': 2.370024104024513e-16, 'gradient': 0.0, 'direction': 0.0}",True
+GaAs,PH,52,50,"{'F': 0.0, 'gradient': 0.0, 'direction': 0.0}",True
+GaAs,corrected,53,50,"{'F': 2.1076504984568448e-16, 'gradient': 0.0, 'direction': 0.0}",True

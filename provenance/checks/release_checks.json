@@ -1,0 +1,17 @@
+{
+  "CPU_test_modules": 30,
+  "CPU_passed": 30,
+  "figure_packages_regenerated": 7,
+  "case_protocol_dry_runs_passed": [
+    "Al",
+    "Si",
+    "SiC",
+    "SiC_distorted",
+    "GaAs",
+    "Na"
+  ],
+  "python_syntax_checked": 448,
+  "new_long_DFT_calculations_started": 0,
+  "credential_scan_findings": [],
+  "solver_scientific_source_modified": false
+}

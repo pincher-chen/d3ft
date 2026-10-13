@@ -1,0 +1,247 @@
+{
+  "suite": "cpu",
+  "python": "3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]",
+  "tests": [
+    {
+      "test": "test_00_import.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 10.322,
+      "log": "code_data_upload/d3ft-github/runs/test_00_import.py.txt"
+    },
+    {
+      "test": "test_01_stiefel.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 11.105,
+      "log": "code_data_upload/d3ft-github/runs/test_01_stiefel.py.txt"
+    },
+    {
+      "test": "test_02_sinkhorn.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 7.212,
+      "log": "code_data_upload/d3ft-github/runs/test_02_sinkhorn.py.txt"
+    },
+    {
+      "test": "test_12_occupation_charge.py",
+      "source_scope": "archived development Sinkhorn implementation (not the FD paper solver)",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 20.267,
+      "log": "code_data_upload/d3ft-github/runs/test_12_occupation_charge.py.txt"
+    },
+    {
+      "test": "test_13_kmesh_symmetry.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 4.109,
+      "log": "code_data_upload/d3ft-github/runs/test_13_kmesh_symmetry.py.txt"
+    },
+    {
+      "test": "test_18_riemannian_gradient.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 5.112,
+      "log": "code_data_upload/d3ft-github/runs/test_18_riemannian_gradient.py.txt"
+    },
+    {
+      "test": "test_26_masked_projectors.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 22.0,
+      "log": "code_data_upload/d3ft-github/runs/test_26_masked_projectors.py.txt"
+    },
+    {
+      "test": "test_paper_coordinates.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 8.046,
+      "log": "code_data_upload/d3ft-github/runs/test_paper_coordinates.py.txt"
+    },
+    {
+      "test": "test_03_lanczos.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 11.278,
+      "log": "code_data_upload/d3ft-github/runs/test_03_lanczos.py.txt"
+    },
+    {
+      "test": "test_05_lanczos_grad.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 9.977,
+      "log": "code_data_upload/d3ft-github/runs/test_05_lanczos_grad.py.txt"
+    },
+    {
+      "test": "test_11_band_gap_differentiable.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 5.234,
+      "log": "code_data_upload/d3ft-github/runs/test_11_band_gap_differentiable.py.txt"
+    },
+    {
+      "test": "test_14_elastic.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.635,
+      "log": "code_data_upload/d3ft-github/runs/test_14_elastic.py.txt"
+    },
+    {
+      "test": "test_15_fit.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.323,
+      "log": "code_data_upload/d3ft-github/runs/test_15_fit.py.txt"
+    },
+    {
+      "test": "test_16_implicit.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.415,
+      "log": "code_data_upload/d3ft-github/runs/test_16_implicit.py.txt"
+    },
+    {
+      "test": "test_17_uncertainty.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.374,
+      "log": "code_data_upload/d3ft-github/runs/test_17_uncertainty.py.txt"
+    },
+    {
+      "test": "test_19_channel_scaling.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 4.182,
+      "log": "code_data_upload/d3ft-github/runs/test_19_channel_scaling.py.txt"
+    },
+    {
+      "test": "test_20_xc_tunable.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 14.2,
+      "log": "code_data_upload/d3ft-github/runs/test_20_xc_tunable.py.txt"
+    },
+    {
+      "test": "test_21_density_grid.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.358,
+      "log": "code_data_upload/d3ft-github/runs/test_21_density_grid.py.txt"
+    },
+    {
+      "test": "test_22_relaxation_guard.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.163,
+      "log": "code_data_upload/d3ft-github/runs/test_22_relaxation_guard.py.txt"
+    },
+    {
+      "test": "test_23_acoustic_sum_guard.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.367,
+      "log": "code_data_upload/d3ft-github/runs/test_23_acoustic_sum_guard.py.txt"
+    },
+    {
+      "test": "test_24_force_amplification.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.365,
+      "log": "code_data_upload/d3ft-github/runs/test_24_force_amplification.py.txt"
+    },
+    {
+      "test": "test_25_tetragonal_strain.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.201,
+      "log": "code_data_upload/d3ft-github/runs/test_25_tetragonal_strain.py.txt"
+    },
+    {
+      "test": "test_27_phase3_guards.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.603,
+      "log": "code_data_upload/d3ft-github/runs/test_27_phase3_guards.py.txt"
+    },
+    {
+      "test": "test_28_equilibrium_volume_response.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.246,
+      "log": "code_data_upload/d3ft-github/runs/test_28_equilibrium_volume_response.py.txt"
+    },
+    {
+      "test": "test_29_phase3_trial_basis.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.191,
+      "log": "code_data_upload/d3ft-github/runs/test_29_phase3_trial_basis.py.txt"
+    },
+    {
+      "test": "test_29_kpool_projectors.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 14.91,
+      "log": "code_data_upload/d3ft-github/runs/test_29_kpool_projectors.py.txt"
+    },
+    {
+      "test": "test_30_xc_density_refinement.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 11.846,
+      "log": "code_data_upload/d3ft-github/runs/test_30_xc_density_refinement.py.txt"
+    },
+    {
+      "test": "test_31_phase3_force_budget.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.248,
+      "log": "code_data_upload/d3ft-github/runs/test_31_phase3_force_budget.py.txt"
+    },
+    {
+      "test": "test_31_kpool_density.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 8.197,
+      "log": "code_data_upload/d3ft-github/runs/test_31_kpool_density.py.txt"
+    },
+    {
+      "test": "test_32_phase3_continuation.py",
+      "source_scope": "current NLCC-repaired paper solver",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.725,
+      "log": "code_data_upload/d3ft-github/runs/test_32_phase3_continuation.py.txt"
+    }
+  ],
+  "passed": true
+}

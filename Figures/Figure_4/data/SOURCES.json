@@ -1,0 +1,67 @@
+[
+  {
+    "file": "data/Al/band_comparison.csv",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/Al/band_comparison.csv",
+    "sha256": "4421fa979761c1fa7472d365ae4cdb56b3b4ac2a104f1aa6782c26c7594a7b90"
+  },
+  {
+    "file": "data/Al/path.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/Al/path.json",
+    "sha256": "3c0fcb62037e7849428e6fc91ede2f0e54ea773498c801289ddb991c6d4c1fe9"
+  },
+  {
+    "file": "data/Na/band_comparison.csv",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/Na/band_comparison.csv",
+    "sha256": "c6eebfbe497e5297472c75adc855fcd727de8d3adb09295435ebf541f4e445ec"
+  },
+  {
+    "file": "data/Na/path.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/Na/path.json",
+    "sha256": "be69bef310e66e1eaf49048ee45603192100bd14ea17863206f0f8c70ca0ab80"
+  },
+  {
+    "file": "data/Si/band_comparison.csv",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/Si/band_comparison.csv",
+    "sha256": "dfadbef85a26d0b5dac443b3dab6c84fb7bb9ca759b1b7d9630563e5b6bf12dc"
+  },
+  {
+    "file": "data/Si/path.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/Si/path.json",
+    "sha256": "b1044f4eb1aa7835fe04bee2c11475ccb6ebc6c879fe8d3f746b969643233760"
+  },
+  {
+    "file": "data/SiC/band_comparison.csv",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/SiC/band_comparison.csv",
+    "sha256": "771c7eb9ca10bebeb761ecbb8f8abd786ab4c388399ee6fbc988eceadaf33f0d"
+  },
+  {
+    "file": "data/SiC/path.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/SiC/path.json",
+    "sha256": "1c4a7d49e4fd4bd55b063ce1aa3ccb87822e74afe22abc49d0753b428ddc3e89"
+  },
+  {
+    "file": "data/GaAs/band_comparison.csv",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/GaAs/band_comparison.csv",
+    "sha256": "4a23e763dc122dd81c81b42cde24e2092e5c9849658bbe5c1ff7c89947ca7689"
+  },
+  {
+    "file": "data/GaAs/path.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/GaAs/path.json",
+    "sha256": "99c342ac725ed1b02e5ba7cbfe440b6fd6ebaf0ec0ea0d17152de42148295a44"
+  },
+  {
+    "file": "data/QA.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/QA.json",
+    "sha256": "354a2bf91d8413f1cc0739de21c57896a5283780d3ad73c843ef8ad3e59275f5"
+  },
+  {
+    "file": "data/summary.csv",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/processed/summary.csv",
+    "sha256": "394f8fad03b0cf9af15e9ca4ae94b1dd03f9204f799d8340d30a7cb6796e89b7"
+  },
+  {
+    "file": "data/PROTOCOL.json",
+    "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/metadata/protocol.json",
+    "sha256": "e18cc019497b612193674682bed54c26451273111e2d42cff33e1c30335fce60"
+  }
+]

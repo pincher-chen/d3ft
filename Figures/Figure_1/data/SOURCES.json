@@ -1,0 +1,107 @@
+[
+ {
+  "file": "data/raw_hamiltonian/method_0.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment0_to1000_eb20/mechanism_H_step0.npz",
+  "sha256": "1095ea365b0865df93a105856673e243b1d404073006a0fcba86d774de0588ac"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_100.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment0_to1000_eb20/mechanism_H_step100.npz",
+  "sha256": "b1885766749d5259bef22069863aa75a0c02ebed663b98f4c26e7777b66cacba"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_1000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment0_to1000_eb20/mechanism_H_step1000.npz",
+  "sha256": "68107137dd6201c09e30c57bd50778b51d620f5d44717c852e61decdd06b0a32"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_300.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment0_to1000_eb20/mechanism_H_step300.npz",
+  "sha256": "e7f07931d9f3c38c9dc1c88fed176cd56390ee5219da3a1d1289cd2c91cd3750"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_500.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment0_to1000_eb20/mechanism_H_step500.npz",
+  "sha256": "09beca47d2433dcef4a12720d512085323d272d31af02aa08de31425eb9c456f"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_1100.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step100.npz",
+  "sha256": "96ae3558dbd1a2c5737e14f8abad767b828a4ab52b93ce49727a14867dbaa94b"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_2000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step1000.npz",
+  "sha256": "f71df8f95ba87c08dc36c8716a71ed90441f879629c707676c11f2708998c88c"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_3000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step2000.npz",
+  "sha256": "f71df8f95ba87c08dc36c8716a71ed90441f879629c707676c11f2708998c88c"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_1300.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step300.npz",
+  "sha256": "78203cfe6d5278afa93b464f41815ad159c3a22bc1b91dfed5c4b9f0fbfdf8f4"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_4000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step3000.npz",
+  "sha256": "f71df8f95ba87c08dc36c8716a71ed90441f879629c707676c11f2708998c88c"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_1500.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step500.npz",
+  "sha256": "60a87ddb23cd07145d44ab8e5079b5dfead48dcb7ed41947d5264c712c2637c0"
+ },
+ {
+  "file": "data/raw_hamiltonian/method_1052.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_postkp_fd_lr0.1_s1101_A_Gamma_final_s1101_segment1_to4000_eb20/mechanism_H_step52.npz",
+  "sha256": "6f69d5bf14f25ed523fa5e0b4a63347a7392eefebb4f77056cef3b85ad583a53"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_0.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step0.npz",
+  "sha256": "370211e8c95ae28bea97212031c844076fbd4ed219a57f450e7c7c4509c849ec"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_100.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step100.npz",
+  "sha256": "d0b07728f23b9ac770c1dda7d1c6ad5eb2613940e5ebfe3061a4cd2442734374"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_1000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step1000.npz",
+  "sha256": "cf05a89efaf2278901aea57a268d8adad166a84a72424b0294e1e55764caa7e3"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_2000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step2000.npz",
+  "sha256": "f2bb6bafcd2e9a7b63557941fda9ac65f6a21b53749db9de43d9e444ae707643"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_300.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step300.npz",
+  "sha256": "0bc2d5f61a0729da03075306438a94a485ea368d8c3be257a2b7153a06b2fb2a"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_3000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step3000.npz",
+  "sha256": "284819b8269f2803cfab8eaf1c433e9f6f0984e00b77aa843ef98278f2b4f542"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_4000.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step4000.npz",
+  "sha256": "afb5d901851a7e85118a86d4ac0465b4cc26abebea6c33acfa16eb43b59ecc35"
+ },
+ {
+  "file": "data/raw_hamiltonian/qr_500.npz",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/matched_Al_qr_idempotent_lr0.01_s1101_A_Gamma_QR_s1101_segment0_to4000_eb20/mechanism_H_step500.npz",
+  "sha256": "a7e4e0d5421c73af2225ed074de96235529454dd2f3fc3d9e0a083cea888938a"
+ },
+ {
+  "file": "data/fig1_Al_H_commutator.csv",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/A_compact_20261011/fig1_Al_H_commutator.csv",
+  "sha256": "2f6beaa3b79c9e2becad7fa2687595d2ce45bfc51544d1dde4d5e9715ddc9aef"
+ }
+]

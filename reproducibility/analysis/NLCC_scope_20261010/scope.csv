@@ -1,0 +1,10 @@
+system,element,file,sha256,core_correction,PP_NLCC_present
+Al,Al,Al.pz-vbc.UPF,4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5,False,False
+Si,Si,Si.upf,4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581,False,False
+SiC,C,C.upf,1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064,False,False
+SiC,Si,Si.upf,4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581,False,False
+displaced SiC,C,C.upf,1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064,False,False
+displaced SiC,Si,Si.upf,4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581,False,False
+GaAs,Ga,Ga.upf,2fb4076be45921f041484b6051130a03e77bc17b903fc19d178075cbad87c860,False,False
+GaAs,As,As.upf,c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4,False,False
+Na,Na,Na.pz-n-vbc.UPF,4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90,True,True

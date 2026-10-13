@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "command": [
+    "mpirun",
+    "-np",
+    "24",
+    "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_box/qe-7.5/bin_cpu_intel/bin/pw.x",
+    "-inp",
+    "bands.in",
+    "-npool",
+    "6"
+  ],
+  "exit_code": 0,
+  "seconds": 25.198119163513184,
+  "source_QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2",
+  "material": "Na",
+  "points": 62,
+  "bands_solved": 40,
+  "input_sha256": "3025c59f4d9ed1ece9e3e46f10b0bf0166a0a780e8f2f2399288964d48fd384d",
+  "output_xml_sha256": "83690b7c7faeb78ff718cb8b26415fbb55924ce6d2d63e4594c671946b6e7042",
+  "pw_sha256": "dd8c5ecb5788ec460246686bee1023544ba34cc846b8651885782b847221ea85",
+  "starting_density_sha256": "d36ba71370a3fd9e91c39fe63455ca975cc595ba824776c559a68b2e66395428",
+  "scope": "Original converged SCF density, private copy, NSCF only; no density reoptimization"
+}

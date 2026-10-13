@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "passed": true,
+  "operator": true,
+  "objective": true,
+  "endpoints": true,
+  "endpoint_workers_terminated": true,
+  "objective_gate_sha256": "655a5e6c57833441b6d1c0c5665a0249e7b804d1a136c8f1bb86600805b96603",
+  "endpoint_gate_sha256": "3fce344f256f0451b786b64336fd0b979411c8cad94ad100a3e6f76b6b2fde56",
+  "historical_stepwise_failures_retained": true
+}

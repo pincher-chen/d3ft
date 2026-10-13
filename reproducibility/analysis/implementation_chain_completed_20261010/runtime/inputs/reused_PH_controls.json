@@ -1,0 +1,30 @@
+[
+  {
+    "seed": 201,
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/metadata/task_GaAs_PH20k_s201.json",
+    "record_sha256": "ab6e2e40acd7f2c5582dfbe660647764a39fc90f60c1835426518ae6cce373e9",
+    "first_provenance": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_PH20k_s201_phase0_g90_eb8/provenance.json",
+    "first_provenance_sha256": "a37ee0e705802a0f85f4b0632499db435e67256c14d314b5e3f47f41a00e849f",
+    "initial": {
+      "physical_orbital_sha256": "ded820cd9ddef7a807ad8b453258e24daf4416fc6112e75bba991bb8034b12a2",
+      "occupation_sha256": "fb1b4b797f5a8a11e9eb43b67847503ef0ba3d264f093d47ea81b14578b9557a",
+      "restart_state_sha256": null
+    },
+    "source_tree_sha256": "a45b508a69d39a9f02c248ec3511e1c9e4c381e8385a2d2cc7fc380d9ddd656a",
+    "scope": "Reuse complete20k PH controls for physical/iteration outcomes; no cross-campaign wall-time comparison."
+  },
+  {
+    "seed": 202,
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/metadata/task_GaAs_PH20k_s202.json",
+    "record_sha256": "3a1df86534c7b4b9d9b8055dee42ff0f0c9e9ad235eb2af8d0ca55d127f89160",
+    "first_provenance": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_PH20k_s202_phase0_g90_eb8/provenance.json",
+    "first_provenance_sha256": "bb9623130580d85fd135126c473eb509402d3d6c6ab2c600e19f8ad288114fba",
+    "initial": {
+      "physical_orbital_sha256": "e0f19c01f0c8381d8c4ab77d6a1ae7fa3c3f0f6dc57036021485b841c0080e51",
+      "occupation_sha256": "7304ecf5a17613050990dd082406ecde9130081fb701badb89e151a525842efe",
+      "restart_state_sha256": null
+    },
+    "source_tree_sha256": "a45b508a69d39a9f02c248ec3511e1c9e4c381e8385a2d2cc7fc380d9ddd656a",
+    "scope": "Reuse complete20k PH controls for physical/iteration outcomes; no cross-campaign wall-time comparison."
+  }
+]

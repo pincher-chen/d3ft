@@ -1,0 +1,16 @@
+{
+  "material": "Si",
+  "phase": "PH",
+  "random_states_per_material_phase": 50,
+  "random_generator_seed": 73000,
+  "checkpoints": [
+    {
+      "name": "real_s301_step1000",
+      "path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment0_to1000_eb8/final_state.npz",
+      "sha256": "431cbcd2df12c05d38d811112c7b06fb65c9517ede036b9ad23fe16d493230a4",
+      "temperature_Ha": 0.010023052380778996,
+      "actual_checkpoint_source": "roundoff",
+      "task_metadata": "paper/jctc/final_validation_20261009/metadata/task_validation_Si_s301.json"
+    }
+  ]
+}

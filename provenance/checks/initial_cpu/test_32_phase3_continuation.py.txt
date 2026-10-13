@@ -1,0 +1,1 @@
+Cold fallback, changed-mask and strict source-stationarity guards passed

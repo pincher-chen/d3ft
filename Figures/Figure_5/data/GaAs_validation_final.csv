@@ -1,0 +1,9 @@
+seed,this_work_run,this_work_first_accepted_audit,this_work_accepted,PH_reference_run,PH_reference_status,PH_reference_accepted,PH_reference_budget
+301,validation_GaAs_s301,4000,True,PH_control_GaAs_s301,completed_censored,False,20000
+302,validation_GaAs_s302,4000,True,PH_control_GaAs_s302,completed_censored,False,20000
+303,validation_GaAs_s303,4000,True,PH_control_GaAs_s303,completed_censored,False,20000
+304,validation_GaAs_s304,4000,True,PH_control_GaAs_s304,completed_censored,False,20000
+305,validation_GaAs_s305,4000,True,PH_control_GaAs_s305,completed_censored,False,20000
+1001,GaAs_ruleA_new_s1001,4000,True,GaAs_PH_new_s1001,completed_censored,False,20000
+1002,GaAs_ruleA_new_s1002,4000,True,GaAs_PH_new_s1002,completed_censored,False,20000
+1003,GaAs_ruleA_new_s1003,4000,True,GaAs_PH_new_s1003,completed_censored,False,20000

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/code_data_upload/d3ft-github/tests/test_29_phase3_trial_basis.py", line 12, in <module>
+    fit=importlib.util.module_from_spec(spec);spec.loader.exec_module(fit)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/code_data_upload/d3ft-github/validation/workflows/phase3/fit_step.py", line 16, in <module>
+    MATERIALS=json.loads((HERE/'materials.json').read_text())
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/code_data_upload/d3ft-github/validation/workflows/phase3/materials.json'

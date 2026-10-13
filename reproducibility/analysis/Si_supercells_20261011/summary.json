@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "atoms": 8,
+      "status": "completed_censored",
+      "qualified": false,
+      "bands": 24,
+      "FFT": [
+        80,
+        80,
+        80
+      ],
+      "cutoff_Ha": 40,
+      "first_pass": null,
+      "memory_MiB": 3161.0,
+      "QE": {
+        "status": "completed",
+        "passed": false,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/si_scaling_8_idle_retry_20261011/results/QE_Si8_Gamma_full",
+        "free_energy_difference_Ha_cell": 2.7141193221780213e-06,
+        "aligned_band_MAE_eV": 5.592906355736346e-06,
+        "aligned_band_RMSE_eV": 6.2379484452915635e-06,
+        "global_shift_Ha": -1.4793412112778145e-07,
+        "density_L1_per_electron": 1.0842442425870722e-05,
+        "k_match_error": 0.0,
+        "mesh_KS_gap_eV": 0.677697399049568,
+        "QE_mesh_KS_gap_eV": 0.6777151135350951,
+        "gap_difference_meV": -0.017714485527009494,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "62ee156bc2f2827a1c7a310453c0fb3efee578e4cbb5d0388015ddd1caaebada"
+      }
+    },
+    {
+      "atoms": 16,
+      "status": "completed_censored",
+      "qualified": false,
+      "bands": 40,
+      "FFT": [
+        160,
+        80,
+        80
+      ],
+      "cutoff_Ha": 40,
+      "first_pass": null,
+      "memory_MiB": 18411.0,
+      "QE": {
+        "status": "completed",
+        "passed": false,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/si_scaling_16_idle_retry_20261011/results/QE_Si16_Gamma_full",
+        "free_energy_difference_Ha_cell": 9.004379307953059e-06,
+        "aligned_band_MAE_eV": 5.12755090631827e-06,
+        "aligned_band_RMSE_eV": 6.285966994108361e-06,
+        "global_shift_Ha": -3.8686722006464613e-08,
+        "density_L1_per_electron": 1.5644193407180643e-05,
+        "k_match_error": 0.0,
+        "mesh_KS_gap_eV": 0.6977980460288252,
+        "QE_mesh_KS_gap_eV": 0.6978181727503607,
+        "gap_difference_meV": -0.020126721535507208,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "0d45d858de5743f5981a27c4f4d93d2fe40f93aef428d9a9009b1eef3da71659"
+      }
+    },
+    {
+      "atoms": 32,
+      "status": "held_unqualified_8_or_16",
+      "qualified": false,
+      "bands": 80,
+      "FFT": [
+        160,
+        160,
+        80
+      ],
+      "cutoff_Ha": 40,
+      "first_pass": null,
+      "memory_MiB": null,
+      "QE": {}
+    }
+  ],
+  "scope": "Gamma-only size feasibility; concurrent non-isolated calculations, not performance/scaling speedup;64atom science not run"
+}

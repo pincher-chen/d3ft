@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "path": "d3ft/calc/ground_state.py",
+      "old": "e3b85c494c4921b145dff115019a55c4e324b53a012c13b389a140de4c87f28c",
+      "new": "e3f9974104319afabb4bb94fa187b5eb1877475f4eff225d996a30e615946fdf",
+      "condition": "both_k_pool_false",
+      "reason": "Only the enabled k-pool branch and its JIT signatures changed; the serial branch still uses jax.jit with the same update body."
+    },
+    {
+      "path": "d3ft/parallel/kpool.py",
+      "old": "fda023f3f0cb7bd6f42f8d7a3bf87d969640e215cde6c2977bfc8ba816cd0382",
+      "new": "21cbeb755721faf2cd66d1c42ef422acb9b3a614bf8d7fe076e043a4322001a4",
+      "condition": "both_k_pool_false",
+      "reason": "New optional local FFT path is enabled only for k_pool=True; serial worker never enters this context."
+    },
+    {
+      "path": "d3ft/calc/xc_tunable.py",
+      "old": "a9c84591345c19482f8797c4b3eb6a4907638b0dd7e49ad07ed3381d9ee27a13",
+      "new": "3a55d0a8c1e2f27d4a8b7c05c6dbb38c870518e482af23107ed4538d0f08df69",
+      "condition": "both_xc_grid_one",
+      "reason": "Optional XC density refinement is disabled at factor one; original numerical path retained."
+    },
+    {
+      "path": "d3ft/calc/ground_state.py",
+      "old": "e3f9974104319afabb4bb94fa187b5eb1877475f4eff225d996a30e615946fdf",
+      "new": "49127e07fa2af53c74fe9ab66871ef2600b9244de44229cb56ea77a9f8bfdbe4",
+      "condition": "both_xc_grid_one",
+      "reason": "Optional XC density refinement is disabled at factor one; original numerical path retained."
+    },
+    {
+      "path": "d3ft/calc/ground_state.py",
+      "old": "e3b85c494c4921b145dff115019a55c4e324b53a012c13b389a140de4c87f28c",
+      "new": "49127e07fa2af53c74fe9ab66871ef2600b9244de44229cb56ea77a9f8bfdbe4",
+      "condition": "both_k_pool_false_and_xc_grid_one",
+      "reason": "Combined exact-hash compatibility: serial path plus disabled XC refinement."
+    },
+    {
+      "path": "d3ft/calc/stress.py",
+      "old": "e1bd2fe062121ae01d12d6e017fa2e8d28efe9bd50ec71acadd91d0d95548f12",
+      "new": "f3ab21aa6df5c568a3214c58f01d127bf73e1b0b39868fbf3d054958b1d8d99e",
+      "condition": "both_xc_grid_one",
+      "reason": "Optional XC density refinement is disabled at factor one; original numerical path retained."
+    }
+  ]
+}

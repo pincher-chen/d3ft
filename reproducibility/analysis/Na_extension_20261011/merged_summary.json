@@ -1,0 +1,143 @@
+{
+  "captured_local": "2026-10-11 00:28:26",
+  "terminal": true,
+  "qualified": true,
+  "success": 5,
+  "n": 5,
+  "records": [
+    {
+      "seed": 13101,
+      "status": "completed",
+      "first_passing_audit": 4000,
+      "internal8": true,
+      "QE3": true,
+      "last_audit": 4000,
+      "free_energy_difference_Ha": 1.2516537650775206e-07,
+      "density_L1_per_electron": 6.5048683028220766e-06,
+      "aligned_band_MAE_eV": 5.806373930079293e-07,
+      "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/metadata/task_Na_NLCC_final_s13101.json",
+      "task_record_sha256": "9e0e899aca4afa83d78de2ce82892351aefb64c7198d0e54e2cb17444a1a4c04"
+    },
+    {
+      "seed": 13102,
+      "status": "completed",
+      "first_passing_audit": 4000,
+      "internal8": true,
+      "QE3": true,
+      "last_audit": 4000,
+      "free_energy_difference_Ha": 1.2516537661877436e-07,
+      "density_L1_per_electron": 6.5048680777922e-06,
+      "aligned_band_MAE_eV": 5.806371710428197e-07,
+      "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/metadata/task_Na_NLCC_final_s13102.json",
+      "task_record_sha256": "a0afb88718357361f366476bb8300dd12a1732d534b3ce813c4a6216ae8e5965"
+    },
+    {
+      "seed": 13103,
+      "status": "completed",
+      "first_passing_audit": 4000,
+      "internal8": true,
+      "QE3": true
+    },
+    {
+      "seed": 13104,
+      "status": "completed",
+      "first_passing_audit": 4000,
+      "internal8": true,
+      "QE3": true
+    },
+    {
+      "seed": 13105,
+      "status": "completed",
+      "first_passing_audit": 4000,
+      "internal8": true,
+      "QE3": true
+    }
+  ],
+  "conditions": {
+    "kmesh": 2,
+    "cutoff_Ha": 30,
+    "density_cutoff_Ha": 120,
+    "FFT": [
+      64,
+      64,
+      64
+    ],
+    "temperature_Ha": 0.01,
+    "cell": "BCC Na2 a=4.23A",
+    "bands": 9,
+    "audit_bands": 13,
+    "xc": "lda_x+lda_c_pw",
+    "a_A": 4.23,
+    "valence_electrons": 2,
+    "pseudopotential_sha256": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90"
+  },
+  "fixed_density": {
+    "passed": true,
+    "checks": {
+      "XC_QE_agreement": true,
+      "independent_diagnostic_core_agreement": true,
+      "density_sphere_zero": true,
+      "charge_G0_agreement": true,
+      "finite": true
+    },
+    "XC_candidate_Ha": -0.5480241108687312,
+    "XC_QE_Ha": -0.5480241131548873,
+    "XC_difference_Ha": 2.2861561532749874e-09,
+    "XC_tolerance_Ha": 1e-06,
+    "core_vs_independent_diagnostic_max_abs": 1.0408340855860843e-17,
+    "core_integral_electrons": 1.0769667568785428,
+    "source_tree_sha256": "b211079939f7c30a974558815de063c986e75b6ae200f3778352afd39b3371d8",
+    "upf_sha256": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90",
+    "conditions": {
+      "geometry": "bcc Na2 a=4.23A, exact QE XML cell",
+      "kmesh": "2x2x2 Gamma",
+      "cutoff_Ha": 30,
+      "density_cutoff_Ha": 120,
+      "fft": [
+        64,
+        64,
+        64
+      ],
+      "temperature_Ha": 0.01,
+      "xc": "lda_x+lda_c_pw",
+      "density": "Original converged QE SCF density; no optimization/refitting"
+    },
+    "finish_epoch": 1791647285.0594547
+  },
+  "path": {
+    "status": "completed",
+    "points": 37,
+    "compared_bands": 9,
+    "computed_bands": 13,
+    "aligned_MAE_eV": 5.288787611966597e-07,
+    "aligned_RMSE_eV": 6.663154659155039e-07,
+    "maximum_aligned_error_eV": 2.143655745573814e-06,
+    "global_shift_Ha": 1.1574906580006841e-07,
+    "source_state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8",
+    "source_ours": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/Na_path_matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8",
+    "source_QE": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/Na_path",
+    "ours_sha256": "f3be691bf559abe1d32e75dd30f53f040f36c537bcd5dd633ae520fd3b21097a",
+    "QE_sha256": "ed651beea294b44999330f0d4a1a8053b588704af75e36e39ea2c75ab1e48ec5",
+    "conditions": {
+      "kmesh": 2,
+      "cutoff_Ha": 30,
+      "density_cutoff_Ha": 120,
+      "FFT": [
+        64,
+        64,
+        64
+      ],
+      "temperature_Ha": 0.01,
+      "cell": "BCC Na2 a=4.23A",
+      "bands": 9,
+      "audit_bands": 13
+    },
+    "scope": "Independent posterior KS spectrum on two converged finite-T densities; conventional cubic folded Gamma-X-R-Gamma,37points, no path SCF; rigid shift only for band comparison, none for totalF/density"
+  },
+  "scope": "Only repaired Na; other five systems have no NLCC; original1201-1205 reference-mismatch records retained",
+  "extension_seeds": [
+    13103,
+    13104,
+    13105
+  ]
+}

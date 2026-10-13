@@ -1,0 +1,90 @@
+{
+  "band_structure_empty_bands": 8,
+  "band_structure_epoch": 5000,
+  "convergence_condition": 0.0,
+  "convergence_window_size": 30,
+  "crystal": null,
+  "crystal_file_path_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/results/candidate_B1_N208/inputs/structures/Al.xyz",
+  "cutoff_energy": 100,
+  "d3ft": {
+    "free_energy": {
+      "anneal_steps": 1000,
+      "enabled": true,
+      "temp_init": 0.01
+    },
+    "kpoints": {
+      "mesh": "mp"
+    },
+    "occupation": {
+      "enabled": true,
+      "epsilon_final": 0.1,
+      "epsilon_init": 0.1,
+      "epsilon_schedule": "constant",
+      "learning_rate": 10.0,
+      "method": "sinkhorn",
+      "sinkhorn_iters": 50
+    },
+    "optim": {
+      "enabled": true,
+      "init": "random",
+      "lr_final": 1e-07,
+      "lr_schedule": "constant",
+      "metric_occupations": true,
+      "metric_orbitals": true,
+      "metric_trial": true,
+      "mu": 1.0,
+      "preconditioner": "kinetic",
+      "record_work": false,
+      "retraction": "qr"
+    },
+    "parallel": {
+      "k_pool": false
+    },
+    "spectrum": {
+      "enabled": true,
+      "implicit_grad": true,
+      "n_lanczos_iters": 64,
+      "n_probes": 8
+    },
+    "theta_nonlocal": 0.0,
+    "xc_grid_factor": 1
+  },
+  "empty_bands": 202,
+  "epoch": 1101,
+  "eps": 1e-12,
+  "ewald_args": {
+    "ewald_cutoff": 20000.0,
+    "ewald_eta": 0.1
+  },
+  "freq_mask_method": "spherical",
+  "grid_sizes": 48,
+  "jax_debug_nans": false,
+  "jax_enable_x64": true,
+  "k_grid_sizes": 2,
+  "k_path_file": null,
+  "k_path_fine_tuning": true,
+  "k_path_fine_tuning_epoch": 300,
+  "k_path_special_points": null,
+  "num_kpoints": 60,
+  "occupation": "idempotent",
+  "optimizer": "d3ft_riem",
+  "optimizer_args": {
+    "b1": 0.9,
+    "b2": 0.99,
+    "learning_rate": 0.1
+  },
+  "parallel_over_k_mesh": false,
+  "parallel_over_k_path": true,
+  "pseudopotential_file_dir": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/results/candidate_B1_N208/inputs/pseudopotentials/",
+  "pseudopotential_type": "nc",
+  "save_dir": null,
+  "scheduler": null,
+  "seed": 101,
+  "smearing": 0.01,
+  "spin": 0,
+  "spin_restricted": true,
+  "use_pseudopotential": true,
+  "verbose": false,
+  "xc": "lda_x",
+  "xla_preallocate": false
+}

@@ -1,0 +1,2867 @@
+{
+  "complete": true,
+  "passed": true,
+  "operator_passed": true,
+  "rows": [
+    {
+      "state": "random_0",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.6963444605765
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9268923956347499
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.62816712502346
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 17.5164932939378
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.23767892541082
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 384.9118995449282
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_1",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.935022645223
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9505572386372697
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.06058769928445
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 21.410790872837826
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.46703131764612
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.03402283918444
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_2",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.36182610669152
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.736526380342448
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 61.94301326037079
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 33.56522311763467
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.08567146064118
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.43747805122723
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_3",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.97419073225333
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.068427705541539
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.53931643748666
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.445826324474936
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.32743515223772
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 392.3249955928732
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_4",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.1041416290402
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9338195522068726
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.1266195892581
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 20.910822361990405
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.499057090328716
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.5378921812521
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_5",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.1789207918217
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.7961355311133443
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 57.43512562122019
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.05500823593548
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.017322594650274
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.42934253691135
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_6",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.70747799687058
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0632580976580703
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.534525687323104
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.23425727247902
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.26356924100851
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.5686843039507
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_7",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.21288877965463
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0022842209731004
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 48.16504539645019
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 21.26657294010408
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.25222094980282
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.7289674858345
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_8",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.51319882726418
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.7705488667301873
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 61.671588344074074
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 35.6069953359738
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.181841916088246
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 394.13240187127906
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_9",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.66565239124193
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.1832767830404345
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.530803823710414
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 21.423525747448505
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.185598646968625
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 395.3889349251563
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_10",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.92492560397662
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9280632771208844
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.22911449273435
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 20.16064261866895
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.510507902182457
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 388.368644039217
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_11",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.56026939070068
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8237068265984746
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 61.418025428963794
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 35.932369654820235
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.77976681122669
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 394.5427364927366
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_12",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.81941016860833
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.059053027467757
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.60934863331027
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.458370393884618
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.157443614750907
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.02604788899924
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_13",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.9119705671005
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9341616977227906
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.5921714374085
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.442943016280786
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.520820424882523
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.91955836406584
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_14",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.21791861638138
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.6400784659526498
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 62.668309602124864
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 39.623666997795205
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.15502978309173
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 386.6469030171285
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_15",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.0956883369958
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0703458675701394
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.63532762765712
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.97863391249056
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.130433090365088
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.8450733565233
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_16",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.9564057589738
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9512736278570715
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.48886582973828
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 21.57656141355595
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.391285711169623
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.3532270424107
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_17",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.44655423686882
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.7496753065915377
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 61.1883419748335
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 34.9262017311345
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.03732659128317
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.1791676638586
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_18",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.77455892246792
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.078017115428153
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.43720973411314
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.89344823297235
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.164326648379507
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.64246970520446
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_19",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.78793911856982
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0683010694816726
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 48.462735244085984
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 20.637308612674584
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.386415540015122
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 393.18568184014106
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_20",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.40351500846495
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8886043994380222
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 59.76460866984686
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 34.724379634051054
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.72723020128714
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 392.4866497597627
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_21",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.7566021382784
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0109469341384432
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.708306573504814
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 18.379768720483725
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.365261200638365
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.8794986531462
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_22",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.99374909807023
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8799896533367725
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 50.41551162971791
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.003264113682857
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.543457344517204
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.58337026476016
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_23",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.7370071197771
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8872544044847374
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 60.04058804560787
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 39.05257813852632
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.08238021443177
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 393.6971115540286
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_24",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.8151776382113
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0974136940101877
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.610189939917724
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.972523774341628
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.221065283688805
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.77175561673755
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_25",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.75415254117564
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9679739568740259
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 50.462406123841575
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.83046725628898
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.455356770246436
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.6814858886535
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_26",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.70083824438925
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.5653908340724249
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 62.78502111962272
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 38.3570441627419
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.922055829334493
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 382.5585581947649
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_27",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.6161375711327
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9282181268749565
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.708969719291375
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 17.091761037573335
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.35543230356307
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 388.61465265460515
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_28",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.06481410402165
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0297025854539
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 47.84492760395128
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 21.623321010605487
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.39650570895772
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 392.3739037778153
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_29",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.64248972639436
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.6688864928652298
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 63.14087819186182
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 36.468123992727925
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.952415791608964
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 384.68992377938713
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_30",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.90711125490836
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9568172700626585
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.86831080167124
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 17.5428438489128
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.47084859504815
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 388.6075619182552
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_31",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.0213090292489
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0400153388298956
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 48.49784826052925
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 20.24361372061598
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.452092181027304
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 392.191889005177
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_32",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.61235525788206
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8197717882552953
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 62.155252189978114
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 40.00213312658285
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.560829090417748
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.0169323076749
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_33",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.76313167157076
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9769560387768799
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.55761609284627
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 17.793998097922888
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.21365234307638
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 386.8736640495893
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_34",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.83772326088229
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8851838845736982
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.560764037399395
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.41729230360134
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.701789553965252
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.78794800535917
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_35",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.02205233465475
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.7714871328070234
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 60.712595632493866
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 30.746792294528994
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.959788031691836
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.5366687575148
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_36",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.10357473991243
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.051186623993698
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.373982307803814
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.15343863096207
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.41218031862643
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.3549025792341
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_37",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.75910333150443
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.035524549135811
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 48.789358997826426
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 22.821517861306997
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.613546795664657
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 393.9165554229825
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_38",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.65108464596847
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.668686985205549
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 62.912886813723
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 35.97005069735862
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.09477294487628
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 389.62150956670456
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_39",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.8859325090687
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.9935745300076598
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.38431838577562
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 18.062968742277736
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.262191111103082
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 388.6587707273206
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_40",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.9111143367363
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.1640856003360451
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.188099639706564
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 23.758666360900257
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.44873289077737
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 397.27801727192934
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_41",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.56435646928892
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8801791692334743
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 62.46434430930477
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 37.58512401103284
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.08660168791731
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.9657183454732
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_42",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.71970876317874
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.059374549561248
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.64056756264796
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.864932417107838
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.532280448004023
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 392.0693947374888
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_43",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.81003318486097
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.1079832672281924
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 48.87342666992973
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 22.83374038892901
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.23760109109834
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 395.1187240098136
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_44",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.4236314631022
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.8070369593172567
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 59.25505160660291
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 32.40208394075596
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.890926599325972
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 392.2522920940572
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_45",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.7700699182735
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.058055037522961
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.76608405528108
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.608669657309797
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.109556374179867
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.76986317905784
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_46",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.0805952831702
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.052997679185942
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 50.036639840631
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 24.022586330077154
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.362359045426437
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 395.04065354361967
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_47",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 187.57760082345476
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.7010891741918776
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 61.72394000859435
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 33.45364223685608
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.971554372662457
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 391.798456371112
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_48",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.68660283568596
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0893863753331803
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 43.608639423158806
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 19.64526657536141
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.182735230188573
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 390.8631889662254
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "random_49",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 186.8591669498041
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1.0654456401459937
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 49.09413278250286
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 22.893273781018117
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 31.575853627401877
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 396.89568369334467
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "driver_initial",
+      "temperature_Ha": 0.1,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 181.80030455686628
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 8.14400496993894
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 42.547352804992194
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 150.26374498299077
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 30.85815730069143
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 1591.6497004214602
+          }
+        ]
+      },
+      "checkpoint": null,
+      "passed": true
+    },
+    {
+      "state": "real_s301_step1000",
+      "temperature_Ha": 0.010023052380778996,
+      "F": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.2692900231109176
+          }
+        ]
+      },
+      "gradient": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.0002827167071811102
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.3830253220720812
+          }
+        ]
+      },
+      "direction": {
+        "relative": 0.0,
+        "maximum_absolute": 0.0,
+        "leaves": [
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.46245972620851894
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 0.04431214734866423
+          },
+          {
+            "relative": 0.0,
+            "maximum_absolute": 0.0,
+            "denominator": 4.127485695744531e-06
+          }
+        ]
+      },
+      "checkpoint": {
+        "name": "real_s301_step1000",
+        "path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment0_to1000_eb8/final_state.npz",
+        "sha256": "431cbcd2df12c05d38d811112c7b06fb65c9517ede036b9ad23fe16d493230a4",
+        "temperature_Ha": 0.010023052380778996,
+        "actual_checkpoint_source": "roundoff",
+        "task_metadata": "paper/jctc/final_validation_20261009/metadata/task_validation_Si_s301.json"
+      },
+      "passed": true
+    }
+  ],
+  "operator": [
+    {
+      "state": "random_0",
+      "bitwise_equal": true
+    },
+    {
+      "state": "random_1",
+      "bitwise_equal": true
+    },
+    {
+      "state": "random_2",
+      "bitwise_equal": true
+    },
+    {
+      "state": "real_s301_step1000",
+      "bitwise_equal": true
+    }
+  ],
+  "specification": {
+    "material": "Si",
+    "phase": "PH",
+    "random_states_per_material_phase": 50,
+    "random_generator_seed": 73000,
+    "checkpoints": [
+      {
+        "name": "real_s301_step1000",
+        "path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment0_to1000_eb8/final_state.npz",
+        "sha256": "431cbcd2df12c05d38d811112c7b06fb65c9517ede036b9ad23fe16d493230a4",
+        "temperature_Ha": 0.010023052380778996,
+        "actual_checkpoint_source": "roundoff",
+        "task_metadata": "paper/jctc/final_validation_20261009/metadata/task_validation_Si_s301.json"
+      }
+    ]
+  },
+  "maximum_relative": {
+    "F": 0.0,
+    "gradient": 0.0,
+    "direction": 0.0
+  },
+  "relative_definition": "per-leaf L2 difference / max(reference L2,candidate L2); scalar absolute relative difference; zero/zero=0, no unit floor",
+  "actual_candidate_gradient": "Original differentiable loss retained. Gather replaces only Armijo trial primal; independent compilation of the actual AD and direction oracles.",
+  "structural_production_transform": {
+    "gather_enabled": false,
+    "original_function_identity": true
+  }
+}

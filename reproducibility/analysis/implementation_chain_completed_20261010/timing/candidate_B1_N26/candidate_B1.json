@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "measured_updates": 1000,
+  "warm_updates_discarded": 101,
+  "steady1000_seconds": 32.48210974014364,
+  "scalar_sync_control_seconds": 0.030856816098093987,
+  "production_three_output_graph": true,
+  "scope": "One scalar energy wait/read per update; callbacks unchanged; one candidate executable; same101warm/1000measure as originalB1.",
+  "validation_gate": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/metadata/three_layer_gate.json"
+}

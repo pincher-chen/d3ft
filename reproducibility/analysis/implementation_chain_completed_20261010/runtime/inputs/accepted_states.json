@@ -1,0 +1,32 @@
+{
+  "201": {
+    "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/adaptive_relay_20261008/results/matched_SiC_postkp_fd_lr0.1_s201_SiC_staged_gap_s201_phase2_eb8",
+    "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/adaptive_relay_20261008/results/ks_audit_matched_SiC_postkp_fd_lr0.1_s201_SiC_staged_gap_s201_phase2_eb8_eigsh18_fresh",
+    "source": "gap001",
+    "reference": "QE_SiC_distorted_full",
+    "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/adaptive_relay_20261008/metadata/task_SiC_staged_gap_s201.json",
+    "record_sha256": "aa24a705939804e844b52b6603221897699c1b2f7e3b1000bceb29288b170742",
+    "state_files": {
+      "final_state.npz": "02e48136b7d885ab6bc078e335ee6e0983736495126e7291d852fb2c202b435e",
+      "config.json": "3e843860ddf10e931ba74097498b491c936a28ef208e0a72402a6289d80184b7",
+      "summary.json": "6f28d44f12d29ad7e2bd75b2653e3498cb64991ba9dd596be521ba4d17cdab5e",
+      "endpoint.json": "804c8fc61cb7be98749b5b3899c02938cf5055bc4a251cc480d9fe67bdfbc933",
+      "provenance.json": "7a11158d7376b859cc040e8a7e1d024b73399ded464a38223134061003fed1de"
+    }
+  },
+  "202": {
+    "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/adaptive_relay_20261008/results/matched_SiC_postkp_fd_lr0.1_s202_SiC_staged_gap_s202_phase1_eb8",
+    "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/adaptive_relay_20261008/results/ks_audit_matched_SiC_postkp_fd_lr0.1_s202_SiC_staged_gap_s202_phase1_eb8_eigsh18_fresh",
+    "source": "gap001",
+    "reference": "QE_SiC_distorted_full",
+    "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/adaptive_relay_20261008/metadata/task_SiC_staged_gap_s202.json",
+    "record_sha256": "50f09b154f15191d8f3599926817d82a98a52c30e77ced5cdf721aaf86c1b7df",
+    "state_files": {
+      "final_state.npz": "003f2ebd58a181c91e5b66de26a232cd3febfcf46af84a2630e501516e5121b1",
+      "config.json": "f354601547d9c856796df8c7f5d2473a4173c3e335cd05f6302a514ac52b1a23",
+      "summary.json": "b78998e473d6f082acc02698c95c7134aba5a5eb006931f7846b0b40b6af23b9",
+      "endpoint.json": "cb0ca88c6a7e56a38ab605e276ad06905ef3ea14fdb40dbdd28aa81ea24990e5",
+      "provenance.json": "4c20d0e38e532d539b04dab6905f81450e64b11cdb349c32785235f6b0d2446b"
+    }
+  }
+}

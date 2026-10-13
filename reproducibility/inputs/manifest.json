@@ -1,0 +1,205 @@
+{
+  "Al": {
+    "atoms": 4,
+    "valence_electrons": 12,
+    "structure_sha256": "8895bbf743885c2a005a36274db2de274ac203cb97189451d557ca5cdc994803",
+    "upf_file": "Al.pz-vbc.UPF",
+    "upf_sha256": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5",
+    "cell_A": [
+      [
+        4.05,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.05,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.05
+      ]
+    ],
+    "kmesh": 3,
+    "cutoff_Ha": 100,
+    "represented_bands": 26,
+    "xc": "lda_x",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "scope": "Paperlike Al conventional4atom,3^3 MP (odd gamma equivalence),100Ha,LDA_X. Shared unchanged NC VBC PP; distinct from official52e all-electron."
+  },
+  "Na": {
+    "atoms": 2,
+    "valence_electrons": 2,
+    "structure_sha256": "c10813cfe66ce006c7d01c30eacb621e9ef4641be4a5f3b9460e4b61a2af71b4",
+    "upf_file": "Na.pz-n-vbc.UPF",
+    "upf_sha256": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90",
+    "cell_A": [
+      [
+        4.23,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.23,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.23
+      ]
+    ],
+    "kmesh": 2,
+    "cutoff_Ha": 30,
+    "xc": "lda_x+lda_c_pw",
+    "represented_bands": 9,
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "scope": "bcc2atom, a4.23A, NC VBC1e/atom, same mainAl30Ha LDA_X+PW correlation and k2 gamma/64^3/T.01 settings; not official AE Na."
+  },
+  "Mg": {
+    "atoms": 2,
+    "valence_electrons": 4,
+    "structure_sha256": "6b6c833bf927fbfe797066e844174271b1a7150416e5eaff0080ca8c94a520a0",
+    "upf_file": "Mg.pz-n-vbc.UPF",
+    "upf_sha256": "2e3c634dd5e71bde760e089882cfcf8d4ff1f166880d012dc3d6061d8f21816c",
+    "cell_A": [
+      [
+        3.21,
+        0.0,
+        0.0
+      ],
+      [
+        -1.605,
+        2.7799415461480477,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        5.21
+      ]
+    ]
+  },
+  "SiC": {
+    "atoms": 2,
+    "valence_electrons": 8,
+    "cell_A": [
+      [
+        0,
+        2.190665,
+        2.190665
+      ],
+      [
+        2.190665,
+        0,
+        2.190665
+      ],
+      [
+        2.190665,
+        2.190665,
+        0
+      ]
+    ],
+    "structure_sha256": "f910719624cfe8f185cb48185d6a79402253ae3e2696c0e31a112f52e0424485",
+    "pseudopotentials": {
+      "C": "1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064",
+      "Si": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581"
+    },
+    "source_qe_metadata": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/experiments_20260930_qe_mesh/results/SiC_k6/metadata.json",
+    "scope": "Same geometry/PP as old fixed-occupation data; fresh FD temperature and k3 reference required",
+    "kmesh": 3,
+    "cutoff_Ha": 50,
+    "represented_bands": 12,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ]
+  },
+  "Si": {
+    "atoms": 2,
+    "valence_electrons": 8,
+    "cell_A": [
+      [
+        0,
+        2.71547892,
+        2.71547892
+      ],
+      [
+        2.71547892,
+        0,
+        2.71547892
+      ],
+      [
+        2.71547892,
+        2.71547892,
+        0
+      ]
+    ],
+    "structure_sha256": "f75b01e8d78d6ba6abdb0946e62e87b8b010bc20d14e42e9ebbf9ef80e40a476",
+    "upf_file": "Si.upf",
+    "upf_sha256": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+    "kmesh": 2,
+    "cutoff_Ha": 40,
+    "represented_bands": 12,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ]
+  },
+  "GaAs": {
+    "atoms": 2,
+    "valence_electrons": 18,
+    "cell_A": [
+      [
+        0,
+        2.874616476099,
+        2.874616476099
+      ],
+      [
+        2.874616476099,
+        0,
+        2.874616476099
+      ],
+      [
+        2.874616476099,
+        2.874616476099,
+        0
+      ]
+    ],
+    "structure_sha256": "a4f1b586cf3bbd417914e5ef5b4b9a517348ece83364b613dbcece856033df53",
+    "pseudopotentials": {
+      "Ga": "2fb4076be45921f041484b6051130a03e77bc17b903fc19d178075cbad87c860",
+      "As": "c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4"
+    },
+    "kmesh": 3,
+    "cutoff_Ha": 100,
+    "represented_bands": 17,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      90,
+      90,
+      90
+    ],
+    "scope": "Fresh joint FD finite-T test including Ga 3d semicore; distinct from historical fixed-occupation k6/grid72/XC144."
+  }
+}

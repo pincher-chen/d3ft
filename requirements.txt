@@ -1,0 +1,15 @@
+jax==0.6.2
+jaxlib==0.6.2
+optax==0.2.4
+jaxtyping>=0.3.2
+ml-collections==1.1.0
+numpy>=2.0,<3
+scipy>=1.15,<2
+absl-py
+tqdm
+einops
+ase==3.25.0
+pyyaml
+interpax
+jax-xc==0.0.8
+cloudpickle

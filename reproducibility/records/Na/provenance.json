@@ -1,0 +1,89 @@
+{
+  "arguments": {
+    "material": "Na",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 10.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 13101,
+    "epochs": 3000,
+    "grid": 64,
+    "empty_bands": 8,
+    "initial_temperature": 0.01,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": null,
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "Na_NLCC_final_s13101_segment1000_to4000",
+    "endpoint_check": true,
+    "restart_from": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment0_to1000_eb8/final_state.npz",
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_stable_exact001",
+  "source_tree_sha256": "b211079939f7c30a974558815de063c986e75b6ae200f3778352afd39b3371d8",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "f26c59824bd1430f15734c0924ccecacf26544b6fd6b5148169047b5fb8f4739",
+  "input": {
+    "atoms": 2,
+    "valence_electrons": 2,
+    "structure_sha256": "c10813cfe66ce006c7d01c30eacb621e9ef4641be4a5f3b9460e4b61a2af71b4",
+    "upf_file": "Na.pz-n-vbc.UPF",
+    "upf_sha256": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90",
+    "cell_A": [
+      [
+        4.23,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.23,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.23
+      ]
+    ],
+    "kmesh": 2,
+    "cutoff_Ha": 30,
+    "xc": "lda_x+lda_c_pw",
+    "represented_bands": 9,
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "scope": "bcc2atom, a4.23A, NC VBC1e/atom, same mainAl30Ha LDA_X+PW correlation and k2 gamma/64^3/T.01 settings; not official AE Na.",
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/inputs/structures/Na.xyz"
+  },
+  "initial": {
+    "physical_orbital_sha256": "d183ffbd359e1e0b67f3fc3067595a9c00265375f7cb733125b8340e1812fa28",
+    "occupation_sha256": "22244ebc4217b158362f05fc7531d1da96ed44a4a80b4db747d65b3bc815beda",
+    "restart_state_sha256": "c9e92ef6c9b18f973a3352c9ebf34d61ba2be36bb0f1eba31e9831159d5e761b"
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250285",
+  "step": "2134",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    64,
+    65,
+    66,
+    67
+  ],
+  "gpu_visible": "0"
+}

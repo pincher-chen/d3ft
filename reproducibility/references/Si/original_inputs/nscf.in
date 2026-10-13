@@ -1,0 +1,22 @@
+&control
+ calculation='nscf', prefix='calc', outdir='./tmp', pseudo_dir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/inputs/pseudopotentials', verbosity='high'
+/
+&system
+ ibrav=0, nat=2, ntyp=1, ecutwfc=80, ecutrho=320, nbnd=18,
+ input_dft='PBE', occupations='smearing', smearing='fd', degauss=.02,
+ nosym=.true., noinv=.true.,nr1=64,nr2=64,nr3=64,nr1s=64,nr2s=64,nr3s=64
+/
+&electrons
+ conv_thr=1d-11, electron_maxstep=200, mixing_beta=.5, diagonalization='david', startingpot='file', diago_thr_init=1d-11
+/
+CELL_PARAMETERS angstrom
+0 2.71547892 2.71547892
+2.71547892 0 2.71547892
+2.71547892 2.71547892 0
+ATOMIC_SPECIES
+Si 28.0855 Si.upf
+ATOMIC_POSITIONS crystal
+Si 0 0 0
+Si 0.25 0.25 0.25
+K_POINTS automatic
+2 2 2 0 0 0

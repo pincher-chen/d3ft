@@ -1,0 +1,9 @@
+{
+  "updated": "2026-09-18T23:57:26.149912",
+  "validated_materials": {
+    "AlAs": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/phase3_20260908/spectrum_sharding_validation_20260918/AlAs/comparison.json",
+    "AlP": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/phase3_20260908/spectrum_sharding_validation_20260918/AlP/comparison.json",
+    "diamond": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/phase3_20260908/spectrum_sharding_validation_20260918/diamond/comparison.json"
+  },
+  "scope": "Future spectrum wrappers only; active workers remain unchanged"
+}

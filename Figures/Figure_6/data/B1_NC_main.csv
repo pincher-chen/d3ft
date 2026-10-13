@@ -1,0 +1,16 @@
+arm,bands,seconds_per1000
+Combined method,26,211.23487635096535
+Combined method,52,242.68012064206414
+Combined method,104,289.58280555694364
+Combined method,208,383.01319295703433
+Combined method,416,582.2783046211116
+QR adaptation,26,18.35654212604277
+QR adaptation,52,30.93614825187251
+QR adaptation,104,55.98569784895517
+QR adaptation,208,111.97631820407696
+QR adaptation,416,229.36383968708105
+Equivalent implementation,26,32.48210974014364
+Equivalent implementation,52,53.735598851926625
+Equivalent implementation,104,95.64496618905105
+Equivalent implementation,208,191.51419914490543
+Equivalent implementation,416,404.34912633593194

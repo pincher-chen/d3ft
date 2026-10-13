@@ -1,0 +1,17 @@
+[
+ {
+  "file": "data/B1_NC_main.csv",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/figures/B1_NC_main/B1_NC_main.csv",
+  "sha256": "4ba32a731f4715048322832167942be670e9923833a76a75f60d5dd972a65ef8"
+ },
+ {
+  "file": "data/timings.csv",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/B2_occupation_20261010/timings.csv",
+  "sha256": "afd3d3a54f7cd0308540527720a1da8e432766a470622259a70849ffaa3a0335"
+ },
+ {
+  "file": "data/slopes.json",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/B2_occupation_20261010/slopes.json",
+  "sha256": "9762873e4fa52508a7e2ced71bec5e3e4e244457d46cd9fa17ebe95de6c9059c"
+ }
+]

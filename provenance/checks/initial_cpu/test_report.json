@@ -1,0 +1,217 @@
+{
+  "suite": "cpu",
+  "python": "3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]",
+  "tests": [
+    {
+      "test": "test_00_import.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 74.207,
+      "log": "runs/test_00_import.py.txt"
+    },
+    {
+      "test": "test_01_stiefel.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 18.835,
+      "log": "runs/test_01_stiefel.py.txt"
+    },
+    {
+      "test": "test_02_sinkhorn.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 5.723,
+      "log": "runs/test_02_sinkhorn.py.txt"
+    },
+    {
+      "test": "test_12_occupation_charge.py",
+      "passed": false,
+      "returncode": 1,
+      "seconds": 14.176,
+      "log": "runs/test_12_occupation_charge.py.txt"
+    },
+    {
+      "test": "test_13_kmesh_symmetry.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.764,
+      "log": "runs/test_13_kmesh_symmetry.py.txt"
+    },
+    {
+      "test": "test_18_riemannian_gradient.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 4.442,
+      "log": "runs/test_18_riemannian_gradient.py.txt"
+    },
+    {
+      "test": "test_26_masked_projectors.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 18.885,
+      "log": "runs/test_26_masked_projectors.py.txt"
+    },
+    {
+      "test": "test_paper_coordinates.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 6.752,
+      "log": "runs/test_paper_coordinates.py.txt"
+    },
+    {
+      "test": "test_03_lanczos.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 10.166,
+      "log": "runs/test_03_lanczos.py.txt"
+    },
+    {
+      "test": "test_05_lanczos_grad.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 8.012,
+      "log": "runs/test_05_lanczos_grad.py.txt"
+    },
+    {
+      "test": "test_11_band_gap_differentiable.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 4.759,
+      "log": "runs/test_11_band_gap_differentiable.py.txt"
+    },
+    {
+      "test": "test_14_elastic.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.148,
+      "log": "runs/test_14_elastic.py.txt"
+    },
+    {
+      "test": "test_15_fit.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.782,
+      "log": "runs/test_15_fit.py.txt"
+    },
+    {
+      "test": "test_16_implicit.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.983,
+      "log": "runs/test_16_implicit.py.txt"
+    },
+    {
+      "test": "test_17_uncertainty.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.008,
+      "log": "runs/test_17_uncertainty.py.txt"
+    },
+    {
+      "test": "test_19_channel_scaling.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.267,
+      "log": "runs/test_19_channel_scaling.py.txt"
+    },
+    {
+      "test": "test_20_xc_tunable.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 10.71,
+      "log": "runs/test_20_xc_tunable.py.txt"
+    },
+    {
+      "test": "test_21_density_grid.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.594,
+      "log": "runs/test_21_density_grid.py.txt"
+    },
+    {
+      "test": "test_22_relaxation_guard.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.753,
+      "log": "runs/test_22_relaxation_guard.py.txt"
+    },
+    {
+      "test": "test_23_acoustic_sum_guard.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.791,
+      "log": "runs/test_23_acoustic_sum_guard.py.txt"
+    },
+    {
+      "test": "test_24_force_amplification.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.796,
+      "log": "runs/test_24_force_amplification.py.txt"
+    },
+    {
+      "test": "test_25_tetragonal_strain.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.99,
+      "log": "runs/test_25_tetragonal_strain.py.txt"
+    },
+    {
+      "test": "test_27_phase3_guards.py",
+      "passed": false,
+      "returncode": 1,
+      "seconds": 1.745,
+      "log": "runs/test_27_phase3_guards.py.txt"
+    },
+    {
+      "test": "test_28_equilibrium_volume_response.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.259,
+      "log": "runs/test_28_equilibrium_volume_response.py.txt"
+    },
+    {
+      "test": "test_29_phase3_trial_basis.py",
+      "passed": false,
+      "returncode": 1,
+      "seconds": 0.2,
+      "log": "runs/test_29_phase3_trial_basis.py.txt"
+    },
+    {
+      "test": "test_29_kpool_projectors.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 9.558,
+      "log": "runs/test_29_kpool_projectors.py.txt"
+    },
+    {
+      "test": "test_30_xc_density_refinement.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 7.521,
+      "log": "runs/test_30_xc_density_refinement.py.txt"
+    },
+    {
+      "test": "test_31_phase3_force_budget.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.204,
+      "log": "runs/test_31_phase3_force_budget.py.txt"
+    },
+    {
+      "test": "test_31_kpool_density.py",
+      "passed": false,
+      "returncode": 1,
+      "seconds": 6.371,
+      "log": "runs/test_31_kpool_density.py.txt"
+    },
+    {
+      "test": "test_32_phase3_continuation.py",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.582,
+      "log": "runs/test_32_phase3_continuation.py.txt"
+    }
+  ],
+  "passed": false
+}

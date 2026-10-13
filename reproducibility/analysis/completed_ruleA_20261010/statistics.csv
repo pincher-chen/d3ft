@@ -1,0 +1,8 @@
+material,a_A,kmesh,cutoff_Ha,T_Ha,geometry,seeds,success,n,first_audit_steps
+Al,4.05,2,30,0.01,equilibrium cell,"301,302,303,304,305",5,5,4000
+Si,5.43095784,2,40,0.01,equilibrium cell,"301,302,303,304,305",5,5,4000
+SiC,4.38133,3,50,0.01,equilibrium cell,"301,302,303,304,305",5,5,4000
+SiC_distorted,4.38133,3,50,0.01,C displaced0.02A along x,"301,302,303,304,305",5,5,4000
+GaAs,5.749232952198,3,100,0.01,equilibrium cell,"301,302,303,304,305",5,5,4000
+GaAs_additional,5.749232952198,3,100,0.01,equilibrium cell,"1001,1002,1003",3,3,4000
+Na_NLCC_repaired,4.23,2,30,0.01,BCC2atom; independent QE-convention NLCC physical correction,"13101,13102,13103,13104,13105",5,5,4000

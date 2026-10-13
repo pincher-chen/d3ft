@@ -1,0 +1,377 @@
+{
+  "resources": {
+    "job": "250285",
+    "node": "hn35",
+    "GPU_workers": 8,
+    "QE_MPI_ranks": 24,
+    "QE_pools": 6
+  },
+  "systems": {
+    "Al": {
+      "material": "Al",
+      "source_state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8",
+      "source_seed": 301,
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8_eigsh18_fresh",
+      "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16",
+      "QE_reference_rep": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16/rep2",
+      "source_runner": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/scripts/run_source.py",
+      "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+      "source_files_sha256": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/metadata/task_validation_Al_s301.json": "0ccfc056581edecf3051308fd2611f45126e7574ac4e2a2006cbe3c852a3ca7d",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8/final_state.npz": "5e3224eef1af75491beee1e90d5c8d0213d05909106e3b091df038eac91404e4",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8/config.json": "8ef2da9775110e515047e7179f54690128be78adb158465450a1e59ce4e0e9cc",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8/provenance.json": "90f4046eaeaeffd4cc85166f007ceff6758648edd9235867990a9c17fdc25315",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8/summary.json": "0d2997b22bd3d96a27a8b4bfd333402953b181b3c98052ecfc22a2f8cc5a92e9",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8_eigsh18_fresh/low_spectrum.npz": "ced1d190b051cab04018a5fa5594aefadebd211812ba711309692fd0af8f434f",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment1_to4000_eb8_eigsh18_fresh/summary.json": "07bca2df133f6c38d119eeba45d3af6f84a68c9801789ec0c5e64bed9163f1f6",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16/spectrum.npz": "c59c9b9e57fc121440a0809602f32c0449b876017c4a48d60ea443be9519b012",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16/summary.json": "8b52b333745c7fe5e0819c1eb1da4248e60dda77540a0b38741ede945a7ec6c0",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16/rep2/scf.xml": "51046583f734d3691512877aa3fe6f1d86be1097b160fa7cd0d0c49a655801d4",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16/rep2/nscf.in": "081481f335d3a3181fb83b862f4fdac9d7954d018f03bc43317a533452d62946",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16/rep2/tmp/calc.save/charge-density.dat": "1589e11c3cb587ae6a818e64e962e6e3061b2b501d3ac22597c56708701c9465",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/candidate_stable_exact001/manifest.json": "f1895f24ac9623ccaee4778e1842d1680a1e7aafd4535b9344b3f88fe96b80ea",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/pseudopotentials/Al.pz-vbc.UPF": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5"
+      },
+      "input_files_sha256": {
+        "inputs/Al/fixed_density.npz": "9aefada851cc7ea5df99830bbe28cb1c508b67003dac4a2ea293fe275e44545b",
+        "inputs/Al/original_audit_summary.json": "07bca2df133f6c38d119eeba45d3af6f84a68c9801789ec0c5e64bed9163f1f6",
+        "inputs/Al/candidate_acceptance_task.json": "0ccfc056581edecf3051308fd2611f45126e7574ac4e2a2006cbe3c852a3ca7d",
+        "inputs/Al/Al.pz-vbc.UPF": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5",
+        "inputs/Al/QE_scf.xml": "51046583f734d3691512877aa3fe6f1d86be1097b160fa7cd0d0c49a655801d4",
+        "inputs/Al/candidate_provenance.json": "90f4046eaeaeffd4cc85166f007ceff6758648edd9235867990a9c17fdc25315",
+        "inputs/Al/QE_summary.json": "8b52b333745c7fe5e0819c1eb1da4248e60dda77540a0b38741ede945a7ec6c0",
+        "inputs/Al/original_audit_spectrum.npz": "cbc4d61bbdffc5c05de5d9e5b4eed9b017e51905eb4efbaba3c218deb170fc00",
+        "inputs/Al/candidate_summary.json": "0d2997b22bd3d96a27a8b4bfd333402953b181b3c98052ecfc22a2f8cc5a92e9",
+        "inputs/Al/candidate_config.json": "8ef2da9775110e515047e7179f54690128be78adb158465450a1e59ce4e0e9cc",
+        "inputs/Al/QE_original_spectrum.npz": "c59c9b9e57fc121440a0809602f32c0449b876017c4a48d60ea443be9519b012",
+        "inputs/Al/QE_reference_nscf.in": "081481f335d3a3181fb83b862f4fdac9d7954d018f03bc43317a533452d62946",
+        "inputs/Al/path.json": "3c0fcb62037e7849428e6fc91ede2f0e54ea773498c801289ddb991c6d4c1fe9"
+      },
+      "charge_e": 12,
+      "cutoff_Ha": 30,
+      "grid": 64,
+      "SCF_kmesh": 2,
+      "xc": "lda_x+lda_c_pw",
+      "bands_compared": 14,
+      "bands_solved": 40,
+      "points": 62,
+      "folded_conventional_cell": true,
+      "T_Ha": 0.01,
+      "a_A": 4.05,
+      "cell_A": [
+        [
+          4.05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.05
+        ]
+      ],
+      "candidate_mu_Ha": 0.28781436680135963,
+      "candidate_FD_charge_e": 12.0,
+      "QE_mu_Ha": 0.2878139484909674,
+      "NLCC": false,
+      "SCF_density_hash": "1589e11c3cb587ae6a818e64e962e6e3061b2b501d3ac22597c56708701c9465"
+    },
+    "Na": {
+      "material": "Na",
+      "source_state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8",
+      "source_seed": 13101,
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/ks_audit_matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8_eigsh13_NLCC",
+      "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2",
+      "QE_reference_rep": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/rep0",
+      "source_runner": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/scripts/run_source.py",
+      "source_tree_sha256": "b211079939f7c30a974558815de063c986e75b6ae200f3778352afd39b3371d8",
+      "source_files_sha256": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/metadata/task_Na_NLCC_final_s13101.json": "9e0e899aca4afa83d78de2ce82892351aefb64c7198d0e54e2cb17444a1a4c04",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8/final_state.npz": "ab44da41de956f2788da865f81877996de4eda95a253d6a72f3700813f0ce596",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8/config.json": "48b305d824efe117ae61a2ad82e819dc51c15210f03d8ee3fa7e907a786e0fbe",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8/provenance.json": "c45774022b6735ad631b9b4fa291c20a9409b5c83e073839d7fa855fbb7e7116",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8/summary.json": "629cb3bfa526d13bc4f4b374594ab04cf4c0714cfe15b0cdbc3a91f185022d6d",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/ks_audit_matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8_eigsh13_NLCC/low_spectrum.npz": "a8fdcc22d156ee994efdcb49437cdc18d9a3e62d5b9ebe45268def8109701a10",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/results/ks_audit_matched_Na_postkp_fd_lr0.1_s13101_Na_NLCC_final_s13101_segment1000_to4000_eb8_eigsh13_NLCC/summary.json": "223cf18ba9b124bf055de2f8751165a03c31193a0e0d46d692392a80910deac9",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/spectrum.npz": "a6f75fd53e4b8f8338b2c801cbe564c1253c2714f52449064cdf27094020cc68",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/summary.json": "4051b6e9949d645d4005aa303c7aa7ac5b8a289bd26d66cda64752f9bc9277cb",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/rep0/scf.xml": "63005bc0afac681c0b9ee8f7652f4de40a1351a70294cc8f2c494be38ffa2b1b",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/rep0/nscf.in": "0fc5bfe3c419194fd579f2e59722795c23612afd00d5cb8a7203b371f2c09ac7",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/results/QE_Na_k2/rep0/tmp/calc.save/charge-density.dat": "d36ba71370a3fd9e91c39fe63455ca975cc595ba824776c559a68b2e66395428",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/candidate_stable_exact001/manifest.json": "e402854d1b6c1d35c64d881656193052a9ef98ecfe7bc4168df5ee4cf9adb1a3",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/Na_NLCC_repair_20261010/inputs/pseudopotentials/Na.pz-n-vbc.UPF": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90"
+      },
+      "input_files_sha256": {
+        "inputs/Na/fixed_density.npz": "338797cff5a659c312c9235fda90d784668d17495a90beb6445493b1d710b7a3",
+        "inputs/Na/original_audit_summary.json": "223cf18ba9b124bf055de2f8751165a03c31193a0e0d46d692392a80910deac9",
+        "inputs/Na/Na.pz-n-vbc.UPF": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90",
+        "inputs/Na/candidate_acceptance_task.json": "9e0e899aca4afa83d78de2ce82892351aefb64c7198d0e54e2cb17444a1a4c04",
+        "inputs/Na/QE_scf.xml": "63005bc0afac681c0b9ee8f7652f4de40a1351a70294cc8f2c494be38ffa2b1b",
+        "inputs/Na/candidate_provenance.json": "c45774022b6735ad631b9b4fa291c20a9409b5c83e073839d7fa855fbb7e7116",
+        "inputs/Na/QE_summary.json": "4051b6e9949d645d4005aa303c7aa7ac5b8a289bd26d66cda64752f9bc9277cb",
+        "inputs/Na/original_audit_spectrum.npz": "b0c17d7379aca7255a418bfab0afb5a13ddb180c526ae7c7571e6b24430de5f4",
+        "inputs/Na/candidate_summary.json": "629cb3bfa526d13bc4f4b374594ab04cf4c0714cfe15b0cdbc3a91f185022d6d",
+        "inputs/Na/candidate_config.json": "48b305d824efe117ae61a2ad82e819dc51c15210f03d8ee3fa7e907a786e0fbe",
+        "inputs/Na/QE_original_spectrum.npz": "a6f75fd53e4b8f8338b2c801cbe564c1253c2714f52449064cdf27094020cc68",
+        "inputs/Na/QE_reference_nscf.in": "0fc5bfe3c419194fd579f2e59722795c23612afd00d5cb8a7203b371f2c09ac7",
+        "inputs/Na/path.json": "be69bef310e66e1eaf49048ee45603192100bd14ea17863206f0f8c70ca0ab80",
+        "inputs/Na/old_Na_path.json": "a0918c61605b7dab004b55b2d723525dc7820ea91a248fe4bd3a4c7e823b593b",
+        "inputs/Na/old_Na_band_comparison.csv": "4a5aa72478d24f17bfdfcc5c4ff65af237c7424ce21881aae353d9556ce4efbe"
+      },
+      "charge_e": 2,
+      "cutoff_Ha": 30,
+      "grid": 64,
+      "SCF_kmesh": 2,
+      "xc": "lda_x+lda_c_pw",
+      "bands_compared": 9,
+      "bands_solved": 40,
+      "points": 62,
+      "folded_conventional_cell": true,
+      "T_Ha": 0.01,
+      "a_A": 4.23,
+      "cell_A": [
+        [
+          4.23,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.23,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.23
+        ]
+      ],
+      "candidate_mu_Ha": 0.005641042404661078,
+      "candidate_FD_charge_e": 1.9999999999999998,
+      "QE_mu_Ha": 0.005640954846095026,
+      "NLCC": true,
+      "SCF_density_hash": "d36ba71370a3fd9e91c39fe63455ca975cc595ba824776c559a68b2e66395428",
+      "old_Na_sources_sha256": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/Na_NLCC_validation_20261010/path/definition.json": "a0918c61605b7dab004b55b2d723525dc7820ea91a248fe4bd3a4c7e823b593b",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/Na_NLCC_validation_20261010/band_comparison.csv": "4a5aa72478d24f17bfdfcc5c4ff65af237c7424ce21881aae353d9556ce4efbe"
+      }
+    },
+    "Si": {
+      "material": "Si",
+      "source_state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8",
+      "source_seed": 301,
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8_eigsh18_fresh",
+      "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16",
+      "QE_reference_rep": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16/rep2",
+      "source_runner": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/scripts/run_source.py",
+      "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+      "source_files_sha256": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/metadata/task_validation_Si_s301.json": "ac5f29b7e0fa999779c4b881de54176149e3fd384d80d1c719a01387536051b4",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8/final_state.npz": "566e02a2bac07d0a5b6d36c12beca0910b8cc5fe9eca96826be8b03e62102331",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8/config.json": "f7b81ec361eb3dcbad8a48ecc32e2dac73001d9b74d6651ffc8949e806ae363b",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8/provenance.json": "f70bb803e823c27c6dbc7aada2cb629646f43dc015d655de5bb6881edd792ca1",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8/summary.json": "afe6da59c94e823b1a1325ee8e4d1c571a6ac0383425a297f47e112bdeb624cc",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8_eigsh18_fresh/low_spectrum.npz": "7e81154c73d07e9456afe7296ee5ac55eab659dfd88d7533fc2af31ae542d0af",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment1_to4000_eb8_eigsh18_fresh/summary.json": "81cfca6a91f75bd7af6e9f3ba416851394a7c53cce7344906046020462574577",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16/spectrum.npz": "02a6451ceaf86ef283bc735667a07fc7d23c4888bf34407ccd22a1ed08de0ffd",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16/summary.json": "9e7bb1517f7abdf7f3c36b3c9f9a180ade08ff838e167af0214ce98926b8b73e",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16/rep2/scf.xml": "e78c0843d31b150891d522cd2f47e13f894d8279962e9f499a82b77a32b1ee9a",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16/rep2/nscf.in": "9164d74b906e348ec73cc46483b1480fd6f4c455f5dcc91bbd86fcb10afeba7a",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Si_full_k_control_250285_r16/rep2/tmp/calc.save/charge-density.dat": "2cccad738c4ac4d3732cbb49d26961000476323bfa859622df3d67e9e0ae29b2",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/candidate_stable_exact001/manifest.json": "f1895f24ac9623ccaee4778e1842d1680a1e7aafd4535b9344b3f88fe96b80ea",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/pseudopotentials/Si.upf": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581"
+      },
+      "input_files_sha256": {
+        "inputs/Si/fixed_density.npz": "dc9a1f35f5652b931c8aec5bc0f53acba89a8fd21926b6768614275b67f5ddb8",
+        "inputs/Si/Si.upf": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+        "inputs/Si/original_audit_summary.json": "81cfca6a91f75bd7af6e9f3ba416851394a7c53cce7344906046020462574577",
+        "inputs/Si/candidate_acceptance_task.json": "ac5f29b7e0fa999779c4b881de54176149e3fd384d80d1c719a01387536051b4",
+        "inputs/Si/QE_scf.xml": "e78c0843d31b150891d522cd2f47e13f894d8279962e9f499a82b77a32b1ee9a",
+        "inputs/Si/candidate_provenance.json": "f70bb803e823c27c6dbc7aada2cb629646f43dc015d655de5bb6881edd792ca1",
+        "inputs/Si/QE_summary.json": "9e7bb1517f7abdf7f3c36b3c9f9a180ade08ff838e167af0214ce98926b8b73e",
+        "inputs/Si/original_audit_spectrum.npz": "0209ec1213c13b601d0fe341be3a11e9badfdc83fc1745586940423898a06f9f",
+        "inputs/Si/candidate_summary.json": "afe6da59c94e823b1a1325ee8e4d1c571a6ac0383425a297f47e112bdeb624cc",
+        "inputs/Si/candidate_config.json": "f7b81ec361eb3dcbad8a48ecc32e2dac73001d9b74d6651ffc8949e806ae363b",
+        "inputs/Si/QE_original_spectrum.npz": "02a6451ceaf86ef283bc735667a07fc7d23c4888bf34407ccd22a1ed08de0ffd",
+        "inputs/Si/QE_reference_nscf.in": "9164d74b906e348ec73cc46483b1480fd6f4c455f5dcc91bbd86fcb10afeba7a",
+        "inputs/Si/path.json": "b1044f4eb1aa7835fe04bee2c11475ccb6ebc6c879fe8d3f746b969643233760"
+      },
+      "charge_e": 8,
+      "cutoff_Ha": 40,
+      "grid": 64,
+      "SCF_kmesh": 2,
+      "xc": "gga_x_pbe+gga_c_pbe",
+      "bands_compared": 12,
+      "bands_solved": 40,
+      "points": 56,
+      "folded_conventional_cell": false,
+      "T_Ha": 0.01,
+      "a_A": 5.43095784,
+      "cell_A": [
+        [
+          0.0,
+          2.71547892,
+          2.71547892
+        ],
+        [
+          2.71547892,
+          0.0,
+          2.71547892
+        ],
+        [
+          2.71547892,
+          2.71547892,
+          0.0
+        ]
+      ],
+      "candidate_mu_Ha": 0.24090811193102762,
+      "candidate_FD_charge_e": 8.000000000000004,
+      "QE_mu_Ha": 0.2409078193387314,
+      "NLCC": false,
+      "SCF_density_hash": "2cccad738c4ac4d3732cbb49d26961000476323bfa859622df3d67e9e0ae29b2"
+    },
+    "SiC": {
+      "material": "SiC",
+      "source_state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8",
+      "source_seed": 301,
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8_eigsh18_fresh",
+      "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16",
+      "QE_reference_rep": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16/rep2",
+      "source_runner": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/scripts/run_source.py",
+      "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+      "source_files_sha256": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/metadata/task_validation_SiC_s301.json": "889aec80c8b5e70dcf6c9ed5c3e61c79966f8cb0bc7dcee0064a2b0d4be7f311",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8/final_state.npz": "3dc4ef97d7411062d46929caeda2ec19a55e86ed71833ee523c6f94e107e33b2",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8/config.json": "3841a41384de387c60b0ee0389dbc3f20a4e59b03ff68a3d96738347d1eb2ae1",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8/provenance.json": "83d055657fe941dfba246107143b18d22a939767965294ad5c4ef08548d8b2bd",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8/summary.json": "0e1133366e08012530377711610e8a4b0a8ab6e01ead6c3b92b75b49c8b46ede",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8_eigsh18_fresh/low_spectrum.npz": "6f18349c91460a6ade1a8bc6440034213cb36189c9b8910e65ea074a04b285d2",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/ks_audit_matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_s301_segment1_to4000_eb8_eigsh18_fresh/summary.json": "e2ec6b9ab59082a8ffc93c16d200dd23e7487c4bf9a8c09f4e91196364510e98",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16/spectrum.npz": "608b5f4e2dc70f9b7649852955d7ed544731d41f1442f3ed7a23fe420383c38e",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16/summary.json": "1382ac91203fe12a6ae1ed839e664bcd38f4ba4969951caaad3761adf319ee06",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16/rep2/scf.xml": "8f53983b89550199006c80d952a592407333c8d77f293173d1d08405d87fd152",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16/rep2/nscf.in": "b007aa17d309eac3990f2c2a6e2bc16bb7cf2bd10f6ad0e0283a6d6c759fd7fd",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_SiC_full_k_control_250285_r16/rep2/tmp/calc.save/charge-density.dat": "1a3471549563744acb18d7d081e0db28239f01879251c5c74b5dd7cfa0ec1d15",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/candidate_stable_exact001/manifest.json": "f1895f24ac9623ccaee4778e1842d1680a1e7aafd4535b9344b3f88fe96b80ea",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/pseudopotentials/Si.upf": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/pseudopotentials/C.upf": "1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064"
+      },
+      "input_files_sha256": {
+        "inputs/SiC/fixed_density.npz": "331ee9d8f1bf318ed1513008518cec10c2e3fd7bb6ef00f19c01f89ff4eae5db",
+        "inputs/SiC/Si.upf": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+        "inputs/SiC/original_audit_summary.json": "e2ec6b9ab59082a8ffc93c16d200dd23e7487c4bf9a8c09f4e91196364510e98",
+        "inputs/SiC/C.upf": "1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064",
+        "inputs/SiC/candidate_acceptance_task.json": "889aec80c8b5e70dcf6c9ed5c3e61c79966f8cb0bc7dcee0064a2b0d4be7f311",
+        "inputs/SiC/QE_scf.xml": "8f53983b89550199006c80d952a592407333c8d77f293173d1d08405d87fd152",
+        "inputs/SiC/candidate_provenance.json": "83d055657fe941dfba246107143b18d22a939767965294ad5c4ef08548d8b2bd",
+        "inputs/SiC/QE_summary.json": "1382ac91203fe12a6ae1ed839e664bcd38f4ba4969951caaad3761adf319ee06",
+        "inputs/SiC/original_audit_spectrum.npz": "3021dfe7d985aed7e8ea1cf46f1c1529291490d1934228143be99cc186da7a9d",
+        "inputs/SiC/candidate_summary.json": "0e1133366e08012530377711610e8a4b0a8ab6e01ead6c3b92b75b49c8b46ede",
+        "inputs/SiC/candidate_config.json": "3841a41384de387c60b0ee0389dbc3f20a4e59b03ff68a3d96738347d1eb2ae1",
+        "inputs/SiC/QE_original_spectrum.npz": "608b5f4e2dc70f9b7649852955d7ed544731d41f1442f3ed7a23fe420383c38e",
+        "inputs/SiC/QE_reference_nscf.in": "b007aa17d309eac3990f2c2a6e2bc16bb7cf2bd10f6ad0e0283a6d6c759fd7fd",
+        "inputs/SiC/path.json": "1c4a7d49e4fd4bd55b063ce1aa3ccb87822e74afe22abc49d0753b428ddc3e89"
+      },
+      "charge_e": 8,
+      "cutoff_Ha": 50,
+      "grid": 64,
+      "SCF_kmesh": 3,
+      "xc": "gga_x_pbe+gga_c_pbe",
+      "bands_compared": 12,
+      "bands_solved": 40,
+      "points": 56,
+      "folded_conventional_cell": false,
+      "T_Ha": 0.01,
+      "a_A": 4.38133,
+      "cell_A": [
+        [
+          0.0,
+          2.190665,
+          2.190665
+        ],
+        [
+          2.190665,
+          0.0,
+          2.190665
+        ],
+        [
+          2.190665,
+          2.190665,
+          0.0
+        ]
+      ],
+      "candidate_mu_Ha": 0.38985060197574556,
+      "candidate_FD_charge_e": 8.0,
+      "QE_mu_Ha": 0.3898505214567434,
+      "NLCC": false,
+      "SCF_density_hash": "1a3471549563744acb18d7d081e0db28239f01879251c5c74b5dd7cfa0ec1d15"
+    },
+    "GaAs": {
+      "material": "GaAs",
+      "source_seed": 301,
+      "bands_compared": 17,
+      "bands_solved": 40,
+      "points": 56,
+      "reused": true,
+      "source_campaign": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_bands_20261013",
+      "physical_settings": {
+        "atoms": 2,
+        "structure": "zincblende GaAs primitive",
+        "a_A": 5.749232952198,
+        "cutoff_Ha": 100,
+        "ecutrho_Ha": 400,
+        "FFT": [
+          90,
+          90,
+          90
+        ],
+        "electrons": 18,
+        "T_Ha": 0.01,
+        "xc": "PBE",
+        "pseudopotential": "SG15 ONCV, Ga3d included, scalar relativistic/noSOC",
+        "SCF_kmesh": [
+          3,
+          3,
+          3
+        ]
+      }
+    }
+  },
+  "eigsh_tol": 1e-11,
+  "ncv": 120,
+  "maxiter": 3000,
+  "maximum_Ritz_residual_Ha": 1e-08,
+  "original_audit_tolerance_Ha": 1e-08,
+  "original_QE_tolerance_Ha": 1e-07,
+  "systems_order": [
+    "Al",
+    "Na",
+    "Si",
+    "SiC",
+    "GaAs"
+  ],
+  "scope": "Table1 fixed-density paths; one arithmetic-mean rigid shift per system; no optimizer/physical setting changes",
+  "GaAs_reuse": {
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_bands_20261013/processed/band_comparison.csv": {
+      "dest": "processed/GaAs/band_comparison.csv",
+      "sha256": "4a23e763dc122dd81c81b42cde24e2092e5c9849658bbe5c1ff7c89947ca7689"
+    },
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_bands_20261013/processed/QA.json": {
+      "dest": "processed/GaAs/QA.json",
+      "sha256": "103c1679b63e2d9e163de2d9575894eac42204ce7c6941b520b6a978cb555a32"
+    },
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_bands_20261013/processed/bands_all40.npz": {
+      "dest": "processed/GaAs/bands_all40.npz",
+      "sha256": "97b0d1e1158f871afdebaf14a8468417c7d88478a1261708f2622b477f4f7fe7"
+    },
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_bands_20261013/inputs/path.json": {
+      "dest": "inputs/GaAs/path.json",
+      "sha256": "99c342ac725ed1b02e5ba7cbfe440b6fd6ebaf0ec0ea0d17152de42148295a44"
+    }
+  }
+}

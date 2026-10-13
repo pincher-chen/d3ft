@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+.env
+*.pem
+*.key
+results/
+runs/
+.local/
+*.log
+*.aux
+*.out
+*.synctex.gz
+build/
+dist/

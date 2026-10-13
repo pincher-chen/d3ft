@@ -1,0 +1,22 @@
+[
+ {
+  "file": "data/GaAs_estimator.csv",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/figure5_6b_20261010/GaAs_estimator.csv",
+  "sha256": "be7ae83a407704b9df16dd5924e1621289c468ed42ae3537a33273ba62dd7c79"
+ },
+ {
+  "file": "data/GaAs_switch.csv",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/draft_v5_particle_hole/data/figure5_6b_20261010/GaAs_switch.csv",
+  "sha256": "05cb176f8f909e7b652d6d8ee02beb6fc06df13e7fca94474c02e0f4fc316f97"
+ },
+ {
+  "file": "data/source_main_results.csv",
+  "source": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/approved_execution_20261009/metadata/main_results.csv",
+  "sha256": "ba1b14cf31d22864b72f95e050717ee66a68a5364af4ad0fd73b6851369d5b2e"
+ },
+ {
+  "file": "data/GaAs_validation_final.csv",
+  "source": "derived from data/source_main_results.csv (rows validation_GaAs_s*/GaAs_ruleA_new_s*, PH_control_GaAs_s*/GaAs_PH_new_s*); budget 20000 from protocol",
+  "sha256": null
+ }
+]

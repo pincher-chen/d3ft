@@ -1,0 +1,23 @@
+&control
+ calculation='nscf',prefix='calc',outdir='./tmp',pseudo_dir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/inputs/pseudopotentials',verbosity='high',tprnfor=.true.,tstress=.true.
+/
+&system
+ ibrav=0,nat=2,ntyp=2,ecutwfc=200,ecutrho=800,nbnd=25,
+ input_dft='PBE',occupations='smearing',smearing='fd',degauss=0.02,
+ nosym=.true., noinv=.true.,nr1=90,nr2=90,nr3=90,nr1s=90,nr2s=90,nr3s=90
+/
+&electrons
+ conv_thr=1d-12,electron_maxstep=300,mixing_beta=.5,diagonalization='david',startingpot='file',diago_thr_init=1d-11
+/
+CELL_PARAMETERS angstrom
+0.0 2.874616476099 2.874616476099
+2.874616476099 0.0 2.874616476099
+2.874616476099 2.874616476099 0.0
+ATOMIC_SPECIES
+Ga 69.723 Ga.upf
+As 74.921595 As.upf
+ATOMIC_POSITIONS angstrom
+Ga 0.0 0.0 0.0
+As 1.43730823805 1.43730823805 1.43730823805
+K_POINTS automatic
+3 3 3 0 0 0

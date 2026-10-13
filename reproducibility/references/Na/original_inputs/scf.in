@@ -1,0 +1,22 @@
+&control
+ calculation='scf',prefix='calc',outdir='./tmp',pseudo_dir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/jrystal_alignment_20261010/inputs/pseudopotentials',verbosity='high',tprnfor=.true.,tstress=.true.
+/
+&system
+ ibrav=0,nat=2,ntyp=1,ecutwfc=60,ecutrho=240,nbnd=13,
+ input_dft='SLA PW',occupations='smearing',smearing='fd',degauss=0.02,
+ nosym=.true., noinv=.true.,nr1=64,nr2=64,nr3=64,nr1s=64,nr2s=64,nr3s=64
+/
+&electrons
+ conv_thr=1d-12,electron_maxstep=300,mixing_beta=.5,diagonalization='david'
+/
+CELL_PARAMETERS angstrom
+4.23 0.0 0.0
+0.0 4.23 0.0
+0.0 0.0 4.23
+ATOMIC_SPECIES
+Na 22.98976928 Na.pz-n-vbc.UPF
+ATOMIC_POSITIONS angstrom
+Na 0.0 0.0 0.0
+Na 2.115 2.115 2.115
+K_POINTS automatic
+2 2 2 0 0 0

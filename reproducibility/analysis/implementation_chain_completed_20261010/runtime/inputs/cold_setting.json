@@ -1,0 +1,58 @@
+{
+  "source": "stable_exact001",
+  "occupation_lr": 10.0,
+  "gap_floor_Ha": 0.001,
+  "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+  "development_seeds": [
+    201,
+    202
+  ],
+  "new_seed": 204,
+  "records": [
+    {
+      "seed": 201,
+      "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gap_levels_20261009/metadata/task_GaAs_stable_exact001_s201.json",
+      "record_sha256": "16f324c5940c14350628383bc23df6bf7a823055b2567df677773499470870d1",
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gap_levels_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_stable_exact001_s201_phase0_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gap_levels_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_stable_exact001_s201_phase0_g90_eb8_eigsh25_fresh",
+      "state_files": {
+        "final_state.npz": "6179d507983412ba764b3338312125f154543c1f905df2c0433df5d425b8921c",
+        "config.json": "d31e7cbe148ea8b7e59436efc8359d18bfd367a941b27c08486ff6e3dce1f007",
+        "summary.json": "c62d286605bd0377a44780c58504149906fbc37e356dbf07c6fc861923a0bfae",
+        "endpoint.json": "a15fa77d9a1f12dff744f6cbf182d725ac2f873dcdc6430914d6569cc0f08ab4",
+        "provenance.json": "b537aa771e0ed2d27d49367bbbb7e41bfb97426c8ad132095863262117030eab"
+      },
+      "audit_files": {
+        "summary.json": "3149a6eb68ad72e216f0ce4a604e49e2db32a27b0d90b7b1382e0f89a00fe8b0",
+        "low_spectrum.npz": "2a802a8298c31513a00c46125ed059f222f5bf164ed861444477c1d725821825"
+      }
+    },
+    {
+      "seed": 202,
+      "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gap_levels_20261009/metadata/task_GaAs_stable_exact001_s202.json",
+      "record_sha256": "725acf74277b693f4125c248240705239c25aa99f4fc3e26b564055e951d5764",
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gap_levels_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_stable_exact001_s202_phase0_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gap_levels_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_stable_exact001_s202_phase0_g90_eb8_eigsh25_fresh",
+      "state_files": {
+        "final_state.npz": "565cdd03224dfe5184086f8fb0a3eb0ee38a7ef90c2e84c573395659888b325f",
+        "config.json": "304d4884ba752d457c8dcab65991fa74d0fb9f50b46a0eafd48b184729f2b884",
+        "summary.json": "08fe620307ea4f5725e9f5a567d37375da047a1699b037705d2cc77ba96b70aa",
+        "endpoint.json": "36b548df33cfe17c72b3d78a672038a1e6a23281e4b6b306ef57dbfd72ff595d",
+        "provenance.json": "4dd577960db4fe344fedc9acf705f9528c3efadf64fb0bc9e2277834aab4333e"
+      },
+      "audit_files": {
+        "summary.json": "3c87c4f7f5ddbc697613ffa36d14917f618504ef3a09a538ebcd8edc36167f9c",
+        "low_spectrum.npz": "707fc83aa64275bc006845dad819776580fb2d842eaab385aaba2e2dfef80cec"
+      }
+    }
+  ],
+  "rule": "Freeze the already-qualified pair before this campaign. New ablations and seed204 never change this cold setting.",
+  "prefix": {
+    "source": "roundoff",
+    "orbital_lr": 0.1,
+    "occupation_lr": 1.0,
+    "initial_temperature_Ha": 0.1,
+    "target_temperature_Ha": 0.01,
+    "anneal_steps": 1000
+  }
+}

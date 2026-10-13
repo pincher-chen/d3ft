@@ -1,0 +1,88 @@
+{
+  "arguments": {
+    "material": "Si",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 10.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 301,
+    "epochs": 3000,
+    "grid": 64,
+    "empty_bands": 8,
+    "initial_temperature": 0.01,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": null,
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "validation_Si_s301_segment1_to4000",
+    "endpoint_check": true,
+    "restart_from": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Si_postkp_fd_lr0.1_s301_validation_Si_s301_segment0_to1000_eb8/final_state.npz",
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_stable_exact001",
+  "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "f26c59824bd1430f15734c0924ccecacf26544b6fd6b5148169047b5fb8f4739",
+  "input": {
+    "atoms": 2,
+    "valence_electrons": 8,
+    "cell_A": [
+      [
+        0,
+        2.71547892,
+        2.71547892
+      ],
+      [
+        2.71547892,
+        0,
+        2.71547892
+      ],
+      [
+        2.71547892,
+        2.71547892,
+        0
+      ]
+    ],
+    "structure_sha256": "f75b01e8d78d6ba6abdb0946e62e87b8b010bc20d14e42e9ebbf9ef80e40a476",
+    "upf_file": "Si.upf",
+    "upf_sha256": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+    "kmesh": 2,
+    "cutoff_Ha": 40,
+    "represented_bands": 12,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/structures/Si.xyz"
+  },
+  "initial": {
+    "physical_orbital_sha256": "93eaa0e177908e713b1b67ba8a73bac00812356a33d29cc0a009c766af0bf0ba",
+    "occupation_sha256": "95d75478e606eb59e14fa2ee246209523faf4d180234726b6bd58b5357e03c8d",
+    "restart_state_sha256": "431cbcd2df12c05d38d811112c7b06fb65c9517ede036b9ad23fe16d493230a4"
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250285",
+  "step": "2081",
+  "cpu_affinity": [
+    32,
+    33,
+    34,
+    35,
+    96,
+    97,
+    98,
+    99
+  ],
+  "gpu_visible": "4"
+}

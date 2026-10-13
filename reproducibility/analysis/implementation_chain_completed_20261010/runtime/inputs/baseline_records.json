@@ -1,0 +1,26 @@
+[
+  {
+    "seed": 201,
+    "source": "gap001",
+    "occupation_lr": 1.0,
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/metadata/task_GaAs_warm_staged_s201.json"
+  },
+  {
+    "seed": 201,
+    "source": "gap_recycle",
+    "occupation_lr": 1.0,
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/metadata/task_GaAs_warm_combined_s201.json"
+  },
+  {
+    "seed": 202,
+    "source": "gap001",
+    "occupation_lr": 1.0,
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/metadata/task_GaAs_warm_staged_s202.json"
+  },
+  {
+    "seed": 202,
+    "source": "gap_recycle",
+    "occupation_lr": 1.0,
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/staged_transfer_timing_20261008/metadata/task_GaAs_warm_combined_s202.json"
+  }
+]

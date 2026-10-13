@@ -1,0 +1,88 @@
+{
+  "arguments": {
+    "material": "Al",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 10.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 301,
+    "epochs": 3000,
+    "grid": 64,
+    "empty_bands": 8,
+    "initial_temperature": 0.01,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": null,
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "validation_Al_s301_segment1_to4000",
+    "endpoint_check": true,
+    "restart_from": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_Al_postkp_fd_lr0.1_s301_validation_Al_s301_segment0_to1000_eb8/final_state.npz",
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_stable_exact001",
+  "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "f26c59824bd1430f15734c0924ccecacf26544b6fd6b5148169047b5fb8f4739",
+  "input": {
+    "atoms": 4,
+    "valence_electrons": 12,
+    "structure_sha256": "8895bbf743885c2a005a36274db2de274ac203cb97189451d557ca5cdc994803",
+    "upf_file": "Al.pz-vbc.UPF",
+    "upf_sha256": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5",
+    "cell_A": [
+      [
+        4.05,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.05,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.05
+      ]
+    ],
+    "kmesh": 2,
+    "cutoff_Ha": 30,
+    "represented_bands": 14,
+    "xc": "lda_x+lda_c_pw",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/structures/Al.xyz"
+  },
+  "initial": {
+    "physical_orbital_sha256": "45d0ec008776723944bd560de0b695e4a3318ebbbe1dec0cde045e9745946944",
+    "occupation_sha256": "966ce25f8b9fd1e9bcd2cd72e00dd1463151b423229763772907eeba94e8bfc3",
+    "restart_state_sha256": "87785735c7167834c525d0d0b569c1da45c1ce24a1e7b9a1d1210a07cfb66c33"
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250285",
+  "step": "2081",
+  "cpu_affinity": [
+    4,
+    5,
+    6,
+    7,
+    68,
+    69,
+    70,
+    71
+  ],
+  "gpu_visible": "1"
+}

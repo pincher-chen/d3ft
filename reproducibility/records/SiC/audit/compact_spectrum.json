@@ -1,0 +1,8 @@
+{
+  "scope": "Eigenvalues and occupations only; large original Ritz vectors excluded from Git. Independent audits recompute them.",
+  "original_npz_sha256": "6f18349c91460a6ade1a8bc6440034213cb36189c9b8910e65ea074a04b285d2",
+  "fields": [
+    "energies_Ha",
+    "occupation"
+  ]
+}

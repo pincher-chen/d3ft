@@ -1,0 +1,95 @@
+{
+  "arguments": {
+    "kmesh": 2,
+    "cutoff": 100.0,
+    "xc": "lda_x",
+    "all_electron": false,
+    "kpoint_mesh": "mp",
+    "material": "Al",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 10.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 101,
+    "epochs": 1101,
+    "grid": 48,
+    "empty_bands": 98,
+    "initial_temperature": 0.01,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": null,
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "candidate_B1_N104",
+    "endpoint_check": false,
+    "restart_from": null,
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_stable_exact001",
+  "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "a748b095a8ae53ef60ee09900cdd72113a2a3bb6497ed62a9c1d449e48a6e73a",
+  "input": {
+    "atoms": 4,
+    "valence_electrons": 12,
+    "structure_sha256": "8895bbf743885c2a005a36274db2de274ac203cb97189451d557ca5cdc994803",
+    "upf_file": "Al.pz-vbc.UPF",
+    "upf_sha256": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5",
+    "cell_A": [
+      [
+        4.05,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.05,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.05
+      ]
+    ],
+    "kmesh": 2,
+    "cutoff_Ha": 100,
+    "represented_bands": 26,
+    "xc": "lda_x",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      48,
+      48,
+      48
+    ],
+    "scope": "Paperlike Al conventional4atom,3^3 MP (odd gamma equivalence),100Ha,LDA_X. Shared unchanged NC VBC PP; distinct from official52e all-electron.",
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/results/candidate_B1_N104/inputs/structures/Al.xyz",
+    "use_pseudopotential": true
+  },
+  "initial": {
+    "physical_orbital_sha256": "99919ab916303097859fbaa546e3423c7299bab4d5ccd02e0f250c3e4afc67c0",
+    "occupation_sha256": "60be34376b24f98518e47c95fc76f46e173d339aad94c87a5579971207744853",
+    "restart_state_sha256": null
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250212",
+  "step": "1420",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    64,
+    65,
+    66,
+    67
+  ],
+  "gpu_visible": "0"
+}

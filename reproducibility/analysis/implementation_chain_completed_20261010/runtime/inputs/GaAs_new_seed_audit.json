@@ -1,0 +1,24 @@
+{
+  "seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "prior_uses": [],
+  "rejected_candidates": [
+    401,
+    402
+  ],
+  "rejection_reason": "Prior CPU direction-gate development tests used401/402; not fresh seeds.",
+  "searched_roots": [
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc",
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/benchmark",
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/D3FT-bench",
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft",
+    "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main"
+  ],
+  "files_enumerated": 77826,
+  "epoch": 1791550979.5041115,
+  "scope": "Seed field matches in known experiment/data/config JSON/YAML/TOML/CSV. No use as tuning data.",
+  "search_expression": "[\"']?seed[\"']?\\s*[:=]\\s*100[1-3]\\b"
+}

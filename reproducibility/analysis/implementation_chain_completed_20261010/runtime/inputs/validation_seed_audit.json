@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    301,
+    302,
+    303,
+    304,
+    305
+  ],
+  "searched": [
+    "*/metadata/task_*.json",
+    "*/results/*/config.json",
+    "benchmark/**/*config/metadata/summary*",
+    "D3FT-bench/**/*config/metadata/summary*"
+  ],
+  "prior_uses": [],
+  "rule": "No tuning on301\u2013305. If used to tune, classify as development and replace the validation batch."
+}

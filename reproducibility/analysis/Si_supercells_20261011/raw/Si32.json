@@ -1,0 +1,42 @@
+{
+  "atoms": 32,
+  "status": "held_unqualified_8_or_16",
+  "qualified": false,
+  "settings": {
+    "atoms": 32,
+    "valence_electrons": 128,
+    "cell_A": [
+      [
+        10.86191568,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.86191568,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        5.43095784
+      ]
+    ],
+    "structure_sha256": "d2cc539c70a81c0638346ffe0cd776807e10eeb4e335d6cdf9a75c9ee4d16aa8",
+    "upf_file": "Si.upf",
+    "upf_sha256": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+    "kmesh": 1,
+    "cutoff_Ha": 40,
+    "represented_bands": 80,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      160,
+      160,
+      80
+    ],
+    "scope": "Controlled Gamma-only Si supercell sequence, not converged bulk BZ accuracy."
+  },
+  "task": {},
+  "certificate": {}
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "Al.pz-vbc.UPF",
+    "sha256": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5",
+    "materials": [
+      "Al"
+    ]
+  },
+  {
+    "filename": "Si.upf",
+    "sha256": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581",
+    "materials": [
+      "Si",
+      "SiC"
+    ]
+  },
+  {
+    "filename": "C.upf",
+    "sha256": "1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064",
+    "materials": [
+      "SiC"
+    ]
+  },
+  {
+    "filename": "Ga.upf",
+    "sha256": "2fb4076be45921f041484b6051130a03e77bc17b903fc19d178075cbad87c860",
+    "materials": [
+      "GaAs"
+    ]
+  },
+  {
+    "filename": "As.upf",
+    "sha256": "c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4",
+    "materials": [
+      "GaAs"
+    ]
+  }
+]

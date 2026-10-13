@@ -1,0 +1,7 @@
+{
+  "reference_tolerances": {
+    "free_energy_Ha_cell": 0.0001,
+    "aligned_band_MAE_eV": 0.001,
+    "density_L1_per_electron": 0.0002
+  }
+}

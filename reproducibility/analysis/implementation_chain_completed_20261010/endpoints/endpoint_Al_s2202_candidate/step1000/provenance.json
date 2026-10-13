@@ -1,0 +1,88 @@
+{
+  "arguments": {
+    "material": "Al",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 1.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 2202,
+    "epochs": 1000,
+    "grid": 64,
+    "empty_bands": 8,
+    "initial_temperature": 0.1,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": null,
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "endpoint_Al_s2202_candidate_segment0_to1000",
+    "endpoint_check": true,
+    "restart_from": null,
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_roundoff",
+  "source_tree_sha256": "a45b508a69d39a9f02c248ec3511e1c9e4c381e8385a2d2cc7fc380d9ddd656a",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "f26c59824bd1430f15734c0924ccecacf26544b6fd6b5148169047b5fb8f4739",
+  "input": {
+    "atoms": 4,
+    "valence_electrons": 12,
+    "structure_sha256": "8895bbf743885c2a005a36274db2de274ac203cb97189451d557ca5cdc994803",
+    "upf_file": "Al.pz-vbc.UPF",
+    "upf_sha256": "4eab06b63f87f07ede2d5a193e6d993a09107167fd6b8647afa807342501d6e5",
+    "cell_A": [
+      [
+        4.05,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.05,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.05
+      ]
+    ],
+    "kmesh": 2,
+    "cutoff_Ha": 30,
+    "represented_bands": 14,
+    "xc": "lda_x+lda_c_pw",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/inputs/structures/Al.xyz"
+  },
+  "initial": {
+    "physical_orbital_sha256": "b8a555041017345b8a90e257c6a41861bc0e6d4aa2cda8f752b67f36b0cbbad3",
+    "occupation_sha256": "15bf67e3f0565ef521b530a4b092ff609207e46313398a3dbea3c4dcf57e85e0",
+    "restart_state_sha256": null
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250212",
+  "step": "1420",
+  "cpu_affinity": [
+    32,
+    33,
+    34,
+    35,
+    96,
+    97,
+    98,
+    99
+  ],
+  "gpu_visible": "2"
+}

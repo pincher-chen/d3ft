@@ -1,0 +1,6 @@
+{
+  "classification": "infrastructure_failure",
+  "cause": "Comparison used absolute1e-6Bohr gate with legacy versus modern unit constant; doubled cell gives1.4775e-6Bohr offset,7.20e-8relative. SameAngstromcell verified independently.",
+  "recovery": "Reuse immutable4000stepstate and completed spectrum audit; original8+3thresholds unchanged; continueoriginalprotocolto8000..20000ifneeded",
+  "original_record": "task_Si16_failed_cell_units_original.json"
+}

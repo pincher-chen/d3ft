@@ -1,0 +1,8 @@
+seed,cohort,PH_first_pass,occupation_difference_first_pass,PH_status,occupation_difference_status,paired_initial_verified,scientifically_closed,relation
+201,development,2000,2000,completed,completed,True,True,same_observed_audit
+202,development,2000,3000,completed,completed,True,True,PH_earlier
+301,existing_validation,2000,2000,completed,completed,True,True,same_observed_audit
+302,existing_validation,2000,2000,completed,completed,True,True,same_observed_audit
+303,existing_validation,2000,2000,completed,completed,True,True,same_observed_audit
+304,existing_validation,2000,2000,completed,completed,True,True,same_observed_audit
+305,existing_validation,2000,2000,completed,completed,True,True,same_observed_audit

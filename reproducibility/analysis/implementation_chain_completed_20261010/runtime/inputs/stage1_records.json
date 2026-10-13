@@ -1,0 +1,1771 @@
+[
+  {
+    "name": "GaAs_gate_exact001",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_gate_exact001.json",
+    "sha256": "150ad3057288fd9956277ff8c1647a307ae53f38d1e41bebaf73d13dddc819eb",
+    "status": "completed",
+    "certificate": null,
+    "attempts": []
+  },
+  {
+    "name": "GaAs_gate_clamped001",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_gate_clamped001.json",
+    "sha256": "130293f8ad9bc61ca637f94b84ae480c279d97115d68b999c515f459fbcb7a0a",
+    "status": "completed",
+    "certificate": null,
+    "attempts": []
+  },
+  {
+    "name": "GaAs_gate_stable_exact001",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_gate_stable_exact001.json",
+    "sha256": "fc1812bf220b9f09823d9c60f0a9cf6c7d64b875cc208043e7db860d33a27112",
+    "status": "completed",
+    "certificate": null,
+    "attempts": []
+  },
+  {
+    "name": "GaAs_ablation_exact001_s201",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_ablation_exact001_s201.json",
+    "sha256": "b9ae9e66ae028080eb3e2901d16b1f6de69daa9194bec0b1fb25f03dbb4d392c",
+    "status": "completed",
+    "certificate": {
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_ablation_exact001_s201_phase0_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_ablation_exact001_s201_phase0_g90_eb8_eigsh25_fresh",
+      "source": "exact001",
+      "cumulative_steps": 1000,
+      "acceptance": {
+        "complete": true,
+        "passed": true,
+        "tests": {
+          "charge": true,
+          "orthogonality": true,
+          "external": true,
+          "commutator": true,
+          "occupation": true,
+          "spectrum": true,
+          "density": true,
+          "free_energy": true
+        }
+      },
+      "QE_comparison": {
+        "status": "completed",
+        "passed": true,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+        "free_energy_difference_Ha_cell": -1.3783242465592593e-05,
+        "aligned_band_MAE_eV": 2.7482545340127716e-05,
+        "aligned_band_RMSE_eV": 4.466367200739868e-05,
+        "global_shift_Ha": -2.1781869692487213e-07,
+        "density_L1_per_electron": 1.2099180867217932e-05,
+        "k_match_error": 1.6653345369377348e-16,
+        "mesh_KS_gap_eV": 0.12259799870281206,
+        "QE_mesh_KS_gap_eV": 0.12279738122432965,
+        "gap_difference_meV": -0.19938252151759095,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "3c844a3323a9352d13bee2b87572027036c7522dec648ec17e923c242b4f7efe"
+      },
+      "total_steps_including_prefix": 21000
+    },
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_ablation_exact001_s201_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_ablation_exact001_s201_phase0_g90_eb8_eigsh25_fresh",
+        "source": "exact001",
+        "cumulative_steps": 1000,
+        "acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": true,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": true,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": true,
+              "commutator": true,
+              "occupation": true,
+              "spectrum": true,
+              "density": true,
+              "free_energy": true
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -1.3783242465592593e-05,
+          "aligned_band_MAE_eV": 2.7482545340127716e-05,
+          "aligned_band_RMSE_eV": 4.466367200739868e-05,
+          "global_shift_Ha": -2.1781869692487213e-07,
+          "density_L1_per_electron": 1.2099180867217932e-05,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12259799870281206,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.19938252151759095,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "3c844a3323a9352d13bee2b87572027036c7522dec648ec17e923c242b4f7efe"
+        },
+        "total_steps_including_prefix": 21000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_ablation_clamped001_s201",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_ablation_clamped001_s201.json",
+    "sha256": "1e8ffc32472651bf04e6a28fb83b8c9dc1de6f567f285447c6ee8d93e374a312",
+    "status": "completed_censored",
+    "certificate": null,
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_ablation_clamped001_s201_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_ablation_clamped001_s201_phase0_g90_eb8_eigsh25_fresh",
+        "source": "clamped001",
+        "cumulative_steps": 1000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -5.028690182484752e-06,
+          "aligned_band_MAE_eV": 0.0014201798471253336,
+          "aligned_band_RMSE_eV": 0.001586265728495545,
+          "global_shift_Ha": 2.2273156670023934e-05,
+          "density_L1_per_electron": 0.00022903787073445423,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.1226672807819917,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.13010044233795204,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "e8f0754a17d9080caa845f60d439dbccefe926a512fea69d6e8c69e5c2e829d8"
+        },
+        "total_steps_including_prefix": 21000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_handoff12k_s201",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_handoff12k_s201.json",
+    "sha256": "978ed1027443e87a4efdaa62fe591e9f532057c57730dce62a42098226c80830",
+    "status": "completed",
+    "certificate": {
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_handoff12k_s201_phase0_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_handoff12k_s201_phase0_g90_eb8_eigsh25_fresh",
+      "source": "stable_exact001",
+      "cumulative_steps": 1000,
+      "acceptance": {
+        "complete": true,
+        "passed": true,
+        "tests": {
+          "charge": true,
+          "orthogonality": true,
+          "external": true,
+          "commutator": true,
+          "occupation": true,
+          "spectrum": true,
+          "density": true,
+          "free_energy": true
+        }
+      },
+      "QE_comparison": {
+        "status": "completed",
+        "passed": true,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+        "free_energy_difference_Ha_cell": -1.3783242437170884e-05,
+        "aligned_band_MAE_eV": 2.7482545313521778e-05,
+        "aligned_band_RMSE_eV": 4.466367199422624e-05,
+        "global_shift_Ha": -2.1781870200626267e-07,
+        "density_L1_per_electron": 1.2099180868333713e-05,
+        "k_match_error": 1.6653345369377348e-16,
+        "mesh_KS_gap_eV": 0.12259799871049916,
+        "QE_mesh_KS_gap_eV": 0.12279738122432965,
+        "gap_difference_meV": -0.19938251383049,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "0f31d736f096592186f4937bc00e9f400e7bab05bbd8b3eea716a0596f61222e"
+      },
+      "total_steps_including_prefix": 13000
+    },
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_handoff12k_s201_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_handoff12k_s201_phase0_g90_eb8_eigsh25_fresh",
+        "source": "stable_exact001",
+        "cumulative_steps": 1000,
+        "acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": true,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": true,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": true,
+              "commutator": true,
+              "occupation": true,
+              "spectrum": true,
+              "density": true,
+              "free_energy": true
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -1.3783242437170884e-05,
+          "aligned_band_MAE_eV": 2.7482545313521778e-05,
+          "aligned_band_RMSE_eV": 4.466367199422624e-05,
+          "global_shift_Ha": -2.1781870200626267e-07,
+          "density_L1_per_electron": 1.2099180868333713e-05,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12259799871049916,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.19938251383049,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "0f31d736f096592186f4937bc00e9f400e7bab05bbd8b3eea716a0596f61222e"
+        },
+        "total_steps_including_prefix": 13000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_ablation_exact001_s202",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_ablation_exact001_s202.json",
+    "sha256": "dc97569cf3043dcc400b2a36195990b061335cc818740c8213ea53b1226cac86",
+    "status": "completed",
+    "certificate": {
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_ablation_exact001_s202_phase0_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_ablation_exact001_s202_phase0_g90_eb8_eigsh25_fresh",
+      "source": "exact001",
+      "cumulative_steps": 1000,
+      "acceptance": {
+        "complete": true,
+        "passed": true,
+        "tests": {
+          "charge": true,
+          "orthogonality": true,
+          "external": true,
+          "commutator": true,
+          "occupation": true,
+          "spectrum": true,
+          "density": true,
+          "free_energy": true
+        }
+      },
+      "QE_comparison": {
+        "status": "completed",
+        "passed": true,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+        "free_energy_difference_Ha_cell": -1.3783240532916352e-05,
+        "aligned_band_MAE_eV": 2.7480796911793128e-05,
+        "aligned_band_RMSE_eV": 4.466191662413563e-05,
+        "global_shift_Ha": -2.180059431874093e-07,
+        "density_L1_per_electron": 1.2099130266010922e-05,
+        "k_match_error": 1.6653345369377348e-16,
+        "mesh_KS_gap_eV": 0.12259799510011796,
+        "QE_mesh_KS_gap_eV": 0.12279738122432965,
+        "gap_difference_meV": -0.19938612421169233,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "d1fc08e3e4943a1a9b314701506004ecb624bccb696e13bfc14828f736ec32a0"
+      },
+      "total_steps_including_prefix": 21000
+    },
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_ablation_exact001_s202_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_ablation_exact001_s202_phase0_g90_eb8_eigsh25_fresh",
+        "source": "exact001",
+        "cumulative_steps": 1000,
+        "acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": true,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": true,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": true,
+              "commutator": true,
+              "occupation": true,
+              "spectrum": true,
+              "density": true,
+              "free_energy": true
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -1.3783240532916352e-05,
+          "aligned_band_MAE_eV": 2.7480796911793128e-05,
+          "aligned_band_RMSE_eV": 4.466191662413563e-05,
+          "global_shift_Ha": -2.180059431874093e-07,
+          "density_L1_per_electron": 1.2099130266010922e-05,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12259799510011796,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.19938612421169233,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "d1fc08e3e4943a1a9b314701506004ecb624bccb696e13bfc14828f736ec32a0"
+        },
+        "total_steps_including_prefix": 21000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_ablation_clamped001_s202",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_ablation_clamped001_s202.json",
+    "sha256": "4f55aa3fe2982c88a617d49873d8d72ba4841c2a53defb85c12adaf555ae46b8",
+    "status": "completed_censored",
+    "certificate": null,
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_ablation_clamped001_s202_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_ablation_clamped001_s202_phase0_g90_eb8_eigsh25_fresh",
+        "source": "clamped001",
+        "cumulative_steps": 1000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -9.053088618315996e-06,
+          "aligned_band_MAE_eV": 0.0007657581636893788,
+          "aligned_band_RMSE_eV": 0.0008591750224645699,
+          "global_shift_Ha": 1.1680511852192092e-05,
+          "density_L1_per_electron": 0.00014986329275115475,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12265908476334368,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.1382964609859677,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "4dc9327dcd75abc3a11d2feafc6e72fb9d8512b99858c99a94d50cbd02615d67"
+        },
+        "total_steps_including_prefix": 21000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_handoff12k_s202",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_handoff12k_s202.json",
+    "sha256": "72b6dbb30501389f10421ea99887ee96d1260653bc25e19cf77f3040cc858117",
+    "status": "completed",
+    "certificate": {
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_handoff12k_s202_phase0_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_handoff12k_s202_phase0_g90_eb8_eigsh25_fresh",
+      "source": "stable_exact001",
+      "cumulative_steps": 1000,
+      "acceptance": {
+        "complete": true,
+        "passed": true,
+        "tests": {
+          "charge": true,
+          "orthogonality": true,
+          "external": true,
+          "commutator": true,
+          "occupation": true,
+          "spectrum": true,
+          "density": true,
+          "free_energy": true
+        }
+      },
+      "QE_comparison": {
+        "status": "completed",
+        "passed": true,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+        "free_energy_difference_Ha_cell": -1.3783240547127207e-05,
+        "aligned_band_MAE_eV": 2.748061170891496e-05,
+        "aligned_band_RMSE_eV": 4.4661729783938126e-05,
+        "global_shift_Ha": -2.1802945420692568e-07,
+        "density_L1_per_electron": 1.2099125755916326e-05,
+        "k_match_error": 1.6653345369377348e-16,
+        "mesh_KS_gap_eV": 0.1225979946462066,
+        "QE_mesh_KS_gap_eV": 0.12279738122432965,
+        "gap_difference_meV": -0.19938657812304528,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "a6efcc5f26d24fdc2b3ba20dc238a5881e2de6c8dc623448fa83ff35de13c9ea"
+      },
+      "total_steps_including_prefix": 13000
+    },
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_handoff12k_s202_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_handoff12k_s202_phase0_g90_eb8_eigsh25_fresh",
+        "source": "stable_exact001",
+        "cumulative_steps": 1000,
+        "acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": true,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": true,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": true,
+              "commutator": true,
+              "occupation": true,
+              "spectrum": true,
+              "density": true,
+              "free_energy": true
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -1.3783240547127207e-05,
+          "aligned_band_MAE_eV": 2.748061170891496e-05,
+          "aligned_band_RMSE_eV": 4.4661729783938126e-05,
+          "global_shift_Ha": -2.1802945420692568e-07,
+          "density_L1_per_electron": 1.2099125755916326e-05,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.1225979946462066,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.19938657812304528,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "a6efcc5f26d24fdc2b3ba20dc238a5881e2de6c8dc623448fa83ff35de13c9ea"
+        },
+        "total_steps_including_prefix": 13000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_gate_PH_random",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_gate_PH_random.json",
+    "sha256": "88a5b9bb285e011f9ee57d80ac927082af579905887b8ad7d4364730f01ed8b1",
+    "status": "completed",
+    "certificate": null,
+    "attempts": []
+  },
+  {
+    "name": "GaAs_selected_cold_s201",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_selected_cold_s201.json",
+    "sha256": "0e39dfb94c8cd0b72d8ef2e3dc33310f90fd32d244813f14c494e13d9366a0b0",
+    "status": "completed",
+    "certificate": {
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase2_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase2_g90_eb8_eigsh25_fresh",
+      "source": "stable_exact001",
+      "cumulative_steps": 12000,
+      "acceptance": {
+        "complete": true,
+        "passed": true,
+        "tests": {
+          "charge": true,
+          "orthogonality": true,
+          "external": true,
+          "commutator": true,
+          "occupation": true,
+          "spectrum": true,
+          "density": true,
+          "free_energy": true
+        }
+      },
+      "QE_comparison": {
+        "status": "completed",
+        "passed": true,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+        "free_energy_difference_Ha_cell": -1.3783242437170884e-05,
+        "aligned_band_MAE_eV": 2.7482545403759064e-05,
+        "aligned_band_RMSE_eV": 4.466367210607301e-05,
+        "global_shift_Ha": -2.1781865552764273e-07,
+        "density_L1_per_electron": 1.2099180852859949e-05,
+        "k_match_error": 1.6653345369377348e-16,
+        "mesh_KS_gap_eV": 0.12259799871315469,
+        "QE_mesh_KS_gap_eV": 0.12279738122432965,
+        "gap_difference_meV": -0.19938251117496142,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "6a1b2e4d3a2c7d3f3aad843f16c2d65668a6ccb82f0594e08c02b6dac0097431"
+      },
+      "total_steps_including_prefix": 12000
+    },
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase0_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 4000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 3.630736102877563e-07,
+          "aligned_band_MAE_eV": 0.0016354848254285488,
+          "aligned_band_RMSE_eV": 0.0018206047888752288,
+          "global_shift_Ha": 3.1833795989222735e-05,
+          "density_L1_per_electron": 0.000242718226825264,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12269106159598765,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.10631962834199704,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "0bf7dfecc43ccd60a2f62e4b431f23373ec6166f008cd965f1c8750d66fed99b"
+        },
+        "total_steps_including_prefix": 4000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase1_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase1_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 8000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -3.867366231702363e-06,
+          "aligned_band_MAE_eV": 0.0016298289723842016,
+          "aligned_band_RMSE_eV": 0.0018181394935970453,
+          "global_shift_Ha": 2.6201537376348998e-05,
+          "density_L1_per_electron": 0.00024445058051881743,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12270483597297871,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.0925452513509395,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "1ebcc97ec98532b903a2b837a0d2ad0e617578792143c98caa184e7dbb96daf3"
+        },
+        "total_steps_including_prefix": 8000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase2_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s201_GaAs_selected_cold_s201_phase2_g90_eb8_eigsh25_fresh",
+        "source": "stable_exact001",
+        "cumulative_steps": 12000,
+        "acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": true,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": true,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": true,
+              "commutator": true,
+              "occupation": true,
+              "spectrum": true,
+              "density": true,
+              "free_energy": true
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -1.3783242437170884e-05,
+          "aligned_band_MAE_eV": 2.7482545403759064e-05,
+          "aligned_band_RMSE_eV": 4.466367210607301e-05,
+          "global_shift_Ha": -2.1781865552764273e-07,
+          "density_L1_per_electron": 1.2099180852859949e-05,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12259799871315469,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.19938251117496142,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "6a1b2e4d3a2c7d3f3aad843f16c2d65668a6ccb82f0594e08c02b6dac0097431"
+        },
+        "total_steps_including_prefix": 12000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_selected_cold_s202",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_selected_cold_s202.json",
+    "sha256": "feef2833cb00c2b8cdb2e2f73e8203dc080a90ad6c8e1af562b149955a3dc5c1",
+    "status": "completed",
+    "certificate": {
+      "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase3_g90_eb8",
+      "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase3_g90_eb8_eigsh25_fresh",
+      "source": "stable_exact001",
+      "cumulative_steps": 16000,
+      "acceptance": {
+        "complete": true,
+        "passed": true,
+        "tests": {
+          "charge": true,
+          "orthogonality": true,
+          "external": true,
+          "commutator": true,
+          "occupation": true,
+          "spectrum": true,
+          "density": true,
+          "free_energy": true
+        }
+      },
+      "QE_comparison": {
+        "status": "completed",
+        "passed": true,
+        "solver_acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "cross_code_tests": {
+          "free_energy": true,
+          "bands": true,
+          "density": true
+        },
+        "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+        "free_energy_difference_Ha_cell": -1.3783240547127207e-05,
+        "aligned_band_MAE_eV": 2.748255155650863e-05,
+        "aligned_band_RMSE_eV": 4.466367603609167e-05,
+        "global_shift_Ha": -2.1781731767702677e-07,
+        "density_L1_per_electron": 1.209918031345914e-05,
+        "k_match_error": 1.6653345369377348e-16,
+        "mesh_KS_gap_eV": 0.1225979985521301,
+        "QE_mesh_KS_gap_eV": 0.12279738122432965,
+        "gap_difference_meV": -0.19938267219954398,
+        "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+        "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+        "source_checkpoint_sha256": "fbfb5703eb782e8eab3bc80d301af762df56683e35e0fb011fdf8802d590f70b"
+      },
+      "total_steps_including_prefix": 16000
+    },
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase0_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 4000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": false,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -2.3173039238599813e-06,
+          "aligned_band_MAE_eV": 0.0010885680693335355,
+          "aligned_band_RMSE_eV": 0.0012143649518256156,
+          "global_shift_Ha": 2.3621837526720343e-05,
+          "density_L1_per_electron": 0.0001846110798697339,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12269974527013679,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.0976359541928623,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "18b7e249b1d7f05455d07ab06511727568d669285b3a0e9eb683fdc03ca8c6b1"
+        },
+        "total_steps_including_prefix": 4000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase1_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase1_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 8000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": false,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -6.0007472484358004e-06,
+          "aligned_band_MAE_eV": 0.0010382258379414235,
+          "aligned_band_RMSE_eV": 0.0011614542831508868,
+          "global_shift_Ha": 1.89711808511647e-05,
+          "density_L1_per_electron": 0.0001766017502202147,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.12265643309200842,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.14094813232122527,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "fa9ce61399df48f928854533483c6ae264c6176a07d7097d224bb94a84186506"
+        },
+        "total_steps_including_prefix": 8000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase2_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase2_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 12000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -7.89954788160685e-06,
+          "aligned_band_MAE_eV": 0.0009790680041055562,
+          "aligned_band_RMSE_eV": 0.0010964224793999795,
+          "global_shift_Ha": 1.5554966154746143e-05,
+          "density_L1_per_electron": 0.00017122655937556333,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.1226903775554015,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.10700366892814339,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "aca7e90188dd6f3b530889f2fcf77dd26e37c09a24db38297096cbdb05566cc4"
+        },
+        "total_steps_including_prefix": 12000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase3_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s202_GaAs_selected_cold_s202_phase3_g90_eb8_eigsh25_fresh",
+        "source": "stable_exact001",
+        "cumulative_steps": 16000,
+        "acceptance": {
+          "complete": true,
+          "passed": true,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": true,
+            "commutator": true,
+            "occupation": true,
+            "spectrum": true,
+            "density": true,
+            "free_energy": true
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": true,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": true,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": true,
+              "commutator": true,
+              "occupation": true,
+              "spectrum": true,
+              "density": true,
+              "free_energy": true
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": true,
+            "bands": true,
+            "density": true
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": -1.3783240547127207e-05,
+          "aligned_band_MAE_eV": 2.748255155650863e-05,
+          "aligned_band_RMSE_eV": 4.466367603609167e-05,
+          "global_shift_Ha": -2.1781731767702677e-07,
+          "density_L1_per_electron": 1.209918031345914e-05,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.1225979985521301,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -0.19938267219954398,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "fbfb5703eb782e8eab3bc80d301af762df56683e35e0fb011fdf8802d590f70b"
+        },
+        "total_steps_including_prefix": 16000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_selected_cold_s204",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_selected_cold_s204.json",
+    "sha256": "7a291eccc7c45d62c7ce0408fb02445149a000c3b44769df306bee20dfc1dc89",
+    "status": "completed_censored",
+    "certificate": null,
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase0_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 4000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005966959837522268,
+          "aligned_band_MAE_eV": 0.010960682065943356,
+          "aligned_band_RMSE_eV": 0.0126400435925069,
+          "global_shift_Ha": 0.00013534021450820773,
+          "density_L1_per_electron": 0.0027268078827978534,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11101114756225368,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.78623366207597,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "fe010dd27a97db9e091dcfdea7bf9a567638cf334f199303f165e2ab127255ea"
+        },
+        "total_steps_including_prefix": 4000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase1_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase1_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 8000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005961365280938935,
+          "aligned_band_MAE_eV": 0.01093140955780038,
+          "aligned_band_RMSE_eV": 0.012609880719692962,
+          "global_shift_Ha": 0.00012807404514650063,
+          "density_L1_per_electron": 0.002725019711279626,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11104716290542686,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.750218318902785,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "4e0f9f19e3fe624fad81701595e2eaa92f3a1365ecf29612240797ca15537b22"
+        },
+        "total_steps_including_prefix": 8000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase2_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase2_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 12000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005961104130875583,
+          "aligned_band_MAE_eV": 0.01090572258769325,
+          "aligned_band_RMSE_eV": 0.012580999129453235,
+          "global_shift_Ha": 0.00012756425076044397,
+          "density_L1_per_electron": 0.0027232035256794574,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11103796308886636,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.759418135463287,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "d73f1e2709fe1b17229e9049888c8a92428abdaf5dd51554f134f3f861db28b6"
+        },
+        "total_steps_including_prefix": 12000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase3_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase3_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 16000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005960910508662209,
+          "aligned_band_MAE_eV": 0.010878525788340572,
+          "aligned_band_RMSE_eV": 0.012550351178636352,
+          "global_shift_Ha": 0.00012704770840432048,
+          "density_L1_per_electron": 0.0027213608003909995,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11102620781226548,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.77117341206417,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "13c000c1f06f8c306a1455b10e0a95f21774e3671ecc323c737bd8c4b641eeda"
+        },
+        "total_steps_including_prefix": 16000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase4_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_selected_cold_s204_phase4_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 20000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005960706477679878,
+          "aligned_band_MAE_eV": 0.010849698294183797,
+          "aligned_band_RMSE_eV": 0.012517880083072693,
+          "global_shift_Ha": 0.00012649292239080558,
+          "density_L1_per_electron": 0.002719419830724116,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11101403309885567,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.783348125473978,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "d67a985fcb97ffbc1715fdd501c759fa03459058d06b52a2a2fba82f6ac5fdf7"
+        },
+        "total_steps_including_prefix": 20000
+      }
+    ]
+  },
+  {
+    "name": "GaAs_PH_cold_s204",
+    "record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/metadata/task_GaAs_PH_cold_s204.json",
+    "sha256": "77d5ac9a555c818670b755c9f62cfb937b98d2226da6dad3e9ff7b13cfd84d55",
+    "status": "completed_censored",
+    "certificate": null,
+    "attempts": [
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase0_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase0_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 4000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005966959837522268,
+          "aligned_band_MAE_eV": 0.010960682065943356,
+          "aligned_band_RMSE_eV": 0.0126400435925069,
+          "global_shift_Ha": 0.00013534021450820773,
+          "density_L1_per_electron": 0.0027268078827978534,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11101114756225368,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.78623366207597,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "fe010dd27a97db9e091dcfdea7bf9a567638cf334f199303f165e2ab127255ea"
+        },
+        "total_steps_including_prefix": 4000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase1_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase1_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 8000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005961365280938935,
+          "aligned_band_MAE_eV": 0.01093140955780038,
+          "aligned_band_RMSE_eV": 0.012609880719692962,
+          "global_shift_Ha": 0.00012807404514650063,
+          "density_L1_per_electron": 0.002725019711279626,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11104716290542686,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.750218318902785,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "4e0f9f19e3fe624fad81701595e2eaa92f3a1365ecf29612240797ca15537b22"
+        },
+        "total_steps_including_prefix": 8000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase2_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase2_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 12000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005961104130875583,
+          "aligned_band_MAE_eV": 0.01090572258769325,
+          "aligned_band_RMSE_eV": 0.012580999129453235,
+          "global_shift_Ha": 0.00012756425076044397,
+          "density_L1_per_electron": 0.0027232035256794574,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11103796308886636,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.759418135463287,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "d73f1e2709fe1b17229e9049888c8a92428abdaf5dd51554f134f3f861db28b6"
+        },
+        "total_steps_including_prefix": 12000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase3_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase3_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 16000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005960910508662209,
+          "aligned_band_MAE_eV": 0.010878525788340572,
+          "aligned_band_RMSE_eV": 0.012550351178636352,
+          "global_shift_Ha": 0.00012704770840432048,
+          "density_L1_per_electron": 0.0027213608003909995,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11102620781226548,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.77117341206417,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "13c000c1f06f8c306a1455b10e0a95f21774e3671ecc323c737bd8c4b641eeda"
+        },
+        "total_steps_including_prefix": 16000
+      },
+      {
+        "state": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase4_g90_eb8",
+        "audit": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_confirmatory_20261009/results/ks_audit_matched_GaAs_postkp_fd_lr0.1_s204_GaAs_PH_cold_s204_phase4_g90_eb8_eigsh25_fresh",
+        "source": "roundoff",
+        "cumulative_steps": 20000,
+        "acceptance": {
+          "complete": true,
+          "passed": false,
+          "tests": {
+            "charge": true,
+            "orthogonality": true,
+            "external": false,
+            "commutator": false,
+            "occupation": false,
+            "spectrum": true,
+            "density": false,
+            "free_energy": false
+          }
+        },
+        "QE_comparison": {
+          "status": "completed",
+          "passed": false,
+          "solver_acceptance": {
+            "complete": true,
+            "passed": false,
+            "tests": {
+              "charge": true,
+              "orthogonality": true,
+              "external": false,
+              "commutator": false,
+              "occupation": false,
+              "spectrum": true,
+              "density": false,
+              "free_energy": false
+            }
+          },
+          "cross_code_tests": {
+            "free_energy": false,
+            "bands": false,
+            "density": false
+          },
+          "QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/fresh_validation_20261007/results/QE_GaAs_g90_full",
+          "free_energy_difference_Ha_cell": 0.005960706477679878,
+          "aligned_band_MAE_eV": 0.010849698294183797,
+          "aligned_band_RMSE_eV": 0.012517880083072693,
+          "global_shift_Ha": 0.00012649292239080558,
+          "density_L1_per_electron": 0.002719419830724116,
+          "k_match_error": 1.6653345369377348e-16,
+          "mesh_KS_gap_eV": 0.11101403309885567,
+          "QE_mesh_KS_gap_eV": 0.12279738122432965,
+          "gap_difference_meV": -11.783348125473978,
+          "gap_scope": "Discrete finite-T SCF mesh; no SOC; not continuous-BZ or experimental gap",
+          "density_convention": "Electron measure at identical fractional voxels; no charge fit",
+          "source_checkpoint_sha256": "d67a985fcb97ffbc1715fdd501c759fa03459058d06b52a2a2fba82f6ac5fdf7"
+        },
+        "total_steps_including_prefix": 20000
+      }
+    ]
+  }
+]

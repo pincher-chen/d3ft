@@ -1,0 +1,18 @@
+{
+  "source": "reference_exp.md",
+  "verification_scope": "Transcription of the current local reference record; no new independent literature verification",
+  "reported_pm_is_one_sigma": null,
+  "C11_C12_covariance": null,
+  "temperature_or_zero_point_corrections_applied": false,
+  "materials": {
+    "Si": {"a_pm_A": 0.000019, "C11_pm_GPa": 0.033, "C12_pm_GPa": 0.013, "C44_pm_GPa": 0.016, "a_temperature_K": 298.15, "elastic_temperature_K": 298.15, "source_line": 357},
+    "AlAs": {"a_pm_A": 0.00008, "C11_pm_GPa": 1.2, "C12_pm_GPa": 1.3, "C44_pm_GPa": 0.7, "temperature_note": "Room temperature, approximately 300 K; exact value not established", "source_line": 218},
+    "GaP": {"a_pm_A": null, "C11_pm_GPa": null, "C12_pm_GPa": null, "C44_pm_GPa": null, "a_temperature_K": 300, "temperature_note": "Elastic constants approximately 300 K", "source_line": 295},
+    "SiC": {"a_pm_A": null, "C11_pm_GPa": 6.0, "C12_pm_GPa": 4.0, "C44_pm_GPa": 5.0, "a_temperature_K": 297, "elastic_temperature_K": 298, "source_line": 646},
+    "BN": {"a_pm_A": 0.0008, "C11_pm_GPa": 1.7, "C12_pm_GPa": 1.1, "C44_pm_GPa": 1.0, "temperature_note": "Room temperature / ambient conditions", "source_line": 688},
+    "diamond": {"a_pm_A": null, "C11_pm_GPa": 5.0, "C12_pm_GPa": 5.0, "C44_pm_GPa": 2.0, "a_temperature_K": 298.15, "elastic_temperature_K": 298.15, "source_line": 743},
+    "AlP": {"a_pm_A": null, "C11_pm_GPa": null, "C12_pm_GPa": null, "C44_pm_GPa": null, "temperature_note": "Approximately 300 K; Cij recommendations excluded from training", "source_line": 251},
+    "GaAs": {"a_pm_A": 0.00002, "C11_pm_GPa": 0.37, "C12_pm_GPa": 1.60, "C44_pm_GPa": 0.18, "a_temperature_K": 300, "elastic_temperature_K": 298, "source_line": 122},
+    "Ge": {"a_pm_A": 0.0000092, "C11_pm_GPa": null, "C12_pm_GPa": null, "C44_pm_GPa": null, "a_temperature_K": 298.15, "elastic_temperature_K": 298.15, "source_line": 62}
+  }
+}

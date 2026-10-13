@@ -1,0 +1,91 @@
+{
+  "arguments": {
+    "material": "GaAs",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 10.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 2201,
+    "epochs": 3000,
+    "grid": 90,
+    "empty_bands": 8,
+    "initial_temperature": 0.01,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": null,
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "endpoint_GaAs_s2201_candidate_segment1_to4000",
+    "endpoint_check": true,
+    "restart_from": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/results/matched_GaAs_postkp_fd_lr0.1_s2201_endpoint_GaAs_s2201_candidate_segment0_to1000_g90_eb8/final_state.npz",
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_stable_exact001",
+  "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "f26c59824bd1430f15734c0924ccecacf26544b6fd6b5148169047b5fb8f4739",
+  "input": {
+    "atoms": 2,
+    "valence_electrons": 18,
+    "cell_A": [
+      [
+        0,
+        2.874616476099,
+        2.874616476099
+      ],
+      [
+        2.874616476099,
+        0,
+        2.874616476099
+      ],
+      [
+        2.874616476099,
+        2.874616476099,
+        0
+      ]
+    ],
+    "structure_sha256": "a4f1b586cf3bbd417914e5ef5b4b9a517348ece83364b613dbcece856033df53",
+    "pseudopotentials": {
+      "Ga": "2fb4076be45921f041484b6051130a03e77bc17b903fc19d178075cbad87c860",
+      "As": "c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4"
+    },
+    "kmesh": 3,
+    "cutoff_Ha": 100,
+    "represented_bands": 17,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      90,
+      90,
+      90
+    ],
+    "scope": "Fresh joint FD finite-T test including Ga 3d semicore; distinct from historical fixed-occupation k6/grid72/XC144.",
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/implementation_equivalence_chain_20261010/inputs/structures/GaAs.xyz"
+  },
+  "initial": {
+    "physical_orbital_sha256": "299d7346bd53665b15e7461f2edd5a8d47c7ce5a799ce0fe08901fbc9728f0bb",
+    "occupation_sha256": "5f37ec5fd308aa2f6eafef23607a9e556de4b2da3dae54b8eb06702e359913cd",
+    "restart_state_sha256": "ff55aa7508b58d8c831f31d5b851d98287344cadde7ebe5bd554fcdae0290962"
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250212",
+  "step": "1420",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    64,
+    65,
+    66,
+    67
+  ],
+  "gpu_visible": "0"
+}

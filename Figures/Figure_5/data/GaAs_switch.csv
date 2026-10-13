@@ -1,0 +1,9 @@
+name,seed,rule,status,latest_audit_steps,first_qualified_audit_steps,switch_after_steps
+GaAs_A_after_anneal_s201,201,A_after_anneal,completed,4000,4000,1000
+GaAs_A_after_anneal_s202,202,A_after_anneal,completed,4000,4000,1000
+GaAs_B_fixed4000_s201,201,B_fixed4000,completed,8000,8000,4000
+GaAs_B_fixed4000_s202,202,B_fixed4000,completed,8000,8000,4000
+GaAs_B_fixed8000_s201,201,B_fixed8000,completed,12000,12000,8000
+GaAs_B_fixed8000_s202,202,B_fixed8000,completed,12000,12000,8000
+GaAs_selected_cold_s201,201,C_current_gate,completed,12000,12000,8000
+GaAs_selected_cold_s202,202,C_current_gate,completed,16000,16000,12000

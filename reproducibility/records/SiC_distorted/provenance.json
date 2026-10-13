@@ -1,0 +1,92 @@
+{
+  "arguments": {
+    "material": "SiC",
+    "orbital": "postkp",
+    "occupation": "fd",
+    "lr": 0.1,
+    "occupation_lr": 10.0,
+    "lr_schedule": "constant",
+    "lr_final": 1e-07,
+    "seed": 301,
+    "epochs": 3000,
+    "grid": 64,
+    "empty_bands": 8,
+    "initial_temperature": 0.01,
+    "temperature": 0.01,
+    "anneal_steps": 1000,
+    "preconditioner": "kinetic",
+    "structure": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/structures/SiC_distorted.xyz",
+    "occupation_temperature": 0.1,
+    "entropy_eps": 1e-12,
+    "metric_orbitals": 1,
+    "metric_occupations": 1,
+    "tag": "validation_SiC_distorted_s301_segment1_to4000",
+    "endpoint_check": true,
+    "restart_from": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_SiC_postkp_fd_lr0.1_s301_validation_SiC_distorted_s301_segment0_to1000_eb8/final_state.npz",
+    "skip_warmup": true,
+    "record_work": false
+  },
+  "source": "d3ft_fd_raw_v2_stable_exact001",
+  "source_tree_sha256": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+  "jrystal_archive_sha256": "f3b7ee8401218e909491a731cc5ef5ee459870e32bf848508e10d11558a632d5",
+  "driver_sha256": "f26c59824bd1430f15734c0924ccecacf26544b6fd6b5148169047b5fb8f4739",
+  "input": {
+    "atoms": 2,
+    "valence_electrons": 8,
+    "cell_A": [
+      [
+        0,
+        2.190665,
+        2.190665
+      ],
+      [
+        2.190665,
+        0,
+        2.190665
+      ],
+      [
+        2.190665,
+        2.190665,
+        0
+      ]
+    ],
+    "structure_sha256": "fb04815f5de4b43e119d490b43d90f4723011737b39b7a3c23aa70fd3f171e05",
+    "pseudopotentials": {
+      "C": "1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064",
+      "Si": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581"
+    },
+    "source_qe_metadata": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/experiments_20260930_qe_mesh/results/SiC_k6/metadata.json",
+    "scope": "Same geometry/PP as old fixed-occupation data; fresh FD temperature and k3 reference required",
+    "kmesh": 3,
+    "cutoff_Ha": 50,
+    "represented_bands": 12,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      64,
+      64,
+      64
+    ],
+    "structure_path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/inputs/structures/SiC_distorted.xyz"
+  },
+  "initial": {
+    "physical_orbital_sha256": "393593e97f71f053e59e0a43bfbb9581ded00a0f38eef59164186a95134b3171",
+    "occupation_sha256": "b4458707a0cd171e8f70c713db034b8771e72af378579118be1f60f1f4f0f3e4",
+    "restart_state_sha256": "5caa7c09939e170f0cb2b9281e307dd4e7d224fa52346943f0d77bde23110937"
+  },
+  "jax": "0.6.2",
+  "device": "cuda:0",
+  "job": "250285",
+  "step": "2081",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    64,
+    65,
+    66,
+    67
+  ],
+  "gpu_visible": "0"
+}

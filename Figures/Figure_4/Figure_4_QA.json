@@ -1,0 +1,16 @@
+{
+  "figure": 4,
+  "source_checks_passed": true,
+  "width_in": 7,
+  "height_in": 5,
+  "min_font_pt": 7.0,
+  "titles_and_axis_labels_pt": 8,
+  "ticks_pt": 7,
+  "axis_line_width_pt": 0.8,
+  "out_of_canvas": [],
+  "absolute_error_display_floor_eV": 1e-12,
+  "files": {
+    "pdf": "5dd124f45120042e75c0cedacb07c04a2afea093f05967aca9ed31bf85a7bd2a",
+    "png": "a7cf6b83ffb27a00fd8c8b7b77cd7508229c9a5b0e9d37dbe01837e48d858d4e"
+  }
+}

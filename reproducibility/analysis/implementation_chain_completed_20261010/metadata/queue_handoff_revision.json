@@ -1,0 +1,7 @@
+{
+  "reason": "Release idle card when A/C has no unclaimed tasks and no running task on that card; do not wait for live lane coordinator that only waits for peers",
+  "previous_controller_pid": 3111873,
+  "previous_controller_had_no_endpoint_children": true,
+  "scientific_tasks_interrupted": false,
+  "existing_scripts_unchanged": true
+}

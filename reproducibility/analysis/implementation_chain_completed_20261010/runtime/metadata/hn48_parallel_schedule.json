@@ -1,0 +1,26 @@
+{
+  "approved_reason": "Isolate timing windows only; endpoint validation may use all4hn48cards concurrently",
+  "allocation": "250212",
+  "node": "hn48",
+  "GPU": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "total_endpoint_tasks": 12,
+  "selected_new_seeds": [
+    2201,
+    2202
+  ],
+  "all_task_physical_fields_unchanged": true,
+  "protocol_delta": "allowed_job250285->250212; longest GaAs tasks first",
+  "source_lane_delta": "only require whole-node isolation for isolated_timing role; endpoint role keeps own-card occupancy guard",
+  "prior_cpu_only_coordinators_replaced": [
+    1882399,
+    3120761
+  ],
+  "no_scientific_tasks_interrupted": true,
+  "pre_B1_barrier": "All4worker processes exit, all12strict endpoints/pairphysics pass, entire-node GPU process list empty for3consecutive observations2seconds apart; then serialGPU0five shapes with continuous whole-node checks",
+  "method_config_sha256": "b475e98600ac59b7d1f41cd06ba4ea26cc26f51f24427b34e2d4ec1119e1e965"
+}

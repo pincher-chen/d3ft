@@ -1,0 +1,58 @@
+################################################
+#       Shared defaults for all benchmark cases.
+#       Per-case configs override only what's needed.
+################################################
+
+xc: "lda_x+lda_c_pw"
+use_pseudopotential: true
+pseudopotential_type: "nc"
+
+freq_mask_method: "spherical"
+cutoff_energy: 40
+grid_sizes: 24
+empty_bands: 8
+spin_restricted: true
+smearing: 0.001
+
+ewald_args:
+  ewald_eta: 0.1
+  ewald_cutoff: 2.0e+4
+
+optimizer: "d3ft_riem"
+optimizer_args:
+  learning_rate: 0.05
+  b1: 0.9
+  b2: 0.99
+scheduler: null
+
+epoch: 4000
+convergence_window_size: 30
+convergence_condition: 1.0e-7
+
+d3ft:
+  optim:
+    enabled: true
+    preconditioner: "kinetic"
+    retraction: "qr"
+    mu: 1.0
+  occupation:
+    enabled: true
+    method: "sinkhorn"
+    epsilon_init: 1.0
+    epsilon_final: 1.0e-3
+    epsilon_schedule: "log"
+    sinkhorn_iters: 50
+  spectrum:
+    enabled: true
+    n_lanczos_iters: 64
+    n_probes: 8
+    implicit_grad: true
+
+seed: 0
+parallel_over_k_mesh: false
+parallel_over_k_path: true
+xla_preallocate: true
+jax_enable_x64: true
+jax_debug_nans: false
+verbose: false
+eps: 1.0e-08

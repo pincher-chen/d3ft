@@ -1,0 +1,98 @@
+################################################
+#               Crystal Setting                #
+################################################
+crystal: "si"
+crystal_file_path: null
+spin: 0
+save_dir: null
+
+################################################
+#         Exchange-Correlation Setting         #
+################################################
+xc: "lda_x+lda_c_pw"
+
+################################################
+#           Pseudopotential Setting            #
+################################################
+use_pseudopotential: true
+pseudopotential_type: "nc"
+pseudopotential_file_dir: null
+
+################################################
+#       Plane-Wave Hyper-parameters            #
+################################################
+freq_mask_method: "spherical"
+cutoff_energy: 40
+grid_sizes: 16
+k_grid_sizes: 2
+empty_bands: 10
+spin_restricted: true
+smearing: 0.001
+
+ewald_args:
+  ewald_eta: 0.1
+  ewald_cutoff: 2.0e+4
+
+################################################
+#           Optimizer Setting                  #
+################################################
+epoch: 2000
+optimizer: "d3ft_riem"          # NEW: "d3ft_riem" enables D3FT-Riem; "adam" falls back to Jrystal
+optimizer_args:
+  learning_rate: 0.05           # NOTE: D3FT-Riem tolerates larger LRs than Jrystal's Adam
+  b1: 0.9
+  b2: 0.99
+scheduler: null
+convergence_window_size: 20
+convergence_condition: 1.0e-6
+
+################################################
+#           D3FT Module Configuration          #
+################################################
+d3ft:
+
+  # ---- Module 1: D3FT-Riem (Riemannian optimizer) ----
+  optim:
+    enabled: true
+    preconditioner: "kinetic"   # "none" | "kinetic"
+    retraction: "qr"            # "qr" | "cayley"
+    mu: 1.0                     # preconditioner shift (T + mu I)^-1
+
+  # ---- Module 2: D3FT-OT (Sinkhorn occupations) ----
+  occupation:
+    enabled: true
+    method: "sinkhorn"          # "sinkhorn" | (any jrystal method as fallback)
+    epsilon_init: 1.0
+    epsilon_final: 1.0e-3
+    epsilon_schedule: "log"     # "log" | "exp" | "constant"
+    sinkhorn_iters: 50
+
+  # ---- Module 3: D3FT-Lanczos (band-structure spectrum) ----
+  spectrum:
+    enabled: true
+    n_lanczos_iters: 64
+    n_probes: 8
+    implicit_grad: true
+
+################################################
+#                Band-Structure Setup          #
+################################################
+band_structure_empty_bands: null
+k_path_special_points: "LGXL"
+num_kpoints: 64
+k_path_file: null
+band_structure_epoch: 2000
+k_path_fine_tuning: true
+k_path_fine_tuning_epoch: 200
+
+################################################
+#              System Setting                  #
+################################################
+seed: 123
+parallel_over_k_mesh: false
+parallel_over_k_path: true
+xla_preallocate: true
+jax_enable_x64: true
+jax_debug_nans: false
+verbose: true
+eps: 1.0e-08

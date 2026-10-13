@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "command": [
+    "mpirun",
+    "-np",
+    "24",
+    "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_box/qe-7.5/bin_cpu_intel/bin/pw.x",
+    "-inp",
+    "bands.in",
+    "-npool",
+    "6"
+  ],
+  "exit_code": 0,
+  "seconds": 7.526854038238525,
+  "source_QE_reference": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/qe_solver_comparison_20261007/results/QE_Al_full_k_control_250285_r16",
+  "material": "Al",
+  "points": 62,
+  "bands_solved": 40,
+  "input_sha256": "d82d0f99cd6f72435ee275124a3edf7c6e02c917cc46e6505793e8e4ea770fa0",
+  "output_xml_sha256": "2d9dcde0bd05f40ac96c46290ab1800e0fbb23d7f41e5c7e463a5592d33516e1",
+  "pw_sha256": "dd8c5ecb5788ec460246686bee1023544ba34cc846b8651885782b847221ea85",
+  "starting_density_sha256": "1589e11c3cb587ae6a818e64e962e6e3061b2b501d3ac22597c56708701c9465",
+  "scope": "Original converged SCF density, private copy, NSCF only; no density reoptimization"
+}

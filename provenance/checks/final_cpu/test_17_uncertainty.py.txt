@@ -1,0 +1,38 @@
+  cubic: D(0.2)=-0.285000000 D(0.1)=-0.345000000 -> -0.365000000000 (exact -0.365000000000, err 7.2e-16)
+  sin at 0.7: value=0.764842177326 exact=0.764842187284 err=1.0e-08 reliable=True
+  cache: two identical central differences cost 2 evaluations
+  noisy: reliable=False  reason=truncation coefficient varies by 1304.1x across the sweep; the h^2 model does not hold here
+    h=0.001    D=+0.764906
+    h=0.0001   D=+0.777319
+    h=1e-05    D=+0.615453
+  endpoint: best_step=0.05 reliable=False reason=error is still falling at the edge of the sweep (best step 0.05 is an endpoint); widen it
+  noise_level: mean=1.0250 sigma=0.1708 spread=0.4000 n=4
+  tolerance: settled drift=4.88e-05 converged=True; moving drift=2.20e-02 converged=False
+  retracted reference: mean=8.4462e-06 sigma=3.6894e-06 spread/mean=61.8%
+    predicted noise on D at h=0.005: 5.22e-04 vs slope 1.00e-05 -> 52x the quantity being measured
+    sweep at the original steps: reliable=False (truncation coefficient varies by 100.4x across the sweep; the h^2 model does not hold here)
+    dF/dtheta: SWEEP UNRELIABLE -- truncation coefficient varies by 100.4x across the sweep; the h^2 model does not hold here
+      best available value +0.000926101 Ha, not to be quoted without a wider sweep
+        h = 0.02       D = -9.994133823e-05
+        h = 0.01       D = -1.425191233e-04
+        h = 0.005      D = +9.261014065e-04
+        Richardson = +1.282308250e-03   (6 evaluations)
+[OK]  finite differences carry their own error bar, and refuse when they cannot
+ERROR:2026-10-13 15:58:42,864:jax._src.xla_bridge:444: Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()
+Traceback (most recent call last):
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/jax_plugins/xla_cuda12/__init__.py", line 197, in _version_check
+    version = get_version()
+RuntimeError: jaxlib/cuda/versions_helpers.cc:81: operation cusparseGetProperty(MAJOR_VERSION, &major) failed: The cuSPARSE library was not found.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/jax/_src/xla_bridge.py", line 442, in discover_pjrt_plugins
+    plugin_module.initialize()
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/jax_plugins/xla_cuda12/__init__.py", line 324, in initialize
+    _check_cuda_versions(raise_on_first_error=True)
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/jax_plugins/xla_cuda12/__init__.py", line 262, in _check_cuda_versions
+    _version_check("cuSPARSE", cuda_versions.cusparse_get_version,
+  File "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/jax_plugins/xla_cuda12/__init__.py", line 201, in _version_check
+    raise RuntimeError(err_msg) from e
+RuntimeError: Unable to load cuSPARSE. Is it installed?

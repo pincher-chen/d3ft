@@ -1,0 +1,50 @@
+{
+  "Al": {
+    "folder": "references/Al",
+    "files": {
+      "summary.json": "8b52b333745c7fe5e0819c1eb1da4248e60dda77540a0b38741ede945a7ec6c0",
+      "spectrum.npz": "c59c9b9e57fc121440a0809602f32c0449b876017c4a48d60ea443be9519b012",
+      "rho.cube": "17b3bc3f4ddab8281f2ddb4ceb1a522b54516cebbc376729dd1051d33edbfddd"
+    }
+  },
+  "Si": {
+    "folder": "references/Si",
+    "files": {
+      "summary.json": "9e7bb1517f7abdf7f3c36b3c9f9a180ade08ff838e167af0214ce98926b8b73e",
+      "spectrum.npz": "02a6451ceaf86ef283bc735667a07fc7d23c4888bf34407ccd22a1ed08de0ffd",
+      "rho.cube": "a1ff169a295c92a95a2aea5124c38a9e71563faf422e1bd1bcdd3a700e301564"
+    }
+  },
+  "SiC": {
+    "folder": "references/SiC",
+    "files": {
+      "summary.json": "1382ac91203fe12a6ae1ed839e664bcd38f4ba4969951caaad3761adf319ee06",
+      "spectrum.npz": "608b5f4e2dc70f9b7649852955d7ed544731d41f1442f3ed7a23fe420383c38e",
+      "rho.cube": "42d75251a62792be241c58d523ef0c1abda19c6dfdcdd01326754b5b8d6c802a"
+    }
+  },
+  "SiC_distorted": {
+    "folder": "references/SiC_distorted",
+    "files": {
+      "summary.json": "578694446d93528abe1d33b274186d923a72b99f45124a6dc18eb9bc50796c58",
+      "spectrum.npz": "f730136e7aea6c552225e64885f8fd52acff79278e7fde9f901497b2e89fb93b",
+      "rho.cube": "11fd5f2bf0be4b255e3cd67d5e81d7068620cf898a108853cf4ebb3f381ee19e"
+    }
+  },
+  "GaAs": {
+    "folder": "references/GaAs",
+    "files": {
+      "summary.json": "cf5baceebc019f674e68935d0c79336618cbf55242f14da21bce252bf06b4082",
+      "spectrum.npz": "cb8b9576397d1d069d34863f1d2e300a86f270b73bfc059e501a84756d24bc78",
+      "rho.cube": "ae2ca31eae290533ddca0b5053f9134ed55e33a5bf92b8f3d536364441e6f80e"
+    }
+  },
+  "Na": {
+    "folder": "references/Na",
+    "files": {
+      "summary.json": "4051b6e9949d645d4005aa303c7aa7ac5b8a289bd26d66cda64752f9bc9277cb",
+      "spectrum.npz": "a6f75fd53e4b8f8338b2c801cbe564c1253c2714f52449064cdf27094020cc68",
+      "rho.cube": "de4f0f155b68c7aa9afff62616064120fc3a787f4ebf8793a3f99a5e9e359d04"
+    }
+  }
+}

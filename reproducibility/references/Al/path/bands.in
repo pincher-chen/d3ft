@@ -1,0 +1,86 @@
+&control
+ calculation='nscf', prefix='calc', outdir='./tmp', pseudo_dir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/Al', verbosity='high'
+/
+&system
+ ibrav=0, nat=4, ntyp=1, ecutwfc=60, ecutrho=240, nbnd=40,
+ input_dft='SLA PW', occupations='smearing', smearing='fd', degauss=.02,
+ nosym=.true., noinv=.true.,nr1=64,nr2=64,nr3=64,nr1s=64,nr2s=64,nr3s=64
+/
+&electrons
+ conv_thr=1d-11, electron_maxstep=200, mixing_beta=.5, diagonalization='david', startingpot='file',startingwfc='atomic+random', diago_thr_init=1d-11
+/
+CELL_PARAMETERS angstrom
+4.05 0.0 0.0
+0.0 4.05 0.0
+0.0 0.0 4.05
+ATOMIC_SPECIES
+Al 26.9815385 Al.pz-vbc.UPF
+ATOMIC_POSITIONS crystal
+Al 0 0 0
+Al 0 0.5 0.5
+Al 0.5 0 0.5
+Al 0.5 0.5 0
+K_POINTS crystal
+62
+0 0 0 1
+0 0 0.05 1
+0 0 0.1 1
+0 0 0.15 1
+0 0 0.2 1
+0 0 0.25 1
+0 0 0.3 1
+0 0 0.35 1
+0 0 0.4 1
+0 0 0.45 1
+0 0 0.5 1
+0 0.05 0.5 1
+0 0.1 0.5 1
+0 0.15 0.5 1
+0 0.2 0.5 1
+0 0.25 0.5 1
+0 0.3 0.5 1
+0 0.35 0.5 1
+0 0.4 0.5 1
+0 0.45 0.5 1
+0 0.5 0.5 1
+0 0.45 0.45 1
+0 0.4 0.4 1
+0 0.35 0.35 1
+0 0.3 0.3 1
+0 0.25 0.25 1
+0 0.2 0.2 1
+0 0.15 0.15 1
+0 0.09999999999999998 0.09999999999999998 1
+0 0.04999999999999999 0.04999999999999999 1
+0 0 0 1
+0.05 0.05 0.05 1
+0.1 0.1 0.1 1
+0.15 0.15 0.15 1
+0.2 0.2 0.2 1
+0.25 0.25 0.25 1
+0.3 0.3 0.3 1
+0.35 0.35 0.35 1
+0.4 0.4 0.4 1
+0.45 0.45 0.45 1
+0.5 0.5 0.5 1
+0.45 0.45 0.5 1
+0.4 0.4 0.5 1
+0.35 0.35 0.5 1
+0.3 0.3 0.5 1
+0.25 0.25 0.5 1
+0.2 0.2 0.5 1
+0.15 0.15 0.5 1
+0.09999999999999998 0.09999999999999998 0.5 1
+0.04999999999999999 0.04999999999999999 0.5 1
+0 0 0.5 1
+0 0.5 0.5 1
+0.05 0.5 0.5 1
+0.1 0.5 0.5 1
+0.15 0.5 0.5 1
+0.2 0.5 0.5 1
+0.25 0.5 0.5 1
+0.3 0.5 0.5 1
+0.35 0.5 0.5 1
+0.4 0.5 0.5 1
+0.45 0.5 0.5 1
+0.5 0.5 0.5 1

@@ -1,0 +1,32 @@
+{
+  "status": "selected_by_user",
+  "rule": "A_after_anneal",
+  "source": "stable_exact001",
+  "switch_after_steps": 1000,
+  "stable_algebra_retained": true,
+  "delta_Ha": 0.001,
+  "epoch": 1791550868.829702,
+  "development_evidence": [
+    {
+      "seed": 201,
+      "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gate_ablation_20261009/metadata/task_GaAs_A_after_anneal_s201.json",
+      "record_sha256": "64fad4b6f027c6910a0e02d217a20abf5112c3caf76bf8555ba41043ee562eeb",
+      "first_qualified_audit_steps": 4000
+    },
+    {
+      "seed": 202,
+      "task_record": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/gaas_gate_ablation_20261009/metadata/task_GaAs_A_after_anneal_s202.json",
+      "record_sha256": "8d26516050df8dc37836115c10ae36d3ff45679f391be08ae9ac2059033994ee",
+      "first_qualified_audit_steps": 4000
+    }
+  ],
+  "seed204_used_to_choose": false,
+  "remaining_B8000_s201": "finish naturally, no dependency",
+  "main_release_policy": "Freeze immediately; run three regressions; pass releases existing75 (including3 regressions). NewGaAs1001\u20131003+PH pair parallel; failures preserved, no rollback or retuning; nodehn48 isolated.",
+  "explicit_user_authorization": "User chose rule A, approved stable algebra matching actual A ablation, approved3freshGaAs seeds and same-seed PH pairs, and immediate relay resume without waiting B8000 or fresh validation.",
+  "fresh_GaAs_seeds": [
+    1001,
+    1002,
+    1003
+  ]
+}

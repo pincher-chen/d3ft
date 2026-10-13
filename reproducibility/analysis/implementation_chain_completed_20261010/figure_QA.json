@@ -1,0 +1,13 @@
+{
+  "minimum_font_pt": 8,
+  "width_mm": 88.9,
+  "source_sha256": "89f9939e4373a29be3e2fde20f94f0ed3e42b837094bff394af4ce9ac585510d",
+  "out_of_canvas": [],
+  "observations": "One eligible1000-update measurement per point; no statistical CI inferred",
+  "exports": [
+    "pdf",
+    "svg",
+    "png",
+    "tiff"
+  ]
+}

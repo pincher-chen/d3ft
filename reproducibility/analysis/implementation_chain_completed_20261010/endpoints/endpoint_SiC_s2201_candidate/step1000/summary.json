@@ -1,0 +1,38 @@
+{
+  "id": "matched_SiC_postkp_fd_lr0.1_s2201_endpoint_SiC_s2201_candidate_segment0_to1000_eb8",
+  "scope": "matched pilot, not KKT-certified",
+  "iterations": 1000,
+  "energy_Ha": -9.639596207182459,
+  "free_energy_Ha": -10.266165582573459,
+  "free_energy_physical_Ha": -9.640080101418524,
+  "jrystal_entropy_constant": 62.46455245066521,
+  "temperature_Ha": 0.010023052380778996,
+  "charge": 8.0,
+  "expected_electrons": 8,
+  "minimum_f": 4.856064499056305e-26,
+  "maximum_f": 0.07407407407407407,
+  "capacity": 0.07407407407407407,
+  "wall_seconds": 96.951513804961,
+  "initial": {
+    "physical_orbital_sha256": "962b572ebcf1f0fbefd9ebe79aea599ed2406b3ede80c5780cc460ded617f031",
+    "occupation_sha256": "bb632a7450f43735c11d6fdd0dbcfa072cd863d67ff00289b617839ec7d940be",
+    "restart_state_sha256": null
+  },
+  "warmup_seconds": 0.0,
+  "warmup_includes_compile_and_one_step": false,
+  "cold_first_solve": true,
+  "timing_scope": "Cold process solve including compilation; sampled fixed-budget endpoint, not exact first-hit time. Endpoint/spectral checks separately recorded.",
+  "device_allocator_memory_stats_after_solve": {
+    "num_allocs": 37439,
+    "bytes_in_use": 63305728,
+    "peak_bytes_in_use": 5721587200,
+    "largest_alloc_size": 5519931136,
+    "bytes_limit": 63876857856,
+    "bytes_reserved": 0,
+    "peak_bytes_reserved": 0,
+    "largest_free_block_bytes": 0,
+    "pool_bytes": 9128902656,
+    "peak_pool_bytes": 9128902656
+  },
+  "last_recorded_energy_Ha": -9.639587033246512
+}

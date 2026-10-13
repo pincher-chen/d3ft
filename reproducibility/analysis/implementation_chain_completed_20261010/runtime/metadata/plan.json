@@ -1,0 +1,40 @@
+{
+  "policy": "three-layer implementation equivalence; stepwise failures retained",
+  "new_seeds": [
+    2201,
+    2202
+  ],
+  "oracle_materials": [
+    "Al",
+    "Si",
+    "SiC",
+    "GaAs"
+  ],
+  "random_states_each_material_phase": 50,
+  "phases": [
+    "PH",
+    "corrected"
+  ],
+  "relative_tolerance": 1e-13,
+  "endpoint_materials": [
+    "Al",
+    "SiC",
+    "GaAs"
+  ],
+  "endpoint_max_steps": 20000,
+  "audit_interval": 4000,
+  "pair_thresholds": {
+    "free_energy_Ha_cell": 1e-08,
+    "density_L1_per_electron": 1e-06,
+    "mesh_gap_eV": 0.001
+  },
+  "pair_threshold_basis": "Use internal numerical F/density scales; gap criterion1meV matches reference band accuracy scale (additional endpoint-pair test, not part of historical8+3).",
+  "B1_bands": [
+    26,
+    52,
+    104,
+    208,
+    416
+  ],
+  "historical_failures_unchanged": true
+}

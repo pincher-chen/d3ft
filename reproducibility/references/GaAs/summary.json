@@ -1,0 +1,155 @@
+{
+  "complete": true,
+  "material": "GaAs",
+  "name": "QE_GaAs_g90_full",
+  "mode": "full_k_control",
+  "job": "250212",
+  "node": "hn48",
+  "ranks": 6,
+  "pools": 3,
+  "processor_ids": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "cold_scf_runs": [
+    {
+      "name": "scf",
+      "command": [
+        "mpirun",
+        "-np",
+        "6",
+        "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_box/qe-7.5/bin_cpu_intel/bin/pw.x",
+        "-inp",
+        "scf.in",
+        "-npool",
+        "3"
+      ],
+      "start_epoch": 1791381125.3094108,
+      "status": "completed",
+      "seconds": 33.729516822844744,
+      "finish_epoch": 1791381159.0441575,
+      "exit_code": 0,
+      "F_Ha": -71.99851822204663,
+      "nks": 27,
+      "SCF_iterations": 11,
+      "xml_sha256": "2fe8104484f44322fc77519726d052b52b5cc16db4e6a8a38369a042812bfa28"
+    },
+    {
+      "name": "scf",
+      "command": [
+        "mpirun",
+        "-np",
+        "6",
+        "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_box/qe-7.5/bin_cpu_intel/bin/pw.x",
+        "-inp",
+        "scf.in",
+        "-npool",
+        "3"
+      ],
+      "start_epoch": 1791381159.0950267,
+      "status": "completed",
+      "seconds": 36.22203304315917,
+      "finish_epoch": 1791381195.3230398,
+      "exit_code": 0,
+      "F_Ha": -71.99851822204663,
+      "nks": 27,
+      "SCF_iterations": 11,
+      "xml_sha256": "b773e36b6fd80d657e3ad672f751ef68cb5ca3dc422602d5ac64d6873e7ec874"
+    },
+    {
+      "name": "scf",
+      "command": [
+        "mpirun",
+        "-np",
+        "6",
+        "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_box/qe-7.5/bin_cpu_intel/bin/pw.x",
+        "-inp",
+        "scf.in",
+        "-npool",
+        "3"
+      ],
+      "start_epoch": 1791381195.3753226,
+      "status": "completed",
+      "seconds": 37.266489026136696,
+      "finish_epoch": 1791381232.64836,
+      "exit_code": 0,
+      "F_Ha": -71.99851822204663,
+      "nks": 27,
+      "SCF_iterations": 11,
+      "xml_sha256": "1fbab2a13ca88a2593429ef9b9dfcbfdad105a57cee93769f1d387e44c81b7f9"
+    }
+  ],
+  "cold_scf_seconds_median": 36.22203304315917,
+  "pp_seconds": 1.3114860788919032,
+  "nscf_seconds": 24.729803832015023,
+  "free_energy_Ha": -71.99851822204663,
+  "physical_temperature_Ha": 0.01,
+  "nelectrons": 18.0,
+  "charge": 17.99999999998025,
+  "FD_error": 2.55351295663786e-15,
+  "forces_Ha_Bohr": [
+    [
+      -6.90853763768742e-08,
+      8.32911727483069e-09,
+      1.039982127648091e-07
+    ],
+    [
+      6.90853763768742e-08,
+      -8.329117274830691e-09,
+      -1.039982127648091e-07
+    ]
+  ],
+  "bands": 25,
+  "cutoff_Ha": 100,
+  "fft_grid": [
+    90,
+    90,
+    90
+  ],
+  "kmesh": 3,
+  "input": {
+    "atoms": 2,
+    "valence_electrons": 18,
+    "cell_A": [
+      [
+        0,
+        2.874616476099,
+        2.874616476099
+      ],
+      [
+        2.874616476099,
+        0,
+        2.874616476099
+      ],
+      [
+        2.874616476099,
+        2.874616476099,
+        0
+      ]
+    ],
+    "structure_sha256": "a4f1b586cf3bbd417914e5ef5b4b9a517348ece83364b613dbcece856033df53",
+    "pseudopotentials": {
+      "Ga": "2fb4076be45921f041484b6051130a03e77bc17b903fc19d178075cbad87c860",
+      "As": "c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4"
+    },
+    "kmesh": 3,
+    "cutoff_Ha": 100,
+    "represented_bands": 17,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "temperature_Ha": 0.01,
+    "fft_mesh": [
+      90,
+      90,
+      90
+    ],
+    "scope": "Fresh joint FD finite-T test including Ga 3d semicore; distinct from historical fixed-occupation k6/grid72/XC144."
+  },
+  "structure": "GaAs.xyz",
+  "structure_sha256": "a4f1b586cf3bbd417914e5ef5b4b9a517348ece83364b613dbcece856033df53",
+  "concurrent_node_load": true,
+  "timing_scope": "Cold SCF including MPI startup; PP export and posterior NSCF separate; shared node load"
+}

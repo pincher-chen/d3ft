@@ -1,0 +1,38 @@
+{
+  "id": "matched_Al_postkp_fd_lr0.1_s2201_endpoint_Al_s2201_candidate_segment1_to4000_eb8",
+  "scope": "matched pilot, not KKT-certified",
+  "iterations": 3000,
+  "energy_Ha": -8.286115082234375,
+  "free_energy_Ha": -8.694208948590337,
+  "free_energy_physical_Ha": -8.306046527476767,
+  "jrystal_entropy_constant": 38.816242111356935,
+  "temperature_Ha": 0.01,
+  "charge": 12.0,
+  "expected_electrons": 12,
+  "minimum_f": 2.5901001864043266e-20,
+  "maximum_f": 0.25,
+  "capacity": 0.25,
+  "wall_seconds": 63.085524204187095,
+  "initial": {
+    "physical_orbital_sha256": "a91115a76dc835ab9ed2eea41c7666303fe41c33869d2216be0c485bd450f886",
+    "occupation_sha256": "81f3e17adb4621d549a0fed3de00f3e546ccfb05d1b54b06f6ab95d0e44645d5",
+    "restart_state_sha256": "1c895dea3854b34976c691056eeb6aa110f7631d4dc00f625cf8966a9e1ee486"
+  },
+  "warmup_seconds": 0.0,
+  "warmup_includes_compile_and_one_step": false,
+  "cold_first_solve": true,
+  "timing_scope": "Cold process solve including compilation; sampled fixed-budget endpoint, not exact first-hit time. Endpoint/spectral checks separately recorded.",
+  "device_allocator_memory_stats_after_solve": {
+    "num_allocs": 103838,
+    "bytes_in_use": 36318720,
+    "peak_bytes_in_use": 2265837056,
+    "largest_alloc_size": 2147483648,
+    "bytes_limit": 63876857856,
+    "bytes_reserved": 0,
+    "peak_bytes_reserved": 0,
+    "largest_free_block_bytes": 0,
+    "pool_bytes": 4565499904,
+    "peak_pool_bytes": 4565499904
+  },
+  "last_recorded_energy_Ha": -8.286115082234375
+}

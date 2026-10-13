@@ -1,0 +1,137 @@
+{
+  "gpu_tasks": [
+    {
+      "kind": "gpu",
+      "material": "Si",
+      "seed": 201,
+      "source": "roundoff",
+      "orbital": "postkp",
+      "lr": 0.1,
+      "occupation_lr": 1.0,
+      "temperature": 0.01,
+      "initial_temperature": 0.1,
+      "anneal_steps": 1000,
+      "grid": 80,
+      "empty_bands": 8,
+      "audit_bands": 32,
+      "reference": "QE_Si8_Gamma_full",
+      "allowed_job": "250285",
+      "start_mode": "cold",
+      "prefix_steps": 0,
+      "name": "Si8_memory_roundoff",
+      "role": "runtime_memory_preflight",
+      "steps": 20,
+      "max_phases": 1,
+      "smoke": true,
+      "record_work": true,
+      "staged_gap": false
+    },
+    {
+      "kind": "gpu",
+      "material": "Si",
+      "seed": 201,
+      "source": "stable_exact001",
+      "orbital": "postkp",
+      "lr": 0.1,
+      "occupation_lr": 10.0,
+      "temperature": 0.01,
+      "initial_temperature": 0.1,
+      "anneal_steps": 1000,
+      "grid": 80,
+      "empty_bands": 8,
+      "audit_bands": 32,
+      "reference": "QE_Si8_Gamma_full",
+      "allowed_job": "250285",
+      "start_mode": "cold",
+      "prefix_steps": 0,
+      "name": "Si8_memory_stable_exact001",
+      "role": "runtime_memory_preflight",
+      "steps": 20,
+      "max_phases": 1,
+      "smoke": true,
+      "record_work": true,
+      "staged_gap": false
+    },
+    {
+      "kind": "gpu",
+      "material": "Si",
+      "seed": 201,
+      "source": "roundoff",
+      "orbital": "postkp",
+      "lr": 0.1,
+      "occupation_lr": 1.0,
+      "temperature": 0.01,
+      "initial_temperature": 0.1,
+      "anneal_steps": 1000,
+      "grid": 80,
+      "empty_bands": 8,
+      "audit_bands": 32,
+      "reference": "QE_Si8_Gamma_full",
+      "allowed_job": "250285",
+      "start_mode": "cold",
+      "prefix_steps": 0,
+      "name": "Si8_final_cold_s201",
+      "role": "scale_cold",
+      "steps": 4000,
+      "max_phases": 5,
+      "staged_gap": true,
+      "post_gate_source": "stable_exact001",
+      "post_gate_occupation_lr": 10.0,
+      "switch_after_steps": 1000,
+      "depends_completed": [
+        "Si8_memory_roundoff",
+        "Si8_memory_stable_exact001",
+        "QE_Si8_Gamma_full"
+      ]
+    }
+  ],
+  "cpu_tasks": [
+    {
+      "name": "QE_Si8_Gamma_full",
+      "kind": "cpu",
+      "role": "own_QE_reference",
+      "material": "Si",
+      "structure": "Si.xyz",
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "temperature": 0.01,
+      "bands": 32,
+      "symmetry": false,
+      "repetitions": 1,
+      "allowed_job": "250285"
+    }
+  ],
+  "sources": {
+    "stable_exact001": "b0839aedc0cf4cd4d6ea8cbad713dea46c6313f68515e4edb394930a96685fa4",
+    "roundoff": "a45b508a69d39a9f02c248ec3511e1c9e4c381e8385a2d2cc7fc380d9ddd656a",
+    "norecycle_stable_exact001": "afa4751ade658b0471d21c80e43ec5d34bfe040df1735e100439c20d92aa5911",
+    "electronsum": "c6ceef6449ccffc993da0cc50a6e92943bd02e8ea60b4fe34052e86f1bf8a162"
+  },
+  "first_gpu_tasks": {
+    "250285": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "gap_gate": null,
+  "reference_tolerances": {
+    "free_energy_Ha_cell": 0.0001,
+    "aligned_band_MAE_eV": 0.001,
+    "density_L1_per_electron": 0.0002
+  },
+  "reference_force_tolerance_eV_A": 0.001,
+  "acoustic_tolerance_eV_A": 0.001,
+  "FD_force_tolerance_eV_A": 0.0001,
+  "reference_scope": "Own matching SG15/QE Gamma reference. T.01Ha, noSOC, PBE; strict thresholds unchanged.",
+  "never_cancel_allocation": true,
+  "Si64_scope": "One update for measured memory/runtime only; no full solve or scientific acceptance."
+}

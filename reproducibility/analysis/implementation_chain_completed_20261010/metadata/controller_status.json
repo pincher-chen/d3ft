@@ -1,0 +1,230 @@
+{
+  "status": "completed",
+  "job": "250212",
+  "node": "hn48",
+  "started_epoch": 1791607960.303282,
+  "coordinator_pid": 1931425,
+  "endpoint_timing_experiment": false,
+  "children": [
+    {
+      "gpu": 0,
+      "pid": 1931886,
+      "cpu_ids": [
+        0,
+        1,
+        2,
+        3,
+        64,
+        65,
+        66,
+        67
+      ],
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "gpu": 1,
+      "pid": 1931887,
+      "cpu_ids": [
+        4,
+        5,
+        6,
+        7,
+        68,
+        69,
+        70,
+        71
+      ],
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "gpu": 2,
+      "pid": 1931888,
+      "cpu_ids": [
+        32,
+        33,
+        34,
+        35,
+        96,
+        97,
+        98,
+        99
+      ],
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "gpu": 3,
+      "pid": 1931889,
+      "cpu_ids": [
+        36,
+        37,
+        38,
+        39,
+        100,
+        101,
+        102,
+        103
+      ],
+      "status": "completed",
+      "exit_code": 0
+    }
+  ],
+  "endpoint_gate": {
+    "complete": true,
+    "passed": true,
+    "pairs": [
+      {
+        "material": "Al",
+        "seed": 2201,
+        "arm_status": [
+          "completed",
+          "completed"
+        ],
+        "each_endpoint8plus3_passed": true,
+        "passed": true,
+        "initial_hashes_match": true,
+        "F_difference_Ha_cell": 1.7763568394002505e-15,
+        "density_L1_per_electron": 1.6406258837799321e-16,
+        "gap_difference_eV": 3.552713678800501e-15,
+        "accepted_steps": [
+          4000,
+          4000
+        ],
+        "tests": {
+          "F": true,
+          "density": true,
+          "gap": true,
+          "initial": true
+        }
+      },
+      {
+        "material": "Al",
+        "seed": 2202,
+        "arm_status": [
+          "completed",
+          "completed"
+        ],
+        "each_endpoint8plus3_passed": true,
+        "passed": true,
+        "initial_hashes_match": true,
+        "F_difference_Ha_cell": 0.0,
+        "density_L1_per_electron": 1.381611780454817e-16,
+        "gap_difference_eV": 8.881784197001252e-16,
+        "accepted_steps": [
+          4000,
+          4000
+        ],
+        "tests": {
+          "F": true,
+          "density": true,
+          "gap": true,
+          "initial": true
+        }
+      },
+      {
+        "material": "SiC",
+        "seed": 2201,
+        "arm_status": [
+          "completed",
+          "completed"
+        ],
+        "each_endpoint8plus3_passed": true,
+        "passed": true,
+        "initial_hashes_match": true,
+        "F_difference_Ha_cell": 1.7763568394002505e-15,
+        "density_L1_per_electron": 2.314267299455218e-16,
+        "gap_difference_eV": 2.0872192862952943e-14,
+        "accepted_steps": [
+          4000,
+          4000
+        ],
+        "tests": {
+          "F": true,
+          "density": true,
+          "gap": true,
+          "initial": true
+        }
+      },
+      {
+        "material": "SiC",
+        "seed": 2202,
+        "arm_status": [
+          "completed",
+          "completed"
+        ],
+        "each_endpoint8plus3_passed": true,
+        "passed": true,
+        "initial_hashes_match": true,
+        "F_difference_Ha_cell": 0.0,
+        "density_L1_per_electron": 1.6995380559675216e-16,
+        "gap_difference_eV": 1.3766765505351941e-14,
+        "accepted_steps": [
+          4000,
+          4000
+        ],
+        "tests": {
+          "F": true,
+          "density": true,
+          "gap": true,
+          "initial": true
+        }
+      },
+      {
+        "material": "GaAs",
+        "seed": 2201,
+        "arm_status": [
+          "completed",
+          "completed"
+        ],
+        "each_endpoint8plus3_passed": true,
+        "passed": true,
+        "initial_hashes_match": true,
+        "F_difference_Ha_cell": 0.0,
+        "density_L1_per_electron": 9.488961087774381e-17,
+        "gap_difference_eV": 2.2648549702353193e-14,
+        "accepted_steps": [
+          4000,
+          4000
+        ],
+        "tests": {
+          "F": true,
+          "density": true,
+          "gap": true,
+          "initial": true
+        }
+      },
+      {
+        "material": "GaAs",
+        "seed": 2202,
+        "arm_status": [
+          "completed",
+          "completed"
+        ],
+        "each_endpoint8plus3_passed": true,
+        "passed": true,
+        "initial_hashes_match": true,
+        "F_difference_Ha_cell": 1.4210854715202004e-14,
+        "density_L1_per_electron": 8.454422614723109e-17,
+        "gap_difference_eV": 1.5126788710517758e-15,
+        "accepted_steps": [
+          4000,
+          4000
+        ],
+        "tests": {
+          "F": true,
+          "density": true,
+          "gap": true,
+          "initial": true
+        }
+      }
+    ],
+    "thresholds": {
+      "free_energy_Ha_cell": 1e-08,
+      "density_L1_per_electron": 1e-06,
+      "mesh_gap_eV": 0.001
+    }
+  },
+  "finished_epoch": 1791617330.6700926
+}

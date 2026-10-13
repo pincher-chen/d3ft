@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": {
+    "XC_QE_agreement": true,
+    "independent_diagnostic_core_agreement": true,
+    "density_sphere_zero": true,
+    "charge_G0_agreement": true,
+    "finite": true
+  },
+  "XC_candidate_Ha": -0.5480241108687312,
+  "XC_QE_Ha": -0.5480241131548873,
+  "XC_difference_Ha": 2.2861561532749874e-09,
+  "XC_tolerance_Ha": 1e-06,
+  "core_vs_independent_diagnostic_max_abs": 1.0408340855860843e-17,
+  "core_integral_electrons": 1.0769667568785428,
+  "source_tree_sha256": "b211079939f7c30a974558815de063c986e75b6ae200f3778352afd39b3371d8",
+  "upf_sha256": "4d14faed79693354066feb70eb628a3d760707552951be4add2727d2d7ec6c90",
+  "conditions": {
+    "geometry": "bcc Na2 a=4.23A, exact QE XML cell",
+    "kmesh": "2x2x2 Gamma",
+    "cutoff_Ha": 30,
+    "density_cutoff_Ha": 120,
+    "fft": [
+      64,
+      64,
+      64
+    ],
+    "temperature_Ha": 0.01,
+    "xc": "lda_x+lda_c_pw",
+    "density": "Original converged QE SCF density; no optimization/refitting"
+  },
+  "finish_epoch": 1791647285.0594547
+}

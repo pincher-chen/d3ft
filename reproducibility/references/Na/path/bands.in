@@ -1,0 +1,84 @@
+&control
+ calculation='nscf',prefix='calc',outdir='./tmp',pseudo_dir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/bands_all_20261013/inputs/Na',verbosity='high',tprnfor=.true.,tstress=.true.
+/
+&system
+ ibrav=0,nat=2,ntyp=1,ecutwfc=60,ecutrho=240,nbnd=40,
+ input_dft='SLA PW',occupations='smearing',smearing='fd',degauss=0.02,
+ nosym=.true., noinv=.true.,nr1=64,nr2=64,nr3=64,nr1s=64,nr2s=64,nr3s=64
+/
+&electrons
+ conv_thr=1d-12,electron_maxstep=300,mixing_beta=.5,diagonalization='cg',diago_cg_maxiter=1000,startingpot='file',startingwfc='atomic+random',diago_thr_init=1d-11
+/
+CELL_PARAMETERS angstrom
+4.23 0.0 0.0
+0.0 4.23 0.0
+0.0 0.0 4.23
+ATOMIC_SPECIES
+Na 22.98976928 Na.pz-n-vbc.UPF
+ATOMIC_POSITIONS angstrom
+Na 0.0 0.0 0.0
+Na 2.115 2.115 2.115
+K_POINTS crystal
+62
+0 0 0 1
+0 0 0.05 1
+0 0 0.1 1
+0 0 0.15 1
+0 0 0.2 1
+0 0 0.25 1
+0 0 0.3 1
+0 0 0.35 1
+0 0 0.4 1
+0 0 0.45 1
+0 0 0.5 1
+0 0.05 0.5 1
+0 0.1 0.5 1
+0 0.15 0.5 1
+0 0.2 0.5 1
+0 0.25 0.5 1
+0 0.3 0.5 1
+0 0.35 0.5 1
+0 0.4 0.5 1
+0 0.45 0.5 1
+0 0.5 0.5 1
+0 0.45 0.45 1
+0 0.4 0.4 1
+0 0.35 0.35 1
+0 0.3 0.3 1
+0 0.25 0.25 1
+0 0.2 0.2 1
+0 0.15 0.15 1
+0 0.09999999999999998 0.09999999999999998 1
+0 0.04999999999999999 0.04999999999999999 1
+0 0 0 1
+0.05 0.05 0.05 1
+0.1 0.1 0.1 1
+0.15 0.15 0.15 1
+0.2 0.2 0.2 1
+0.25 0.25 0.25 1
+0.3 0.3 0.3 1
+0.35 0.35 0.35 1
+0.4 0.4 0.4 1
+0.45 0.45 0.45 1
+0.5 0.5 0.5 1
+0.45 0.45 0.5 1
+0.4 0.4 0.5 1
+0.35 0.35 0.5 1
+0.3 0.3 0.5 1
+0.25 0.25 0.5 1
+0.2 0.2 0.5 1
+0.15 0.15 0.5 1
+0.09999999999999998 0.09999999999999998 0.5 1
+0.04999999999999999 0.04999999999999999 0.5 1
+0 0 0.5 1
+0 0.5 0.5 1
+0.05 0.5 0.5 1
+0.1 0.5 0.5 1
+0.15 0.5 0.5 1
+0.2 0.5 0.5 1
+0.25 0.5 0.5 1
+0.3 0.5 0.5 1
+0.35 0.5 0.5 1
+0.4 0.5 0.5 1
+0.45 0.5 0.5 1
+0.5 0.5 0.5 1

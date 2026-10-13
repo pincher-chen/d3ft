@@ -1,0 +1,7 @@
+material,seed,arm_status,each_endpoint8plus3_passed,passed,initial_hashes_match,F_difference_Ha_cell,density_L1_per_electron,gap_difference_eV,accepted_steps,tests
+Al,2201,"['completed', 'completed']",True,True,True,1.7763568394002505e-15,1.6406258837799321e-16,3.552713678800501e-15,"[4000, 4000]","{'F': True, 'density': True, 'gap': True, 'initial': True}"
+Al,2202,"['completed', 'completed']",True,True,True,0.0,1.381611780454817e-16,8.881784197001252e-16,"[4000, 4000]","{'F': True, 'density': True, 'gap': True, 'initial': True}"
+SiC,2201,"['completed', 'completed']",True,True,True,1.7763568394002505e-15,2.314267299455218e-16,2.0872192862952943e-14,"[4000, 4000]","{'F': True, 'density': True, 'gap': True, 'initial': True}"
+SiC,2202,"['completed', 'completed']",True,True,True,0.0,1.6995380559675216e-16,1.3766765505351941e-14,"[4000, 4000]","{'F': True, 'density': True, 'gap': True, 'initial': True}"
+GaAs,2201,"['completed', 'completed']",True,True,True,0.0,9.488961087774381e-17,2.2648549702353193e-14,"[4000, 4000]","{'F': True, 'density': True, 'gap': True, 'initial': True}"
+GaAs,2202,"['completed', 'completed']",True,True,True,1.4210854715202004e-14,8.454422614723109e-17,1.5126788710517758e-15,"[4000, 4000]","{'F': True, 'density': True, 'gap': True, 'initial': True}"

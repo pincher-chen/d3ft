@@ -1,0 +1,40 @@
+D3FT — Direct Differentiable Density Functional Theory
+Copyright 2026 Pin Chen
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+------------------------------------------------------------------------------
+Third-party dependencies
+------------------------------------------------------------------------------
+
+This project builds on jrystal, a JAX plane-wave DFT package:
+
+    jrystal — https://github.com/sail-sg/jrystal
+    Copyright 2025 Garena Online Private Limited
+    Licensed under the Apache License, Version 2.0
+
+D3FT imports jrystal at runtime and does not redistribute its source. What it
+uses from jrystal is the infrastructure: plane-wave basis and coefficients,
+crystal and reciprocal-grid handling, FFT/braket helpers, kinetic and Hartree
+operators, exchange-correlation, the spherical Bessel transform, configuration
+and convergence utilities.
+
+The norm-conserving pseudopotential path is NOT taken from jrystal. D3FT carries
+its own implementation in d3ft/pseudopotential/, adapted from the corresponding
+jrystal modules (pseudopotential.local, .nloc, .beta, .nlcc, .spherical) and
+re-derived where those were incorrect for D3FT's purposes:
+
+  * the Kleinman-Bylander term is conjugated on the inner projection, so an
+    atom's projectors sit at +R rather than -R;
+  * the local-potential radial quadrature keeps the [0, r_1] interval;
+  * reciprocal-space norms and angles are NaN-safe under differentiation;
+  * beta_l(|G+k|) is evaluated inside the JAX graph so gradients reach the cell.
+
+d3ft/spectrum/ks_matvec.py likewise re-implements the Kohn-Sham
+Hamiltonian-vector product in matrix-free form.
+
+Release packaging 2026-10-13: this repository redistributes the exact JRystal runtime dependency under third_party/jrystal_dependency, with its Apache-2.0 LICENSE. The original runtime-only statement above describes the earlier repository. The current d3ft/ tree incorporates the independently validated NLCC repair; prior solver trees remain hash-addressed under reproducibility/versions.

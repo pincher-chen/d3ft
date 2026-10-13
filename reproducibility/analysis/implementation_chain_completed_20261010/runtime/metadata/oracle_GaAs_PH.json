@@ -1,0 +1,16 @@
+{
+  "material": "GaAs",
+  "phase": "PH",
+  "random_states_per_material_phase": 50,
+  "random_generator_seed": 75000,
+  "checkpoints": [
+    {
+      "name": "real_s301_step1000",
+      "path": "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/work/DFT/paper/jctc/final_validation_20261009/results/matched_GaAs_postkp_fd_lr0.1_s301_validation_GaAs_s301_segment0_to1000_g90_eb8/final_state.npz",
+      "sha256": "9f9e685d40d8402b08acfc498b0f4f3a90897901fb7677df9f3a54c223eebfa7",
+      "temperature_Ha": 0.010023052380778996,
+      "actual_checkpoint_source": "roundoff",
+      "task_metadata": "paper/jctc/final_validation_20261009/metadata/task_validation_GaAs_s301.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "figure": 4,
+  "scope": "Current functional package inputs; archived v1.0 manifest remains in its Git tag",
+  "files": {
+    "README.md": "5a55076a06db83ad4d07556c0c105df3f2cc0b0342085f6b32780af46efe35fa",
+    "data/Al/band_comparison.csv": "4421fa979761c1fa7472d365ae4cdb56b3b4ac2a104f1aa6782c26c7594a7b90",
+    "data/Al/path.json": "3c0fcb62037e7849428e6fc91ede2f0e54ea773498c801289ddb991c6d4c1fe9",
+    "data/GaAs/band_comparison.csv": "4a23e763dc122dd81c81b42cde24e2092e5c9849658bbe5c1ff7c89947ca7689",
+    "data/GaAs/path.json": "99c342ac725ed1b02e5ba7cbfe440b6fd6ebaf0ec0ea0d17152de42148295a44",
+    "data/Na/band_comparison.csv": "c6eebfbe497e5297472c75adc855fcd727de8d3adb09295435ebf541f4e445ec",
+    "data/Na/path.json": "be69bef310e66e1eaf49048ee45603192100bd14ea17863206f0f8c70ca0ab80",
+    "data/PROTOCOL.json": "e18cc019497b612193674682bed54c26451273111e2d42cff33e1c30335fce60",
+    "data/QA.json": "354a2bf91d8413f1cc0739de21c57896a5283780d3ad73c843ef8ad3e59275f5",
+    "data/SOURCES.json": "e4d07c941c470bac6ab0d0c9870a9d04d40af06626ffad65c2f4eac69b314e3f",
+    "data/Si/band_comparison.csv": "dfadbef85a26d0b5dac443b3dab6c84fb7bb9ca759b1b7d9630563e5b6bf12dc",
+    "data/Si/path.json": "b1044f4eb1aa7835fe04bee2c11475ccb6ebc6c879fe8d3f746b969643233760",
+    "data/SiC/band_comparison.csv": "771c7eb9ca10bebeb761ecbb8f8abd786ab4c388399ee6fbc988eceadaf33f0d",
+    "data/SiC/path.json": "1c4a7d49e4fd4bd55b063ce1aa3ccb87822e74afe22abc49d0753b428ddc3e89",
+    "data/summary.csv": "394f8fad03b0cf9af15e9ca4ae94b1dd03f9204f799d8340d30a7cb6796e89b7",
+    "script/plot_figure_ground_state_bands.py": "d8bb8ffcbb272d9ade14ae63044cb9ddea837473640941fec74dec95611ebfd9"
+  }
+}

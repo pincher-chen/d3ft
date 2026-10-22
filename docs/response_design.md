@@ -123,9 +123,12 @@ included separately from the single-device streamed route.
 
 ## Figures
 
-`Figures/response_design/Figure_1/` contains only the final hand-edited PDF and a
-README. No obsolete drawing source is presented as its generator. Figures2–5
-retain their actual numeric inputs, scripts, published source hashes and PDFs.
+`Figures/Figure_response_architecture/` contains only the final hand-edited PDF and a
+README. No obsolete drawing source is presented as its generator.
+`Figure_response_scaling`, `Figure_joint_design`, `Figure_bands_and_transfer` and
+`Figure_frozen_calibration` retain their actual numeric inputs, scripts, published
+source hashes and PDFs. The [figure index](../Figures/README.md) distinguishes these
+from earlier ground-state packages; all directories use function names.
 The supplemental structure panel has the true three archived cells and an OVITO
 CPU renderer. Geometric neighbour lines are not electronic bond orders.
 

@@ -1,0 +1,121 @@
+{
+  "scope": "Function-named figure packages; no target-journal labels",
+  "collections": [
+    {
+      "directory": "Figure_response_architecture",
+      "collection": "response-design",
+      "description": "Electronic response and design architecture",
+      "pdf": "Figure_response_architecture.pdf",
+      "manual": true,
+      "former_branch_path": "Figures/response_design/Figure_1"
+    },
+    {
+      "directory": "Figure_response_scaling",
+      "collection": "response-design",
+      "description": "Derivative agreement and input-count cost scaling",
+      "pdf": "Figure_response_scaling.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/response_design/Figure_2",
+      "script": "script/plot_figure_response_scaling.py"
+    },
+    {
+      "directory": "Figure_joint_design",
+      "collection": "response-design",
+      "description": "Joint strain and internal-coordinate gap design",
+      "pdf": "Figure_joint_design.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/response_design/Figure_3",
+      "script": "script/plot_figure_joint_design.py"
+    },
+    {
+      "directory": "Figure_bands_and_transfer",
+      "collection": "response-design",
+      "description": "Electronic bands, sampled-gap transfer and deformation response",
+      "pdf": "Figure_bands_and_transfer.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/response_design/Figure_4",
+      "script": "script/plot_figure_bands_and_transfer.py"
+    },
+    {
+      "directory": "Figure_frozen_calibration",
+      "collection": "response-design",
+      "description": "Frozen functional calibration and external evaluation",
+      "pdf": "Figure_frozen_calibration.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/response_design/Figure_5",
+      "script": "script/plot_figure_frozen_calibration.py"
+    },
+    {
+      "directory": "Figure_mgsin2_structures",
+      "collection": "response-design",
+      "description": "Archived MgSiN2 start and endpoint structures",
+      "pdf": "Figure_mgsin2_structures.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/response_design/Supplementary_structures",
+      "script": "script/plot_figure_mgsin2_structures.py"
+    },
+    {
+      "directory": "Figure_self_diagonalization",
+      "collection": "ground-state",
+      "description": "Hamiltonian self-diagonalization and commutator",
+      "pdf": "Figure_self_diagonalization.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_1",
+      "script": "script/plot_figure_self_diagonalization.py"
+    },
+    {
+      "directory": "Figure_occupations",
+      "collection": "ground-state",
+      "description": "Occupations versus Fermi\u2013Dirac",
+      "pdf": "Figure_occupations.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_2",
+      "script": "script/plot_figure_occupations.py"
+    },
+    {
+      "directory": "Figure_stopping_criteria",
+      "collection": "ground-state",
+      "description": "Variance stopping criteria and independent acceptance checks",
+      "pdf": "Figure_stopping_criteria.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_3",
+      "script": "script/plot_figure_stopping_criteria.py"
+    },
+    {
+      "directory": "Figure_ground_state_bands",
+      "collection": "ground-state",
+      "description": "Five-system posterior band comparison with Quantum ESPRESSO",
+      "pdf": "Figure_ground_state_bands.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_4",
+      "script": "script/plot_figure_ground_state_bands.py"
+    },
+    {
+      "directory": "Figure_metric_components",
+      "collection": "ground-state",
+      "description": "GaAs metric components and independent seeds",
+      "pdf": "Figure_metric_components.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_5",
+      "script": "script/plot_figure_metric_components.py"
+    },
+    {
+      "directory": "Figure_solver_cost",
+      "collection": "ground-state",
+      "description": "Cost per update and occupation-layer scaling",
+      "pdf": "Figure_solver_cost.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_6",
+      "script": "script/plot_figure_solver_cost.py"
+    },
+    {
+      "directory": "Figure_sodium_bands",
+      "collection": "ground-state",
+      "description": "Sodium band comparison",
+      "pdf": "Figure_sodium_bands.pdf",
+      "manual": false,
+      "former_branch_path": "Figures/Figure_S1",
+      "script": "script/plot_figure_sodium_bands.py"
+    }
+  ]
+}

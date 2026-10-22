@@ -1,4 +1,14 @@
-# Physical test cases
+# Example collections
+
+The current response/design catalogue is [`response_design/cases.json`](response_design/cases.json).
+Use `python scripts/run_response.py --list` or the [response workflow guide](../docs/response_design.md).
+It uses fixed occupations and its own physical settings; the finite-temperature
+ground-state settings below do not apply to that catalogue.
+
+## Earlier ground-state test cases
+
+The following retained records and drivers describe the earlier release.
+For its exact executable environment and frozen runtime, use tag `v1.0`.
 
 These are executable reproduction cases, not newly tuned examples. Exact cells and atomic coordinates are in `reproducibility/inputs/structures/`; controls and audit counts are in `cases.json`. All cases are spin-restricted, use equal weights on full Γ-centered k meshes, and use a physical temperature of 0.01 Ha. The FD coordinate temperature is 0.1 Ha.
 
@@ -17,4 +27,4 @@ Inspect without computation: `python scripts/run_case.py SiC_distorted --dry-run
 
 Saved small endpoint records are under `reproducibility/records/<case>/`: config, original source provenance, summary, 8 internal checks, independent spectral audit and original task metadata (including all original stages). Complete wavefunction checkpoints and Ritz vectors remain in the original experimental archive and are not included in Git; this runner regenerates them from cold start. Compact eigenvalues/occupations are included. Original absolute paths in records document provenance and need not exist on a user's machine.
 
-Independent audits compare more bands than the Table1 band count. Gap values are finite-temperature, no-SOC, discrete-mesh KS gaps, not experimental or continuum-BZ gaps. High-symmetry path data and path definitions are included with Figure4.
+Independent audits compare more bands than the Table1 band count. Gap values are finite-temperature, no-SOC, discrete-mesh KS gaps, not experimental or continuum-BZ gaps. High-symmetry path data and path definitions are included in [`Figure_ground_state_bands`](../Figures/Figure_ground_state_bands/).

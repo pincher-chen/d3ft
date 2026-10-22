@@ -1,4 +1,15 @@
-# Reproduction workflow
+# Reproducibility collections
+
+For the current response/design source, real Gamma restart seed and recorded
+campaigns, see [`response_design/`](response_design/) and the
+[response workflow guide](../docs/response_design.md).
+
+The sections below document the **earlier ground-state release**. Its solver
+identity hashes and historical paths belong to `v1.0`; check out that tag for
+the exact earlier executable runtime. They do not describe the current root solver.
+The current branch inventory is `provenance/RESPONSE_DESIGN_MANIFEST.json`.
+
+## Earlier ground-state workflow
 
 ## Solver identity
 
@@ -36,7 +47,7 @@ python scripts/run_qe.py Si --pw /path/to/pw.x --output runs/QE_Si --mpi mpirun 
 
 ## Figures and implementation evidence
 
-CPU figure reproduction uses only `Figures/Figure_N/data/`. Numerical comparison tables, NLCC scope, Si8/16/32 supercell summaries and implementation equivalence evidence are under `analysis/`.
+CPU figure reproduction uses only the corresponding functional package under `Figures/`. Numerical comparison tables, NLCC scope, Si8/16/32 supercell summaries and implementation equivalence evidence are under `analysis/`.
 
 Optional `implementation/production_candidate.py` retains the original PH-prefix executable and substitutes gather only for corrected-phase Armijo trial coefficient expansion. It is an implementation optimization of the same algorithm, not a new metric. The operator/objective/physical-endpoint evidence and original stepwise failures are retained in `analysis/implementation_chain_completed_20261010/`; do not infer bitwise identical full trajectories at numerical stationary points. Validation results remain attributed to the frozen implementation.
 
@@ -44,11 +55,11 @@ Raw checkpoints, full Slurm logs, failures, reference save files and historical 
 
 ## Independent high-symmetry path spectra
 
-After a cold reproduction passes, its final state can be used with the same 40-band independent eigsh/Ritz procedure as Figure4:
+After a cold reproduction passes, its final state can be used with the same 40-band independent eigsh/Ritz procedure as `Figure_ground_state_bands`:
 
 ```bash
 python scripts/runtime.py paper_frozen reproducibility/scripts/band_path.py --case Si --state runs/Si_s301/results/YOUR_ACCEPTED_STATE --output runs/Si_path
 # For Na use version current (validated NLCC correction).
 ```
 
-The script keeps the saved density fixed, reads the local Figure4 path coordinates, uses tol=1e-11/ncv=120/maxiter=3000, and rejects unresolved Ritz states or an insufficient high-band buffer. It records all Ritz residuals and physical/source metadata per point. Optional --lane/--lanes partitions points across independent visible GPUs; no Slurm submission occurs. The exact existing QE path inputs and spectra are included below references; to recompute those NSCFs, start with the same regenerated SCF save, use its unchanged density and archived path input.
+The script keeps the saved density fixed, reads the local `Figure_ground_state_bands` path coordinates, uses tol=1e-11/ncv=120/maxiter=3000, and rejects unresolved Ritz states or an insufficient high-band buffer. It records all Ritz residuals and physical/source metadata per point. Optional --lane/--lanes partitions points across independent visible GPUs; no Slurm submission occurs. The exact existing QE path inputs and spectra are included below references; to recompute those NSCFs, start with the same regenerated SCF save, use its unchanged density and archived path input.

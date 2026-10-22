@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "scope": "Function-name relocation and CPU plotting entrypoints only; no new DFT/GPU calculations",
+  "figure_packages": 13,
+  "numerical_packages_replotted": 11,
+  "manual_architecture": "PDF and README only; authoritative PDF bytes unchanged",
+  "optional_OVITO_structure_renderer": "Paths and syntax checked; existing rendered PDF/data bytes unchanged; no new OVITO render needed",
+  "source_index_note": "Legacy metric derived CSV has null source hash; its bytes are preserved and verified by current complete inventory",
+  "checks": [
+    {
+      "package": "Figure_response_scaling",
+      "collection": "response-design",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_joint_design",
+      "collection": "response-design",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_bands_and_transfer",
+      "collection": "response-design",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_frozen_calibration",
+      "collection": "response-design",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_self_diagonalization",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_occupations",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_stopping_criteria",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_ground_state_bands",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_metric_components",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_solver_cost",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    },
+    {
+      "package": "Figure_sodium_bands",
+      "collection": "ground-state",
+      "rendered_pdf_exists": true
+    }
+  ]
+}

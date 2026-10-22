@@ -29,7 +29,7 @@ material=a.case
 C=json.loads((REPO/'examples/cases.json').read_text())[material]
 M=dict(grid=C['grid'],charge_e={'Al':12,'Na':2,'Si':8,'SiC':8,'GaAs':18}[material],bands_solved=40,bands_compared=C['represented_bands'],NLCC=material=='Na')
 GLOBAL=dict(ncv=120,eigsh_tol=1e-11,maxiter=3000,maximum_Ritz_residual_Ha=1e-8)
-P=json.loads((REPO/'Figures/Figure_4/data'/material/'path.json').read_text())
+P=json.loads((REPO/'Figures/Figure_ground_state_bands/data'/material/'path.json').read_text())
 lane=a.lane;points=list(range(lane,P['points'],a.lanes))
 assert len(jax.devices())==1 and jax.devices()[0].platform=='gpu'
 R=a.output.resolve()

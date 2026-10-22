@@ -56,7 +56,7 @@ acceptance, checkpoint handling and limitations.
 | `validation/workflows/response_design/` | Gamma/k-mesh response, design, ionic-relaxation, fitting, spectra and verification source |
 | `examples/response_design/` | Geometries, pseudopotentials, case catalogue and bounded-design settings |
 | `reproducibility/response_design/` | Scientific protocols, accepted/unsuccessful outcomes, CPU checks and the representative Gamma restart seed |
-| `Figures/response_design/` | Latest figures; numeric source data and plotting code for Figures2–5 |
+| [`Figures/`](Figures/README.md) | Function-named response/design figures and clearly identified earlier ground-state figures |
 | `provenance/RESPONSE_DESIGN_MANIFEST.json` | Distributed-source/data SHA256 inventory |
 
 The extended workers and campaign records are included, but not every large
@@ -67,9 +67,12 @@ queue for somebody else's allocation.
 
 ## Figures
 
-**Figure1 is a manually edited architecture diagram. Only its final PDF and a
+**[Response architecture](Figures/Figure_response_architecture/) is a manually edited diagram. Only its final PDF and a
 README are supplied. No obsolete script, draft image or data is claimed to
-regenerate it.** Figures2–5 have their own data, scripts and source manifests.
+regenerate it.** The response-scaling, joint-design, bands/transfer and frozen-calibration packages have their own data, scripts and source manifests.
+
+All figure folders use functional names; [the index](Figures/README.md) distinguishes
+response-design results from retained ground-state benchmarks. There is no shared figure-number namespace.
 The supplemental structure rendering includes the exact three cells and an
 optional OVITO CPU renderer.
 

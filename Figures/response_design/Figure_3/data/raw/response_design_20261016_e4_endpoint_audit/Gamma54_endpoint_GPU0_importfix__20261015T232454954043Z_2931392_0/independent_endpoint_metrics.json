@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "metrics": {
+    "step": 3,
+    "gap_eV": 4.510987707318551,
+    "energy_Ha": -313.35447346751084,
+    "energy_change_eV": -0.007584326489762122,
+    "energy_change_meV_atom": -0.47402040561013264,
+    "max_single_atom_force_Ha_Bohr": 0.019508911614364164,
+    "max_single_atom_force_eV_A": 1.0031889345231637,
+    "max_force_component_Ha_Bohr": 0.01665806428005434,
+    "max_force_component_eV_A": 0.8565924171813795,
+    "nearest_distance_A": 1.7361032724413403,
+    "nearest_distance_ratio": 0.9962863084659113,
+    "max_internal_displacement_A": 0.003515875615392125,
+    "RMS_internal_displacement_A": 0.002045696846680295,
+    "max_total_cartesian_displacement_A": 0.02806816916948915,
+    "RMS_total_cartesian_displacement_A": 0.019204468481488695,
+    "total_strain_norm": 0.005725775027590957,
+    "internal_translation_residual_Bohr": 6.505213034913027e-19,
+    "residual_Ha": 3.8807477683848815e-09,
+    "ASR_Ha_Bohr": 7.166475404427053e-09,
+    "structural_equilibrium_claim": false
+  },
+  "checks": {
+    "reoptimized": true,
+    "finite": true,
+    "stationary": true,
+    "ASR": true,
+    "charge": true,
+    "eigenpairs": true,
+    "branch": true,
+    "energy": true,
+    "distances": true,
+    "volume": true,
+    "force_cap": true,
+    "target": true,
+    "independent_gap_drift": true
+  },
+  "numerical": {
+    "complete": true,
+    "passed": true,
+    "missing": [],
+    "tests": {
+      "charge_error": true,
+      "orbital_orthonormality_max": true,
+      "orbital_outside_max_Ha": true,
+      "orbital_commutator_max_Ha": true,
+      "occupation_max_error": true,
+      "maximum_ritz_residual_Ha": true,
+      "spectral_update_density_L1_per_electron": true,
+      "spectral_update_free_energy_change_abs_Ha": true
+    },
+    "thresholds": {
+      "charge_error": 1e-10,
+      "orbital_orthonormality_max": 1e-10,
+      "orbital_outside_max_Ha": 1e-06,
+      "orbital_commutator_max_Ha": 1e-06,
+      "occupation_max_error": 1e-06,
+      "maximum_ritz_residual_Ha": 1e-08,
+      "spectral_update_density_L1_per_electron": 1e-06,
+      "spectral_update_free_energy_change_abs_Ha": 1e-08
+    },
+    "scope": "Registered numerical gates; not ionic equilibrium, global minimum, or experimental accuracy."
+  },
+  "audit_GPU_hours": 0.7253601542285953,
+  "structural_equilibrium_claim": false
+}

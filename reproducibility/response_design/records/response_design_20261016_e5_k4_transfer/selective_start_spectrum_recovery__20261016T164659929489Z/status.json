@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-17T00:49:38.837749+08:00",
+  "stage": "failed_or_budget_limited",
+  "jobid": 250285,
+  "requested_gpus": [
+    0,
+    1,
+    2
+  ],
+  "controller_pid": 1474697,
+  "GPU_budget": 60,
+  "active_GPU_hours_completed": 30.315532903444055,
+  "exclusive_reserved_GPU_hours": 0.04571861113984293,
+  "passed": null,
+  "classification": "infrastructure_or_budget_unresolved",
+  "error": "RuntimeError('start_64k_spectra child failed; preserve all partial records')"
+}

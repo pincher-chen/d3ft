@@ -1,0 +1,79 @@
+{
+  "time": "2026-10-15T06:38:59.777219",
+  "GPUs": [
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "epochs": 4000,
+  "prior_GPU_hours": 0.675745505,
+  "cap_GPU_hours": 22,
+  "retained_successes": [
+    {
+      "direction": 0,
+      "h": 0.002,
+      "sign": -1,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/mg_fd_d0_h0.002_s-1"
+    }
+  ],
+  "remaining_tasks": [
+    {
+      "direction": 0,
+      "h": 0.002,
+      "sign": 1
+    },
+    {
+      "direction": 0,
+      "h": 0.001,
+      "sign": -1
+    },
+    {
+      "direction": 0,
+      "h": 0.001,
+      "sign": 1
+    },
+    {
+      "direction": 1,
+      "h": 0.002,
+      "sign": -1
+    },
+    {
+      "direction": 1,
+      "h": 0.002,
+      "sign": 1
+    },
+    {
+      "direction": 1,
+      "h": 0.001,
+      "sign": -1
+    },
+    {
+      "direction": 1,
+      "h": 0.001,
+      "sign": 1
+    },
+    {
+      "direction": 2,
+      "h": 0.002,
+      "sign": -1
+    },
+    {
+      "direction": 2,
+      "h": 0.002,
+      "sign": 1
+    },
+    {
+      "direction": 2,
+      "h": 0.001,
+      "sign": -1
+    },
+    {
+      "direction": 2,
+      "h": 0.001,
+      "sign": 1
+    }
+  ],
+  "gate_electronic_Ha": 1e-08
+}

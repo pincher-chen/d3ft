@@ -1,0 +1,415 @@
+{
+  "time": "2026-10-16T03:45:16.809481+08:00",
+  "project": "${D3FT_ROOT}",
+  "previous_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/runtime",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPYCACHEPREFIX": "/dev/shm/response_design_e0_alp_new_retry1/pycache",
+    "CUDA_ROOT": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "CUDA_VISIBLE_DEVICES": "5",
+    "D3FT_FUSE_FINAL_DENSITY": "1",
+    "D3FT_REFERENCE_ROOT": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft",
+    "JAX_PLATFORMS": "cuda",
+    "LD_LIBRARY_PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cublas/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cupti/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cudnn/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cufft/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusolver/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusparse/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvshmem/lib:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/chenp/cutensor-2.3.1/lib:/APP/u22/ai_x86/CUDA/12.2/extras/CUPTI/lib64:/APP/u22/ai_x86/CUDA/12.2/lib64:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/xiean/proj/OODCGNEval_H100/models/potnet/functions/gsl/lib/",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc/bin:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.codex/tmp/arg0/codex-arg0i3ERdZ:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.npm-global/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.juliaup/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.nvm/versions/node/v20.20.2/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/condabin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/micromamba/2.1.1/bin:/APP/u22/ai_x86/CUDA/12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PRECALC_BETA_SERIAL": "1",
+    "PYTHONPATH": "${D3FT_ROOT}/validation/results/response_design_20261014_e0_migration/runtime_tail:${D3FT_ROOT}/third_party/jrystal_dependency",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "XLA_PYTHON_CLIENT_ALLOCATOR": "platform",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/dev/shm/response_design_e0_alp_new_retry1",
+    "JAX_COMPILATION_CACHE_DIR": "/dev/shm/response_design_e0_alp_new_retry1/jax_cache",
+    "D3FT_TRACE_STAGES": "1",
+    "D3FT_PHASE3_RESULTS_ROOT": "${D3FT_ROOT}/validation/results/response_design_20261001_resource_handoff/unused_legacy_results",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "JAX_COMPILATION_CACHE_MAX_SIZE": "0"
+  },
+  "jrystal": "${D3FT_ROOT}/third_party/jrystal_dependency",
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "jobid": 250285,
+  "gpus": [
+    7
+  ],
+  "tasks": [
+    {
+      "h": 0.001,
+      "sign": 1,
+      "nu": 0.001,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0",
+      "source_state_sha256": "d131cab967ce3f19d1a40eab1af1aa0530668b9803ca9d5fe26f1b13c33ccbaf",
+      "spectrum_protocol": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/protocol.json",
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k0__20261015T180518688320Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k1__20261015T180518695677Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k2__20261015T180518701452Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k3__20261015T180518707092Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k4__20261015T180518712030Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k5__20261015T180518717618Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k6__20261015T180518723087Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k7__20261015T180518728199Z_2244567_0"
+      ],
+      "existing_spectra": [
+        {
+          "k": 0,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k0__20261015T180518688320Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.705289234555593e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 1,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k1__20261015T180518695677Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.701517664004739e-11,
+          "orthogonality_max": 2.1094237467877974e-15
+        },
+        {
+          "k": 2,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k2__20261015T180518701452Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.981473054282854e-11,
+          "orthogonality_max": 2.4424906541753444e-15
+        },
+        {
+          "k": 3,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k3__20261015T180518707092Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.200101049773191e-11,
+          "orthogonality_max": 1.9984014443252818e-15
+        },
+        {
+          "k": 4,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k4__20261015T180518712030Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.569332304500072e-11,
+          "orthogonality_max": 2.7755575615628914e-15
+        },
+        {
+          "k": 5,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k5__20261015T180518717618Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.373285142333795e-11,
+          "orthogonality_max": 2.4424906541753444e-15
+        },
+        {
+          "k": 6,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k6__20261015T180518723087Z_2244567_0",
+          "passed": false,
+          "max_residual_Ha": 1.528519399759696e-08,
+          "orthogonality_max": 2.220446049250313e-15
+        },
+        {
+          "k": 7,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k7__20261015T180518728199Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.995424252783056e-11,
+          "orthogonality_max": 1.9984014443252818e-15
+        }
+      ]
+    },
+    {
+      "h": 0.001,
+      "sign": -1,
+      "nu": -0.001,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0",
+      "source_state_sha256": "ab45497d0ad7c6be5e1056d72867a0c6b9a72b57795143db80c2936c78cd795a",
+      "spectrum_protocol": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/protocol.json",
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k0__20261015T144432441627Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k1__20261015T144432448363Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k2__20261015T144432452421Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k3__20261015T144432456448Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k4__20261015T144432459388Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k5__20261015T144432463023Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k6__20261015T144432465933Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k7__20261015T144432470289Z_2244567_0"
+      ],
+      "existing_spectra": [
+        {
+          "k": 0,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k0__20261015T144432441627Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.155161921280535e-11,
+          "orthogonality_max": 2.886579864025407e-15
+        },
+        {
+          "k": 1,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k1__20261015T144432448363Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 7.199895189055753e-11,
+          "orthogonality_max": 2.7755575615628914e-15
+        },
+        {
+          "k": 2,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k2__20261015T144432452421Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.432514970896206e-11,
+          "orthogonality_max": 2.886579864025407e-15
+        },
+        {
+          "k": 3,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k3__20261015T144432456448Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.936781861838496e-11,
+          "orthogonality_max": 3.1086244689504383e-15
+        },
+        {
+          "k": 4,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k4__20261015T144432459388Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 7.629304978525469e-11,
+          "orthogonality_max": 2.886579864025407e-15
+        },
+        {
+          "k": 5,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k5__20261015T144432463023Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.608983359343299e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 6,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k6__20261015T144432465933Z_2244567_0",
+          "passed": false,
+          "max_residual_Ha": 5.944774399581136e-07,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 7,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k7__20261015T144432470289Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.835459414836674e-11,
+          "orthogonality_max": 2.220446049250313e-15
+        }
+      ]
+    },
+    {
+      "h": 0.002,
+      "sign": -1,
+      "nu": -0.002,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0",
+      "source_state_sha256": "32d09c5434e1a80d7d6d5b3de0463e0aef15dfe1c9a49d4fd9b72157b5b7cb0f",
+      "spectrum_protocol": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/protocol.json",
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k0__20261015T081612444359Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k1__20261015T081612451777Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k2__20261015T081612457787Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k3__20261015T081612462985Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k4__20261015T081612468743Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k5__20261015T081612473950Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k6__20261015T081612480882Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k7__20261015T081612487208Z_2244567_0"
+      ],
+      "existing_spectra": [
+        {
+          "k": 0,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k0__20261015T081612444359Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.635104752342063e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 1,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k1__20261015T081612451777Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.179077662346744e-11,
+          "orthogonality_max": 2.4424906541753444e-15
+        },
+        {
+          "k": 2,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k2__20261015T081612457787Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.518567908455957e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 3,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k3__20261015T081612462985Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.978033509526861e-11,
+          "orthogonality_max": 3.9968028886505635e-15
+        },
+        {
+          "k": 4,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k4__20261015T081612468743Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.937289828276265e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 5,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k5__20261015T081612473950Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 7.652278816163447e-11,
+          "orthogonality_max": 3.3306690738754696e-15
+        },
+        {
+          "k": 6,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k6__20261015T081612480882Z_2244567_0",
+          "passed": false,
+          "max_residual_Ha": 7.785584696106639e-07,
+          "orthogonality_max": 1.5543122344752192e-15
+        },
+        {
+          "k": 7,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k7__20261015T081612487208Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.943904537580404e-11,
+          "orthogonality_max": 1.9984014443252818e-15
+        }
+      ]
+    },
+    {
+      "h": 0.002,
+      "sign": 1,
+      "nu": 0.002,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0",
+      "source_state_sha256": "bb5d7046f787f9ba626a1f3e6535395f8ac7670c03966dacfcb3c3b861841164",
+      "spectrum_protocol": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/protocol.json",
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k0__20261015T113320530517Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k1__20261015T113320535888Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k2__20261015T113320540905Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k3__20261015T113320545675Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k4__20261015T113320549803Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k5__20261015T113320554528Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k6__20261015T113320558323Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k7__20261015T113320562017Z_2244567_0"
+      ],
+      "existing_spectra": [
+        {
+          "k": 0,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k0__20261015T113320530517Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 7.724258223330137e-11,
+          "orthogonality_max": 2.4424906541753444e-15
+        },
+        {
+          "k": 1,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k1__20261015T113320535888Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.323891990698305e-11,
+          "orthogonality_max": 2.3314683517128287e-15
+        },
+        {
+          "k": 2,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k2__20261015T113320540905Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.762835239465805e-11,
+          "orthogonality_max": 3.1086244689504383e-15
+        },
+        {
+          "k": 3,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k3__20261015T113320545675Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.557912377534902e-11,
+          "orthogonality_max": 2.55351295663786e-15
+        },
+        {
+          "k": 4,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k4__20261015T113320549803Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.334603072009558e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 5,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k5__20261015T113320554528Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 8.920133569941898e-11,
+          "orthogonality_max": 2.6645352591003757e-15
+        },
+        {
+          "k": 6,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k6__20261015T113320558323Z_2244567_0",
+          "passed": false,
+          "max_residual_Ha": 2.057478983279276e-07,
+          "orthogonality_max": 2.886579864025407e-15
+        },
+        {
+          "k": 7,
+          "directory": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k7__20261015T113320562017Z_2244567_0",
+          "passed": true,
+          "max_residual_Ha": 9.739435527869647e-11,
+          "orthogonality_max": 2.220446049250313e-15
+        }
+      ]
+    }
+  ],
+  "prior_GPU_hours": 13.284695604183684,
+  "GPU_hours_cap": 60,
+  "spectrum_timeout_seconds": 5400,
+  "spectrum_maxiter": 1200,
+  "spectrum_tolerance": 1e-10,
+  "Ritz_gate_Ha": 1e-09,
+  "orthogonality_gate": 1e-10,
+  "theta0": [
+    0.003,
+    -0.002,
+    0.001,
+    0.002,
+    -0.001,
+    0.0015,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "base_response_file": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/single_full_online_inner__20261015T112227441397Z_3971234_0/full_single_adjoint_forward__20261015T112235114845Z_3972077_0/result.json",
+  "base_response_sha256": "330b198223bf998da215f6a2fbcef9b8672fde4fb8650b5e409e731dd03cec59",
+  "base_source": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/kweight_fix_20261015_121439/mg_k2_correct_weight_scf4000__20261015T042629498319Z_1825388_0",
+  "base_source_state_sha256": "a52f50b380e5ff2b76b37ef4dd01d63af6969917d5b87aa7eefb0a2fc6f4f23c",
+  "reference_definition": "dEg/dlnV, fixed fractional positions; Gamma direct and fundamental gap recorded separately",
+  "old_failure_retained": true,
+  "E5_release_gate": "four native SCFs, all32 strict spectra, isolated consistent hard-gap branch, both h/h2 vs adjoint within original 3e-5+.002*abs(adjoint)",
+  "no_full_SCF_recalculation": true
+}

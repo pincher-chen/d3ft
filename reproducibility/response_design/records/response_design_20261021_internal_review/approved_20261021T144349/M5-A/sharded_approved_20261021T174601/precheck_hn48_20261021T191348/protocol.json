@@ -1,0 +1,49 @@
+{
+  "registered_at": "2026-10-21T19:13:48.173367+08:00",
+  "authority": "Claude/User2026-10-21 19:12 monitoring decision",
+  "node": "hn48",
+  "jobid": 275669,
+  "gpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "full_Mg64k_response_forbidden": true,
+  "no_formal_timing": true,
+  "fixture": {
+    "nk": 32,
+    "ng": 27,
+    "occupied_bands": 2,
+    "spectrum_bands": 4,
+    "fft_grid": [
+      3,
+      3,
+      3
+    ],
+    "k_per_device": 8,
+    "seed": 20261015,
+    "checks": "common-density/coupledHessian/nonzeroPCG/realinner/globalreduce+12syntheticdirections vsindependentCPUarrays"
+  },
+  "acceptance": {
+    "array_absolute_error": 2e-10,
+    "inner_absolute_plus_relative": [
+      1e-09,
+      1e-11
+    ],
+    "all4devicearrayownership": true
+  },
+  "memory_estimate": "Tinyarrays(<1MiB), expectCUDAcontext/compile only a fewGiB/device; ifsingledeviceinsufficient or semanticschange required, do notexecute and retain originalhn35gate",
+  "timeout_seconds": 600,
+  "budget": {
+    "shared_M5_cap_GPU_hours": 35,
+    "historical_used_GPU_hours": 5.342458353572422,
+    "max_probe_GPU_hours_with_cleanup": 0.6944444444444444
+  },
+  "stopping": "ActualGPUlayout/numerical failure retained,no64kproductionlaunched; skiporiginal8cardgate onlywithverifiedpassingexternalcertificate. Ifunsupported resource/mathsemantics means noexecution, retain original8cardpreflight.",
+  "on_success": "M2terminal+hn35all8idle ->direct64kfullresponse, no repeatedsynthetic8cardprobe; originalMgprimal/memory/first2PCGNumPyinnerchecks remain",
+  "production_math_unchanged": true,
+  "base_original_protocol": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M5-A/sharded_approved_20261021T174601/protocol.json",
+  "script": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M5-A/sharded_approved_20261021T174601/precheck_hn48_20261021T191348/check_layout_4devices.py",
+  "script_SHA256": "5e498774c352c3a804ec690d09eef7817fc77cb621cc1ec6be41bbffefec1f07"
+}

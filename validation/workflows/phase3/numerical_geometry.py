@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 
 
-REFERENCE = Path('/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft/software/jrystal/jrystal/_src')
+REFERENCE = Path('${D3FT_ROOT}/third_party/jrystal_dependency/jrystal/_src')
 
 
 def dependency_constants():

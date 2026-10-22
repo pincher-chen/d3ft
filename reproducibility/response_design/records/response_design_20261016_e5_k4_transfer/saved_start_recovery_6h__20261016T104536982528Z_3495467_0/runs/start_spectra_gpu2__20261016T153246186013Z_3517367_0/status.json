@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "stage": "local_spectra_running",
+  "completed": [
+    2,
+    10,
+    18,
+    26
+  ],
+  "total_requested": 8
+}

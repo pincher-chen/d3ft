@@ -1,0 +1,21 @@
+{
+  "lattice_row_vectors_A": [
+    [
+      5.309718500114,
+      0.003907477249,
+      -0.002623359436
+    ],
+    [
+      0.004778584962,
+      6.462956099861,
+      0.006381271126
+    ],
+    [
+      -0.002483572067,
+      0.004939958618,
+      5.01443787162
+    ]
+  ],
+  "source": "endpoint_input.xyz",
+  "positions": "fig3_structure_source.csv positions are the affinely deformed start; arrows are nonaffine internal displacements."
+}

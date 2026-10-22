@@ -1,0 +1,239 @@
+{
+  "time": "2026-10-16T07:59:39.710476+08:00",
+  "project": "${D3FT_ROOT}",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/runtime",
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPYCACHEPREFIX": "/dev/shm/response_design_e0_alp_new_retry1/pycache",
+    "CUDA_ROOT": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "CUDA_VISIBLE_DEVICES": "0,1",
+    "D3FT_FUSE_FINAL_DENSITY": "1",
+    "D3FT_REFERENCE_ROOT": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft",
+    "JAX_PLATFORMS": "cuda",
+    "LD_LIBRARY_PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cublas/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cupti/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cudnn/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cufft/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusolver/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusparse/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvshmem/lib:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/chenp/cutensor-2.3.1/lib:/APP/u22/ai_x86/CUDA/12.2/extras/CUPTI/lib64:/APP/u22/ai_x86/CUDA/12.2/lib64:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/xiean/proj/OODCGNEval_H100/models/potnet/functions/gsl/lib/",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc/bin:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.codex/tmp/arg0/codex-arg0i3ERdZ:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.npm-global/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.juliaup/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.nvm/versions/node/v20.20.2/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/condabin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/micromamba/2.1.1/bin:/APP/u22/ai_x86/CUDA/12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PRECALC_BETA_SERIAL": "1",
+    "PYTHONPATH": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runtime:${D3FT_ROOT}/third_party/jrystal_dependency",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "XLA_PYTHON_CLIENT_ALLOCATOR": "platform",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/dev/shm/response_design_e0_alp_new_retry1",
+    "JAX_COMPILATION_CACHE_DIR": "/dev/shm/response_design_e0_alp_new_retry1/jax_cache",
+    "D3FT_TRACE_STAGES": "1",
+    "D3FT_PHASE3_RESULTS_ROOT": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "JAX_COMPILATION_CACHE_MAX_SIZE": "0"
+  },
+  "jrystal": "${D3FT_ROOT}/third_party/jrystal_dependency",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "baselines": {
+    "Si": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs/Si_cheap",
+    "BN": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs/BN_cheap",
+    "diamond": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs/diamond_cheap"
+  },
+  "settings": {
+    "Si": {
+      "cutoff_Ha": 50,
+      "grid": 60,
+      "k": 8,
+      "xc_grid_factor": 1,
+      "strain_step": 0.005
+    },
+    "BN": {
+      "cutoff_Ha": 100,
+      "grid": 60,
+      "k": 8,
+      "xc_grid_factor": 4,
+      "strain_step": 0.0025
+    },
+    "diamond": {
+      "cutoff_Ha": 100,
+      "grid": 60,
+      "k": 8,
+      "xc_grid_factor": 1,
+      "strain_step": 0.0025
+    }
+  },
+  "references": {
+    "Si": {
+      "a0_A": 5.430941
+    },
+    "BN": {
+      "B_GPa": 381.1
+    },
+    "diamond": {
+      "a0_A": 3.566986,
+      "B_GPa": 442.3333333333333
+    }
+  },
+  "parameter_names": [
+    "x:kappa",
+    "x:mu",
+    "theta_p"
+  ],
+  "parameter_indices": [
+    5,
+    6,
+    1
+  ],
+  "parameter_scales": [
+    0.1,
+    0.02,
+    0.05
+  ],
+  "parameter_bounds": [
+    0.0804,
+    0.0219514973,
+    0.05
+  ],
+  "worker_timeout_seconds": 43200,
+  "epochs": 3000,
+  "max_attempts_per_fit": 3,
+  "max_updates_per_fit": 3,
+  "initial_damping": 1.0,
+  "initial_radius": 0.2,
+  "max_radius": 0.4,
+  "acceptance_rho": 0.1,
+  "trial_acceptance": "actual fresh reoptimized training DFT only",
+  "protocol_override": "Latest user explicitly fixes kappa/mu/theta_p in full and all3 folds, superseding per-fold third-parameter reselection",
+  "rank_deficient_fold": "regularized minimum-norm LM, identifiability flag false; no unique three-parameter claim",
+  "sealed_external_holdouts": [
+    "SiC",
+    "GaP"
+  ],
+  "external_holdouts_evaluated": false,
+  "nonzero_parameter_fine_validation_complete": false,
+  "baseline_hashes": {
+    "Si": {
+      "metadata.json": "17d9fd0d76ed9ff4c0bd5acc3e04cdf87fe586a356d7bd314d30325f91a3ea58",
+      "summary.json": "423270dbf9fc35ffc3ce48bb545800c08f856822c499cb87bb98b511a6f5e608",
+      "points.json": "b5f6c2c6f188e5d37424570e718d65d2974b783a31a105558cabbf87ab6ffeec",
+      "mask.npy": "b902093b22a051a2671321f9207ac7f6dea655b91efd88085bd97c8f030d2d88"
+    },
+    "BN": {
+      "metadata.json": "33890a27cbdc6e8ab49e9850c8be0f2910077bf7148bd733194844ff42b36ecf",
+      "summary.json": "2cb7b98d70ceb0f311818f475c7567fdc105f2705479a4eeb9da725bc10b49c2",
+      "points.json": "ddc3f443b96fdde85b4f99f7b000f8f8ad2084206d29ef81be1de795ef750c71",
+      "mask.npy": "ae0588e773a7f33816ce78c4e08536a31b36ab374e303c3f4ddda7699b56ac73"
+    },
+    "diamond": {
+      "metadata.json": "181d0310fadca239072fb40d06e6a7b391a647c0be548427edf45223cd2ad848",
+      "summary.json": "3e9d255ea6b253c99ad9c57006aa8619d123eb68439a700c9ace9b65ede4e55f",
+      "points.json": "d59fd206df2fe40605d0b02e3ef18d06920c600dbb96504f51d77cb777e1df61",
+      "mask.npy": "82343e0c14dd71e564e863b3a82271b02d80d7732e3dfd262a477d3557d2d738"
+    }
+  },
+  "E7_total_GPU_hour_cap": 400,
+  "priority_dependency_index": "${D3FT_ROOT}/validation/results/response_design_20261016_e5_k4_transfer/active_transfer.json",
+  "gate_E5_before_training": true,
+  "priority_policy": "E5 finalized, dynamic eight-card allocation250285 only; independent full+3LOO; no E5extra optimization",
+  "previous_CPU_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/checkpoint_timeout_adopt_for_E5__20261016T105022675313Z_3516751_0",
+  "estimated_worker_seconds_by_material": {
+    "Si": 6082.482035691151,
+    "BN": 5160.93609036901,
+    "diamond": 9434.69273187709
+  },
+  "adopted_running_wave": [],
+  "adopted_vector": [
+    0.0,
+    -0.007868869578510565,
+    0.0,
+    0.0,
+    0.0,
+    -0.005637815702332204,
+    -0.0021958014512437176
+  ],
+  "opportunistic_until_E5_ready": false,
+  "E5_other_gpus": [
+    0,
+    1,
+    5,
+    6,
+    7
+  ],
+  "seed_validated_states": [
+    {
+      "material": "BN",
+      "folder": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/three_material_fit_after_E5__20261016T051022200942Z_1089928_0/runs/full_trial0_BN__20261016T101320306122Z_1089969_0",
+      "vector": [
+        0.0,
+        -0.007868869578510565,
+        0.0,
+        0.0,
+        0.0,
+        -0.005637815702332204,
+        -0.0021958014512437176
+      ]
+    },
+    {
+      "material": "Si",
+      "folder": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/three_material_fit_after_E5__20261016T051022200942Z_1089928_0/runs/full_trial0_Si__20261016T101320301351Z_1089969_0",
+      "vector": [
+        0.0,
+        -0.007868869578510565,
+        0.0,
+        0.0,
+        0.0,
+        -0.005637815702332204,
+        -0.0021958014512437176
+      ]
+    },
+    {
+      "material": "diamond",
+      "folder": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/three_material_fit_after_E5__20261016T051022200942Z_1089928_0/runs/full_trial0_diamond__20261016T101320306673Z_1089969_0",
+      "vector": [
+        0.0,
+        -0.007868869578510565,
+        0.0,
+        0.0,
+        0.0,
+        -0.005637815702332204,
+        -0.0021958014512437176
+      ]
+    },
+    {
+      "material": "diamond",
+      "folder": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/opportunistic_point_boundary__20261016T134353658300Z_136320/runs/full_trial1_resume_diamond__20261016T220956995232Z_139162_0",
+      "vector": [
+        0.0,
+        -0.014427462294548122,
+        0.0,
+        0.0,
+        0.0,
+        -0.01781755313171213,
+        -0.00701075084865972
+      ]
+    },
+    {
+      "material": "BN",
+      "folder": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/opportunistic_point_boundary__20261016T134353658300Z_136320/runs/full_trial1_resume_BN__20261016T221008014590Z_139162_0",
+      "vector": [
+        0.0,
+        -0.014427462294548122,
+        0.0,
+        0.0,
+        0.0,
+        -0.01781755313171213,
+        -0.00701075084865972
+      ]
+    }
+  ],
+  "initial_training_GPU_hours": 0,
+  "dynamic_gpu_pool": true,
+  "selected_fit": "LOO_Si",
+  "shared_budget_file": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/shared_GPU_budget.json"
+}

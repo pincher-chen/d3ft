@@ -1,0 +1,10 @@
+{
+  "time": "2026-10-20T22:25:35.245718+08:00",
+  "stage": "complete",
+  "controller_pid": 3793387,
+  "GPU_hours": 14.661299149658944,
+  "node": "hn35",
+  "jobid": 250285,
+  "physical_gpu": 7,
+  "completed_modes": 8
+}

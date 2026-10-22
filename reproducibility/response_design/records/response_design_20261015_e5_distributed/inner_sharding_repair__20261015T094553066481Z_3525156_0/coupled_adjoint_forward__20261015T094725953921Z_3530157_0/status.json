@@ -1,0 +1,7 @@
+{
+  "time": "2026-10-15T18:09:45.721935",
+  "stage": "failed",
+  "jobid": "250285",
+  "step": "2510",
+  "error": "Invalid value received for the sharding argument. Expected values are `None`, `pjit.AUTO` or an instance of `jax.Sharding`. Got UnspecifiedValue of type <class 'jax._src.named_sharding.UnspecifiedValue'>"
+}

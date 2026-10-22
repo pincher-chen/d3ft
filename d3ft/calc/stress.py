@@ -143,6 +143,8 @@ def free_energy_at_strain(
         pot_loc = d3pp.potential_local_reciprocal(
             positions, g_vec, pseudopot.r_grid, pseudopot.local_potential_grid,
             pseudopot.local_potential_charge, vol, kmax=grid_kmax,
+            r_ab=(pseudopot.r_ab if any(x is not None for x in
+                  getattr(pseudopot,'core_charge_grid',[])) else None),
         )
         # Cutoff sphere, not the box; see d3ft.pseudopotential.nonlocal_. The
         # mask is on Miller indices and does not follow the cell, so the same

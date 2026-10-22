@@ -1,0 +1,399 @@
+{
+  "time": "2026-10-15T05:37:01.014249",
+  "stage": "development_validation",
+  "jobid": 250285,
+  "formal_timing_submitted": false,
+  "formal_timing_gate_PASS": false,
+  "geometry_interface_PASS": true,
+  "Si_mode_PASS": true,
+  "Si_coarse_FD_PASS": false,
+  "Si_refined_FD_PASS": true,
+  "Si_overall_derivative_PASS": true,
+  "Si_refinement": "Si_derivative_substep_PASS_with_FD_refinement",
+  "Mg_mode_memory_translation_PASS": true,
+  "Mg_mixed_FD_PASS": null,
+  "Mg_queue": {
+    "time": "2026-10-15T05:13:22.895187",
+    "jobid": 250285,
+    "formal_timing": false,
+    "stage": "Mg_54_mode_translation_memory_PASS_FD_pending",
+    "attempt": "refined",
+    "spent_GPU_hours": 11.606468688888889
+  },
+  "Mg_FD_queue": {
+    "time": "2026-10-15T05:36:45.745120",
+    "jobid": 250285,
+    "formal_timing": false,
+    "stage": "failed",
+    "attempt": "refined",
+    "error": "FD failed, retain existing tasks/results; no next wave: ['mg_fd_d0_h0.002_s+1']"
+  },
+  "measured_step_GPU_hours": 12.84249027070526,
+  "additional_or_inflight_GPU_hours_upper_bound": 0.3834880472222223,
+  "active_tags": [],
+  "commands": [
+    {
+      "tag": "mg_fd_d0_h0.002_s+1",
+      "jobid": 250285,
+      "gpu": 7,
+      "pid": 4718,
+      "status": "failed",
+      "GPU_hours": 0.2919277569444444
+    },
+    {
+      "tag": "mg_fd_d0_h0.002_s-1",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 4713,
+      "status": "completed",
+      "GPU_hours": 0.3838177480555556
+    },
+    {
+      "tag": "mg_forward_0",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3247805,
+      "status": "completed",
+      "GPU_hours": 3.513043826111111
+    },
+    {
+      "tag": "mg_forward_1",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3247811,
+      "status": "completed",
+      "GPU_hours": 3.9360704361111107
+    },
+    {
+      "tag": "mg_forward_2",
+      "jobid": 250285,
+      "gpu": 7,
+      "pid": 3247820,
+      "status": "completed",
+      "GPU_hours": 3.8514716255555554
+    },
+    {
+      "tag": "mg_reverse",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3247803,
+      "status": "completed",
+      "GPU_hours": 0.3058828011111111
+    },
+    {
+      "tag": "si_base",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3095619,
+      "status": "completed",
+      "GPU_hours": 0.047672354861990444
+    },
+    {
+      "tag": "si_base_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3107330,
+      "status": "completed",
+      "GPU_hours": 0.011062432695244854
+    },
+    {
+      "tag": "si_fd_d0_h0.001_s+1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3163701,
+      "status": "completed",
+      "GPU_hours": 0.03398335837552117
+    },
+    {
+      "tag": "si_fd_d0_h0.001_s+1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3173127,
+      "status": "completed",
+      "GPU_hours": 0.02463033029744919
+    },
+    {
+      "tag": "si_fd_d0_h0.001_s-1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3153549,
+      "status": "completed",
+      "GPU_hours": 0.03283337588945869
+    },
+    {
+      "tag": "si_fd_d0_h0.001_s-1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3160793,
+      "status": "completed",
+      "GPU_hours": 0.012777069123888698
+    },
+    {
+      "tag": "si_fd_d0_h0.002_s+1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3144317,
+      "status": "completed",
+      "GPU_hours": 0.03062170718583123
+    },
+    {
+      "tag": "si_fd_d0_h0.002_s+1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3150639,
+      "status": "completed",
+      "GPU_hours": 0.012478034101077356
+    },
+    {
+      "tag": "si_fd_d0_h0.002_s-1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3134326,
+      "status": "completed",
+      "GPU_hours": 0.0336044210405089
+    },
+    {
+      "tag": "si_fd_d0_h0.002_s-1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3141705,
+      "status": "completed",
+      "GPU_hours": 0.01038916168669756
+    },
+    {
+      "tag": "si_fd_d1_h0.001_s+1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3215442,
+      "status": "completed",
+      "GPU_hours": 0.027643063011087685
+    },
+    {
+      "tag": "si_fd_d1_h0.001_s+1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3221327,
+      "status": "completed",
+      "GPU_hours": 0.012408659603032801
+    },
+    {
+      "tag": "si_fd_d1_h0.001_s-1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3204785,
+      "status": "completed",
+      "GPU_hours": 0.025320147786082492
+    },
+    {
+      "tag": "si_fd_d1_h0.001_s-1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3210676,
+      "status": "completed",
+      "GPU_hours": 0.014324977394749618
+    },
+    {
+      "tag": "si_fd_d1_h0.002_s+1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3193714,
+      "status": "completed",
+      "GPU_hours": 0.031114253823632476
+    },
+    {
+      "tag": "si_fd_d1_h0.002_s+1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3201391,
+      "status": "completed",
+      "GPU_hours": 0.011176222331382128
+    },
+    {
+      "tag": "si_fd_d1_h0.002_s-1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3179821,
+      "status": "completed",
+      "GPU_hours": 0.03821210096143962
+    },
+    {
+      "tag": "si_fd_d1_h0.002_s-1_bands",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3190158,
+      "status": "completed",
+      "GPU_hours": 0.011809824780017759
+    },
+    {
+      "tag": "si_forward_retry1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3129449,
+      "status": "completed",
+      "GPU_hours": 0.020835697853342734
+    },
+    {
+      "tag": "si_full_acceptance_retry1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3224095,
+      "status": "failed",
+      "GPU_hours": 0.08770693983837392
+    },
+    {
+      "tag": "si_mode_check_retry1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3134291,
+      "status": "completed",
+      "GPU_hours": 0.0002228070838868411
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.00025_s+1",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3196421,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.034736496944444445
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.00025_s+1_bands",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3205602,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.012510992222222222
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.00025_s-1",
+      "jobid": 250285,
+      "gpu": 7,
+      "pid": 3183442,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.03612041277777778
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.00025_s-1_bands",
+      "jobid": 250285,
+      "gpu": 7,
+      "pid": 3193219,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.01389491861111111
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.0005_s+1",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3183436,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.03612339916666667
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.0005_s+1_bands",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3193218,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.013897596388888888
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.0005_s-1",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3183434,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.0361269825
+    },
+    {
+      "tag": "si_refined_fd_d0_h0.0005_s-1_bands",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3193217,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.013900071944444444
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.00025_s+1",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3208289,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.034730721666666665
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.00025_s+1_bands",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3218189,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.011115965833333333
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.00025_s-1",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3208288,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.03473377666666667
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.00025_s-1_bands",
+      "jobid": 250285,
+      "gpu": 1,
+      "pid": 3218188,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.011118465555555556
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.0005_s+1",
+      "jobid": 250285,
+      "gpu": 7,
+      "pid": 3196429,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.03473016
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.0005_s+1_bands",
+      "jobid": 250285,
+      "gpu": 7,
+      "pid": 3205604,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.012506103888888889
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.0005_s-1",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3196424,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.034733217499999997
+    },
+    {
+      "tag": "si_refined_fd_d1_h0.0005_s-1_bands",
+      "jobid": 250285,
+      "gpu": 5,
+      "pid": 3205603,
+      "status": "completed",
+      "GPU_hours_upper_bound": 0.012508765555555556
+    },
+    {
+      "tag": "si_reverse",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3109781,
+      "status": "failed",
+      "GPU_hours": 0.015012424455813338
+    },
+    {
+      "tag": "si_reverse_retry1",
+      "jobid": 250285,
+      "gpu": 0,
+      "pid": 3117930,
+      "status": "completed",
+      "GPU_hours": 0.014436712635862124
+    }
+  ],
+  "E2": "complete latest agreed scope: 9 MgSiN2 PASS, 6 calibration states replaced by E7",
+  "hn48_used": false,
+  "scope": "Development records only, not scaling measurements"
+}

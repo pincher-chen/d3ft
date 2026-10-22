@@ -1,0 +1,260 @@
+{
+  "cap_GPU_hours": null,
+  "initial_GPU_hours": 76.43613219141481,
+  "initial_scope": "Historical pilots + completed fit states, excluding adopted active Si",
+  "jobs": {
+    "adopted_full_trial1_resume_Si__20261016T220957001353Z_139162_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 0.30897855166666666
+    },
+    "LOO_diamond_trial0_Si__20261016T221508263399Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.8309507952399628
+    },
+    "LOO_Si_trial0_BN__20261016T221508263624Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.8532342304599783
+    },
+    "LOO_diamond_trial0_BN__20261016T221508265269Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.8643769307364062
+    },
+    "LOO_BN_trial0_diamond__20261016T221508264835Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.81424099792694
+    },
+    "LOO_BN_trial0_Si__20261016T221508263131Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.8281464599138901
+    },
+    "LOO_Si_trial0_diamond__20261016T221508264583Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.8142472347205816
+    },
+    "full_trial2_BN__20261016T222829796049Z_2624934_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.8504021093041714
+    },
+    "full_trial2_Si__20261016T222829794861Z_2624934_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 2.139800897126099
+    },
+    "full_trial2_diamond__20261016T222829796473Z_2624934_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.4832341441847126
+    },
+    "LOO_BN_trial1_diamond__20261017T000450644501Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.7559089387424884
+    },
+    "LOO_BN_trial1_Si__20261017T000450644824Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 2.0536698014035615
+    },
+    "LOO_Si_trial1_diamond__20261017T000621670517Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 1.7529792445438863
+    },
+    "LOO_Si_trial1_BN__20261017T000621674978Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 2.081313990789996
+    },
+    "LOO_diamond_trial1_BN__20261017T000700794925Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 2.0703176921338957
+    },
+    "LOO_diamond_trial1_Si__20261017T000700794534Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 2.0646429560866415
+    },
+    "LOO_BN_trial2_Si__20261017T020805550071Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 4.532728369726619
+    },
+    "LOO_BN_trial2_diamond__20261017T020805535093Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 3.714581223202533
+    },
+    "LOO_Si_trial2_diamond__20261017T021115501430Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 3.837159871233097
+    },
+    "LOO_Si_trial2_BN__20261017T021115501662Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 3.876114190771671
+    },
+    "LOO_diamond_trial2_Si__20261017T022401661647Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 4.874918431776912
+    },
+    "LOO_diamond_trial2_BN__20261017T022401661967Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 4.2793661834138526
+    },
+    "full_fine_Si__20261017T023955530647Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12,
+      "GPU_hours": 6.40747299084414
+    },
+    "external_SiC_fitted__20261017T023955574149Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12,
+      "GPU_hours": 2.2623194810497163
+    },
+    "external_SiC_PBE__20261017T045540600201Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12,
+      "GPU_hours": 2.243372891628921
+    },
+    "LOO_Si_validation_Si__20261017T060350352353Z_2624937_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 4.421597421456439
+    },
+    "LOO_BN_validation_BN__20261017T064004535622Z_2624938_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 3.603757969361096
+    },
+    "full_fine_diamond__20261017T071018127715Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 48,
+      "GPU_hours": 47.67072931563456
+    },
+    "LOO_diamond_validation_diamond__20261017T071633315854Z_2624939_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12.0,
+      "GPU_hours": 3.597952507838361
+    },
+    "full_fine_BN__20261017T090425612080Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12,
+      "GPU_hours": 6.070092057684411
+    },
+    "LOO_BN_fine_validation__20261017T101648929233Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12,
+      "GPU_hours": 6.311856230221974
+    },
+    "LOO_Si_fine_validation__20261017T102920673868Z_3674593_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 12,
+      "GPU_hours": 7.158757434590306
+    },
+    "LOO_diamond_fine_validation__20261017T144822920453Z_3978744_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 48,
+      "GPU_hours": 19.105953360103175
+    },
+    "external_GaP_fitted__20261017T190523015201Z_3978744_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 96,
+      "GPU_hours": 87.8927827128204
+    },
+    "external_GaP_PBE__20261018T060435339693Z_2570716_0": {
+      "status": "failed",
+      "reserved_GPU_hours": 96,
+      "budget_enforcement": "record_only",
+      "projected_with_reservations_GPU_hours": 422.8640898097529,
+      "authorization_scope": "existing GaP fitted/PBE evaluation and exit124 continuations only",
+      "GPU_hours": 96.01463297485115
+    },
+    "external_GaP_PBE__20261018T180442797907Z_2570716_0": {
+      "status": "completed",
+      "reserved_GPU_hours": 96,
+      "budget_enforcement": "record_only",
+      "projected_with_reservations_GPU_hours": 518.878722784604,
+      "authorization_scope": "existing GaP fitted/PBE evaluation and exit124 continuations only",
+      "GPU_hours": 2.0875693788110383
+    }
+  },
+  "cap_change_history": [
+    {
+      "recorded_at": "2026-10-17T23:01:34.347098+08:00",
+      "user_authorization_label": "2026-10-17 23:0x new user authorization",
+      "previous_cap_GPU_hours": 400,
+      "additional_GPU_hours": 100,
+      "new_cap_GPU_hours": 500,
+      "permitted_uses": [
+        "external_GaP_fitted: one frozen full-parameter eight-card evaluation",
+        "external_GaP_PBE: one fixed zero-vector eight-card evaluation",
+        "already registered full-diamond infrastructure timeout checkpoint continuations"
+      ],
+      "permitted_run_prefixes": [
+        "external_GaP_fitted__",
+        "external_GaP_PBE__",
+        "full_diamond_checkpoint_resume__"
+      ],
+      "no_new_experiment_scope": true,
+      "no_gate_or_parameter_changes": true,
+      "original_400_ledger_snapshot": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/budget_extension_500__20261017T150134346482Z/shared_GPU_budget_original_cap400.json",
+      "original_ledger_sha256": "7c172bf3daba7b17f785a248e1b4d1ca51e266b912f39ebac578ca1627798923",
+      "existing_jobs_initial_balance_and_accounting_unchanged": true
+    },
+    {
+      "recorded_at": "2026-10-18T09:29:54.339941+08:00",
+      "user_authorization_label": "2026-10-18 09:2x explicit user decision: E7 temporarily not constrained by GPU-hours; prioritize existing GaP fitted/PBE results",
+      "previous_cap_GPU_hours": 500,
+      "new_cap_GPU_hours": null,
+      "budget_enforcement": "record_only",
+      "temporary": true,
+      "scope": [
+        "existing external_GaP_fitted evaluation and exit124 checkpoint continuations",
+        "existing external_GaP_PBE evaluation and exit124 checkpoint continuations"
+      ],
+      "no_new_experiment_scope": true,
+      "settings_gates_parameters_and_max_points_unchanged": true,
+      "node": "hn35",
+      "jobid": 250285,
+      "no_GaP_on_hn48": true,
+      "original_500_ledger_snapshot": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/GaP_budget_record_only__20261018T012932178793Z/shared_GPU_budget_original_cap500.json",
+      "original_ledger_sha256": "8efaf2682e3060eea6cbe0295413ee12797942fc2edcb393bf66c65616fef61f",
+      "all_historical_GPU_hours_preserved": true
+    }
+  ],
+  "infrastructure_recovery_authorizations": [
+    {
+      "recorded_at": "2026-10-18T07:59:28.798901+08:00",
+      "user_authorization": "2026-10-18 07:51 explicit user decision",
+      "existing_cap_GPU_hours": 500,
+      "cap_increase_GPU_hours": 0,
+      "uses": [
+        "GaP_fitted exit124 checkpoint recovery",
+        "GaP_PBE exit124 checkpoint recovery"
+      ],
+      "only_exit124": true,
+      "shared_ledger": true,
+      "settings_and_gates_unchanged": true,
+      "CPU_acceptance": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/GaP_exit124_budget_guard__20261017T235820071982Z/CPU_recovery_acceptance.json",
+      "guard_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/GaP_exit124_budget_guard__20261017T235820071982Z"
+    }
+  ],
+  "reference_cap_GPU_hours": 500,
+  "budget_enforcement": "record_only",
+  "record_only_run_prefixes": [
+    "external_GaP_fitted__",
+    "external_GaP_PBE__"
+  ]
+}

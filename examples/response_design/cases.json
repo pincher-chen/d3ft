@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "MgSiN2_gamma",
+      "description": "54-input fixed-occupation Gamma response; six strains then 48 Cartesian coordinates",
+      "seed": "seeds/MgSiN2_gamma"
+    },
+    {
+      "name": "joint_design",
+      "description": "Bounded joint Gamma design; target4.510987370941646eV;3 updates",
+      "seed": null
+    },
+    {
+      "name": "strain_only",
+      "description": "Six-strain control;3 updates reached the same target",
+      "seed": null
+    },
+    {
+      "name": "coordinates_only",
+      "description": "48-coordinate fixed-cell control;3 updates did not reach the target",
+      "seed": null
+    },
+    {
+      "name": "force_constrained_design",
+      "description": "Fixed-cell ionic relaxation and force-constrained design",
+      "seed": null
+    },
+    {
+      "name": "sampled_gap",
+      "description": "Coupled k2 response/design and k4 transfer; transfer target criterion not met",
+      "seed": null
+    },
+    {
+      "name": "deformation_potential",
+      "description": "k2 hydrostatic h/h2 checks; no k-convergence claim",
+      "seed": null
+    },
+    {
+      "name": "frozen_calibration",
+      "description": "Three parameters, three training materials and three held-out folds; retain negative LOO results",
+      "seed": null
+    },
+    {
+      "name": "external_evaluation",
+      "description": "Frozen parameters and PBE for SiC/GaP/AlP/GaAs; no refit",
+      "seed": null
+    },
+    {
+      "name": "band_comparison",
+      "description": "Independent Gamma-density path bands and QE comparison; plus design-state path bands",
+      "seed": null
+    },
+    {
+      "name": "scaling_and_memory",
+      "description": "Input counts1/6/24/54, timings and independently reset memory runs",
+      "seed": null
+    }
+  ]
+}

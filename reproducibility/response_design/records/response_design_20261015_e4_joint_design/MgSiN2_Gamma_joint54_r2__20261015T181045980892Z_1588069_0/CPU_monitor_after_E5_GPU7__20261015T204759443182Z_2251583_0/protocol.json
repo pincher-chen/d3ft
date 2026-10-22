@@ -1,0 +1,7 @@
+{
+  "project": "${D3FT_ROOT}",
+  "E4_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0",
+  "E5_new_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/gpu7_design_resume__20261015T204658343637Z_2248349_0",
+  "E5_old_CPU": 3972077,
+  "scope": "observe unchanged1593923 onGPU0; no oldE5 resume"
+}

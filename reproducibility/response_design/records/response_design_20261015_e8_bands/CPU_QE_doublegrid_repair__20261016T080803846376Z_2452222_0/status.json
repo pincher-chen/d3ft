@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-16T16:42:32.333813+08:00",
+  "stage": "E8_complete_limited_scope",
+  "E8_complete": true,
+  "passed": true,
+  "certificate": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/full_path_acceptance.json",
+  "criterion_statement": "\u95e8\u6cbf\u7528 \u0393 \u9884\u6ce8\u518c\u503c\uff0c\u672a\u53e6\u8bbe\u66f4\u677e\u7684\u8def\u5f84\u95e8",
+  "Gamma_gates": {
+    "total_energy_Ha": 0.003,
+    "gap_eV": 0.005,
+    "VBM_aligned_max_eV": 0.02
+  },
+  "full_path_extension_user_authorized_after_results": true,
+  "limitations": {
+    "SCF_sampling": [
+      1,
+      1,
+      1
+    ],
+    "k_convergence_performed": false,
+    "experimental_comparison": false,
+    "continuous_BZ_gap_certified": false,
+    "parent_reference_path_in_prestrained_cell": true
+  },
+  "metrics": {
+    "path_gap_D3FT_eV": 4.00039153491455,
+    "path_gap_QE_eV": 4.000383796228113,
+    "absolute_path_gap_difference_eV": 7.738686436553621e-06,
+    "VBM_aligned_all_bands_MAE_eV": 9.580732158694794e-06,
+    "VBM_aligned_all_bands_max_abs_eV": 2.1724800610911643e-05,
+    "Gamma_total_energy_difference_Ha": -1.5970883737281838e-05,
+    "maximum_D3FT_Ritz_Ha": 8.124606042298411e-11
+  },
+  "old_comparison_rejected_and_retained": true,
+  "doublegrid_diagnosis_retained": true,
+  "new_GPU_hours": 0
+}

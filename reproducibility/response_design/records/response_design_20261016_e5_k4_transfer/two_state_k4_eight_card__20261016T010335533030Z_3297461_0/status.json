@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-16T10:00:42.131492+08:00",
+  "retired_CPU_pid": 3299743,
+  "previous_stage": "waiting_eight_idle_GPUs_and_existing_queues",
+  "reason": "User requests four idle GPUs 0/2/3/7; replace waiting CPU scheduler only",
+  "GPU_workers_started": 0,
+  "GPU_signals_sent": false,
+  "previous_status": {
+    "time": "2026-10-16T10:00:15.582030+08:00",
+    "stage": "waiting_eight_idle_GPUs_and_existing_queues",
+    "jobid": 250285,
+    "requested_gpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "controller_pid": 3299743,
+    "GPU_budget": 60,
+    "active_GPU_hours_completed": 0.0,
+    "exclusive_reserved_GPU_hours": 0
+  },
+  "stage": "retired_CPU_only_for_four_card_queue"
+}

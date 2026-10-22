@@ -1,10 +1,10 @@
 PYTHON ?= python
 .PHONY: check test figures case-list
 check:
-	$(PYTHON) scripts/verify_release.py
+	$(PYTHON) scripts/verify_response_release.py
 test:
-	$(PYTHON) scripts/run_tests.py --suite cpu
+	$(PYTHON) scripts/check_response_cpu.py
 figures:
-	$(PYTHON) make_figures.py
+	$(PYTHON) scripts/response_figures.py --band-python "$(or $(BAND_PYTHON),$(PYTHON))"
 case-list:
-	$(PYTHON) scripts/run_case.py Al --dry-run
+	$(PYTHON) scripts/run_response.py --list

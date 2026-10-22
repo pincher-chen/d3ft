@@ -98,7 +98,7 @@ def main():
             elif item.startswith('--gres=gpu:'): prefix[i] = '--gres=gpu:8'
             elif item.startswith('CUDA_VISIBLE_DEVICES='): prefix[i] = 'CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7'
             elif item == '7200s': prefix[i] = '172800s'
-        extra = ['PYTHONPATH='+str(runtime)+':/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft/software/jrystal',
+        extra = ['PYTHONPATH='+str(runtime)+':${D3FT_ROOT}/third_party/jrystal_dependency',
             'D3FT_PHASE3_RESULTS_ROOT='+str(output/'runs'),
             'JAX_COMPILATION_CACHE_DIR=/tmp/phase3_v3_trial_250285']
         position = prefix.index('env')+1; prefix[position:position] = extra

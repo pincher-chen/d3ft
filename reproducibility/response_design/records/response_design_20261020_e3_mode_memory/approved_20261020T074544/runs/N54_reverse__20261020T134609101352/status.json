@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-20T13:48:40.468669+08:00",
+  "N": 54,
+  "mode": "reverse",
+  "stage": "response",
+  "seconds_since_start": 149.62617294490337,
+  "note": "First-use PCG JIT may occur here; no hidden response warm-up"
+}

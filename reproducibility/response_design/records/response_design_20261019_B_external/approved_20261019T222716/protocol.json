@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-19T22:27:16+08:00",
+  "approved_at": "2026-10-19T22:27:16+08:00",
+  "authorization": "User approved B-AlP and B-GaAs only; AlAs/C1/C6 temporarily not executed. E10 complete+accepted dependency. hn35/250285 only.",
+  "project": "${D3FT_ROOT}",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runtime",
+  "source_runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runtime",
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "jrystal": "${D3FT_ROOT}/third_party/jrystal_dependency",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPYCACHEPREFIX": "/dev/shm/response_design_e0_alp_new_retry1/pycache",
+    "CUDA_ROOT": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "CUDA_VISIBLE_DEVICES": "0,1",
+    "D3FT_FUSE_FINAL_DENSITY": "1",
+    "D3FT_REFERENCE_ROOT": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft",
+    "JAX_PLATFORMS": "cuda",
+    "LD_LIBRARY_PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cublas/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cupti/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cudnn/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cufft/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusolver/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusparse/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvshmem/lib:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/chenp/cutensor-2.3.1/lib:/APP/u22/ai_x86/CUDA/12.2/extras/CUPTI/lib64:/APP/u22/ai_x86/CUDA/12.2/lib64:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/xiean/proj/OODCGNEval_H100/models/potnet/functions/gsl/lib/",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc/bin:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.codex/tmp/arg0/codex-arg0i3ERdZ:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.npm-global/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.juliaup/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.nvm/versions/node/v20.20.2/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/condabin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/micromamba/2.1.1/bin:/APP/u22/ai_x86/CUDA/12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PRECALC_BETA_SERIAL": "1",
+    "PYTHONPATH": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runtime:${D3FT_ROOT}/third_party/jrystal_dependency",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "XLA_PYTHON_CLIENT_ALLOCATOR": "platform",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/dev/shm/response_design_e0_alp_new_retry1",
+    "JAX_COMPILATION_CACHE_DIR": "/dev/shm/response_design_e0_alp_new_retry1/jax_cache",
+    "D3FT_TRACE_STAGES": "1",
+    "D3FT_PHASE3_RESULTS_ROOT": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "JAX_COMPILATION_CACHE_MAX_SIZE": "0"
+  },
+  "node": "hn35",
+  "jobid": 250285,
+  "GPU_count": 8,
+  "material_order": [
+    "AlP",
+    "GaAs"
+  ],
+  "model_order": [
+    "fitted",
+    "PBE"
+  ],
+  "settings": {
+    "AlP": {
+      "cutoff_Ha": 50,
+      "grid": 60,
+      "k": 10,
+      "xc_grid_factor": 4,
+      "epochs": 3000,
+      "strain_step": 0.01,
+      "a0_A": 5.50782,
+      "Bguess_GPa": 82.7,
+      "reference_a0_A": 5.4635,
+      "reference_scope": "~300 K local Bessolov et al. 1982 transcription; no new ZPE/thermal correction; original uncertainty unverified",
+      "upper_GPU_hours": 25.0,
+      "point_rate_GPU_hours": 0.9
+    },
+    "GaAs": {
+      "cutoff_Ha": 100,
+      "grid": 72,
+      "k": 12,
+      "xc_grid_factor": 2,
+      "epochs": 9000,
+      "strain_step": 0.005,
+      "a0_A": 5.75039,
+      "Bguess_GPa": 58.7,
+      "reference_a0_A": 5.65325,
+      "reference_scope": "300 K; Driscoll via Blakemore 1982 DOI 10.1063/1.331665; no new ZPE/thermal correction",
+      "upper_GPU_hours": 230.0,
+      "point_rate_GPU_hours": 30.0
+    }
+  },
+  "fitted_vector": [
+    0.0,
+    -0.0174840013874402,
+    0.0,
+    0.0,
+    0.0,
+    -0.03543689751136915,
+    -0.014088007319144703
+  ],
+  "fitted_vector_sha256": "6814c8c81fa46b825000c691c2ea576685f76ace39dd9d595887a8020511791e",
+  "PBE_vector": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "E10_root": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10",
+  "timeout_seconds": 43200,
+  "checkpoint_interval": 500,
+  "root_relative_tolerance": 1e-05,
+  "electronic_residual_tolerance": 1e-06,
+  "max_pressure_points_per_model": 7,
+  "budget_policy": "Separate material caps AlP12/GaAs280 GPUh incl both models, failures, JIT and recovery. Forecast before new point/attempt; checkpoint pause requires user approval. No automatic cap extension or cross-subsidy.",
+  "no_refitting": true,
+  "formal_paper_untouched": true,
+  "pseudopotentials": {
+    "AlP": {
+      "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/alp/Al.upf": "d7a0cfbe24ef65d973f75b23f1ce189990ffe280b08ed2c43b016bd8124294df",
+      "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/alp/P.upf": "6389f5af1b6273426e65c221c341549cbb809b93de291a87d3bcb413bcd4a735"
+    },
+    "GaAs": {
+      "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/gaas/Ga.upf": "2fb4076be45921f041484b6051130a03e77bc17b903fc19d178075cbad87c860",
+      "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/gaas/As.upf": "c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4"
+    }
+  }
+}

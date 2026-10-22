@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-15T12:26:24.301596",
+  "stage": "completed",
+  "jobid": "250285",
+  "step": "2455",
+  "passed": true,
+  "scope": "smoke only; no spectrum/response/E6 release"
+}

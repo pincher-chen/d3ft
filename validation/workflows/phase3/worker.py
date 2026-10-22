@@ -56,6 +56,7 @@ def main():
     ap.add_argument('--displacement',type=float,default=0.,help='atom-1 x displacement in Bohr')
     ap.add_argument('--a0',type=float)
     ap.add_argument('--shear',action='store_true')
+    ap.add_argument('--bulk-only',action='store_true',help='Evaluate equilibrium and isotropic EOS only; omit tetragonal/shear observables')
     ap.add_argument('--reuse-from',type=Path,help='Reuse matching completed points in a new run directory')
     ap.add_argument('--jit-residual',action='store_true')
     ap.add_argument('--compare-residual',action='store_true')
@@ -73,6 +74,8 @@ def main():
     ap.add_argument('--fixed-mask',type=Path,help='Hold an existing Miller basis throughout parameter FD')
     ap.add_argument('--sample-observables',choices=['full','pressure'],default='full')
     args=ap.parse_args()
+    if args.bulk_only and (args.mode!='evaluate' or args.shear):
+        ap.error('--bulk-only requires --mode evaluate and excludes --shear')
     if args.compare_report and not args.fused_report: ap.error('--compare-report requires --fused-report')
     if args.compare_sensitivity and args.mode=='sample' and args.sample_observables!='full':
         ap.error('--compare-sensitivity requires full sample observables')
@@ -275,6 +278,9 @@ def main():
             raise RuntimeError(f'{label}: electronic stationarity failed ({rec["residual"]:.3g})')
         del out
         jax.clear_caches(); gc.collect()
+        if os.environ.get('D3FT_YIELD_REQUEST'):
+            from point_yield import yield_after_point
+            yield_after_point(work,label,active)
         return rec,active
 
     a=args.a0 or m['a0']
@@ -331,7 +337,9 @@ def main():
     result.update(B_GPa=B,B_stress_GPa=Bstress,B_h_GPa=b1,B_2h_GPa=b2,strain_step=eps,Bprime=Bprime,
                   da0_dp=grada.tolist(),dB_equilibrium_dp=gradB.tolist())
     if eps==.01: result.update(B_delta01_GPa=b1,B_delta02_GPa=b2)
-    if m['C11'] is None:
+    if args.bulk_only:
+        result['observable_scope']='equilibrium_and_isotropic_bulk_only'
+    if args.bulk_only or m['C11'] is None:
         dump(work/'summary.json',result); print('DONE',args.tag,flush=True); return
     tet={0:center}
     for d in [-eps,eps]:

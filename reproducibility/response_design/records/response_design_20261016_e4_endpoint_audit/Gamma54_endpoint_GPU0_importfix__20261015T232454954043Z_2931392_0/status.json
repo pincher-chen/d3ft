@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-16T08:08:28.978780+08:00",
+  "stage": "complete",
+  "controller_pid": 2931405,
+  "jobid": 250285,
+  "gpus": [
+    0
+  ],
+  "passed": true,
+  "output": "${D3FT_ROOT}/validation/results/response_design_20261016_e4_endpoint_audit/Gamma54_endpoint_GPU0_importfix__20261015T232454954043Z_2931392_0/independent_reopt_Ritz_audit__20261015T232457660875Z_2931405_0"
+}

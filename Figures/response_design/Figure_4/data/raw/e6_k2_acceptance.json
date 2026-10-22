@@ -1,0 +1,236 @@
+{
+  "time": "2026-10-16T04:42:01.986755+08:00",
+  "passed": true,
+  "k2_pilot_passed": true,
+  "checks": [
+    {
+      "h": 0.002,
+      "error_eV": 3.0909780495136374e-06,
+      "tolerance_eV": 0.01664741415428967,
+      "passed": true
+    },
+    {
+      "h": 0.001,
+      "error_eV": 9.909608884584031e-07,
+      "tolerance_eV": 0.01664741415428967,
+      "passed": true
+    }
+  ],
+  "branch_consistent_with_adjoint": true,
+  "adjoint_fundamental_A_eV": -8.308707077144836,
+  "FD": [
+    {
+      "h": 0.002,
+      "fundamental_eV": -8.308703986166787,
+      "Gamma_eV": -8.57354734804816
+    },
+    {
+      "h": 0.001,
+      "fundamental_eV": -8.308706086183948,
+      "Gamma_eV": -8.57354962818313
+    }
+  ],
+  "h_h2_difference_eV": 2.1000171610552343e-06,
+  "points": [
+    {
+      "h": 0.001,
+      "sign": 1,
+      "nu": 0.001,
+      "passed": true,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0",
+      "source_state_sha256": "d131cab967ce3f19d1a40eab1af1aa0530668b9803ca9d5fe26f1b13c33ccbaf",
+      "fundamental_eV": 3.982956474956688,
+      "Gamma_eV": 4.39533614137244,
+      "vbm_k": 3,
+      "cbm_k": 0,
+      "target": {
+        "objective": "hard",
+        "target_Ha": 0.14637095070979445,
+        "hard_gap_Ha": 0.14637095070979445,
+        "hard_gap_isolated": true,
+        "vbm_k_index": 3,
+        "cbm_k_index": 0,
+        "vbm_band": 47,
+        "cbm_band": 48,
+        "margins": {
+          "vbm_band_Ha": 0.0002413007835733727,
+          "cbm_band_Ha": 0.05170432911715234,
+          "vbm_k_Ha": 0.013398118963898586,
+          "cbm_k_Ha": 0.04255117315845919
+        },
+        "tau_Ha": null,
+        "softening_bias_bound_Ha": 0.0,
+        "finite_band_window": [
+          52,
+          48
+        ],
+        "linearized_HF_value_Ha": 0.14637095070979445,
+        "degeneracy_policy": "hard rejects unresolved extrema; soft uses full declared-window spectral trace, not a hard-gap gradient at crossings"
+      },
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k0__20261015T180518688320Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k1__20261015T180518695677Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k2__20261015T180518701452Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k3__20261015T180518707092Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k4__20261015T180518712030Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k5__20261015T180518717618Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/nu0.001_k6_Ritz__20261015T194520933679Z_2021251_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.001000__20261015T155134884971Z_2244567_0_spectrum/k7__20261015T180518728199Z_2244567_0"
+      ],
+      "reused_old_spectra": 7,
+      "repaired_k": 6
+    },
+    {
+      "h": 0.001,
+      "sign": -1,
+      "nu": -0.001,
+      "passed": true,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0",
+      "source_state_sha256": "ab45497d0ad7c6be5e1056d72867a0c6b9a72b57795143db80c2936c78cd795a",
+      "fundamental_eV": 3.999573887129056,
+      "Gamma_eV": 4.412483240628807,
+      "vbm_k": 3,
+      "cbm_k": 0,
+      "target": {
+        "objective": "hard",
+        "target_Ha": 0.14698162934344244,
+        "hard_gap_Ha": 0.14698162934344244,
+        "hard_gap_isolated": true,
+        "vbm_k_index": 3,
+        "cbm_k_index": 0,
+        "vbm_band": 47,
+        "cbm_band": 48,
+        "margins": {
+          "vbm_band_Ha": 0.00024183162520952095,
+          "cbm_band_Ha": 0.05123904844629029,
+          "vbm_k_Ha": 0.013433474889969488,
+          "cbm_k_Ha": 0.042190886298920816
+        },
+        "tau_Ha": null,
+        "softening_bias_bound_Ha": 0.0,
+        "finite_band_window": [
+          52,
+          48
+        ],
+        "linearized_HF_value_Ha": 0.14698162934344244,
+        "degeneracy_policy": "hard rejects unresolved extrema; soft uses full declared-window spectral trace, not a hard-gap gradient at crossings"
+      },
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k0__20261015T144432441627Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k1__20261015T144432448363Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k2__20261015T144432452421Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k3__20261015T144432456448Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k4__20261015T144432459388Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k5__20261015T144432463023Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/nu-0.001_k6_Ritz__20261015T195353696751Z_2021251_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.001000__20261015T123330516016Z_2244567_0_spectrum/k7__20261015T144432470289Z_2244567_0"
+      ],
+      "reused_old_spectra": 7,
+      "repaired_k": 6
+    },
+    {
+      "h": 0.002,
+      "sign": -1,
+      "nu": -0.002,
+      "passed": true,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0",
+      "source_state_sha256": "32d09c5434e1a80d7d6d5b3de0463e0aef15dfe1c9a49d4fd9b72157b5b7cb0f",
+      "fundamental_eV": 4.0078857246729855,
+      "Gamma_eV": 4.421059828932356,
+      "vbm_k": 3,
+      "cbm_k": 0,
+      "target": {
+        "objective": "hard",
+        "target_Ha": 0.147287083739216,
+        "hard_gap_Ha": 0.147287083739216,
+        "hard_gap_isolated": true,
+        "vbm_k_index": 3,
+        "cbm_k_index": 0,
+        "vbm_band": 47,
+        "cbm_band": 48,
+        "margins": {
+          "vbm_band_Ha": 0.00024209740868441632,
+          "cbm_band_Ha": 0.05100610849995879,
+          "vbm_k_Ha": 0.013451178308118594,
+          "cbm_k_Ha": 0.04201052986909792
+        },
+        "tau_Ha": null,
+        "softening_bias_bound_Ha": 0.0,
+        "finite_band_window": [
+          52,
+          48
+        ],
+        "linearized_HF_value_Ha": 0.147287083739216,
+        "degeneracy_policy": "hard rejects unresolved extrema; soft uses full declared-window spectral trace, not a hard-gap gradient at crossings"
+      },
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k0__20261015T081612444359Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k1__20261015T081612451777Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k2__20261015T081612457787Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k3__20261015T081612462985Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k4__20261015T081612468743Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k5__20261015T081612473950Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/nu-0.002_k6_Ritz__20261015T200411369467Z_2021251_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu-0.002000__20261015T061025878049Z_2244567_0_spectrum/k7__20261015T081612487208Z_2244567_0"
+      ],
+      "reused_old_spectra": 7,
+      "repaired_k": 6
+    },
+    {
+      "h": 0.002,
+      "sign": 1,
+      "nu": 0.002,
+      "passed": true,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0",
+      "source_state_sha256": "bb5d7046f787f9ba626a1f3e6535395f8ac7670c03966dacfcb3c3b861841164",
+      "fundamental_eV": 3.9746509087283184,
+      "Gamma_eV": 4.3867656395401635,
+      "vbm_k": 3,
+      "cbm_k": 0,
+      "target": {
+        "objective": "hard",
+        "target_Ha": 0.14606572678061686,
+        "hard_gap_Ha": 0.14606572678061686,
+        "hard_gap_isolated": true,
+        "vbm_k_index": 3,
+        "cbm_k_index": 0,
+        "vbm_band": 47,
+        "cbm_band": 48,
+        "margins": {
+          "vbm_band_Ha": 0.00024103573761141694,
+          "cbm_band_Ha": 0.05193666872149727,
+          "vbm_k_Ha": 0.013380466465802099,
+          "cbm_k_Ha": 0.042731102385083375
+        },
+        "tau_Ha": null,
+        "softening_bias_bound_Ha": 0.0,
+        "finite_band_window": [
+          52,
+          48
+        ],
+        "linearized_HF_value_Ha": 0.14606572678061686,
+        "degeneracy_policy": "hard rejects unresolved extrema; soft uses full declared-window spectral trace, not a hard-gap gradient at crossings"
+      },
+      "spectrum_directories": [
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k0__20261015T113320530517Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k1__20261015T113320535888Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k2__20261015T113320540905Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k3__20261015T113320545675Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k4__20261015T113320549803Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k5__20261015T113320554528Z_2244567_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/nu0.002_k6_Ritz__20261015T202029444740Z_2021251_0",
+        "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/corrected_k2_gpu7__20261015T061022228226Z_2244365_0/nu+0.002000__20261015T092827154433Z_2244567_0_spectrum/k7__20261015T113320562017Z_2244567_0"
+      ],
+      "reused_old_spectra": 7,
+      "repaired_k": 6
+    }
+  ],
+  "spent_GPU_hours": 14.22760264611117,
+  "formal_E6_complete": false,
+  "not_literature_PASS": true,
+  "not_k4_certificate": true,
+  "Gamma_FD_compared_to_fundamental_adjoint": false,
+  "definition": "dEg/dlnV, clamped fractional positions, exact prestrain hydro direction",
+  "base_response_file": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/single_full_online_inner__20261015T112227441397Z_3971234_0/full_single_adjoint_forward__20261015T112235114845Z_3972077_0/result.json",
+  "base_response_sha256": "330b198223bf998da215f6a2fbcef9b8672fde4fb8650b5e409e731dd03cec59"
+}

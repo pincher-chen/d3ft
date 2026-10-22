@@ -50,7 +50,7 @@ def main():
             'parameter derivative acceptance on the applicable frozen model',
             'fresh density-bound full-mesh occupied-state spectrum'],
         holdout_rule='Fit excludes all rows of the held material. Evaluate after stopping; never tune radius, bounds or stopping from its outcome.',
-        physical_model='frozen v3 default local trapezoid; NPJ Simpson pilots are separate and cannot be used to explain a fitting improvement',
+        physical_model='frozen v3 default local trapezoid; response Simpson pilots are separate and cannot be used to explain a fitting improvement',
         state='prepared_unexecuted_nonlinear_refits',
         script_sha256=sha(Path(__file__)))
     put('protocol.json',protocol)

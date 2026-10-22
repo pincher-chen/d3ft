@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-16T07:17:39.134233+08:00",
+  "stage": "failed_or_budget_limited",
+  "controller_pid": 2453235,
+  "jobid": 250285,
+  "requested_gpus": [
+    0
+  ],
+  "spent_E6_GPU_hours": 14.732032088130618,
+  "E6_budget_GPU_hours": 60,
+  "completed_geometries": 0,
+  "passed": false,
+  "error": "RuntimeError('Single-card k4 memory/short-run gate failed; no production calculation launched')"
+}

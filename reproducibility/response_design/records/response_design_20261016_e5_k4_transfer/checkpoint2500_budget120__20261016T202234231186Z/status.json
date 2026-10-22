@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-17T06:09:51.807774+08:00",
+  "stage": "completed",
+  "jobid": 250285,
+  "requested_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "controller_pid": 2291169,
+  "GPU_budget": 120.0,
+  "active_GPU_hours_completed": 62.364801919268125,
+  "exclusive_reserved_GPU_hours": 13.928764397211166,
+  "target_transfer_passed": false,
+  "target_error_meV": 1.1254659772177433,
+  "gap_change_eV": 0.01994143667975523
+}

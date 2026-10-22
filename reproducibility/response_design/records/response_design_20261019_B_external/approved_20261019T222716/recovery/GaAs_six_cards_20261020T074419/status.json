@@ -1,0 +1,84 @@
+{
+  "time": "2026-10-20T07:44:16.978024+08:00",
+  "stage": "waiting_E9_priority_no_GaAs_GPU_submitted",
+  "controller_pid": 3379482,
+  "jobid": 250285,
+  "node": "hn35",
+  "used_GPU_hours": {
+    "AlP": 13.809843411445618,
+    "GaAs": 0
+  },
+  "active": null,
+  "logical_results": {
+    "AlP_fitted": {
+      "time": "2026-10-20T05:27:52.861603+08:00",
+      "material": "AlP",
+      "model": "fitted",
+      "passed": true,
+      "a0_A": 5.502544437547186,
+      "reference_a0_A": 5.4635,
+      "relative_error_percent": 0.7146414852601257,
+      "reference_scope": "~300 K local Bessolov et al. 1982 transcription; no new ZPE/thermal correction; original uncertainty unverified",
+      "summary": {
+        "material": "AlP",
+        "parameter_vector": [
+          0.0,
+          -0.0174840013874402,
+          0.0,
+          0.0,
+          0.0,
+          -0.03543689751136915,
+          -0.014088007319144703
+        ],
+        "a0_A": 5.502544437547186,
+        "equilibrium_pressure_GPa": -0.00011293722602486967,
+        "equilibrium_residual": 3.5082745267187746e-13,
+        "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+        "B_root_estimate_GPa": 82.7,
+        "root_relative": 4.5520848861293695e-07,
+        "validation_used_for_updates": false,
+        "optimizer_parameters_frozen": true
+      },
+      "used_for_fitting": false,
+      "parameters_changed": false,
+      "bulk_modulus_certified": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/AlP_fitted__20261019T210140817618Z/worker_results/AlP_fitted__20261019T210140817618Z",
+      "actual_GPU_hours": 7.050059303707547
+    },
+    "AlP_PBE": {
+      "time": "2026-10-20T06:18:15.288118+08:00",
+      "material": "AlP",
+      "model": "PBE",
+      "passed": true,
+      "a0_A": 5.50697068646717,
+      "reference_a0_A": 5.4635,
+      "relative_error_percent": 0.7956563826698959,
+      "reference_scope": "~300 K local Bessolov et al. 1982 transcription; no new ZPE/thermal correction; original uncertainty unverified",
+      "summary": {
+        "material": "AlP",
+        "parameter_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "a0_A": 5.50697068646717,
+        "equilibrium_pressure_GPa": -0.00012678448809695184,
+        "equilibrium_residual": 5.04630187712108e-13,
+        "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+        "B_root_estimate_GPa": 82.7,
+        "root_relative": 5.11021717440354e-07,
+        "validation_used_for_updates": false,
+        "optimizer_parameters_frozen": true
+      },
+      "used_for_fitting": false,
+      "parameters_changed": false,
+      "bulk_modulus_certified": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/AlP_PBE__20261019T212753399274Z/worker_results/AlP_PBE__20261019T212753399274Z",
+      "actual_GPU_hours": 6.759784107738071
+    }
+  }
+}

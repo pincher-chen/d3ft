@@ -1,0 +1,12 @@
+{
+  "stage": "terminal",
+  "passed": true,
+  "outcome": "exclusive3reverse1forward_completed",
+  "acceptance": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M2-A/planB_20261021T2130/acceptance.json",
+  "result": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M2-A/planB_20261021T2130/result.json",
+  "time": "2026-10-22T03:33:20.082701+08:00",
+  "GPU_hours": 9.92711120069027,
+  "cap_GPU_hours": 32,
+  "reverse_repeats_required": 3,
+  "forward_repeats_required": 1
+}

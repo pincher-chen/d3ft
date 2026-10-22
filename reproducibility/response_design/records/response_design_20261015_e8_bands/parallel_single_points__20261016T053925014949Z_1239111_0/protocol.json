@@ -1,0 +1,466 @@
+{
+  "time": "2026-10-16T07:55:07.796261+08:00",
+  "project": "${D3FT_ROOT}",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/runtime",
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "jobid": 250285,
+  "fixed_gpu": 5,
+  "timeout_seconds": 43200,
+  "GPU_budget": 120,
+  "stage_reservation_GPU_hours": 12,
+  "source": "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3",
+  "qe_bands": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/fresh_QE_bands.npz",
+  "qe_bands_sha256": "3f5e379048c02aba9502d646d8e4f920e8f2a816dae0b33e2669a940ca8a40be",
+  "qe_protocol": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/protocol.json",
+  "path": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/path.json",
+  "k_fractional": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.1
+    ],
+    [
+      0.0,
+      0.0,
+      0.2
+    ],
+    [
+      0.0,
+      0.0,
+      0.30000000000000004
+    ],
+    [
+      0.0,
+      0.0,
+      0.4
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.125,
+      0.0,
+      0.5
+    ],
+    [
+      0.25,
+      0.0,
+      0.5
+    ],
+    [
+      0.375,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.4
+    ],
+    [
+      0.5,
+      0.0,
+      0.3
+    ],
+    [
+      0.5,
+      0.0,
+      0.19999999999999996
+    ],
+    [
+      0.5,
+      0.0,
+      0.09999999999999998
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.4,
+      0.0,
+      0.0
+    ],
+    [
+      0.3,
+      0.0,
+      0.0
+    ],
+    [
+      0.19999999999999996,
+      0.0,
+      0.0
+    ],
+    [
+      0.09999999999999998,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.125,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.375,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.1
+    ],
+    [
+      0.0,
+      0.5,
+      0.2
+    ],
+    [
+      0.0,
+      0.5,
+      0.30000000000000004
+    ],
+    [
+      0.0,
+      0.5,
+      0.4
+    ],
+    [
+      0.0,
+      0.5,
+      0.5
+    ],
+    [
+      0.1,
+      0.5,
+      0.5
+    ],
+    [
+      0.2,
+      0.5,
+      0.5
+    ],
+    [
+      0.30000000000000004,
+      0.5,
+      0.5
+    ],
+    [
+      0.4,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.4166666666666667
+    ],
+    [
+      0.5,
+      0.5,
+      0.33333333333333337
+    ],
+    [
+      0.5,
+      0.5,
+      0.25
+    ],
+    [
+      0.5,
+      0.5,
+      0.16666666666666669
+    ],
+    [
+      0.5,
+      0.5,
+      0.08333333333333337
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.4,
+      0.5,
+      0.0
+    ],
+    [
+      0.3,
+      0.5,
+      0.0
+    ],
+    [
+      0.19999999999999996,
+      0.5,
+      0.0
+    ],
+    [
+      0.09999999999999998,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.125,
+      0.0
+    ],
+    [
+      0.5,
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.375,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.5
+    ],
+    [
+      0.0,
+      0.4,
+      0.5
+    ],
+    [
+      0.0,
+      0.3,
+      0.5
+    ],
+    [
+      0.0,
+      0.19999999999999996,
+      0.5
+    ],
+    [
+      0.0,
+      0.09999999999999998,
+      0.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.125,
+      0.5
+    ],
+    [
+      0.5,
+      0.25,
+      0.5
+    ],
+    [
+      0.5,
+      0.375,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ]
+  ],
+  "edge_indices": {
+    "G": 0,
+    "U": 28
+  },
+  "states": {
+    "start": {
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3",
+      "spectrum": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_after_E4__20261015T232613930717Z_2935969_0/Gamma_source_reference.json",
+      "source_sha256": {
+        "metadata.json": "8f2dafde6eb86220b693e5ee07c841f857db46ff9d22894aff15316fb6aa05f0",
+        "point.json": "deb28f22bcd61a2180003ac1905f66952109381cfd4bfab71b99dc5779c3ed87",
+        "state.pkl": "d5510a175c10d251db61a0532116447e5f8ed0bf9325ef98603dd045eede3bd3",
+        "mask.npy": "f113a2e24810543b1547acade65d3b443b4447643da0f373dc0df61ea89d550e",
+        "density.npy": "fc7ab072bf09893e10c89c9ef7f9262c62361488cea37b460436b355227c7e4b",
+        "input.xyz": "b68e75d3b1e0b37fd379f6047b28328fd31632c32388cfd651543f0d0b043a2a"
+      }
+    }
+  },
+  "accepted_density_only": true,
+  "same_QE_source_geometry": true,
+  "full_path_points": 61,
+  "SCF_sampling": [
+    1,
+    1,
+    1
+  ],
+  "k_convergence_claim": false,
+  "parent_reference_labels": true,
+  "actual_spacegroup": "P1",
+  "no_JCTC_data": true,
+  "not_E6_k4_production": true,
+  "numerical_agreement_threshold": null,
+  "comparison": "Each code own path VBM alignment; report differences without an unregistered agreement PASS; QE |G+k| vs D3FT fixed |G| basis",
+  "wait_for_E4": false,
+  "previous_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_after_E4__20261015T232613930717Z_2935969_0",
+  "resource_decision": "User: use idle GPU5 directly; no E4 dependency",
+  "legacy_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0",
+  "legacy_remote_pid": 1770164,
+  "legacy_current_index": 22,
+  "initial_completed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "allowed_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPYCACHEPREFIX": "/dev/shm/response_design_e0_alp_new_retry1/pycache",
+    "CUDA_ROOT": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "CUDA_VISIBLE_DEVICES": "5",
+    "D3FT_FUSE_FINAL_DENSITY": "1",
+    "D3FT_REFERENCE_ROOT": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft",
+    "JAX_PLATFORMS": "cuda",
+    "LD_LIBRARY_PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cublas/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cupti/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cudnn/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cufft/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusolver/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusparse/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvshmem/lib:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/chenp/cutensor-2.3.1/lib:/APP/u22/ai_x86/CUDA/12.2/extras/CUPTI/lib64:/APP/u22/ai_x86/CUDA/12.2/lib64:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/xiean/proj/OODCGNEval_H100/models/potnet/functions/gsl/lib/",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc/bin:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.codex/tmp/arg0/codex-arg0i3ERdZ:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.npm-global/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.juliaup/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.nvm/versions/node/v20.20.2/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/condabin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/micromamba/2.1.1/bin:/APP/u22/ai_x86/CUDA/12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PRECALC_BETA_SERIAL": "1",
+    "PYTHONPATH": "${D3FT_ROOT}/validation/results/response_design_20261014_e0_migration/runtime_tail:${D3FT_ROOT}/third_party/jrystal_dependency",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "XLA_PYTHON_CLIENT_ALLOCATOR": "platform",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/dev/shm/response_design_e0_alp_new_retry1",
+    "JAX_COMPILATION_CACHE_DIR": "/dev/shm/response_design_e0_alp_new_retry1/jax_cache",
+    "D3FT_TRACE_STAGES": "1",
+    "D3FT_PHASE3_RESULTS_ROOT": "${D3FT_ROOT}/validation/results/response_design_20261001_resource_handoff/unused_legacy_results",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "JAX_COMPILATION_CACHE_MAX_SIZE": "0"
+  },
+  "jrystal": "${D3FT_ROOT}/third_party/jrystal_dependency",
+  "point_timeout_seconds": 3600,
+  "timeout_formula": "ceil((max(last10_point_seconds)*2.5+600)/300)*300",
+  "legacy_GPU_hour_reservation": 12,
+  "frozen_file_sha256": {
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/path_worker.py": "14824c297da779bbb2d59e3aaf39d672a0f2b5190894e2369c65144778f47c96",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/protocol.json": "5d785c2fb0f57809bd444433c79d450f25278f375cca66ae4605aaf4163ac9fd",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/metadata.json": "1ef0a4f8c80165a5d96a49f2ce713accd85cc0d5aaf0d260dc05597b8d31921c",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/parallel_single_points__20261016T053925014949Z_1239111_0/path_worker.py": "14824c297da779bbb2d59e3aaf39d672a0f2b5190894e2369c65144778f47c96",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/fresh_QE_bands.npz": "3f5e379048c02aba9502d646d8e4f920e8f2a816dae0b33e2669a940ca8a40be",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0000.json": "43d30e7ab083dcd80ae508283d7ab56d517a30c066bee0f04c642115fdc0042c",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0001.json": "0aeb9e3fea54623ee34bcb3aa3ddd18241e9734508efbf8f7296fbe07e6e0094",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0002.json": "b4e7318005e251e01090711a03de23431176f63e1c47af8aa3b595f6bfbfdd4e",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0003.json": "c1892ec8365f2638cedd4586cfb6168d88db82027b6a28a02245e88e4b2df4e1",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0004.json": "ea124750ad49c142aa119781d05ef0153d5daf9c8e7a857c50f82e3e3e7d4574",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0005.json": "16432bb49aa73726e0947f5c869a8f03b687f197f2641d20c78e0dc409a92985",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0006.json": "35b8b9ddb34b31dd3d88b299036c5a0056775dd90159f96249d5e77e00b41d72",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0007.json": "766d1afb1c3a679321a6143898a756df8335184e7d872313a2b5930f41464f00",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0008.json": "e4f8900a4534305bedf82352036a0fe9630bcaad76d31b81000396e3ad367b73",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0009.json": "e02ca328bd532b9cb409a1fbce6c2af2e6f8baee3581211f8941a60acdf493a9",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0010.json": "c70a638644f6eca4f9c221548758c5e256d05d3d9c8c5b7e423841241c28c79b",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0011.json": "e645698b987414d5a5903f98a8815e77baabeef3a593b56b590bec47558cfc9f",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0012.json": "30f8047b7cbc2cedaa4acfd6921c223afd568e8009a37d0c7c3f6f55835e10a7",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0013.json": "0a8045ce0e1c08a5e2d7edc6a9b2263d92f72433d0ba0bf31a87826bdffc661f",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0014.json": "dd4f951ead3532d0c13d108f84d561d1fb3177baabfb41b2f31dfd8025db5e26",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0015.json": "45bf64123fe01f5a7a5cc13c78f60ae647be10ed202183a7eb827e5579515357",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0016.json": "93bcd26bb52f112110ed140f15d7354a3269b37bec27260a1b3cd2a0c23fc1be",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0017.json": "65b1f71f77c9634d0441e4bdc20bffad018c8fa5a1af3341e50241bcf847f1db",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0018.json": "a17c47a848b55b08ead278059c0c66fb3e283a26e245aa60b25cadd8cf770796",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0019.json": "6e25f375c1c4c97a1c34d0da4237f5403ec4229b0fa9ba4fc37f26e888a2487a",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0020.json": "9f51a37a4aa513cf18880a2ab3192ea10b4bbbc589d12c5f879834216b8e88d0",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_GPU5_now__20261015T235507788888Z_3047624_0/D3FT_start/k_0021.json": "90a8858a7b26e02b8a993b400052dfe70971d0c7929d267612e44ffcfa5c869c",
+    "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3/metadata.json": "8f2dafde6eb86220b693e5ee07c841f857db46ff9d22894aff15316fb6aa05f0",
+    "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3/point.json": "deb28f22bcd61a2180003ac1905f66952109381cfd4bfab71b99dc5779c3ed87",
+    "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3/state.pkl": "d5510a175c10d251db61a0532116447e5f8ed0bf9325ef98603dd045eede3bd3",
+    "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3/mask.npy": "f113a2e24810543b1547acade65d3b443b4447643da0f373dc0df61ea89d550e",
+    "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3/density.npy": "fc7ab072bf09893e10c89c9ef7f9262c62361488cea37b460436b355227c7e4b",
+    "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3/input.xyz": "b68e75d3b1e0b37fd379f6047b28328fd31632c32388cfd651543f0d0b043a2a"
+  },
+  "execution": "one k point per independently named process",
+  "resource_exclusions": {
+    "6": "OMC26 stage1_worker.py PID1779436, not E8",
+    "5_foreign": "OMC26 stage1_worker.py PID1779438; join only after whole GPU idle"
+  },
+  "priority_after_E8": "E5 k4 first, then E7 training; foreign GPU5/6 must also release"
+}

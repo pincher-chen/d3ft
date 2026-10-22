@@ -1,0 +1,24 @@
+{
+  "created": "2026-10-22T14:43:15.593626+08:00",
+  "source_protocol": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Supplementary_ADDFPT_20261021/data/scalar_path_protocol.json",
+  "source_protocol_sha256": "ec94196b6f9a5c5d7b821fe25261580920f0c99de71a0ec6ae2fc6ebab4293c3",
+  "style_reference": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/ovito_render_color_20261022T102625/render_report.json",
+  "style_reference_sha256": "4ee84cbc1a2ef98750a564e34f956987897c7b014c67e6d66efd3ea279870dfb",
+  "initial_protected_SHA256": {
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/main.tex": "ed5e725828a9d2a75fe8c725da876ebf94dea7b843fa3bb03f336cc6d7347525",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/main.pdf": "7434a752703f3cbb472e94b245846c7ca108fb4f378c79be68c4bdb68a97b964",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/supplementary.tex": "c66596827a97a1fee43516c042faec2feac5fd1a16559e6d0cda215c49a6ab59",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/supplementary.pdf": "558d50b289527cd43e418dfbe90382cfbf93d9586b4e707f504ed5fd430e23ae",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Supplementary_ADDFPT_20261021/final/S4_structures.pdf": "3cffedea6739021122183aca1983170c357513070e386528fa42fc3c777f4fbe",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Supplementary_ADDFPT_20261021/final/S4_structures.svg": "f2a15c20e95489fc459f539a67c2b675783925690b654ab302b51a14f971e1ee",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Supplementary_ADDFPT_20261021/final/S4_structures.tiff": "07d5d85730290ece60819642ac1dd31706cb26b3b6231ac70290bc163109beda",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Supplementary_ADDFPT_20261021/final/S4_structures.png": "1dadb7de52b5f8f06f3224ed4a957b81d47ab72fd388dfa02ab231d850d33c30",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/Figure_3.tiff": "e55b1104554dbc1ac9498fc6a0bd63ea73345bf2a21a26b4c4140dc93081dcac",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/Figure_3.pdf": "526948e30f4cb79dd458351f02239b223a9f1b051876ee0d520c7f04c684a096",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/Figure_3.svg": "ca0b1990f3ebbdb3aa0b9082ab3dbcf2b27eefcdadc94022c4a4203b857db177",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/Figure_3.png": "8ebe0a9465b419b6d40186e4144c0dea8f823e037f2998a612104d7de3b9311a"
+  },
+  "backup": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/SI_Figure_S2/backup_pre_ovito_20261022T144315",
+  "geometry": "Exact archived scalar-path states; Cartesian positions = fractional @ row-cell in Angstrom",
+  "no_displacement_arrows": true
+}

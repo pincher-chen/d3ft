@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-16T04:42:02.014547+08:00",
+  "stage": "k2_hydro_h_h2_accepted_E5_released",
+  "controller_pid": 2021251,
+  "jobid": 250285,
+  "gpus": [
+    7
+  ],
+  "spent_GPU_hours": 14.22760264611117,
+  "required_k6_repairs": 4,
+  "completed_points": 4,
+  "passed": true,
+  "formal_E6_complete": false
+}

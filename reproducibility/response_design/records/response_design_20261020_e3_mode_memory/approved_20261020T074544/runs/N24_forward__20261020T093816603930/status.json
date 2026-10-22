@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-20T13:45:47.916907+08:00",
+  "N": 24,
+  "mode": "forward",
+  "stage": "response",
+  "seconds_since_start": 14849.773741763085,
+  "completed_axes": 24,
+  "expected_axes": 24
+}

@@ -1,72 +1,95 @@
-# D3FT
+# D3FT: electronic response and structural design
 
-Direct free-energy minimization in plane-wave density-functional theory, with charge-conserving Fermi–Dirac coordinates and gap-scaled orbital rotation preconditioning. Built on JRystal's plane-wave infrastructure. D3FT is unrelated to Grimme's DFT-D3 dispersion correction.
+This branch, **response-design**, adds self-consistent electronic adjoints,
+forward controls and many-input structural design to direct plane-wave DFT.
+The existing **v1.0** tag preserves the earlier ground-state benchmark release.
+The new source and records are separate; no earlier tag is replaced.
 
-This release brings together the executable solver, small verification tests, six physical benchmark cases, exact reference data, and self-contained paper figures. Existing experiment directories and manuscript sources were not modified during packaging.
+## Install the scientific runtime
 
-## Quick start
-
-Python 3.10 is the recorded research environment. CPU verification and figure rendering need no allocation.
+Recorded solver environment: Python3.10, JAX/jaxlib0.6.2, double precision.
 
 ```bash
-git clone git@github.com:pincher-chen/d3ft.git
+git clone --branch response-design https://github.com/pincher-chen/d3ft.git
 cd d3ft
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt -r requirements-figures.txt
-pip install --no-deps -e third_party/jrystal_dependency
-pip install --no-deps -e .
-make check
-python scripts/run_tests.py --suite cpu
-python make_figures.py
+pip install -r requirements.txt
+pip install --no-deps -e third_party/jrystal_dependency -e .
+python scripts/verify_response_release.py
+python scripts/check_response_cpu.py
+python scripts/run_response.py --stage inspect
 ```
 
-GPU calculations additionally require a CUDA-compatible JAX installation; the recorded runs used JAX/jaxlib 0.6.2 with the matching CUDA12 plugin on NVIDIA H100. For pip-managed CUDA12, install `jax[cuda12]==0.6.2`. Preserve the JAX version when comparing trajectories. Original environment and hardware records are under `provenance/environment/`.
+Install a compatible CUDA-enabled JAX build separately for real GPU runs;
+`jax[cuda12]==0.6.2` is the recorded version. Inspection and CPU checks do not
+request an allocation. Optional FD/particle-hole trial modules remain optional;
+they are not the solver used by the fixed-occupation response examples.
 
-## Which code version is used?
+## Run the real saved-state example
 
-| Location | Role |
+```bash
+# Read-only catalogue and settings; no GPU initialization:
+python scripts/run_response.py --list
+python scripts/run_response.py --stage reverse
+
+# Explicit opt-in on a GPU you already have; NEW output folder required:
+CUDA_VISIBLE_DEVICES=0 python scripts/run_response.py --stage reverse --execute --output runs/reverse54
+CUDA_VISIBLE_DEVICES=0 python scripts/run_response.py --stage forward --execute --output runs/forward54
+CUDA_VISIBLE_DEVICES=0 python scripts/run_response.py --stage design54 --execute --output runs/joint54
+CUDA_VISIBLE_DEVICES=0 python scripts/run_response.py --stage design6 --execute --output runs/strain6
+CUDA_VISIBLE_DEVICES=0 python scripts/run_response.py --stage design48 --execute --output runs/coordinates48
+```
+
+The bundled MgSiN2 Gamma checkpoint, fixed Miller mask, density and independent
+orbital eigenspace are real accepted calculation outputs. These arrays are
+hash-verified and copied into each new experiment directory. Full calculations
+are substantial; metadata inspection is the default. See
+[workflow documentation](docs/response_design.md) for units, numerical scope,
+acceptance, checkpoint handling and limitations.
+
+## What is distributed
+
+| Location | Contents |
 |---|---|
-| `d3ft/` | Latest validated corrected-phase solver, including the Na NLCC physical-kernel repair; copied without scientific edits |
-| `reproducibility/versions/paper_frozen/` | Original corrected-phase solver used for Al, Si, SiC, displaced SiC, and GaAs validation |
-| `reproducibility/versions/ph_prefix/` | Original PH annealing prefix; retained exactly |
-| `reproducibility/versions/ph_prefix_nlcc/` | Same prefix with the validated Na NLCC kernel |
-| `archives/development_20261013/` | Original current development package from `chenp/d3ft2/d3ft-main`, including legacy Sinkhorn and response features |
-| `reproducibility/implementation/` | Optional trial-only gather optimization and equivalence evidence; separate from the validation solver |
-| `third_party/jrystal_dependency/` | Exact JRystal runtime dependency used by the paper |
+| `d3ft/` | Fixed-occupation response-compatible solver, forces/stress, radial kernels and checkpoint support |
+| `validation/workflows/response_design/` | Gamma/k-mesh response, design, ionic-relaxation, fitting, spectra and verification source |
+| `examples/response_design/` | Geometries, pseudopotentials, case catalogue and bounded-design settings |
+| `reproducibility/response_design/` | Scientific protocols, accepted/unsuccessful outcomes, CPU checks and the representative Gamma restart seed |
+| `Figures/response_design/` | Latest figures; numeric source data and plotting code for Figures2–5 |
+| `provenance/RESPONSE_DESIGN_MANIFEST.json` | Distributed-source/data SHA256 inventory |
 
-**Use `scripts/run_case.py` for paper calculations.** The generic CLI and `config.yaml` retain legacy defaults; they do not select the paper's two-stage method automatically. The paper method uses an analytic metric direction and Armijo; its experiments should not be described as Adam-moment optimization. Recycling remains an implementation option, not a demonstrated contribution under the final schedule. No superiority of the PH factor over the occupation-difference factor is asserted here.
+The extended workers and campaign records are included, but not every large
+historical k-mesh checkpoint. Only the Gamma example is a complete bundled
+restart. Extended campaigns require regenerated states and user-configured
+paths/hardware; old campaign controllers are archival sources, not a ready-made
+queue for somebody else's allocation.
 
-## Benchmark cases
+## Figures
 
-```bash
-python scripts/run_case.py GaAs --dry-run
-# Requires one GPU; creates a NEW output directory, never overwrites:
-python scripts/run_case.py GaAs --seed 301 --output runs/GaAs_s301
-# Existing allocation, supplied by the user; never cancels it:
-D3FT_PYTHON=python bash scripts/slurm_case.sh YOUR_JOBID GaAs 301 runs/GaAs_s301
-```
+**Figure1 is a manually edited architecture diagram. Only its final PDF and a
+README are supplied. No obsolete script, draft image or data is claimed to
+regenerate it.** Figures2–5 have their own data, scripts and source manifests.
+The supplemental structure rendering includes the exact three cells and an
+optional OVITO CPU renderer.
 
-The runner preserves the 1000-step anneal-then-switch prefix, occupation scales 1/10, corrected estimator, δ=0.001 Ha, stable internal algebra, Armijo and recycling; independent spectral and QE audits occur at 4000/8000/12000/16000/20000 steps. It stops at the first strict 8+3 pass. Failure at the budget remains censored. QE density, mesh and energy checks retain their original conventions and tolerances.
-
-See [examples/README.md](examples/README.md) for all six cases, units and settings; [reproducibility/README.md](reproducibility/README.md) for protocol, reference generation and limitations.
-
-## Figures and data
-
-[Figures/README.md](Figures/README.md) indexes Figure1–6 and FigureS1. Every folder contains `data/`, `script/`, README, PDF and PNG. Scripts read only their local data and require no DFT software. Figure4 contains the five-system independent high-symmetry-path comparison against QE. Sources and SHA256 are recorded in each data directory.
+Standard panels use Python3.12/Matplotlib3.10.8. Band plotting uses a separate
+Python3.13 environment with `requirements-response-bands.txt`.
 
 ```bash
-python Figures/Figure_4/script/plot_figure_4.py
-# Or all figures:
-make figures
+python scripts/response_figures.py --band-python /path/to/band-venv/bin/python
 ```
 
-## Tests and provenance
+Original outcome values, failed criteria and infrastructure interruptions remain
+separate. In particular, all held-out calibration losses are worse than PBE;
+limited external improvements do not imply universal generalization, and the
+sampled-gap transfer criterion was not met. See the workflow documentation and
+stored acceptance records.
 
-[tests/README.md](tests/README.md) distinguishes CPU mathematics, legacy tests, GPU integration, and external-reference checks. Original packaging failures and final verification results are retained under `provenance/checks/`. Passing unit tests is not a substitute for the 11 physical acceptance tests.
+## Licence and attribution
 
-`make check` verifies immutable code/data against `provenance/RELEASE_MANIFEST.json`, exact solver-version hashes and reference hashes. Rendered figure files are derived outputs and are excluded from the immutable hash set so rerendering PDFs does not invalidate source checks. `provenance/COPY_SOURCES.json` records original local source paths and original digests; these paths are provenance, not runtime dependencies.
-
-## License and attribution
-
-D3FT source: Apache-2.0; see [LICENSE](LICENSE) and [NOTICE](NOTICE). Redistributed JRystal source retains its headers and license. Pseudopotentials retain their original UPF metadata and provenance; see `reproducibility/inputs/pseudopotentials/README.md`. Historical baseline code and the shared NC control are distinct from the current solver. The original AE JRystal implementation is not a Hamiltonian-matched accuracy baseline.
+Apache-2.0; see [LICENSE](LICENSE) and [NOTICE](NOTICE). The direct-minimization
+infrastructure follows JRystal; the exact production dependency is vendored under
+`third_party/jrystal_dependency/` with its attribution. UPF files retain their
+original headers. Earlier solver benchmarks and their frozen versions remain
+available through **v1.0**.

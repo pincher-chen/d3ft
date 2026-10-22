@@ -1,0 +1,9 @@
+{
+  "outcome": "stopped_failure_or_resource_limit",
+  "error": "RuntimeError('Existing hard64k response unsupported/failed; see retained log, no fallback')",
+  "traceback": "Traceback (most recent call last):\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/controller_hn48.py\", line 186, in guarded\n    try:terminal(k,fn())\n                   ^^^^\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/controller_hn48.py\", line 169, in m5\n    if r['returncode']:raise RuntimeError('Existing hard64k response unsupported/failed; see retained log, no fallback')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Existing hard64k response unsupported/failed; see retained log, no fallback\n",
+  "failure_kind": "inspect retained worker logs; no automatic physical-failure claim",
+  "time": "2026-10-21T16:47:24.079808+08:00",
+  "GPU_hours": 5.342458353572422,
+  "cap_GPU_hours": 35
+}

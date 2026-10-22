@@ -1,0 +1,6 @@
+&INPUTPP
+ prefix='AlP_e0', outdir='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/npjcm_20261014_e0_migration/alp_qe/scratch', plot_num=0, filplot='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/npjcm_20261014_e0_migration/qe_postprocess/density.pp'
+/
+&PLOT
+ nfile=1, filepp(1)='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/npjcm_20261014_e0_migration/qe_postprocess/density.pp', iflag=3, output_format=6, fileout='/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft2/d3ft-main/validation/results/npjcm_20261014_e0_migration/qe_postprocess/density.cube'
+/

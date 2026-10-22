@@ -1,0 +1,109 @@
+{
+  "time": "2026-10-19T02:56:13.211147+08:00",
+  "status_source": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/status.json",
+  "shared_GPU_hours": 424.96629216341506,
+  "GaP_PBE_original_GPU_hours": 96.01463297485115,
+  "GaP_PBE_resume_GPU_hours": 2.0875693788110383,
+  "GaP_PBE_total_GPU_hours": 98.1022023536622,
+  "GaP_total_GPU_hours": 185.9949850664826,
+  "resume_event": {
+    "label": "eq_2",
+    "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/GaP_budget_record_only__20261018T012932178793Z/external_GaP_PBE__20261018T180442797907Z_2570716_0_reuse/checkpoints/SCF_20261018T140150022754Z_845542",
+    "source_state_sha256": "5dfaf252e13a600c53f047825fd80595c29d3c80e53f8d253d4fac9b43bf0bcd",
+    "completed_steps": 8500,
+    "new_updates": 500,
+    "read_only_reconstruction_updates": 0,
+    "optimizer_moments_restored": false,
+    "learning_rate": "original 9000-step schedule tail",
+    "no_completed_updates_recomputed": true,
+    "completed": true
+  },
+  "LOO": [
+    {
+      "material": "Si",
+      "PBE_loss": 2.948094058348727,
+      "fitted_loss": 7.756319440949394,
+      "ratio": 2.63096064353314,
+      "fine_passed": false,
+      "B_difference_GPa": 0.11552910137331196,
+      "a0_relative_difference": 1.1056391012200346e-05
+    },
+    {
+      "material": "BN",
+      "PBE_loss": 0.40550325587747515,
+      "fitted_loss": 1.102619615639785,
+      "ratio": 2.719138748353101,
+      "fine_passed": true,
+      "B_difference_GPa": 0.01108088926474693,
+      "a0_relative_difference": 0.0
+    },
+    {
+      "material": "diamond",
+      "PBE_loss": 0.10527730525705259,
+      "fitted_loss": 0.2305127020657602,
+      "ratio": 2.18957639068481,
+      "fine_passed": true,
+      "B_difference_GPa": 0.07296994032196835,
+      "a0_relative_difference": 0.0
+    }
+  ],
+  "LOO_physical": [
+    {
+      "material": "Si",
+      "property": "a0_A",
+      "reference": 5.430941,
+      "PBE": 5.477565668484391,
+      "fitted": 5.506567313839419,
+      "PBE_error": 0.8585007365093933,
+      "fitted_error": 1.3925084776177599
+    },
+    {
+      "material": "BN",
+      "property": "B_GPa",
+      "reference": 381.1,
+      "PBE": 368.96594034035184,
+      "fitted": 361.0911646599062,
+      "PBE_error": -12.134059659648187,
+      "fitted_error": -20.00883534009381
+    },
+    {
+      "material": "diamond",
+      "property": "a0_A",
+      "reference": 3.566986,
+      "PBE": 3.567821440786927,
+      "fitted": 3.5736886814579014,
+      "PBE_error": 0.02342147647698134,
+      "fitted_error": 0.1879088243660343
+    },
+    {
+      "material": "diamond",
+      "property": "B_GPa",
+      "reference": 442.3333333333333,
+      "PBE": 432.2378478224254,
+      "fitted": 429.8264316835809,
+      "PBE_error": -10.095485510907906,
+      "fitted_error": -12.506901649752422
+    }
+  ],
+  "external": [
+    {
+      "material": "SiC",
+      "reference": 4.3596,
+      "PBE_a0_A": 4.381082149551049,
+      "PBE_error_percent": 0.49275505897441635,
+      "fitted_a0_A": 4.375884980189261,
+      "fitted_error_percent": 0.37354298993625684,
+      "B_certified": false
+    },
+    {
+      "material": "GaP",
+      "reference": 5.4505,
+      "PBE_a0_A": 5.509702466879847,
+      "PBE_error_percent": 1.0861841460388362,
+      "fitted_a0_A": 5.476584419190784,
+      "fitted_error_percent": 0.47856929072166415,
+      "B_certified": false
+    }
+  ],
+  "source_read_only": true
+}

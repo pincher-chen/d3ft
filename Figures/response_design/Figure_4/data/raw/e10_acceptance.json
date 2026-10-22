@@ -1,0 +1,33 @@
+{
+  "completed": true,
+  "passed": true,
+  "states": {
+    "E4_initial": {
+      "passed": true,
+      "points": 130,
+      "bands": 56,
+      "path_gap_eV": 3.992448162188349,
+      "Gamma_transition_eV": 4.40470404178892,
+      "maximum_ritz_Ha": 8.978561629804467e-11,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/SCF/E4_initial/SCF__20261019T033714070878Z_1865807/output",
+      "path_sha256": "ec94196b6f9a5c5d7b821fe25261580920f0c99de71a0ec6ae2fc6ebab4293c3",
+      "alignment": "own sampled path VBM",
+      "not_continuous_BZ_convergence": true
+    },
+    "E4_joint54_endpoint": {
+      "passed": true,
+      "points": 130,
+      "bands": 56,
+      "path_gap_eV": 4.078238146351474,
+      "Gamma_transition_eV": 4.504473767985586,
+      "maximum_ritz_Ha": 8.546624893760956e-11,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/SCF/E4_joint54_endpoint/SCF__20261019T061206020694Z_1865807/output",
+      "path_sha256": "ec94196b6f9a5c5d7b821fe25261580920f0c99de71a0ec6ae2fc6ebab4293c3",
+      "alignment": "own sampled path VBM",
+      "not_continuous_BZ_convergence": true
+    }
+  },
+  "path_GPU_hours": 78.17421877566181,
+  "not_ionic_relaxation": true,
+  "smoke_reused": true
+}

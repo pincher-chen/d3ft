@@ -1,0 +1,15 @@
+{
+  "nonphysical_packaging_issues": [
+    {
+      "issue": "Different Matplotlib major plotting runtime changed image-label extents",
+      "resolution": "Use the recorded3.10.8 plotting environment for panels2/3/5; band panel retains its separate3.13 environment",
+      "data_changed": false
+    },
+    {
+      "issue": "Relocated relaxation unit-test protocol fixture initially absent",
+      "resolution": "Added the unchanged protocol and updated fixture path;9 tests passed",
+      "data_changed": false
+    }
+  ],
+  "GPU_computations_launched": false
+}

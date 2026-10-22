@@ -1,0 +1,155 @@
+{
+  "time": "2026-10-21T09:57:48.340984+08:00",
+  "stage": "complete",
+  "controller_pid": 1969502,
+  "jobid": 250285,
+  "node": "hn35",
+  "used_GPU_hours": {
+    "AlP": 13.809843411445618,
+    "GaAs": 157.31662088513374
+  },
+  "active": null,
+  "logical_results": {
+    "AlP_fitted": {
+      "time": "2026-10-20T05:27:52.861603+08:00",
+      "material": "AlP",
+      "model": "fitted",
+      "passed": true,
+      "a0_A": 5.502544437547186,
+      "reference_a0_A": 5.4635,
+      "relative_error_percent": 0.7146414852601257,
+      "reference_scope": "~300 K local Bessolov et al. 1982 transcription; no new ZPE/thermal correction; original uncertainty unverified",
+      "summary": {
+        "material": "AlP",
+        "parameter_vector": [
+          0.0,
+          -0.0174840013874402,
+          0.0,
+          0.0,
+          0.0,
+          -0.03543689751136915,
+          -0.014088007319144703
+        ],
+        "a0_A": 5.502544437547186,
+        "equilibrium_pressure_GPa": -0.00011293722602486967,
+        "equilibrium_residual": 3.5082745267187746e-13,
+        "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+        "B_root_estimate_GPa": 82.7,
+        "root_relative": 4.5520848861293695e-07,
+        "validation_used_for_updates": false,
+        "optimizer_parameters_frozen": true
+      },
+      "used_for_fitting": false,
+      "parameters_changed": false,
+      "bulk_modulus_certified": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/AlP_fitted__20261019T210140817618Z/worker_results/AlP_fitted__20261019T210140817618Z",
+      "actual_GPU_hours": 7.050059303707547
+    },
+    "AlP_PBE": {
+      "time": "2026-10-20T06:18:15.288118+08:00",
+      "material": "AlP",
+      "model": "PBE",
+      "passed": true,
+      "a0_A": 5.50697068646717,
+      "reference_a0_A": 5.4635,
+      "relative_error_percent": 0.7956563826698959,
+      "reference_scope": "~300 K local Bessolov et al. 1982 transcription; no new ZPE/thermal correction; original uncertainty unverified",
+      "summary": {
+        "material": "AlP",
+        "parameter_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "a0_A": 5.50697068646717,
+        "equilibrium_pressure_GPa": -0.00012678448809695184,
+        "equilibrium_residual": 5.04630187712108e-13,
+        "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+        "B_root_estimate_GPa": 82.7,
+        "root_relative": 5.11021717440354e-07,
+        "validation_used_for_updates": false,
+        "optimizer_parameters_frozen": true
+      },
+      "used_for_fitting": false,
+      "parameters_changed": false,
+      "bulk_modulus_certified": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/AlP_PBE__20261019T212753399274Z/worker_results/AlP_PBE__20261019T212753399274Z",
+      "actual_GPU_hours": 6.759784107738071
+    },
+    "GaAs_fitted": {
+      "time": "2026-10-21T01:10:52.718522+08:00",
+      "material": "GaAs",
+      "model": "fitted",
+      "passed": true,
+      "a0_A": 5.717065745976095,
+      "reference_a0_A": 5.65325,
+      "relative_error_percent": 1.1288329010055387,
+      "reference_scope": "300 K; Driscoll via Blakemore 1982 DOI 10.1063/1.331665; no new ZPE/thermal correction",
+      "summary": {
+        "material": "GaAs",
+        "parameter_vector": [
+          0.0,
+          -0.0174840013874402,
+          0.0,
+          0.0,
+          0.0,
+          -0.03543689751136915,
+          -0.014088007319144703
+        ],
+        "a0_A": 5.717065745976095,
+        "equilibrium_pressure_GPa": -4.911972240363243e-06,
+        "equilibrium_residual": 5.399487481382401e-13,
+        "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+        "B_root_estimate_GPa": 63.987286155537625,
+        "root_relative": 2.5588271959856867e-08,
+        "validation_used_for_updates": false,
+        "optimizer_parameters_frozen": true
+      },
+      "used_for_fitting": false,
+      "parameters_changed": false,
+      "bulk_modulus_certified": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/GaAs_fitted__20261020T160900481709Z/worker_results/GaAs_fitted__20261020T160900481709Z",
+      "actual_GPU_hours": 104.62540681242943
+    },
+    "GaAs_PBE": {
+      "time": "2026-10-21T09:57:48.236574+08:00",
+      "material": "GaAs",
+      "model": "PBE",
+      "passed": true,
+      "a0_A": 5.75093322184067,
+      "reference_a0_A": 5.65325,
+      "relative_error_percent": 1.7279126491959618,
+      "reference_scope": "300 K; Driscoll via Blakemore 1982 DOI 10.1063/1.331665; no new ZPE/thermal correction",
+      "summary": {
+        "material": "GaAs",
+        "parameter_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "a0_A": 5.75093322184067,
+        "equilibrium_pressure_GPa": -0.000611366900589502,
+        "equilibrium_residual": 9.862317359721466e-13,
+        "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+        "B_root_estimate_GPa": 58.7,
+        "root_relative": 3.4717030130011464e-06,
+        "validation_used_for_updates": false,
+        "optimizer_parameters_frozen": true
+      },
+      "used_for_fitting": false,
+      "parameters_changed": false,
+      "bulk_modulus_certified": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/GaAs_PBE__20261020T171053431410Z/worker_results/GaAs_PBE__20261020T171053431410Z",
+      "actual_GPU_hours": 52.69121407270431
+    }
+  },
+  "all_passed": true
+}

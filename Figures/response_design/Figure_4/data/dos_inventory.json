@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-19T18:33:02.681707+08:00",
+  "searched": [
+    "Figures/Figure_4/data",
+    "validation/results/response_design_20261015_e8_bands",
+    "validation/results/response_design_20261019_e9_e10",
+    "paper_rewriting_output/final_paper"
+  ],
+  "DOS_or_PDOS_files_found": [],
+  "uniform_BZ_DOS_for_E8_available": false,
+  "not_DOS": [
+    "path band energies (61x56)",
+    "band-edge charge density"
+  ],
+  "decision": "No DOS panel; no conversion of path histogram into Brillouin-zone DOS; no new DFT jobs"
+}

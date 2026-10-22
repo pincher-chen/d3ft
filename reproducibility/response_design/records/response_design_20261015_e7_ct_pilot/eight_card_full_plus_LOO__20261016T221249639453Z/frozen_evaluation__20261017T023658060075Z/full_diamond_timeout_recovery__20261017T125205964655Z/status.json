@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-18T03:05:41.008805+08:00",
+  "controller_pid": 3299627,
+  "stage": "no_timeout_recovery_authorized",
+  "jobid": 250285,
+  "node": "hn35",
+  "attempt_history": [],
+  "budget": {
+    "spent_GPU_hours": 219.86535373682932,
+    "reserved_GPU_hours": 144,
+    "cap_GPU_hours": 500
+  },
+  "observed_returncode": 0,
+  "interpretation": "Original normal completion or non-timeout failure; no automatic retry"
+}

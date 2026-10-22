@@ -1,0 +1,5 @@
+{
+  "k": 10,
+  "passed": false,
+  "failure": "QE task failed or full precision XML missing"
+}

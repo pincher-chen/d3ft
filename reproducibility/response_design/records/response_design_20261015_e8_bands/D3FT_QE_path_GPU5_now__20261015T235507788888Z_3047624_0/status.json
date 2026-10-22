@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-16T13:41:59.477374+08:00",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    5
+  ],
+  "controller_pid": 3047625,
+  "passed": false,
+  "error": "E8 path child failed/timeout; accepted partial k records retained"
+}

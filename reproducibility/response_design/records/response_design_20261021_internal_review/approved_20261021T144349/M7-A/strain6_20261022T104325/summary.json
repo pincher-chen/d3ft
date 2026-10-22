@@ -1,0 +1,174 @@
+{
+  "completed": true,
+  "passed": true,
+  "outcome": "target_reached",
+  "acceptance": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M7-A/strain6_20261022T104325/run_strain6/acceptance.json",
+  "comparison": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M7-A/strain6_20261022T104325/comparison.json",
+  "trajectory_summary": [
+    {
+      "step": 0,
+      "gap_eV": 4.410987370971381,
+      "target_error_meV": -99.99999997026521,
+      "strain6": [
+        0.003,
+        -0.002,
+        0.001,
+        0.002,
+        -0.001,
+        0.0015
+      ],
+      "strain_delta6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "strain_step_L2": 0.0,
+      "strain_total_L2": 0.0,
+      "energy_change_meV_atom": 0.0,
+      "max_force_norm_Ha_Bohr": 0.01883894411985017,
+      "max_force_norm_eV_A": 0.9687374557136683,
+      "max_force_component_Ha_Bohr": 0.016111674869874304,
+      "fractional_max_error": 2.220446049250313e-16,
+      "step_wall_seconds": 1273.525183942169,
+      "readout_wall_seconds": 1211.5992632620037,
+      "state_directory": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M7-A/strain6_20261022T104325/run_strain6/initial"
+    },
+    {
+      "step": 1,
+      "gap_eV": 4.455873889885747,
+      "target_error_meV": -55.11348105589953,
+      "strain6": [
+        0.0013010396718789892,
+        -0.0035363536163368747,
+        -0.0009371435328712197,
+        0.0019810261248085358,
+        -0.0009935761885109613,
+        0.0014849990399995242
+      ],
+      "strain_delta6": [
+        -0.0016989603281210108,
+        -0.0015363536163368746,
+        -0.0019371435328712197,
+        -1.897387519146426e-05,
+        6.423811489038702e-06,
+        -1.5000960000475854e-05
+      ],
+      "strain_step_L2": 0.003,
+      "strain_total_L2": 0.003,
+      "energy_change_meV_atom": -0.3658258035241469,
+      "max_force_norm_Ha_Bohr": 0.01909038068028782,
+      "max_force_norm_eV_A": 0.9816668434905084,
+      "max_force_component_Ha_Bohr": 0.01658240624274887,
+      "fractional_max_error": 3.3306690738754696e-16,
+      "step_wall_seconds": 2525.9347831755877,
+      "readout_wall_seconds": 1726.1918362379074,
+      "state_directory": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M7-A/strain6_20261022T104325/run_strain6/trial_0_0/electronic_state"
+    },
+    {
+      "step": 2,
+      "gap_eV": 4.500887166484785,
+      "target_error_meV": -10.100204456861661,
+      "strain6": [
+        -0.00039728366241455096,
+        -0.005074741867524094,
+        -0.0028732327539804613,
+        0.0019621667485034047,
+        -0.0009871785566663602,
+        0.0014701207692675341
+      ],
+      "strain_delta6": [
+        -0.0033972836624145512,
+        -0.003074741867524094,
+        -0.0038732327539804613,
+        -3.783325149659539e-05,
+        1.2821443333639864e-05,
+        -2.987923073246592e-05
+      ],
+      "strain_step_L2": 0.003,
+      "strain_total_L2": 0.005999999526173196,
+      "energy_change_meV_atom": -0.3807584219436302,
+      "max_force_norm_Ha_Bohr": 0.019364550445696335,
+      "max_force_norm_eV_A": 0.9957652196673136,
+      "max_force_component_Ha_Bohr": 0.017061436032133503,
+      "fractional_max_error": 2.220446049250313e-16,
+      "step_wall_seconds": 2576.88489401713,
+      "readout_wall_seconds": 1754.5157558247447,
+      "state_directory": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M7-A/strain6_20261022T104325/run_strain6/trial_1_0/electronic_state"
+    },
+    {
+      "step": 3,
+      "gap_eV": 4.510990549226047,
+      "target_error_meV": 0.0031782844009953237,
+      "strain6": [
+        -0.0007776918824880228,
+        -0.005419900251068371,
+        -0.0033068005630279987,
+        0.0019579664941658747,
+        -0.0009857509351669672,
+        0.0014668142088474882
+      ],
+      "strain_delta6": [
+        -0.003777691882488023,
+        -0.003419900251068371,
+        -0.004306800563027999,
+        -4.203350583412537e-05,
+        1.4249064833032855e-05,
+        -3.3185791152511804e-05
+      ],
+      "strain_step_L2": 0.0006722026348163953,
+      "strain_total_L2": 0.006672201729876536,
+      "energy_change_meV_atom": -0.3352894634176313,
+      "max_force_norm_Ha_Bohr": 0.019429247402692036,
+      "max_force_norm_eV_A": 0.9990920709554594,
+      "max_force_component_Ha_Bohr": 0.017169973450477327,
+      "fractional_max_error": 2.220446049250313e-16,
+      "step_wall_seconds": 2467.221175018698,
+      "readout_wall_seconds": 1707.5728990063071,
+      "state_directory": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M7-A/strain6_20261022T104325/run_strain6/trial_2_0/electronic_state"
+    }
+  ],
+  "comparison_summaries": [
+    {
+      "experiment": "E4_joint54",
+      "accepted_updates": 3,
+      "initial_gap_eV": 4.410987370971381,
+      "final_gap_eV": 4.510987707376286,
+      "error_at_step3_or_earlier_meV": 0.0003364346392586981,
+      "step_used_for_three_step_comparison": 3,
+      "final_target_error_meV": 0.0003364346392586981,
+      "target_reached": true,
+      "assigned_GPU_hours": 4.574544126944445,
+      "scope": "Archived per-experiment assigned GPU walltime, not an exclusive-node speed benchmark"
+    },
+    {
+      "experiment": "M4_coordinates48",
+      "accepted_updates": 3,
+      "initial_gap_eV": 4.410987370971381,
+      "final_gap_eV": 4.464202942469275,
+      "error_at_step3_or_earlier_meV": -46.784428472371076,
+      "step_used_for_three_step_comparison": 3,
+      "final_target_error_meV": -46.784428472371076,
+      "target_reached": false,
+      "assigned_GPU_hours": 2.7939039590623644,
+      "scope": "Archived per-experiment assigned GPU walltime, not an exclusive-node speed benchmark"
+    },
+    {
+      "experiment": "M7_strains6",
+      "accepted_updates": 3,
+      "initial_gap_eV": 4.410987370971381,
+      "final_gap_eV": 4.510990549226047,
+      "error_at_step3_or_earlier_meV": 0.0031782844009953237,
+      "step_used_for_three_step_comparison": 3,
+      "final_target_error_meV": 0.0031782844009953237,
+      "target_reached": true,
+      "assigned_GPU_hours": 2.463836025065846,
+      "scope": "Archived per-experiment assigned GPU walltime, not an exclusive-node speed benchmark"
+    }
+  ],
+  "time": "2026-10-22T13:15:09.612742+08:00",
+  "GPU_hours": 2.463836025065846,
+  "cap_GPU_hours": 8
+}

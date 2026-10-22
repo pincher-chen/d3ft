@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "per_iteration_counts": [
+    4,
+    3
+  ],
+  "entries": [
+    {
+      "iteration": 1,
+      "error": 0.0
+    },
+    {
+      "iteration": 1,
+      "error": 0.0
+    },
+    {
+      "iteration": 1,
+      "error": 0.0
+    },
+    {
+      "iteration": 1,
+      "error": 0.0
+    },
+    {
+      "iteration": 2,
+      "error": 0.0
+    },
+    {
+      "iteration": 2,
+      "error": 0.0
+    },
+    {
+      "iteration": 2,
+      "error": 0.0
+    },
+    {
+      "iteration": 3,
+      "error": 0.0
+    }
+  ],
+  "solution_error": 0.0,
+  "scope": "CPU software regression of single-device probe hook; no DFT calculation repeated"
+}

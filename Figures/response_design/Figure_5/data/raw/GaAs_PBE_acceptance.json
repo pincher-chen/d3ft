@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-21T09:57:48.236574+08:00",
+  "material": "GaAs",
+  "model": "PBE",
+  "passed": true,
+  "a0_A": 5.75093322184067,
+  "reference_a0_A": 5.65325,
+  "relative_error_percent": 1.7279126491959618,
+  "reference_scope": "300 K; Driscoll via Blakemore 1982 DOI 10.1063/1.331665; no new ZPE/thermal correction",
+  "summary": {
+    "material": "GaAs",
+    "parameter_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "a0_A": 5.75093322184067,
+    "equilibrium_pressure_GPa": -0.000611366900589502,
+    "equilibrium_residual": 9.862317359721466e-13,
+    "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+    "B_root_estimate_GPa": 58.7,
+    "root_relative": 3.4717030130011464e-06,
+    "validation_used_for_updates": false,
+    "optimizer_parameters_frozen": true
+  },
+  "used_for_fitting": false,
+  "parameters_changed": false,
+  "bulk_modulus_certified": false,
+  "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/GaAs_PBE__20261020T171053431410Z/worker_results/GaAs_PBE__20261020T171053431410Z",
+  "actual_GPU_hours": 52.69121407270431
+}

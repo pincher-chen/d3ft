@@ -1,0 +1,49 @@
+{
+  "assembled": "2026-10-19T17:08:23.792886+08:00",
+  "files": [
+    {
+      "path": "raw/e7_fit_result.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/result.json",
+      "sha256": "11ee0a3e3671fd0895a6731e642b02dbd4ee363c825a7c6926d9beca35f6185e"
+    },
+    {
+      "path": "raw/e7_summary_values.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/GaP_budget_record_only__20261018T012932178793Z/final_documentation__20261018T185613211267Z/summary_values.json",
+      "sha256": "6ad08ba78d07afeddaa242797edf6525168ec8a824012fee9d80a60df05a8d8d"
+    },
+    {
+      "path": "response-baseline.csv",
+      "original": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/SI_Figure_materials/data/response-baseline.csv",
+      "sha256": "41f23af4fc4dc618b2e5cce1f162da7a42b9481583b0ec7832da6f1259ebbabc"
+    },
+    {
+      "path": "response-baseline_E7_references.csv",
+      "derived_from": [
+        "response-baseline.csv",
+        "raw/e7_summary_values.json"
+      ],
+      "rule": "reference replaced by the E7 calibration reference wherever E7 defines one (Si a0, c-BN B, diamond a0 and B, 3C-SiC a0, GaP a0); relative_residual recomputed as prediction/reference-1",
+      "sha256": "4b68b4aa5f466d33bead542e84ea12ce41999d1be11d6acaf922cfa91bfaf9e4"
+    },
+    {
+      "path": "raw/AlP_PBE_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/AlP_PBE_acceptance.json",
+      "sha256": "111a81c8be1c3b85c711aeba919a73d9cd4c19f661af4cb8b63ac30cda2c5f54"
+    },
+    {
+      "path": "raw/AlP_fitted_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/AlP_fitted_acceptance.json",
+      "sha256": "b5f333d8c832c561cff7e1947b71a7ac099176a8b4b456f584a697ed6c62946f"
+    },
+    {
+      "path": "raw/GaAs_PBE_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/GaAs_PBE_acceptance.json",
+      "sha256": "c82026a836eea4bf217dabe725180c6481c3c2c24b26da9721c786a4e325d386"
+    },
+    {
+      "path": "raw/GaAs_fitted_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/GaAs_fitted_acceptance.json",
+      "sha256": "5f1148779cb192e39072a1ca8d05deb35e2efe408aaa3c9b2d566d727c100101"
+    }
+  ]
+}

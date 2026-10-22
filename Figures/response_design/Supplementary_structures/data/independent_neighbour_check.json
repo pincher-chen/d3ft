@@ -1,0 +1,545 @@
+{
+  "start": {
+    "cations": [
+      {
+        "atom": 0,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 9,
+            "distance_A": 2.0812375961029304
+          },
+          {
+            "atom": 11,
+            "distance_A": 2.0866084947150636
+          },
+          {
+            "atom": 12,
+            "distance_A": 2.136624353256492
+          },
+          {
+            "atom": 13,
+            "distance_A": 2.1173177845915485
+          }
+        ]
+      },
+      {
+        "atom": 1,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 2.084218777556452
+          },
+          {
+            "atom": 10,
+            "distance_A": 2.085038620948101
+          },
+          {
+            "atom": 12,
+            "distance_A": 2.1163578822165063
+          },
+          {
+            "atom": 13,
+            "distance_A": 2.1360446053238524
+          }
+        ]
+      },
+      {
+        "atom": 2,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 9,
+            "distance_A": 2.0868613837985563
+          },
+          {
+            "atom": 11,
+            "distance_A": 2.085598855301099
+          },
+          {
+            "atom": 14,
+            "distance_A": 2.1357486321785193
+          },
+          {
+            "atom": 15,
+            "distance_A": 2.113329763857272
+          }
+        ]
+      },
+      {
+        "atom": 3,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 2.0857717372897597
+          },
+          {
+            "atom": 10,
+            "distance_A": 2.0835887643401807
+          },
+          {
+            "atom": 14,
+            "distance_A": 2.115061049433079
+          },
+          {
+            "atom": 15,
+            "distance_A": 2.136843385569262
+          }
+        ]
+      },
+      {
+        "atom": 4,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 1.7610182754222454
+          },
+          {
+            "atom": 9,
+            "distance_A": 1.7466585171416587
+          },
+          {
+            "atom": 13,
+            "distance_A": 1.769096888755952
+          },
+          {
+            "atom": 15,
+            "distance_A": 1.778333880421275
+          }
+        ]
+      },
+      {
+        "atom": 5,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 1.744685580881847
+          },
+          {
+            "atom": 9,
+            "distance_A": 1.7615557439323113
+          },
+          {
+            "atom": 12,
+            "distance_A": 1.7710356244219394
+          },
+          {
+            "atom": 14,
+            "distance_A": 1.7776648706481124
+          }
+        ]
+      },
+      {
+        "atom": 6,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 10,
+            "distance_A": 1.7617447529320704
+          },
+          {
+            "atom": 11,
+            "distance_A": 1.7425746571932759
+          },
+          {
+            "atom": 13,
+            "distance_A": 1.7779728440855862
+          },
+          {
+            "atom": 15,
+            "distance_A": 1.7728464955772647
+          }
+        ]
+      },
+      {
+        "atom": 7,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 10,
+            "distance_A": 1.7456603776690993
+          },
+          {
+            "atom": 11,
+            "distance_A": 1.7607541185206366
+          },
+          {
+            "atom": 12,
+            "distance_A": 1.7769092413405798
+          },
+          {
+            "atom": 14,
+            "distance_A": 1.771881851577239
+          }
+        ]
+      }
+    ],
+    "all_Mg_and_Si_have_four_N_neighbours": true
+  },
+  "reverse": {
+    "cations": [
+      {
+        "atom": 0,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 9,
+            "distance_A": 2.0626917083084657
+          },
+          {
+            "atom": 11,
+            "distance_A": 2.0731417384259396
+          },
+          {
+            "atom": 12,
+            "distance_A": 2.152132963674683
+          },
+          {
+            "atom": 13,
+            "distance_A": 2.084199350160174
+          }
+        ]
+      },
+      {
+        "atom": 1,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 2.059626870911485
+          },
+          {
+            "atom": 10,
+            "distance_A": 2.0751769291156723
+          },
+          {
+            "atom": 12,
+            "distance_A": 2.0849731410807686
+          },
+          {
+            "atom": 13,
+            "distance_A": 2.1525798313513778
+          }
+        ]
+      },
+      {
+        "atom": 2,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 9,
+            "distance_A": 2.0720715266609884
+          },
+          {
+            "atom": 11,
+            "distance_A": 2.0553378645040308
+          },
+          {
+            "atom": 14,
+            "distance_A": 2.1530246729752043
+          },
+          {
+            "atom": 15,
+            "distance_A": 2.092513510704127
+          }
+        ]
+      },
+      {
+        "atom": 3,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 2.073647778239312
+          },
+          {
+            "atom": 10,
+            "distance_A": 2.057084821434338
+          },
+          {
+            "atom": 14,
+            "distance_A": 2.0906914642153045
+          },
+          {
+            "atom": 15,
+            "distance_A": 2.1518878862484274
+          }
+        ]
+      },
+      {
+        "atom": 4,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 1.7745898397419346
+          },
+          {
+            "atom": 9,
+            "distance_A": 1.7244902727679923
+          },
+          {
+            "atom": 13,
+            "distance_A": 1.754326719343775
+          },
+          {
+            "atom": 15,
+            "distance_A": 1.764268193264502
+          }
+        ]
+      },
+      {
+        "atom": 5,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 1.7261695010333507
+          },
+          {
+            "atom": 9,
+            "distance_A": 1.7741707495031929
+          },
+          {
+            "atom": 12,
+            "distance_A": 1.7522667294461645
+          },
+          {
+            "atom": 14,
+            "distance_A": 1.7652568585372623
+          }
+        ]
+      },
+      {
+        "atom": 6,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 10,
+            "distance_A": 1.7739647597777115
+          },
+          {
+            "atom": 11,
+            "distance_A": 1.7310378274657956
+          },
+          {
+            "atom": 13,
+            "distance_A": 1.765552838494478
+          },
+          {
+            "atom": 15,
+            "distance_A": 1.7468341448640432
+          }
+        ]
+      },
+      {
+        "atom": 7,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 10,
+            "distance_A": 1.7278501668154307
+          },
+          {
+            "atom": 11,
+            "distance_A": 1.7749909512409123
+          },
+          {
+            "atom": 12,
+            "distance_A": 1.7669188637395505
+          },
+          {
+            "atom": 14,
+            "distance_A": 1.7475709620900028
+          }
+        ]
+      }
+    ],
+    "all_Mg_and_Si_have_four_N_neighbours": true
+  },
+  "fd_candidate": {
+    "cations": [
+      {
+        "atom": 0,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 9,
+            "distance_A": 2.061520808407046
+          },
+          {
+            "atom": 11,
+            "distance_A": 2.0722879866090125
+          },
+          {
+            "atom": 12,
+            "distance_A": 2.1531188788043334
+          },
+          {
+            "atom": 13,
+            "distance_A": 2.0820981084048333
+          }
+        ]
+      },
+      {
+        "atom": 1,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 2.058068735690809
+          },
+          {
+            "atom": 10,
+            "distance_A": 2.0745537910786633
+          },
+          {
+            "atom": 12,
+            "distance_A": 2.0829830730683963
+          },
+          {
+            "atom": 13,
+            "distance_A": 2.1536299723824577
+          }
+        ]
+      },
+      {
+        "atom": 2,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 9,
+            "distance_A": 2.0711344567960284
+          },
+          {
+            "atom": 11,
+            "distance_A": 2.0534201862445864
+          },
+          {
+            "atom": 14,
+            "distance_A": 2.1541214368974235
+          },
+          {
+            "atom": 15,
+            "distance_A": 2.0911959507448596
+          }
+        ]
+      },
+      {
+        "atom": 3,
+        "species": "Mg",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 2.0728816977368383
+          },
+          {
+            "atom": 10,
+            "distance_A": 2.0554079429977548
+          },
+          {
+            "atom": 14,
+            "distance_A": 2.089146151148377
+          },
+          {
+            "atom": 15,
+            "distance_A": 2.152844361985932
+          }
+        ]
+      },
+      {
+        "atom": 4,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 1.7754518093651472
+          },
+          {
+            "atom": 9,
+            "distance_A": 1.7230878054062875
+          },
+          {
+            "atom": 13,
+            "distance_A": 1.7533928976097377
+          },
+          {
+            "atom": 15,
+            "distance_A": 1.763376388340218
+          }
+        ]
+      },
+      {
+        "atom": 5,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 8,
+            "distance_A": 1.725000540998715
+          },
+          {
+            "atom": 9,
+            "distance_A": 1.7749728606170965
+          },
+          {
+            "atom": 12,
+            "distance_A": 1.751076895970267
+          },
+          {
+            "atom": 14,
+            "distance_A": 1.7644715238383446
+          }
+        ]
+      },
+      {
+        "atom": 6,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 10,
+            "distance_A": 1.7747417966873462
+          },
+          {
+            "atom": 11,
+            "distance_A": 1.7303118388634025
+          },
+          {
+            "atom": 13,
+            "distance_A": 1.7647648529725275
+          },
+          {
+            "atom": 15,
+            "distance_A": 1.74518488359613
+          }
+        ]
+      },
+      {
+        "atom": 7,
+        "species": "Si",
+        "N_neighbours": [
+          {
+            "atom": 10,
+            "distance_A": 1.7267231767427647
+          },
+          {
+            "atom": 11,
+            "distance_A": 1.7758947800678506
+          },
+          {
+            "atom": 12,
+            "distance_A": 1.7662863936286834
+          },
+          {
+            "atom": 14,
+            "distance_A": 1.7460305907820912
+          }
+        ]
+      }
+    ],
+    "all_Mg_and_Si_have_four_N_neighbours": true
+  }
+}

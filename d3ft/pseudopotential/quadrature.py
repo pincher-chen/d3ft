@@ -28,3 +28,10 @@ def attach_upf_metadata(pseudopot, directory):
   sizes.append(max(int(b.attrib['cutoff_radius_index']) for b in entries) if entries else None)
  pseudopot.beta_cutoff_sizes=sizes
  return pseudopot
+
+
+def qe_radial_size(r, cutoff=10.0):
+ """QE read_pseudo auxiliary msh: first r>10, rounded down to odd length."""
+ r=np.asarray(r);i=int(np.searchsorted(r,cutoff,side='right'))
+ n=i+1 if i<len(r) else len(r)
+ return 2*((n+1)//2)-1

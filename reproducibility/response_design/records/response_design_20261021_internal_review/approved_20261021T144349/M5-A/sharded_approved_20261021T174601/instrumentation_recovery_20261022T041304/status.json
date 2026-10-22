@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-22T04:54:35.640905+08:00",
+  "pid": 686398,
+  "stage": "terminal",
+  "passed": false,
+  "outcome": "stopped_failure_or_budget",
+  "error": "RuntimeError('Worker stopped; preserve logs and budget/physics/instrumentation reason; no automatic retry')",
+  "traceback": "Traceback (most recent call last):\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/m5_instrumentation_recovery.py\", line 81, in <module>\n    try:summary=run()\n                ^^^^^\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/m5_instrumentation_recovery.py\", line 76, in run\n    if proc.returncode:raise RuntimeError('Worker stopped; preserve logs and budget/physics/instrumentation reason; no automatic retry')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Worker stopped; preserve logs and budget/physics/instrumentation reason; no automatic retry\n",
+  "no_physical_failure_claim_without_log_analysis": true,
+  "GPU_hours": 15.373075213432312,
+  "cap_GPU_hours": 35
+}

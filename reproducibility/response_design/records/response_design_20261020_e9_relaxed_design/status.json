@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-20T14:04:09.003874+08:00",
+  "stage": "complete",
+  "controller_pid": 4174834,
+  "jobid": 250285,
+  "node": "hn35",
+  "GPU_hours": 6.593887222674158,
+  "passed": true
+}

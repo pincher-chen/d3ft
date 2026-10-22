@@ -1,0 +1,10 @@
+{
+  "stage": "kpool_SCF",
+  "jobid": "250285",
+  "step": "7398",
+  "time": 1792136601.6738703,
+  "epochs": 3000,
+  "devices": 8,
+  "k_per_device": 8,
+  "fresh_uniform_occupation": "2/64, no k2 occupation reuse"
+}

@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-15T16:29:14.231074",
+  "E1_prior_GPU_hours": 36.923787783526606,
+  "E1_timeout_seconds": 28800,
+  "epochs": 3000,
+  "physics_and_gates_unchanged": true,
+  "phase1": {
+    "E1": [
+      2,
+      3
+    ],
+    "BN": [
+      4,
+      6
+    ]
+  },
+  "phase2": {
+    "diamond": [
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  "phase3": {
+    "E1_remaining": [
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  "E1_GPU_hours_cap": 250,
+  "E7_GPU_hours_cap": 400,
+  "E7_pilot_GPU_hours_cap": 120,
+  "original_timeout": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/formal_validation/k12_axis0_minus_launch.json"
+}

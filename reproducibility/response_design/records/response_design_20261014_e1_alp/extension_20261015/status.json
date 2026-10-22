@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-15T05:40:02.149391",
+  "stage": "adopted_mesh_native_complete_pending_QE_parameter_FD",
+  "jobid": 250285,
+  "formal_E1_complete": false,
+  "adopted_k": 12,
+  "k_convergence_passed": true,
+  "response_numerical_passed": true,
+  "force_passed": true,
+  "independently_reoptimized_parameter_FD": false,
+  "QE_at_adopted_mesh_passed": false,
+  "response_row": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/response_row_k12.json",
+  "total_GPU_hours_upper_bound": 20.910246293152063
+}

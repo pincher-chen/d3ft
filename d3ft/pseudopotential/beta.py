@@ -33,9 +33,6 @@ from jaxtyping import Array, Float, Int
 from jrystal.sbt import sbt_numerical
 
 from .geometry import safe_norm
-from .quadrature import qe_simpson_weights, restored_mesh
-from scipy.special import spherical_jn
-from scipy.integrate import simpson
 
 
 def beta_sbt_table(
@@ -43,8 +40,6 @@ def beta_sbt_table(
   beta_grid: Float[Array, "beta r"],
   angular_momentum: Sequence[int],
   kmax: float,
-  r_ab=None,
-  cutoff_size=None,
 ) -> Tuple[np.ndarray, np.ndarray]:
   """Spherical Bessel transform of one atom's projectors on a fixed k grid.
 
@@ -63,23 +58,15 @@ def beta_sbt_table(
   Returns:
     ``(k, beta_k)`` with shapes ``[nk]`` and ``[beta, nk]``.
   """
-  r=np.asarray(r_grid, dtype=float); b=np.asarray(beta_grid, dtype=float)
-  if r_ab is not None:
-    r,b,rab=restored_mesh(r,b,r_ab)
-    if cutoff_size is not None:
-      r,b,rab=r[:cutoff_size],b[:,:cutoff_size],rab[:cutoff_size]
-    weights=qe_simpson_weights(rab)
-  else:
-    weights=simpson(np.eye(len(r)), x=r, axis=1)
-  if not np.all(np.diff(r)>0) or b.shape != (len(angular_momentum),len(r)):
-    raise ValueError("Invalid projector mesh or shape")
-  k=np.arange(0., float(kmax)+0.010001, 0.01)
-  values=np.empty((len(angular_momentum),len(k)))
-  for start in range(0,len(k),512):
-    q=k[start:start+512,None]*r[None,:]
-    for i,l in enumerate(angular_momentum):
-      values[i,start:start+512]=spherical_jn(int(l),q)@(b[i]*r*r*weights)
-  return k,values
+  r_grid = np.asarray(r_grid)
+  beta_grid = np.asarray(beta_grid)
+  if r_grid[0] == 0:
+    r_grid = r_grid[1:]
+    beta_grid = beta_grid[:, 1:]
+  k, beta_k = sbt_numerical(
+    r_grid, beta_grid, l=list(angular_momentum), kmax=float(kmax)
+  )
+  return np.asarray(k), np.asarray(beta_k)
 
 
 def beta_sbt_reciprocal(
@@ -132,10 +119,9 @@ def beta_grid(
 def build_tables(pseudopot, kmax: float) -> List[Tuple[np.ndarray, np.ndarray]]:
   """Tabulate every atom's projectors once, for reuse across cells."""
   return [
-    beta_sbt_table(r, b, l, kmax, r_ab=rab, cutoff_size=cut)
-    for r, b, l, rab, cut in zip(pseudopot.r_grid, pseudopot.nonlocal_beta_grid,
-                       pseudopot.nonlocal_angular_momentum, pseudopot.r_ab,
-                       getattr(pseudopot,"beta_cutoff_sizes",[None]*len(pseudopot.r_grid)))
+    beta_sbt_table(r, b, l, kmax)
+    for r, b, l in zip(pseudopot.r_grid, pseudopot.nonlocal_beta_grid,
+                       pseudopot.nonlocal_angular_momentum)
   ]
 
 

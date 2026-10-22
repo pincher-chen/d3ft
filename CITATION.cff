@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the exact source commit used in your calculations."
+title: "D3FT: self-consistent electronic response and structural design"
+authors:
+  - family-names: Chen
+    given-names: Pin
+repository-code: "https://github.com/pincher-chen/d3ft/tree/response-design"
+license: Apache-2.0

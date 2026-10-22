@@ -1,0 +1,8 @@
+{
+  "stage": "failed",
+  "time": "2026-10-14T22:08:46.024318",
+  "pid": 876353,
+  "job": "250285",
+  "step": "2254",
+  "error": "ModuleNotFoundError: No module named 'radial_quadrature'"
+}

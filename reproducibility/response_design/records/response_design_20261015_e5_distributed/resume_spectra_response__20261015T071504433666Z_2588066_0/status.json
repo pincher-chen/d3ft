@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-15T16:12:31.593781",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    0,
+    5
+  ],
+  "controller_pid": 2588573,
+  "spent_GPU_hours": 14.655072385357276,
+  "root": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/resume_spectra_response__20261015T071504433666Z_2588066_0",
+  "passed": false,
+  "error": "Child failed, original outputs retained: spectrum_k6__20261015T075043670198Z_2588573_0"
+}

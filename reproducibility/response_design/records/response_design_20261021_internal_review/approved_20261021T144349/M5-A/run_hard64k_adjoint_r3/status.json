@@ -1,0 +1,5 @@
+{
+  "time": "2026-10-21T16:47:15.227197+08:00",
+  "stage": "failed",
+  "error": "XlaRuntimeError('RESOURCE_EXHAUSTED: Failed to allocate request for 550.90GiB (591526287288B) on device ordinal 0')"
+}

@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-15T07:25:58.606719",
+  "jobid": 250285,
+  "fixed_gpu": 6,
+  "new_diamond_tag": "diamond_cheap_r2",
+  "diamond_status": "queued until original diamond_cheap naturally ends and GPU6 is idle",
+  "original_duplicate_dispatch_error_preserved": true,
+  "original_diamond_calculation_still_running": true,
+  "AlAs_followup": "adopt completed original only if native gates PASS; otherwise unique AlAs_cheap_r2 after r2 diamond",
+  "AlAs_retry_timeout_seconds": 28800,
+  "Si_GPU_hours_preserved": 1.689578343247542,
+  "BN_GPU_hours_preserved": 1.4335933584358362,
+  "E6_CPU_hold_only": true,
+  "E6_resume_on_success_or_failure": true,
+  "no_GPU_processes_cancelled": true,
+  "pilot_GPU_hours_cap": 120,
+  "E7_total_GPU_hours_cap": 400,
+  "unchanged_electronic_or_physical_gates": true,
+  "no_heldout_data_opened": true
+}

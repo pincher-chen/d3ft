@@ -11,7 +11,7 @@ from scipy.special import spherical_jn
 from interpax import CubicSpline
 from jrystal.sbt import sbt_numerical
 from .geometry import safe_norm
-from .quadrature import qe_simpson_weights, restored_mesh
+from .quadrature import qe_simpson_weights, restored_mesh, qe_radial_size
 
 def core_charge_reciprocal(positions,g_vector_grid,r_grid,core_charge_grid,vol,
                            kmax=None,*,r_ab=None,density_cutoff_Ha=None):
@@ -26,7 +26,7 @@ def core_charge_reciprocal(positions,g_vector_grid,r_grid,core_charge_grid,vol,
             kk,fk=sbt_numerical(r,jnp.expand_dims(rc,0),l=0,kmax=kmax)
             radial=CubicSpline(kk,fk[0],axis=1)(radius)
         else:
-            r,rc_,rab=restored_mesh(r,np.asarray(rc)[None],r_ab[idx]);rc=rc_[0]
+            r,rc_,rab=restored_mesh(r,np.asarray(rc)[None],r_ab[idx]);m=qe_radial_size(r);r,rc_,rab=r[:m],rc_[:,:m],rab[:m];rc=rc_[0]
             q=np.arange(0.,kmax+.040001,.01);integrand=rc*r*r*qe_simpson_weights(rab);tab=np.empty(len(q))
             for start in range(0,len(q),256):tab[start:start+256]=spherical_jn(0,q[start:start+256,None]*r)@integrand
             tab=jnp.asarray(tab);t=radius/.01;i=jnp.floor(t).astype(jnp.int32);p=t-i;u=1-p;v=2-p;w=3-p

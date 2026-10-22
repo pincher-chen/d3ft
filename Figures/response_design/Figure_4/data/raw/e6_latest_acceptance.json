@@ -1,0 +1,69 @@
+{
+  "time": "2026-10-16T07:24:31.620612+08:00",
+  "status": "complete_limited_scope",
+  "passed": true,
+  "decision": "User explicitly closes E6 with k2 four hydro points+h/h2 adjoint acceptance; no k4 production",
+  "certified_scope": "MgSiN2 fixed-fractional clamped-ion k2 (2x2x2) static log-volume gap deformation potential with independent reoptimized h/h2 FD and adjoint agreement",
+  "k2_acceptance": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/k2_hydro_acceptance.json",
+  "k2_acceptance_sha256": "eedbd903f8940ac8e103b6317fb47a7e14013435e125843e3c7cc00c02f79dfc",
+  "k2_A_eV": -8.308707077144836,
+  "definition": {
+    "volume_variable": "ln(V/V0)",
+    "fundamental_gap": "min_k epsilon_CBM - max_k epsilon_VBM on sampled 2x2x2 mesh",
+    "direct_gap": "Gamma conduction minus Gamma valence, reported separately",
+    "ionic_condition": "fixed fractional coordinates, prestrained reference; no relaxed-ion claim"
+  },
+  "k_sampling": [
+    2,
+    2,
+    2
+  ],
+  "k_convergence_certified": false,
+  "k4_production_performed": false,
+  "k4_completed_geometries": 0,
+  "literature": {
+    "reference_eV": -8.7,
+    "doi": "10.1103/PhysRevB.94.125201",
+    "definition": "indirect fundamental gap dEg/dlnV, GGA/PBE",
+    "use": "definition-aligned qualitative theoretical comparison only",
+    "numerical_validation_passed": false,
+    "experimental_validation": false,
+    "perturbed_volume_ionic_protocol": "not explicitly specified in source"
+  },
+  "k4_attempt": {
+    "root": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/single_compact_k4_frozen_gate__20261015T212402005643Z_2453232_0",
+    "exit_code": 124,
+    "classification": "external 1800-second timeout, not OOM evidence",
+    "charge_gates": [
+      {
+        "step": 0,
+        "charge": 95.99999999999996,
+        "expected_electrons": 96.0,
+        "absolute_tolerance": 1e-06,
+        "passed": true,
+        "quantity": "integral of the actual occupied FFT density"
+      },
+      {
+        "step": 1,
+        "charge": 95.99999999999996,
+        "expected_electrons": 96.0,
+        "absolute_tolerance": 1e-06,
+        "passed": true,
+        "quantity": "integral of the actual occupied FFT density"
+      }
+    ],
+    "sampled_peak_MiB": 30746.0,
+    "sample_count": 57,
+    "sampled_peak_is_lower_bound": true,
+    "user_observation": "approximately40GiB",
+    "complete_peak_certificate": false,
+    "original_failure_files_unchanged": true
+  },
+  "total_E6_GPU_hours": 14.732032088130618,
+  "original_budget_GPU_hours": 60,
+  "no_more_E6_k4_dispatch": true,
+  "freed_resources_priority": [
+    "E4 endpoint audit",
+    "E8 D3FT/QE band comparison"
+  ]
+}

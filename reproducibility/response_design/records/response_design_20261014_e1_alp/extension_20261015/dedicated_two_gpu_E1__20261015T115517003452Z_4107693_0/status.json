@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-16T00:29:19.772139",
+  "stage": "failed",
+  "controller_pid": 4107698,
+  "jobid": 250285,
+  "E1_GPU_hours": 52.92531304963772,
+  "error": "Inherited E1 child ended without worker DONE/summary; failure preserved",
+  "passed": false
+}

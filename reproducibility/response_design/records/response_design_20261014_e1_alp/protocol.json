@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-14T23:11:40.648505",
+  "purpose": "Standalone AlP NLCC new lattice/response row; old SG15 Al11/P5 row retained separately",
+  "jobid": 250285,
+  "gpus": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "k_queue": [
+    4,
+    10
+  ],
+  "cutoff_Ha": 50,
+  "grid": 64,
+  "epochs": 3000,
+  "strain_step": 0.005,
+  "parameter_order": [
+    "theta_s",
+    "theta_p",
+    "theta_d",
+    "c:beta",
+    "c:gamma",
+    "x:kappa",
+    "x:mu"
+  ],
+  "hard_budget_GPU_hours": 250,
+  "timeout_per_stage_seconds": 14400,
+  "formal_production_gate": "${D3FT_ROOT}/validation/results/response_design_20261014_e0_migration/checks/e0_physical_acceptance.json",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runtime",
+  "states": "planned",
+  "acceptance": "Electronic residual <=1e-6, pressure/(3B)<1e-5, original lattice row FD/numerical checks; K4 is preparatory, K10 reported separately. Matching QE at E0 fixed geometry does not prove k/basis convergence of E1."
+}

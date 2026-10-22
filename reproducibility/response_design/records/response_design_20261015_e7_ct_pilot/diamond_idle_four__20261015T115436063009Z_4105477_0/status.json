@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-16T03:54:49.818446",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "passed": false,
+  "error": "Diamond fine child failed; original log retained"
+}

@@ -1,0 +1,44 @@
+{
+  "observed_at": "2026-10-16T22:50:48.940999+08:00",
+  "allocation_total_GPU_count": 12,
+  "OMC26_GPU_count": 8,
+  "d3ft_GPU_count": 4,
+  "idle_GPU_count": 0,
+  "allocations": {
+    "250285": {
+      "node": "hn35",
+      "OMC26_gpus": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "E7_gpus": [
+        2,
+        3,
+        4
+      ],
+      "E5_waiting_for_eight": true
+    },
+    "250212": {
+      "node": "hn48",
+      "E3_gpu": [
+        0
+      ],
+      "OMC26_gpus": [
+        1,
+        2,
+        3
+      ],
+      "OMC26_pids": [
+        1460785,
+        1460784,
+        1460803
+      ],
+      "E3_pid": 3938664
+    }
+  },
+  "timing_caveat": "hn48 is not node-exclusive at observation time. E3 N54 timing requires co-tenancy review; no assertion of mathematical/physical derivative failure, no changes to raw timing results.",
+  "actions": "Read-only resource probes; no cancellations, no new tasks, OMC26 untouched."
+}

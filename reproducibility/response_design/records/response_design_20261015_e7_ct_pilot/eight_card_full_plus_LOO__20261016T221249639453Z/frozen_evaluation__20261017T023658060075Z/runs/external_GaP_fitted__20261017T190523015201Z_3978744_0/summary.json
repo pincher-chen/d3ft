@@ -1,0 +1,20 @@
+{
+  "material": "GaP",
+  "parameter_vector": [
+    0.0,
+    -0.0174840013874402,
+    0.0,
+    0.0,
+    0.0,
+    -0.03543689751136915,
+    -0.014088007319144703
+  ],
+  "a0_A": 5.476584419190784,
+  "equilibrium_pressure_GPa": -0.0003478292241486856,
+  "equilibrium_residual": 8.045864500894105e-13,
+  "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+  "B_root_estimate_GPa": 78.36685686468014,
+  "root_relative": 1.4794911950651926e-06,
+  "validation_used_for_updates": false,
+  "optimizer_parameters_frozen": true
+}

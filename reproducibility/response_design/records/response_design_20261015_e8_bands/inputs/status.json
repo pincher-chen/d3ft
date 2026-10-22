@@ -1,0 +1,7 @@
+{
+  "time": "2026-10-15T04:05:48.701082",
+  "stage": "failed",
+  "passed": false,
+  "error": "scf failed; no next stage submitted",
+  "GPU_hours": 0
+}

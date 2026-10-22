@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-16T21:43:55.509027+08:00",
+  "stage": "waiting_E5_then_diamond_PASS_and_cards2_4",
+  "controller_pid": 3517398,
+  "jobid": 250285,
+  "gpus": [
+    2,
+    3,
+    4
+  ],
+  "training_GPU_hours": 5.055143892777778,
+  "E7_total_spent_GPU_hours": 71.31883868056977,
+  "E7_budget_GPU_hours": 400
+}

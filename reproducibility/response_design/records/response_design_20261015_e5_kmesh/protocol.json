@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-15T02:13:05.803572",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_kmesh/runtime",
+  "jobid": 250285,
+  "gpus": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "theta0": [
+    0.006,
+    -0.004,
+    0.002,
+    0.003,
+    -0.002,
+    0.004,
+    -0.006,
+    0.004,
+    -0.005,
+    0.006,
+    -0.004,
+    0.005
+  ],
+  "objective": "hard",
+  "soft_tau_Ha": 0.0005,
+  "cutoff_Ha": 20,
+  "grid": 40,
+  "k": 2,
+  "hard_budget_GPU_hours": 300,
+  "development_subbudget_GPU_hours": 12,
+  "formal_production_submitted": false,
+  "tests": "Gamma equivalence, k2 full mode, shared density/coupling, two h/h2 directions with fixed masks/radial tables, branch gates"
+}

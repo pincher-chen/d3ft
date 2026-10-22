@@ -1,0 +1,226 @@
+{
+  "time": "2026-10-15T02:28:21.954012",
+  "passed": true,
+  "checks": {
+    "full_mode": true,
+    "translation": true,
+    "projected_adjoint": true,
+    "nonzero_public_density_cross_k_coupling": true
+  },
+  "gradient_eV": [
+    -2.5898940511098796,
+    10.63191848437577,
+    -1.6322624560578223,
+    0.8494675659094095,
+    -3.4721148921370104,
+    0.2711688596962431,
+    1.8859129971579904,
+    -0.6078403840120741,
+    0.6909241348641401,
+    -1.885912997157991,
+    0.6078403840120741,
+    -0.6909241348641362
+  ],
+  "forward_eV": [
+    -2.5898940506110284,
+    10.631918485395895,
+    -1.6322624555994523,
+    0.8494675654949806,
+    -3.4721148916662203,
+    0.271168860248063,
+    1.8859129980180172,
+    -0.6078403845788619,
+    0.6909241348354164,
+    -1.8859129980180185,
+    0.6078403845788636,
+    -0.6909241348354167
+  ],
+  "maximum_mode_error": 1.0201244293739364e-09,
+  "primal_residual_Ha": 1.0109210368957615e-13,
+  "target": {
+    "objective": "hard",
+    "target_Ha": 0.020521614161227747,
+    "hard_gap_Ha": 0.020521614161227747,
+    "hard_gap_isolated": true,
+    "vbm_k_index": 0,
+    "cbm_k_index": 5,
+    "vbm_band": 3,
+    "cbm_band": 4,
+    "margins": {
+      "vbm_band_Ha": 0.0018147368469456637,
+      "cbm_band_Ha": 1.5165476808409739e-05,
+      "vbm_k_Ha": 0.043078387696936116,
+      "cbm_k_Ha": 0.0014504785658397412
+    },
+    "tau_Ha": 0.0005,
+    "softening_bias_bound_Ha": 0.0,
+    "finite_band_window": [
+      8,
+      4
+    ],
+    "linearized_HF_value_Ha": 0.020521614161227747,
+    "degeneracy_policy": "hard rejects unresolved extrema; soft uses full declared-window spectral trace, not a hard-gap gradient at crossings"
+  },
+  "kernel_symmetry_relative_error": 0.0,
+  "adjoint_record": {
+    "converged": true,
+    "iterations": 25,
+    "residual": 7.981819113722616e-10,
+    "relative_residual": 4.818149424133968e-09,
+    "threshold": 1.6566151049076892e-09,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.048830793759699884,
+        "relative_residual": 0.29476245637891163,
+        "seconds": 0.6550521925091743
+      },
+      {
+        "iteration": 2,
+        "residual": 0.031457045627327526,
+        "relative_residual": 0.18988747316221286,
+        "seconds": 1.1453183628618717
+      },
+      {
+        "iteration": 3,
+        "residual": 0.010160142908058516,
+        "relative_residual": 0.06133073927648792,
+        "seconds": 1.6445743702352047
+      },
+      {
+        "iteration": 4,
+        "residual": 0.004874695929348002,
+        "relative_residual": 0.029425639757278643,
+        "seconds": 2.1236359737813473
+      },
+      {
+        "iteration": 5,
+        "residual": 0.0025605790093512675,
+        "relative_residual": 0.015456692395026481,
+        "seconds": 2.597225870937109
+      },
+      {
+        "iteration": 6,
+        "residual": 0.0016883129711971713,
+        "relative_residual": 0.010191341164254616,
+        "seconds": 3.107122629880905
+      },
+      {
+        "iteration": 7,
+        "residual": 0.0008867350268576093,
+        "relative_residual": 0.005352691909126474,
+        "seconds": 3.612303741276264
+      },
+      {
+        "iteration": 8,
+        "residual": 0.00030166867097304427,
+        "relative_residual": 0.001820994328008702,
+        "seconds": 4.126499384641647
+      },
+      {
+        "iteration": 9,
+        "residual": 0.00011946084688739607,
+        "relative_residual": 0.000721114074919972,
+        "seconds": 4.713759437203407
+      },
+      {
+        "iteration": 10,
+        "residual": 4.704744463933234e-05,
+        "relative_residual": 0.00028399743851154817,
+        "seconds": 5.206051431596279
+      },
+      {
+        "iteration": 11,
+        "residual": 1.7136155306900085e-05,
+        "relative_residual": 0.00010344077665436327,
+        "seconds": 5.770592104643583
+      },
+      {
+        "iteration": 12,
+        "residual": 6.0690613217209324e-06,
+        "relative_residual": 3.6635313198228485e-05,
+        "seconds": 6.266238257288933
+      },
+      {
+        "iteration": 13,
+        "residual": 2.734499730134162e-06,
+        "relative_residual": 1.650654833481393e-05,
+        "seconds": 6.862860266119242
+      },
+      {
+        "iteration": 14,
+        "residual": 1.1329847245974378e-06,
+        "relative_residual": 6.839154860057676e-06,
+        "seconds": 7.458923179656267
+      },
+      {
+        "iteration": 15,
+        "residual": 4.128389400383436e-07,
+        "relative_residual": 2.4920631160208335e-06,
+        "seconds": 7.988822769373655
+      },
+      {
+        "iteration": 16,
+        "residual": 2.3837465104363535e-07,
+        "relative_residual": 1.4389259782640832e-06,
+        "seconds": 8.589942466467619
+      },
+      {
+        "iteration": 17,
+        "residual": 1.5518188912570103e-07,
+        "relative_residual": 9.367407593108248e-07,
+        "seconds": 9.084944419562817
+      },
+      {
+        "iteration": 18,
+        "residual": 9.253892293545715e-08,
+        "relative_residual": 5.586024337295516e-07,
+        "seconds": 9.610462613403797
+      },
+      {
+        "iteration": 19,
+        "residual": 4.743931813364671e-08,
+        "relative_residual": 2.8636294570240654e-07,
+        "seconds": 10.080971095710993
+      },
+      {
+        "iteration": 20,
+        "residual": 2.0027110201142843e-08,
+        "relative_residual": 1.2089175175218992e-07,
+        "seconds": 10.587631687521935
+      },
+      {
+        "iteration": 21,
+        "residual": 1.4682714940152928e-08,
+        "relative_residual": 8.863081651649608e-08,
+        "seconds": 11.086228556931019
+      },
+      {
+        "iteration": 22,
+        "residual": 9.890438982486964e-09,
+        "relative_residual": 5.970269710318792e-08,
+        "seconds": 11.559201758354902
+      },
+      {
+        "iteration": 23,
+        "residual": 6.016906247892822e-09,
+        "relative_residual": 3.632048404042591e-08,
+        "seconds": 12.050494231283665
+      },
+      {
+        "iteration": 24,
+        "residual": 2.4255563544095672e-09,
+        "relative_residual": 1.464164094136233e-08,
+        "seconds": 12.551097463816404
+      },
+      {
+        "iteration": 25,
+        "residual": 7.98181914207972e-10,
+        "relative_residual": 4.818149441251465e-09,
+        "seconds": 13.041441977024078
+      }
+    ]
+  },
+  "cross_k_action_norm": 6.392826955239944,
+  "scope": "Single-GPU coupled prototype; FD/full production acceptance separate"
+}

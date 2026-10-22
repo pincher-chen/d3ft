@@ -1,0 +1,10 @@
+{
+  "stage": "K12_extension_running",
+  "time": "2026-10-15T01:23:25.674812",
+  "total_GPU_hours": 8.543287613967744,
+  "passed": false,
+  "scope": "Physical/numerical response-row acceptance and matching QE still require collection; do not mark E1 complete just from exit0",
+  "latest_user_decision": "K4 insufficient, not AlP unusable; K10\u2192K12\u2192optional K14 at unchanged gates",
+  "authoritative_extension_status": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/status.json",
+  "formal_validation_status": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/formal_validation/status.json"
+}

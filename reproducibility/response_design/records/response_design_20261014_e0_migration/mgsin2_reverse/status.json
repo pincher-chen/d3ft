@@ -1,0 +1,7 @@
+{
+  "stage": "failed",
+  "time": "2026-10-14T21:59:49.002943",
+  "pid": 846559,
+  "mode": "reverse",
+  "error": "RESOURCE_EXHAUSTED: Failed to allocate request for 55.04GiB (59101296216B) on device ordinal 0"
+}

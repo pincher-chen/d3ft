@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-22T10:28:45.987739+08:00",
+  "render_source": "ovito_render_color_20261022T102625",
+  "render_directory": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/ovito_render_color_20261022T102625",
+  "element_colors": {
+    "Mg": "#009E73",
+    "Si": "#D55E00",
+    "N": "#0072B2"
+  },
+  "cell_color": "#111111",
+  "arrow_amplification": 400,
+  "science_data_unchanged": true,
+  "source_png_SHA256": "5f532c70dce817a4076c378074e3a1b79844d7e9b759ffd3715fef3d93904e7b",
+  "style_JSON_SHA256": "73f7e2f43cbd6068b32109e329ebbf3b523feb3d6acb89155e999f16db3e27cb",
+  "backup": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/backup_pre_color_20261022T102625"
+}

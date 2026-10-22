@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "results": {
+    "bad_serial": {
+      "rejected_before_update": true,
+      "error": "Physical charge gate failed at step 0: 64.00000000000001 != 8 +/- 1e-06"
+    },
+    "fixed_serial": {
+      "energy_Ha": -6.23771891599866,
+      "charge": 8.000000000000002
+    },
+    "explicit_serial": {
+      "energy_Ha": -6.23771891599866,
+      "charge": 8.000000000000002
+    },
+    "bad_pool": {
+      "rejected_before_update": true,
+      "error": "Physical charge gate failed at step 0: 63.99999999999994 != 8 +/- 1e-06"
+    },
+    "fixed_pool": {
+      "energy_Ha": -6.23771891599866,
+      "charge": 8.000000000000002
+    }
+  },
+  "errors": {
+    "explicit_serial_energy_Ha": 0.0,
+    "explicit_serial_density": 0.0,
+    "fixed_pool_energy_Ha": 0.0,
+    "fixed_pool_density": 1.5265566588595902e-16
+  },
+  "scope": "Real owned Si k2 functional, initial and step-one physical density; serial vs two CPU shards; malformed Gamma occupations rejected before update"
+}

@@ -1,0 +1,43 @@
+{
+  "time": "2026-10-16T07:23:13.657763+08:00",
+  "project": "${D3FT_ROOT}",
+  "E4_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0",
+  "endpoint": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/runtime",
+  "epochs": 2000,
+  "timeout_seconds": 28800,
+  "jobid": 250285,
+  "gpu_candidates": [
+    0
+  ],
+  "excluded_gpus": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "target_gate_eV": 0.002,
+  "independent_gap_drift_gate_eV": 0.001,
+  "E4_total_budget_GPU_hours": 100,
+  "prior_E4_upper_GPU_hours": 6,
+  "audit_reservation_GPU_hours": 8,
+  "scope": "Warm endpoint restart in independent process, fresh electronic reoptimization+low-spectrum solve; no ionic relaxation",
+  "source_hashes": {
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/state.pkl": "e41fd2c641ebaaa322f61c273a9b5e14145dc9daca721b943ba1a4581d083b36",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/metadata.json": "98a8ca989f53d5c27a7926f7d37c0f901a6d85399820c67fb8a7f40ce6c47d80",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/readout.json": "9fc05d6f56db76fb95e1fc6a97ba8497e5741286ce2c25a4d0d9b6230924fc41",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/mask.npy": "f113a2e24810543b1547acade65d3b443b4447643da0f373dc0df61ea89d550e",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/input.xyz": "2a0dad0edfcc6ae7b81dc1a1b7badf0e7351dfd5a54183e69e760af524273b87",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/orbitals.npy": "a09bd07a7fde9f398f85b6d80bd8ec617da81b5f7a220b49a531b8062c6b786a",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/result.json": "90a9275b130a060df15a907addc124706e0d2620e0671d488ef515bc3af46e94",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trajectory.json": "cdf5fc7931474aa0f6d5e522156c81d462e168fa7c89585df25e4b5cacef99f5"
+  },
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "prior_E4_exact_production_GPU_hours": 4.574544126944445,
+  "force_metric": "max_i norm(F_i); original controller component cap also retained",
+  "predecessor": "${D3FT_ROOT}/validation/results/response_design_20261016_e4_endpoint_audit/Gamma54_independent_endpoint__20261015T225250604997Z_2807384_0",
+  "resource_decision": "User: E6 k4 discontinued; immediate E4 audit on GPU0"
+}

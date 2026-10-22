@@ -1,0 +1,55 @@
+{
+  "time": "2026-10-16T04:17:50.891835+08:00",
+  "project": "${D3FT_ROOT}",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/diamond_remaining12h_queue__20261015T201747315864Z_2137117_0/runtime",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPYCACHEPREFIX": "/dev/shm/response_design_e0_alp_new_retry1/pycache",
+    "CUDA_ROOT": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "CUDA_VISIBLE_DEVICES": "0,1",
+    "D3FT_FUSE_FINAL_DENSITY": "1",
+    "D3FT_REFERENCE_ROOT": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft",
+    "JAX_PLATFORMS": "cuda",
+    "LD_LIBRARY_PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cublas/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cupti/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cudnn/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cufft/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusolver/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusparse/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvshmem/lib:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/chenp/cutensor-2.3.1/lib:/APP/u22/ai_x86/CUDA/12.2/extras/CUPTI/lib64:/APP/u22/ai_x86/CUDA/12.2/lib64:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/xiean/proj/OODCGNEval_H100/models/potnet/functions/gsl/lib/",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc/bin:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.codex/tmp/arg0/codex-arg0i3ERdZ:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.npm-global/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.juliaup/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.nvm/versions/node/v20.20.2/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/condabin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/micromamba/2.1.1/bin:/APP/u22/ai_x86/CUDA/12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PRECALC_BETA_SERIAL": "1",
+    "PYTHONPATH": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runtime:${D3FT_ROOT}/third_party/jrystal_dependency",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "XLA_PYTHON_CLIENT_ALLOCATOR": "platform",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/dev/shm/response_design_e0_alp_new_retry1",
+    "JAX_COMPILATION_CACHE_DIR": "/dev/shm/response_design_e0_alp_new_retry1/jax_cache",
+    "D3FT_TRACE_STAGES": "1",
+    "D3FT_PHASE3_RESULTS_ROOT": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "JAX_COMPILATION_CACHE_MAX_SIZE": "0"
+  },
+  "jrystal": "${D3FT_ROOT}/third_party/jrystal_dependency",
+  "reuse_from": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs/diamond_fine_idle4__20261015T115436438574Z_4105573_0",
+  "reused_points": [
+    "eq_0",
+    "iso_-0.005000",
+    "iso_-0.002500"
+  ],
+  "missing_points": [
+    "iso_+0.002500",
+    "iso_+0.005000"
+  ],
+  "original_a0_A": 3.567821440786927,
+  "timeout_seconds": 43200,
+  "gpus": [
+    2,
+    5
+  ],
+  "jobid": 250285,
+  "E1_handover_root": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/three_parameter_12h_handover__20261015T201749075374Z_2137117_0",
+  "original_failed_record": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/diamond_fine_idle4__20261015T115436438574Z_4105573_0_launch.json",
+  "settings_and_gates_unchanged": true,
+  "worker_reuse_gate": "config/vector/PP/DFT hashes and exact POINT geometry",
+  "budget_pilot_GPU_hours": 120,
+  "budget_total_E7_GPU_hours": 400
+}

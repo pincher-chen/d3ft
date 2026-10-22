@@ -1,0 +1,1 @@
+The local data files are the plotting inputs. Original numerical arrays and values are unchanged; venue-specific namespaces and machine-root paths have been normalized in metadata. SOURCES.json binds the distributed copies.

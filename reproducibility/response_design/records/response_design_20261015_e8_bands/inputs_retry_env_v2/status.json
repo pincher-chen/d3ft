@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-15T06:35:27.278071",
+  "stage": "QE_path_complete",
+  "passed": true,
+  "GPU_hours": 0,
+  "points": 61,
+  "comparison_with_D3FT_complete": false
+}

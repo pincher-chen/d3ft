@@ -1,0 +1,5 @@
+{
+  "time": "2026-10-22T04:54:18.839648+08:00",
+  "stage": "failed",
+  "error": "RuntimeError('BudgetPredictionStop: totalwouldexceed35GPUh; unchangedsolvercriteria')"
+}

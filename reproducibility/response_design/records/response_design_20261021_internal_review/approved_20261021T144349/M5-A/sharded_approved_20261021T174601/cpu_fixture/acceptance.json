@@ -1,0 +1,75 @@
+{
+  "time": "2026-10-21T17:53:02.328826+08:00",
+  "passed": true,
+  "backend": "cpu",
+  "devices": 8,
+  "nk": 64,
+  "k_per_device": 8,
+  "errors": {
+    "density": 2.7755575615628914e-17,
+    "edge_density": 0.0,
+    "density_tangent": 3.122502256758253e-17,
+    "Hessian": 8.881784197001252e-16,
+    "rhs": 0.0,
+    "lambda": 1.084731438893638e-19,
+    "reverse12": 3.7947076036992655e-19,
+    "forward12": 2.168404344971009e-19
+  },
+  "inner_comparison_count": 341,
+  "max_inner_absolute_error": 3.637978807091713e-12,
+  "PCG": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 3.210022366777485e-18,
+    "relative_residual": 1.589469701859451e-16,
+    "threshold": 2.0195555555555546e-10,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.0004890955562903885,
+        "relative_residual": 0.024217979789907012,
+        "seconds": 0.6106993590947241
+      },
+      {
+        "iteration": 2,
+        "residual": 6.872517653520393e-06,
+        "relative_residual": 0.00034029851937545974,
+        "seconds": 0.622337331995368
+      },
+      {
+        "iteration": 3,
+        "residual": 1.0999199369453766e-20,
+        "relative_residual": 5.446346518765621e-19,
+        "seconds": 0.6336902529001236
+      }
+    ]
+  },
+  "original_serial_PCG": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 3.3494737440031918e-18,
+    "relative_residual": 1.6585202297551022e-16,
+    "threshold": 2.0195555555555546e-10,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.0004890955562903854,
+        "relative_residual": 0.02421797978990686,
+        "seconds": 0.4082446151878685
+      },
+      {
+        "iteration": 2,
+        "residual": 6.872517653520326e-06,
+        "relative_residual": 0.00034029851937545643,
+        "seconds": 0.41360563202761114
+      },
+      {
+        "iteration": 3,
+        "residual": 1.2254394797423608e-20,
+        "relative_residual": 6.067867142210195e-19,
+        "seconds": 0.41792030818760395
+      }
+    ]
+  },
+  "scope": "Small synthetic64k true device layouts/common-density Hessian/nonzero PCG vsindependentCPU; not Mgphysical64k certificate"
+}

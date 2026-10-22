@@ -1,0 +1,7 @@
+{
+  "time": "2026-10-16T07:23:05.713703+08:00",
+  "stage": "waiting_one_free_card_after_E1_ready_pairs",
+  "controller_pid": 2813043,
+  "jobid": 250285,
+  "gpus": []
+}

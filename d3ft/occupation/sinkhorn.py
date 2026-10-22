@@ -177,11 +177,7 @@ def sinkhorn_occupation(
             "electrons. Increase empty_bands."
         )
 
-    # The exact one-bin entropy solution is a capped exponential with one
-    # chemical-potential shift. Finite alternating dual updates distort its
-    # response to a uniform shift of all levels; their final mass correction
-    # does not undo that distortion. Solve the scalar root directly instead.
-    base = -log_cost
+    base = -log_cost + log_alpha + log_beta  # = log_f
 
     # ``exp`` before the clip overflows and the clip then hides it: the forward
     # value is right (``min(inf, capacity) == capacity``) while the reverse pass
@@ -226,38 +222,11 @@ def sinkhorn_occupation(
     # would otherwise route a gradient through max/min of ``base`` and 200
     # halvings, which is ill-conditioned; with the exp epsilon schedule it went
     # NaN at eps ~ 1.2e-3 and Adam then poisoned every band-energy parameter.
-    @jax.custom_jvp
-    def mass_project(base_for_root):
-        lo0 = jax.lax.stop_gradient(
-            jnp.log(num_electrons / n_bins) - jnp.max(base_for_root) - 1.0
-        )
-        hi0 = jax.lax.stop_gradient(
-            log_capacity - jnp.min(base_for_root) + 1.0
-        )
+    lo0 = jax.lax.stop_gradient(jnp.log(num_electrons / n_bins) - jnp.max(base) - 1.0)
+    hi0 = jax.lax.stop_gradient(log_capacity - jnp.min(base) + 1.0)
+    (lo, hi), _ = jax.lax.scan(bisect, (lo0, hi0), None, length=200)
+    s = 0.5 * (lo + hi)
 
-        def bisect_for_root(carry, _):
-            lo, hi = carry
-            mid = 0.5 * (lo + hi)
-            mass = jnp.sum(jnp.exp(jnp.minimum(base_for_root + mid, log_capacity)))
-            too_small = mass < num_electrons
-            return (jnp.where(too_small, mid, lo),
-                    jnp.where(too_small, hi, mid)), None
-
-        (lo, hi), _ = jax.lax.scan(bisect_for_root, (lo0, hi0), None, length=200)
-        s = 0.5 * (lo + hi)
-        return jnp.exp(jnp.minimum(base_for_root + s, log_capacity))
-
-    @mass_project.defjvp
-    def mass_project_jvp(primals, tangents):
-        (base_for_root,), (dbase,) = primals, tangents
-        occupations = mass_project(base_for_root)
-        free_mass = jnp.where(occupations < capacity - 1e-12,
-                              occupations, 0.0)
-        denominator = jnp.sum(free_mass)
-        dshift = -jnp.sum(free_mass * dbase) / denominator
-        return occupations, free_mass * (dbase + dshift)
-
-    # The implicit charge-root derivative is required: AD through comparison-
-    # based bisection treats its root as constant and violates d(sum f)=0.
-    f = mass_project(base)
+    # Same reordering as in ``total_mass``, and for the same reason.
+    f = jnp.exp(jnp.minimum(base + s, log_capacity))
     return f.reshape(spin, kpt, band)

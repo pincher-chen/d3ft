@@ -1,0 +1,334 @@
+{
+  "time": "2026-10-15T05:06:25.777148",
+  "status": "\u5931\u8d25",
+  "passed": false,
+  "native": [
+    {
+      "k": 4,
+      "checks": {
+        "electronic_stationarity": true,
+        "pressure_root": true,
+        "energy_pressure_B_agreement": true,
+        "strain_h_2h_B_stability": true,
+        "seven_parameters_finite": true,
+        "a0_method2_vs_second_order": true,
+        "B_method2_vs_previous": true
+      },
+      "passed": true,
+      "pressure_root_normalized": 8.849524064089067e-06,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k4",
+      "source_hashes": {
+        "metadata.json": "474ad7fc011e09de8c896aac8c755850004f41200decb2ec29486ea8a722aaa2",
+        "summary.json": "3f159463a2edf2753a350e245e4ad54f2e1fd2fed3072a5e12a49946de5878e5",
+        "points.json": "cc34f582b77da86e7e37e3ab61365ac19a0aa70337a026243fa96437e66dfb47",
+        "mask.npy": "566ad9db79070c235e8aadffb25beb0de44f6609e8a46fe0861491a7efaaaad8"
+      },
+      "derived": {
+        "source": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k4",
+        "method_version": 2,
+        "dP_fixed_volume_dp": [
+          -4.1387884304098765,
+          38.076081223529556,
+          -1.1474426857836069,
+          -26.984424695227442,
+          -20.85782407173991,
+          1.405024204210177,
+          16.574219260170302
+        ],
+        "dlogV_equilibrium_dp": [
+          -0.050170082938838186,
+          0.4615554008353204,
+          -0.013909214177354249,
+          -0.327103172288109,
+          -0.25283697903331936,
+          0.017031598024767565,
+          0.20091144278348252
+        ],
+        "B_curvature_dlnV": -287.5040488853247,
+        "dB_equilibrium_dp": [
+          57.86520264441934,
+          -77.03328498628625,
+          1.4612074660907024,
+          62.54660040695319,
+          52.9680068846055,
+          -5.281387109811218,
+          -45.10798514186956
+        ]
+      }
+    },
+    {
+      "k": 10,
+      "checks": {
+        "electronic_stationarity": true,
+        "pressure_root": true,
+        "energy_pressure_B_agreement": true,
+        "strain_h_2h_B_stability": true,
+        "seven_parameters_finite": true,
+        "a0_method2_vs_second_order": true,
+        "B_method2_vs_previous": true
+      },
+      "passed": true,
+      "pressure_root_normalized": 1.7814306087326025e-07,
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k10",
+      "source_hashes": {
+        "metadata.json": "8eaef2a331a6f934553a57f5322ce6f34dc54f41c2b1ffcd7544f90d09cacdf5",
+        "summary.json": "6e29402549d9eb22824ae3961877c1c97fdebbe810295ea07921ac7ebc3d75bc",
+        "points.json": "be0b33c1fec837998a823bedadc2d174a76739fb74b6b2114eca47a20810be81",
+        "mask.npy": "566ad9db79070c235e8aadffb25beb0de44f6609e8a46fe0861491a7efaaaad8"
+      },
+      "derived": {
+        "source": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k10",
+        "method_version": 2,
+        "dP_fixed_volume_dp": [
+          -3.7670717961774645,
+          37.76522585636776,
+          -1.1883778267917593,
+          -28.284019648999934,
+          -21.776051598210458,
+          1.397926895860886,
+          17.134913204604445
+        ],
+        "dlogV_equilibrium_dp": [
+          -0.045708625964284,
+          0.45823299276563645,
+          -0.014419453763581593,
+          -0.34319061192687,
+          -0.2642246952902674,
+          0.016962065250032115,
+          0.20791038264640466
+        ],
+        "B_curvature_dlnV": -287.5477960887208,
+        "dB_equilibrium_dp": [
+          59.66531088830476,
+          -78.18075197898665,
+          1.4880651083994034,
+          65.31024453333731,
+          55.18192836612258,
+          -5.239758330575409,
+          -46.29189366657103
+        ]
+      }
+    }
+  ],
+  "k_convergence": {
+    "material": "AlP",
+    "axis": "k",
+    "settings": [
+      {
+        "cutoff": 50,
+        "grid": 64,
+        "k": 4,
+        "xc_grid": 1,
+        "strain": 0.005,
+        "force_floor": 0.0,
+        "xc": "gga_x_pbe+gga_c_pbe",
+        "empty_bands": 0,
+        "spin": 0
+      },
+      {
+        "cutoff": 50,
+        "grid": 64,
+        "k": 10,
+        "xc_grid": 1,
+        "strain": 0.005,
+        "force_floor": 0.0,
+        "xc": "gga_x_pbe+gga_c_pbe",
+        "empty_bands": 0,
+        "spin": 0
+      }
+    ],
+    "fixed_physical_xc_grid": false,
+    "physical_xc_grid_shapes": [
+      [
+        64,
+        64,
+        64
+      ],
+      [
+        64,
+        64,
+        64
+      ]
+    ],
+    "parameter_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rows": [
+      {
+        "observable": "a0_A",
+        "coarse": 5.514482488064666,
+        "fine": 5.506296175971588,
+        "difference": -0.008186312093077852,
+        "error": 0.001486718445840479,
+        "budget": 0.0001,
+        "passed": false
+      },
+      {
+        "observable": "B_GPa",
+        "coarse": 82.49514826306805,
+        "fine": 82.41489908537164,
+        "difference": -0.08024917769640183,
+        "error": 0.08024917769640183,
+        "budget": 0.1,
+        "passed": true
+      }
+    ],
+    "passed": false,
+    "sources": {
+      "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k4": {
+        "metadata.json": "474ad7fc011e09de8c896aac8c755850004f41200decb2ec29486ea8a722aaa2",
+        "summary.json": "3f159463a2edf2753a350e245e4ad54f2e1fd2fed3072a5e12a49946de5878e5",
+        "points.json": "cc34f582b77da86e7e37e3ab61365ac19a0aa70337a026243fa96437e66dfb47",
+        "mask.npy": "566ad9db79070c235e8aadffb25beb0de44f6609e8a46fe0861491a7efaaaad8"
+      },
+      "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k10": {
+        "metadata.json": "8eaef2a331a6f934553a57f5322ce6f34dc54f41c2b1ffcd7544f90d09cacdf5",
+        "summary.json": "6e29402549d9eb22824ae3961877c1c97fdebbe810295ea07921ac7ebc3d75bc",
+        "points.json": "be0b33c1fec837998a823bedadc2d174a76739fb74b6b2114eca47a20810be81",
+        "mask.npy": "566ad9db79070c235e8aadffb25beb0de44f6609e8a46fe0861491a7efaaaad8"
+      }
+    },
+    "scope": "One numerical axis, these settings and parameters only; budgets are not statistical uncertainties"
+  },
+  "QE": [
+    {
+      "k": 4,
+      "passed": false,
+      "energy_Ha": -9.285393700337828,
+      "pressure_GPa": -0.0025592999648956618,
+      "forces_Ha_Bohr": [
+        [
+          -6.605514009800114e-09,
+          -5.014174182400299e-09,
+          -4.987010752223749e-10
+        ],
+        [
+          6.605514009800115e-09,
+          5.014174182400299e-09,
+          4.987010752223749e-10
+        ]
+      ],
+      "stress_Ha_Bohr3": [
+        [
+          -8.698958133337986e-08,
+          -2.514375793830664e-12,
+          7.75393659742953e-11
+        ],
+        [
+          -2.514375793830664e-12,
+          -8.699106688984937e-08,
+          1.022862625825616e-10
+        ],
+        [
+          7.75393659742953e-11,
+          1.022862625825616e-10,
+          -8.698576974865146e-08
+        ]
+      ],
+      "errors": {
+        "energy_Ha_cell": 1.4450453846848177e-06,
+        "stress_Ha_Bohr3": 1.255011548600393e-08
+      },
+      "checks": {
+        "energy_Ha_cell": true,
+        "stress_Ha_Bohr3": true,
+        "QE_at_D3FT_pressure_root": false
+      },
+      "QE_lattice_root_independently_optimized": false,
+      "linearized_QE_lattice_shift_estimate_A": -5.702644391932859e-05,
+      "xml_sha256": "a22dba29bfbb9ddc9836df56373615981b6b4d50a450282661ce93d9a5b78d7d",
+      "unadjusted_comparison": true
+    },
+    {
+      "k": 10,
+      "passed": false,
+      "failure": "QE task failed or full precision XML missing"
+    }
+  ],
+  "independent_seven_parameter_reoptimized_FD": false,
+  "blockers": [
+    "\u672a\u6ee1\u8db3\u5168\u90e8\u95e8\uff1b\u89c1\u9010\u9879\u68c0\u67e5\u3002K4\u2192K10\u53d8\u5316\u4e0d\u8bc1\u660eK10\u672c\u8eab\u9519\u8bef\uff0c\u4f46\u65e0\u6cd5\u63d0\u4f9b\u65e2\u5b9a\u6536\u655b\u8bc1\u4e66\u3002",
+    "\u4e03\u53c2\u6570\u884c\u5df2\u72ec\u7acb\u56db\u9636\u91cd\u7ec4/\u6570\u503c\u7a33\u5b9a\u68c0\u67e5\uff0c\u672a\u5b8c\u6210\u4e03\u53c2\u6570\u91cd\u5e73\u8861FD\uff0c\u4e0d\u80fd\u58f0\u79f0\u8be5\u9879PASS\u3002"
+  ],
+  "response_rows": [
+    {
+      "k": 4,
+      "a0_A": 5.514482488064666,
+      "B_GPa": 82.49514826306805,
+      "da0_dp": [
+        -0.09222068126365834,
+        0.8484130583926807,
+        -0.025567372667920262,
+        -0.6012682384577255,
+        -0.4647550310714709,
+        0.03130681635044583,
+        0.3693075442937735
+      ],
+      "dB_equilibrium_dp": [
+        57.86520264441934,
+        -77.03328498628625,
+        1.4612074660907024,
+        62.54660040695319,
+        52.9680068846055,
+        -5.281387109811218,
+        -45.10798514186956
+      ],
+      "parameter_order": [
+        "theta_s",
+        "theta_p",
+        "theta_d",
+        "c:beta",
+        "c:gamma",
+        "x:kappa",
+        "x:mu"
+      ],
+      "method": "equilibrium_jacobian method_version=2",
+      "independently_reoptimized_parameter_FD": false,
+      "accepted_for_calibration": false
+    },
+    {
+      "k": 10,
+      "a0_A": 5.506296175971588,
+      "B_GPa": 82.41489908537164,
+      "da0_dp": [
+        -0.08389507745201756,
+        0.8410555252564801,
+        -0.026465927706002815,
+        -0.6299030513607579,
+        -0.48496647642468577,
+        0.031132718340944134,
+        0.3816053816368959
+      ],
+      "dB_equilibrium_dp": [
+        59.66531088830476,
+        -78.18075197898665,
+        1.4880651083994034,
+        65.31024453333731,
+        55.18192836612258,
+        -5.239758330575409,
+        -46.29189366657103
+      ],
+      "parameter_order": [
+        "theta_s",
+        "theta_p",
+        "theta_d",
+        "c:beta",
+        "c:gamma",
+        "x:kappa",
+        "x:mu"
+      ],
+      "method": "equilibrium_jacobian method_version=2",
+      "independently_reoptimized_parameter_FD": false,
+      "accepted_for_calibration": false
+    }
+  ],
+  "old_SG15_rows_replaced": false,
+  "GPU_hours_before_QE": 8.543287613967744,
+  "scope": "New NLCC Al3/P5 control only. Failed certification retained, not mixed with SG15 Al11/P5. No energy shift, no fitted correction."
+}

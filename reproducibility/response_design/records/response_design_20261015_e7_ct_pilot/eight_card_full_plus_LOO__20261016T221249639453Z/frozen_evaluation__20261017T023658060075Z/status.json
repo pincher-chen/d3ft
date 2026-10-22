@@ -1,0 +1,76 @@
+{
+  "time": "2026-10-19T02:20:29.166867+08:00",
+  "controller_pid": 2570716,
+  "stage": "completed_evaluation_only",
+  "jobid": 250285,
+  "node": "hn35",
+  "shared_budget": {
+    "spent_GPU_hours": 424.96629216341506,
+    "reserved_GPU_hours": 0,
+    "cap_GPU_hours": null,
+    "budget_enforcement": "record_only",
+    "reference_cap_GPU_hours": 500
+  },
+  "active": {},
+  "pending": [],
+  "completed": {
+    "full_fine_Si": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/full_fine_Si__20261017T023955530647Z_3674593_0"
+    },
+    "full_fine_BN": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/full_fine_BN__20261017T090425612080Z_3674593_0"
+    },
+    "full_fine_diamond": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/full_fine_diamond__20261017T071018127715Z_3674593_0"
+    },
+    "external_SiC_fitted": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/external_SiC_fitted__20261017T023955574149Z_3674593_0"
+    },
+    "external_SiC_PBE": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/external_SiC_PBE__20261017T045540600201Z_3674593_0"
+    },
+    "LOO_Si_fine_validation": {
+      "passed": false,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/LOO_Si_fine_validation__20261017T102920673868Z_3674593_0"
+    },
+    "LOO_BN_fine_validation": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/LOO_BN_fine_validation__20261017T101648929233Z_3674593_0"
+    },
+    "LOO_diamond_fine_validation": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/LOO_diamond_fine_validation__20261017T144822920453Z_3978744_0"
+    },
+    "external_GaP_fitted": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/external_GaP_fitted__20261017T190523015201Z_3978744_0"
+    },
+    "external_GaP_PBE": {
+      "passed": true,
+      "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/external_GaP_PBE__20261018T180442797907Z_2570716_0"
+    }
+  },
+  "migrated": {
+    "LOO_diamond_fine_validation": {
+      "from_target": {
+        "jobid": 250285,
+        "node": "hn35"
+      },
+      "to": {
+        "jobid": 250212,
+        "node": "hn48"
+      },
+      "registered_at": "2026-10-17T22:48:01.611688+08:00",
+      "queue_entry_status": "migrated_not_deleted",
+      "timing_comparable_to_hn35": false,
+      "execution_status": "completed"
+    }
+  },
+  "blocked_needs_user_approval": {},
+  "no_fit_or_tuning": true
+}

@@ -1,0 +1,30 @@
+{
+  "passed_evaluation": true,
+  "energy_Ha": -7.539931849548932,
+  "checkpoint_sha256": "c443639f9c8527403cf131318b03c49aa4ea4a5a93d90c5078f39529a9ed2182",
+  "checkpoint_max_change": 3.469446951953614e-16,
+  "core_density_is_none": true,
+  "gradient_leaf_shapes": {
+    "pw_0": [
+      1,
+      8,
+      1243,
+      4
+    ],
+    "occ_0": [
+      1,
+      8,
+      4
+    ],
+    "strain_0": [
+      3,
+      3
+    ],
+    "positions_0": [
+      2,
+      3
+    ]
+  },
+  "seconds": 7.939041994512081,
+  "scope": "Parity on a real stored pilot state, not a claim of physical stationarity"
+}

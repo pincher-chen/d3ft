@@ -1,0 +1,24 @@
+{
+  "time": "2026-10-15T18:19:16.313057",
+  "passed": true,
+  "devices": 2,
+  "backend": "gpu",
+  "checks": [
+    {
+      "iteration": 1,
+      "solution_max_error": 4.636427468134552e-15,
+      "residual_max_error": 6.936895214610187e-15,
+      "curvature_relative_error": 1.0946168380570877e-15
+    },
+    {
+      "iteration": 2,
+      "solution_max_error": 9.930136612989092e-16,
+      "residual_max_error": 5.190656941739294e-16,
+      "curvature_relative_error": 5.584176676675816e-15
+    }
+  ],
+  "steps": 2,
+  "scope": "Real two-GPU complex sharded asynchronous operator and PCG recurrence vs independent serial NumPy; synthetic coupled SPD, not Mg physical convergence",
+  "jobid": "250285",
+  "step": "2514"
+}

@@ -1,0 +1,45 @@
+{
+  "time": "2026-10-18T09:29:44.199283+08:00",
+  "controller_pid": 2223351,
+  "stage": "observing_or_executing_exit124_recovery",
+  "active_keys": [
+    "external_GaP_fitted"
+  ],
+  "blocked": {},
+  "forecast": {
+    "time": "2026-10-18T09:29:44.162592+08:00",
+    "used_GPU_hours": 290.218222452488,
+    "forecast_total_GPU_hours": 420.26266689693244,
+    "cap_GPU_hours": 500,
+    "allowed": true,
+    "models": {
+      "external_GaP_fitted": {
+        "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/frozen_evaluation__20261017T023658060075Z/runs/external_GaP_fitted__20261017T190523015201Z_3978744_0",
+        "complete": 1,
+        "partial": 0.7222222222222222,
+        "rate_hours": 3.8,
+        "finished": false,
+        "forecast_total_points": 3,
+        "remaining_GPU_hours": 38.84444444444444,
+        "terminal_failure": false
+      },
+      "external_GaP_PBE": {
+        "source": null,
+        "complete": 0,
+        "partial": 0.0,
+        "rate_hours": 3.8,
+        "finished": false,
+        "forecast_total_points": 3,
+        "remaining_GPU_hours": 91.19999999999999,
+        "terminal_failure": false
+      }
+    },
+    "launch_overhead_GPU_hours": 0.0,
+    "forecast_is_not_a_convergence_guarantee": true
+  },
+  "CPU_guard_only": true,
+  "original_GPU_worker_unchanged": true,
+  "pending": [
+    "external_GaP_PBE"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "outcome": "completed_target_not_reached",
+  "acceptance": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M4-A/run_coordinates48_r2/acceptance.json",
+  "trajectory_summary": [
+    {
+      "step": 0,
+      "gap_eV": 4.410987370971381,
+      "target_error_eV": -0.09999999997026521,
+      "energy_Ha": -313.3541947486532,
+      "energy_change_meV_atom": 0.0,
+      "max_force_norm_Ha_Bohr": 0.01883894411985017,
+      "max_force_component_Ha_Bohr": 0.016111674869874304
+    },
+    {
+      "step": 1,
+      "gap_eV": 4.429008352256256,
+      "target_error_eV": -0.08197901868539059,
+      "energy_Ha": -313.3542109347013,
+      "energy_change_meV_atom": -0.02752780046375493,
+      "max_force_norm_Ha_Bohr": 0.01910870638333757,
+      "max_force_component_Ha_Bohr": 0.015639022604790664
+    },
+    {
+      "step": 2,
+      "gap_eV": 4.446744948040202,
+      "target_error_eV": -0.06424242290144466,
+      "energy_Ha": -313.3541502871029,
+      "energy_change_meV_atom": 0.07561627607654976,
+      "max_force_norm_Ha_Bohr": 0.01948852303588629,
+      "max_force_component_Ha_Bohr": 0.015186094698222519
+    },
+    {
+      "step": 3,
+      "gap_eV": 4.464202942469275,
+      "target_error_eV": -0.046784428472371076,
+      "energy_Ha": -313.35401210334146,
+      "energy_change_meV_atom": 0.3106270077098573,
+      "max_force_norm_Ha_Bohr": 0.019971474107175403,
+      "max_force_component_Ha_Bohr": 0.01474591217426191
+    }
+  ],
+  "time": "2026-10-21T17:37:17.610526+08:00",
+  "GPU_hours": 2.7939039590623644,
+  "cap_GPU_hours": 8
+}

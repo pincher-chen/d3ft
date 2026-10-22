@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-16T02:10:03.493153+08:00",
+  "stage": "failed",
+  "controller_pid": 1584796,
+  "jobid": 250285,
+  "gpus": [
+    0
+  ],
+  "max_updates": 5,
+  "GPU_hours_cap": 100,
+  "error": "RuntimeError('Gamma design exited 1; failure retained')",
+  "GPU_hours": 0.0043576683155778385
+}

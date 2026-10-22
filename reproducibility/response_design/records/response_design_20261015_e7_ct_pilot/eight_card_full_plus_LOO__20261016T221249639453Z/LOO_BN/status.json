@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-17T18:16:26.229260+08:00",
+  "stage": "selected_fit_complete",
+  "controller_pid": 2624938,
+  "jobid": 250285,
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "training_GPU_hours": 19.30303376027713,
+  "E7_total_spent_GPU_hours": 144.63436876940324,
+  "E7_budget_GPU_hours": 400,
+  "selected_fit": "LOO_BN",
+  "accepted_updates": {
+    "LOO_BN": 3
+  }
+}

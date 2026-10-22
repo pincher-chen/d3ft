@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-16T03:27:35.348554",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    7
+  ],
+  "spent_GPU_hours": 13.284695604183684,
+  "error": "Hydro quartet incomplete; retain native failures",
+  "formal_E6_complete": false
+}

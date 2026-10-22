@@ -1,0 +1,9 @@
+N,mode,process_peak_GiB,device_peak_GiB,GPU_hours,source
+1,reverse,52.595703125,52.93023681640625,0.22231289499335818,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N1_reverse__20261020T074546575656
+1,forward,73.6484375,73.98297119140625,0.21675790985425314,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N1_forward__20261020T075907419209
+6,reverse,52.51171875,52.84625244140625,0.22787276791201697,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N6_reverse__20261020T081208354026
+6,forward,73.740234375,74.07476806640625,0.9784217388100094,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N6_forward__20261020T082550268831
+24,reverse,52.51171875,52.84625244140625,0.2279177568356196,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N24_reverse__20261020T092434359699
+24,forward,73.740234375,74.07476806640625,4.130924244920413,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N24_forward__20261020T093816603930
+54,reverse,52.51171875,52.84625244140625,0.23348770446247524,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N54_reverse__20261020T134609101352
+54,forward,73.740234375,74.07476806640625,8.4236041318708,${D3FT_ROOT}/validation/results/response_design_20261020_e3_mode_memory/approved_20261020T074544/runs/N54_forward__20261020T140010076553

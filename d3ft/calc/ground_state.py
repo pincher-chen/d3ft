@@ -43,8 +43,7 @@ from jrystal.calc.opt_utils import (
 )
 from .. import pseudopotential as d3pp
 
-from ..occupation.sinkhorn import epsilon_schedule
-from ..occupation.fd import fermi_dirac_occupation as sinkhorn_occupation
+from ..occupation.sinkhorn import epsilon_schedule, sinkhorn_occupation
 from ..optim.preconditioner import kinetic_preconditioner
 from ..optim.riemannian_adam import riemannian_adam
 from ..optim.stiefel import retract_qr, stiefel_coeff, stiefel_param_init
@@ -470,8 +469,6 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
 
     if config.use_pseudopotential:
         pseudopot = create_pseudopotential(config)
-        from ..pseudopotential.quadrature import attach_upf_metadata
-        attach_upf_metadata(pseudopot, config.pseudopotential_file_dir)
         num_electrons = float(np.sum(pseudopot.valence_charges))
         # Ion-ion repulsion must use the pseudo-ion (valence) charges, not the
         # full nuclear charges (atomic numbers).
@@ -488,6 +485,8 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
             crystal.positions, g_vec,
             pseudopot.r_grid, pseudopot.local_potential_grid,
             pseudopot.local_potential_charge, crystal.vol, kmax=grid_kmax,
+            r_ab=(pseudopot.r_ab if any(x is not None for x in
+                  getattr(pseudopot,'core_charge_grid',[])) else None),
         )
         logging.info("Pre-computing non-local beta projectors (SBT)...")
         # G + k on the plane-wave cutoff sphere -- the only G-vectors the
@@ -793,12 +792,7 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
             b1=config.optimizer_args.b1,
             b2=config.optimizer_args.b2,
         )
-        pw_state = pw_optimizer.init(params_pw)
-        if config.d3ft.optim.get("metric_trial", False):
-            from ..optim.recycled_trial import RecycledTrialState
-            pw_state = RecycledTrialState(*pw_state,
-                jnp.asarray(config.optimizer_args.learning_rate), jnp.asarray(0, jnp.int32))
-        opt_state = (pw_state, occ_optimizer.init(params_occ))
+        opt_state = (pw_optimizer.init(params_pw), occ_optimizer.init(params_occ))
     else:
         optimizer = optax.adam(
             learning_rate=config.optimizer_args.learning_rate,
@@ -937,7 +931,7 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
     if use_free_energy and config.smearing > 0:
         temperature_scheduler = optax.exponential_decay(
             init_value=config.d3ft.free_energy.temp_init,
-            transition_steps=config.d3ft.free_energy.get("anneal_steps", max(config.epoch // 2, 1)),
+            transition_steps=max(config.epoch // 2, 1),
             decay_rate=config.smearing / config.d3ft.free_energy.temp_init,
             end_value=config.smearing,
         )
@@ -1024,64 +1018,6 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
             (loss, total), grad = jax.value_and_grad(loss_and_energy, has_aux=True)(
                 params, eps, temp, pot_nl
             )
-            if config.d3ft.optim.get("metric_trial", False):
-                from ..optim.metric_direction import direction, positive_qr
-                orbital, level, slope = direction(
-                    params["pw"], get_occupation(params["occ"], eps),
-                    grad["pw"], grad["occ"]["band_energies"], precond_diag, eps,
-                    config.d3ft.optim.metric_orbitals,
-                    config.d3ft.optim.metric_occupations,
-                )
-                # The same positive metric may use different orbital/level scales.
-                level_factor = (occ_lr / config.optimizer_args.learning_rate
-                                if config.optimizer_args.learning_rate > 0 else 1.0)
-                level = level_factor * level
-                slope = jnp.real(jnp.vdot(jnp.conj(grad["pw"]), orbital)
-                                 + jnp.vdot(grad["occ"]["band_energies"], level))
-                def trial(alpha):
-                    new = {"pw": positive_qr(params["pw"] + alpha * orbital),
-                           "occ": {"band_energies": params["occ"]["band_energies"] + alpha * level}}
-                    value, _ = loss_and_energy(new, eps, temp, pot_nl)
-                    return new, value
-                alpha = pw_state.trial_rate
-                _, trial_loss = trial(alpha)
-                # This allowance addresses objective summation roundoff only.
-                # Electronic acceptance tolerances are unchanged in the observer.
-                rounding = 8.0 * jnp.finfo(loss.dtype).eps * jnp.maximum(1.0, jnp.abs(loss))
-                def acceptable(value, rate):
-                    return (jnp.isfinite(value) & (slope <= 0)
-                            & (value <= loss + 1e-4 * rate * slope + rounding))
-                def condition(carry):
-                    rate, value, reductions = carry
-                    accept = acceptable(value, rate)
-                    return (~accept) & (reductions < 16)
-                def reduce(carry):
-                    rate, _, reductions = carry
-                    rate = rate / 2
-                    _, value = trial(rate)
-                    return rate, value, reductions + 1
-                alpha, trial_loss, reductions = jax.lax.while_loop(
-                    condition, reduce, (alpha, trial_loss, jnp.asarray(0)))
-                accepted = acceptable(trial_loss, alpha)
-                new, _ = trial(alpha)
-                params_out = jax.tree.map(lambda a, b: jnp.where(accepted, a, b), new, params)
-                count = pw_state.count + 1
-                def print_metrics(_):
-                    jax.debug.print("METRIC_STEP {n} rate={a} reductions={b} accepted={ok} loss={f} next={g} slope={s}",
-                                    n=count, a=alpha, b=reductions, ok=accepted,
-                                    f=loss, g=trial_loss, s=slope)
-                    orbital_slope = jnp.real(jnp.vdot(jnp.conj(grad["pw"]), orbital))
-                    level_slope = jnp.real(jnp.vdot(grad["occ"]["band_energies"], level))
-                    jax.debug.print("BLOCK_STEP {n} orbital_slope={p} occupation_slope={q} orbital_norm={r} occupation_norm={t} rate={a}",
-                                    n=count, p=orbital_slope, q=level_slope,
-                                    r=jnp.linalg.norm(orbital), t=jnp.linalg.norm(level), a=alpha)
-                    return 0
-                jax.lax.cond(config.d3ft.optim.get("record_work", False) | (count == 1) | (count % 100 == 0), print_metrics, lambda _: 0, 0)
-                from ..optim.recycled_trial import advance_trial
-                next_rate, streak = advance_trial(alpha, reductions, accepted,
-                    pw_state.success_streak, config.optimizer_args.learning_rate)
-                return params_out, (pw_state._replace(count=count,
-                    trial_rate=next_rate, success_streak=streak), occ_state), total
             pw_dir, pw_state = pw_optimizer.update(grad["pw"], pw_state, params["pw"])
             occ_upd, occ_state = occ_optimizer.update(grad["occ"], occ_state, params["occ"])
             new_pw = retract_qr(params["pw"], pw_dir)
@@ -1116,11 +1052,42 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
         potential_nl = None
         gc.collect()
 
+    # Opt-in acceptance on the *same* occupied FFT density used by the energy.
+    # Run before optimisation as well as after its first and final updates, so
+    # a malformed Gamma -> k-mesh restart cannot consume thousands of steps.
+    # Default disabled: existing solvers and scientific settings are unchanged.
+    charge_cfg = config.d3ft.get("charge_gate", {})
+    charge_enabled = charge_cfg.get("enabled", False)
+    if charge_enabled:
+        from .charge_gate import check_charge
+
+        def physical_charge(p, eps):
+            density = pw.density_grid(make_coeff(p["pw"]), crystal.vol,
+                                      get_occupation(p["occ"], eps))
+            return jnp.sum(density) * crystal.vol / np.prod(density.shape[-3:])
+
+        if kpool_mesh_obj is not None:
+            charge_fn = jax.jit(physical_charge,
+                               in_shardings=(params_layout, replicated),
+                               out_shardings=replicated)
+        else:
+            charge_fn = jax.jit(physical_charge)
+
+        def enforce_charge(step, eps):
+            check_charge(jax.block_until_ready(charge_fn(params, eps)),
+                         num_electrons, charge_cfg.get("absolute_tolerance", 1e-6),
+                         step=step, report_path=charge_cfg.get("report_path"))
+
+        enforce_charge(0, config.d3ft.occupation.epsilon_init)
+
     energy_history = []
+    from .checkpoint import create_checkpoint
+    scf_checkpoint = create_checkpoint(config,crystal,freq_mask,
+        np.asarray(k_vec) @ np.linalg.inv(np.asarray(crystal.reciprocal_vectors)),ew)
     trace_stages = os.environ.get("D3FT_TRACE_STAGES") == "1"
     if trace_stages:
         print("D3FT_STAGE update_begin", flush=True)
-    iters = tqdm(range(1 if config.d3ft.free_energy.get("timing_warmup_only", False) else config.epoch), disable=not config.verbose)
+    iters = tqdm(range(config.epoch), disable=not config.verbose)
     for i in iters:
         eps_t = epsilon_schedule(
             i,
@@ -1135,6 +1102,10 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
         )
         total = float(jax.block_until_ready(total))
         energy_history.append(total)
+        if scf_checkpoint is not None and (i+1)%scf_checkpoint.interval==0:
+            scf_checkpoint.write(params,i+1,energy_history,eps_t,temp_t,reason='periodic')
+        if charge_enabled and (i == 0 or i == config.epoch - 1):
+            enforce_charge(i + 1, eps_t)
         if trace_stages and (i == 0 or (i + 1) % 500 == 0 or i == config.epoch - 1):
             print(f"D3FT_STAGE update_complete {i + 1}/{config.epoch}", flush=True)
 
@@ -1147,6 +1118,9 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
                 i, total + ew, eps_t, temp_t,
             )
         iters.set_description(f"E={total + ew:.6f} eps={eps_t:.2e}")
+
+    if scf_checkpoint is not None:
+        scf_checkpoint.write(params,i+1,energy_history,eps_t,temp_t,reason='optimization_complete')
 
     # Reconstruct the converged real-space density so downstream consumers (the
     # band-structure calculator) can use it as the fixed Kohn-Sham density.
@@ -1175,6 +1149,8 @@ def calc(config, init_params: dict = None, freq_mask=None) -> GroundStateOutput:
     if trace_stages:
         jax.block_until_ready(density_grid)
         print("D3FT_STAGE final_density_complete", flush=True)
+    if scf_checkpoint is not None:
+        scf_checkpoint.density(jax.block_until_ready(density_grid))
 
     return GroundStateOutput(
         config=config, crystal=crystal,

@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-20T03:52:07.481180+08:00",
+  "stage": "paused_needs_user_report",
+  "controller_pid": 3074490,
+  "jobid": 250285,
+  "node": "hn35",
+  "used_GPU_hours": {
+    "AlP": 3.6017526621288725,
+    "GaAs": 0
+  },
+  "active": null,
+  "logical_results": {},
+  "reason": "需用户批准：B-AlP预测机时/检查点剩余额度触发停止"
+}

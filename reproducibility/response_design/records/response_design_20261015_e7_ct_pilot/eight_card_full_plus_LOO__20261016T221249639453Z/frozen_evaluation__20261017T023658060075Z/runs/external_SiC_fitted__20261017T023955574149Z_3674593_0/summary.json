@@ -1,0 +1,20 @@
+{
+  "material": "SiC",
+  "parameter_vector": [
+    0.0,
+    -0.0174840013874402,
+    0.0,
+    0.0,
+    0.0,
+    -0.03543689751136915,
+    -0.014088007319144703
+  ],
+  "a0_A": 4.375884980189261,
+  "equilibrium_pressure_GPa": -0.00013267094831741856,
+  "equilibrium_residual": 1.5805005889092996e-17,
+  "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+  "B_root_estimate_GPa": 211.4,
+  "root_relative": 2.0919417899309136e-07,
+  "validation_used_for_updates": false,
+  "optimizer_parameters_frozen": true
+}

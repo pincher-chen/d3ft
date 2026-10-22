@@ -1,0 +1,195 @@
+{
+  "time": "2026-10-15T02:21:37.591146",
+  "passed": true,
+  "checks": {
+    "full_mode": true,
+    "translation": true,
+    "projected_adjoint": true,
+    "Gamma_full_gradient": true,
+    "Gamma_Hessian_and_external": true
+  },
+  "gradient_eV": [
+    -3.1203976188276035,
+    4.168808970086769,
+    -1.8628181338629435,
+    -2.6690310195571874,
+    -1.5769897192796987,
+    -3.1006968961600347,
+    3.2211683404626585,
+    0.6196343912190857,
+    1.450048294449123,
+    -3.221168340462654,
+    -0.6196343912190841,
+    -1.4500482944490987
+  ],
+  "forward_eV": [
+    -3.120397617542432,
+    4.16880896903298,
+    -1.862818133399889,
+    -2.6690310217407163,
+    -1.5769897193664701,
+    -3.100696896474632,
+    3.2211683423280077,
+    0.6196343898323102,
+    1.4500482930509735,
+    -3.221168342328003,
+    -0.6196343898323122,
+    -1.450048293050945
+  ],
+  "maximum_mode_error": 2.1835289132354774e-09,
+  "primal_residual_Ha": 1.6342953310579377e-14,
+  "target": {
+    "objective": "hard",
+    "target_Ha": 0.08190417874096961,
+    "hard_gap_Ha": 0.08190417874096961,
+    "hard_gap_isolated": true,
+    "vbm_k_index": 0,
+    "cbm_k_index": 0,
+    "vbm_band": 3,
+    "cbm_band": 4,
+    "margins": {
+      "vbm_band_Ha": 0.0016030493639048737,
+      "cbm_band_Ha": 0.0016106621394008092,
+      "vbm_k_Ha": null,
+      "cbm_k_Ha": null
+    },
+    "tau_Ha": 0.0005,
+    "softening_bias_bound_Ha": 0.0,
+    "finite_band_window": [
+      8,
+      4
+    ],
+    "linearized_HF_value_Ha": 0.08190417874096961,
+    "degeneracy_policy": "hard rejects unresolved extrema; soft uses full declared-window spectral trace, not a hard-gap gradient at crossings"
+  },
+  "kernel_symmetry_relative_error": 1.679802631204217e-16,
+  "adjoint_record": {
+    "converged": true,
+    "iterations": 17,
+    "residual": 3.295616293656455e-10,
+    "relative_residual": 5.025887315102395e-09,
+    "threshold": 6.557282499656106e-10,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.02067253273071753,
+        "relative_residual": 0.3152606698247588,
+        "seconds": 0.16916971281170845
+      },
+      {
+        "iteration": 2,
+        "residual": 0.01087687586044872,
+        "relative_residual": 0.1658747485870733,
+        "seconds": 0.2044578716158867
+      },
+      {
+        "iteration": 3,
+        "residual": 0.0037276153318171264,
+        "relative_residual": 0.056846953475202876,
+        "seconds": 0.24522917345166206
+      },
+      {
+        "iteration": 4,
+        "residual": 0.0013204202184253797,
+        "relative_residual": 0.02013669867806715,
+        "seconds": 0.27963169664144516
+      },
+      {
+        "iteration": 5,
+        "residual": 0.0005251220377968882,
+        "relative_residual": 0.00800822654543903,
+        "seconds": 0.31795863434672356
+      },
+      {
+        "iteration": 6,
+        "residual": 0.00019348505194886572,
+        "relative_residual": 0.0029506895876304394,
+        "seconds": 0.3523942492902279
+      },
+      {
+        "iteration": 7,
+        "residual": 7.235234979783707e-05,
+        "relative_residual": 0.0011033892439685428,
+        "seconds": 0.3908845782279968
+      },
+      {
+        "iteration": 8,
+        "residual": 1.9589641772357454e-05,
+        "relative_residual": 0.00029874634459297467,
+        "seconds": 0.4255502112209797
+      },
+      {
+        "iteration": 9,
+        "residual": 5.361966052562808e-06,
+        "relative_residual": 8.177116134380385e-05,
+        "seconds": 0.5504223369061947
+      },
+      {
+        "iteration": 10,
+        "residual": 1.385289427301205e-06,
+        "relative_residual": 2.112596837750785e-05,
+        "seconds": 0.682835191488266
+      },
+      {
+        "iteration": 11,
+        "residual": 4.066962292297184e-07,
+        "relative_residual": 6.20220692414956e-06,
+        "seconds": 0.7741601727902889
+      },
+      {
+        "iteration": 12,
+        "residual": 1.5671442109340812e-07,
+        "relative_residual": 2.3899293815940817e-06,
+        "seconds": 0.8170482516288757
+      },
+      {
+        "iteration": 13,
+        "residual": 5.066143804413663e-08,
+        "relative_residual": 7.725980701120251e-07,
+        "seconds": 0.8824299201369286
+      },
+      {
+        "iteration": 14,
+        "residual": 1.9626699284233404e-08,
+        "relative_residual": 2.993114797976558e-07,
+        "seconds": 0.916766781359911
+      },
+      {
+        "iteration": 15,
+        "residual": 5.528750239031281e-09,
+        "relative_residual": 8.431465686160744e-08,
+        "seconds": 0.9678480811417103
+      },
+      {
+        "iteration": 16,
+        "residual": 1.1566121622816318e-09,
+        "relative_residual": 1.7638589802136632e-08,
+        "seconds": 1.0213389731943607
+      },
+      {
+        "iteration": 17,
+        "residual": 3.295616319188055e-10,
+        "relative_residual": 5.025887354038647e-09,
+        "seconds": 1.0775757543742657
+      }
+    ]
+  },
+  "Gamma_gradient": [
+    -3.1203976188276017,
+    4.168808970086763,
+    -1.8628181338629424,
+    -2.6690310195571874,
+    -1.576989719279695,
+    -3.100696896160031,
+    3.22116834046266,
+    0.6196343912190865,
+    1.450048294449122,
+    -3.2211683404626537,
+    -0.6196343912190833,
+    -1.4500482944490984
+  ],
+  "Gamma_gradient_max_error": 6.217248937900877e-15,
+  "Gamma_Hessian_max_error": 0.0,
+  "Gamma_external_max_error": 8.326672684688674e-17,
+  "scope": "Single-GPU coupled prototype; FD/full production acceptance separate"
+}

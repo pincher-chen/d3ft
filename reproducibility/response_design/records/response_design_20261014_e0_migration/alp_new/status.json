@@ -1,0 +1,8 @@
+{
+  "stage": "failed",
+  "time": "2026-10-14T22:03:01.145305",
+  "pid": 859443,
+  "job": "250285",
+  "step": "2247",
+  "error": "ValueError: k mesh must divide the visible GPU count"
+}

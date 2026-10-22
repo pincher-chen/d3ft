@@ -1,0 +1,9 @@
+{
+  "numerical_JSON_records_checked": 832,
+  "binary_arrays_and_UPF_checked": 14,
+  "numeric_values_changed": false,
+  "publication_target_identifiers_found": 0,
+  "Python_sources_parse": true,
+  "source_model_or_tolerances_changed": false,
+  "no_GPU_calculations_started": true
+}

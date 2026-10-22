@@ -1,0 +1,7 @@
+{
+  "stage": "failed",
+  "jobid": "250285",
+  "step": "8275",
+  "time": 1792178402.2128215,
+  "error": "CheckpointBudgetStop('Infrastructure budget pause after complete atomic checkpoint; not physical failure')"
+}

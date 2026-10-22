@@ -1,0 +1,8 @@
+{
+  "stage": "E3_formal_scaling_complete",
+  "time": "2026-10-17T06:12:23.000298",
+  "jobid": 250212,
+  "node": "hn48",
+  "passed": true,
+  "spent_GPU_hours": 43.63977186693057
+}

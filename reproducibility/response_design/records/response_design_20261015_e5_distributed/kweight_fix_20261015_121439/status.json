@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-15T13:49:04.037025",
+  "stage": "corrected_k2_SCF_passed_spectrum_response_pending",
+  "jobid": 250285,
+  "gpus": [
+    0,
+    5
+  ],
+  "spent_GPU_hours_including_original_failure": 12.673656997428893,
+  "repair_root": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/kweight_fix_20261015_121439",
+  "passed": true,
+  "source": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/kweight_fix_20261015_121439/mg_k2_correct_weight_scf4000__20261015T042629498319Z_1825388_0",
+  "releases_E6": true
+}

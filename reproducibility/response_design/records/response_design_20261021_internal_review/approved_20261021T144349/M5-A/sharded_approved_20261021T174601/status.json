@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-22T04:09:17.699884+08:00",
+  "stage": "terminal",
+  "pid": 2943532,
+  "passed": false,
+  "outcome": "stopped_failure_or_budget",
+  "error": "RuntimeError('64k worker failed/stopped; see originalretainedlog')",
+  "traceback": "Traceback (most recent call last):\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/m5_after_m2_external_gate_queue.py\", line 73, in <module>\n    if x['returncode']:raise RuntimeError('64k worker failed/stopped; see originalretainedlog')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: 64k worker failed/stopped; see originalretainedlog\n",
+  "no_retry_no_gate_relaxation": true,
+  "GPU_hours": 10.140866315629747,
+  "cap_GPU_hours": 35
+}

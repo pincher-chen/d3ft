@@ -1,0 +1,123 @@
+{
+  "created": "2026-10-19T08:50:33.684687+00:00",
+  "files": [
+    {
+      "path": "cell_A.json",
+      "sha256": "5052b6a65fd91d3772b017112bbb121106197b8632f02161a48ff619e6dde4b4",
+      "original_path": "Derived locally from archived endpoint input.xyz / transfer CSV; see README.md",
+      "bytes": 437
+    },
+    {
+      "path": "endpoint_input.xyz",
+      "sha256": "2a0dad0edfcc6ae7b81dc1a1b7badf0e7351dfd5a54183e69e760af524273b87",
+      "original_path": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trial_2_0/electronic_state/input.xyz",
+      "bytes": 953
+    },
+    {
+      "path": "fig3_independent_endpoint_source.csv",
+      "sha256": "f3c6fea403abd28356a4dcb84d39e2b75a19c954578190512dffc63763801181",
+      "original_path": "${D3FT_ROOT}/paper/figure_drafts_20261019/fig3_independent_endpoint_source.csv",
+      "bytes": 825
+    },
+    {
+      "path": "fig3_joint54_atomic_source.csv",
+      "sha256": "6b80c7a6c2febb4f7b3808372b169e29054655a7e1cb42e981184105879255f7",
+      "original_path": "${D3FT_ROOT}/paper/figure_drafts_20261019/fig3_joint54_atomic_source.csv",
+      "bytes": 10027
+    },
+    {
+      "path": "fig3_joint54_trajectory_source.csv",
+      "sha256": "bb8d9de60fdcf7c52c930bf9c99b5e382a6aa9fd7049b503e5ddcda8cb898c3c",
+      "original_path": "${D3FT_ROOT}/paper/figure_drafts_20261019/fig3_joint54_trajectory_source.csv",
+      "bytes": 858
+    },
+    {
+      "path": "fig3_kmesh_transfer_source.csv",
+      "sha256": "68c7f1fd60cb57e2ba8bd25ea59a9d8f4f4d9cfa24cae1c0841ceea7618ea29e",
+      "original_path": "${D3FT_ROOT}/paper/figure_drafts_20261019/fig3_kmesh_transfer_source.csv",
+      "bytes": 221
+    },
+    {
+      "path": "fig3_structure_source.csv",
+      "sha256": "b1f29216d35d222ba46d28d47775362ad2d86a5edccb9b5acf6816b99628afa6",
+      "original_path": "${D3FT_ROOT}/paper/figure_drafts_20261019/fig3_structure_source.csv",
+      "bytes": 2200
+    },
+    {
+      "path": "provenance/original_figure_audit.json",
+      "sha256": "90f4128ab27c6e6c0e0754809284160076f9f95344f80258f3742a0cdb0b208f",
+      "original_path": "${D3FT_ROOT}/paper/figure_drafts_20261019/figure_audit.json",
+      "bytes": 9302
+    },
+    {
+      "path": "raw/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/result.json",
+      "sha256": "90a9275b130a060df15a907addc124706e0d2620e0671d488ef515bc3af46e94",
+      "original_path": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/result.json",
+      "bytes": 1867
+    },
+    {
+      "path": "raw/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trajectory.json",
+      "sha256": "c8b9451629dbb0abfb94743f06899afa46b6bf9aa408730c5d121e74b9888305",
+      "original_path": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trajectory.json",
+      "bytes": 24033
+    },
+    {
+      "path": "raw/response_design_20261015_e5_distributed/gpu7_design_resume__20261015T204658343637Z_2248349_0/bounded_k2_design__20261015T204805933908Z_2251971_0/result.json",
+      "sha256": "7ff313fef0a5d259c1bcaa9c9a658d0650ff6af1cf41a6eb31ad174ee4f9e04b",
+      "original_path": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/gpu7_design_resume__20261015T204658343637Z_2248349_0/bounded_k2_design__20261015T204805933908Z_2251971_0/result.json",
+      "bytes": 1889
+    },
+    {
+      "path": "raw/response_design_20261016_e4_endpoint_audit/Gamma54_endpoint_GPU0_importfix__20261015T232454954043Z_2931392_0/independent_endpoint_metrics.json",
+      "sha256": "40a8a22865334a38810b5ced06b8d495a6f63a3afcb3f64f6b5026ba89a25b71",
+      "original_path": "${D3FT_ROOT}/validation/results/response_design_20261016_e4_endpoint_audit/Gamma54_endpoint_GPU0_importfix__20261015T232454954043Z_2931392_0/independent_endpoint_metrics.json",
+      "bytes": 2334
+    },
+    {
+      "path": "raw/response_design_20261016_e5_k4_transfer/checkpoint2500_budget120__20261016T202234231186Z/acceptance.json",
+      "sha256": "59135c085e95d3a6315e928bae0edaf2767bab5ec0770d0c4dee57b53f6235a9",
+      "original_path": "${D3FT_ROOT}/validation/results/response_design_20261016_e5_k4_transfer/checkpoint2500_budget120__20261016T202234231186Z/acceptance.json",
+      "bytes": 28446
+    },
+    {
+      "path": "transfer_values.json",
+      "sha256": "9e0f64ace79a8507757ae7bbed090a4c6adcd1e1bc3b4a6595c5e21882d91ce4",
+      "original_path": "Derived locally from archived endpoint input.xyz / transfer CSV; see README.md",
+      "bytes": 74
+    },
+    {
+      "path": "COLUMNS.md",
+      "sha256": "f35446c52fe392cacdf7bdcd6b9766c07da1cbaf298be885fcfb53924479294d",
+      "original_path": "Generated locally from copied CSV headers and first rows; descriptive only."
+    },
+    {
+      "path": "ovito_panel_c_clean.png",
+      "sha256": "5f532c70dce817a4076c378074e3a1b79844d7e9b759ffd3715fef3d93904e7b",
+      "original_path": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/ovito_render_color_20261022T102625/MgSiN2_panel_c_clean.png",
+      "scope": "Display-only colour/frame change; original endpoint geometry/neighbours/400x arrows preserved",
+      "previous_versions": [
+        {
+          "path": "ovito_panel_c_clean.png",
+          "sha256": "5ad53eabc04b0de3c7d3035e1e4e3e9c0661229a11673a6eab857d6c35141efa",
+          "original_path": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/ovito_render_v3/MgSiN2_panel_c_clean.png",
+          "scope": "OVITO actual endpoint; Mg-N/Si-N geometric neighbours; 400x arrows; clean"
+        }
+      ],
+      "bytes": 320956
+    },
+    {
+      "path": "ovito_panel_c_style.json",
+      "sha256": "73f7e2f43cbd6068b32109e329ebbf3b523feb3d6acb89155e999f16db3e27cb",
+      "bytes": 793,
+      "original_path": "Local display-only configuration/provenance; see render README",
+      "scope": "Display-only colour/frame change; original endpoint geometry/neighbours/400x arrows preserved"
+    },
+    {
+      "path": "ovito_panel_c_provenance.json",
+      "sha256": "b98f9a5ff1f205b0ad49f4fddb93a920968eec9dec185f20231366ea27b293af",
+      "bytes": 825,
+      "original_path": "Local display-only configuration/provenance; see render README",
+      "scope": "Display-only colour/frame change; original endpoint geometry/neighbours/400x arrows preserved"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "${SEED_ROOT}",
+  "source_hashes": {
+    "metadata.json": "fe3b242746ff754ba86d906533d1e38ca63d6d2d0d6b6812c5a30067df488b79",
+    "mask.npy": "f113a2e24810543b1547acade65d3b443b4447643da0f373dc0df61ea89d550e",
+    "density.npy": "fc7ab072bf09893e10c89c9ef7f9262c62361488cea37b460436b355227c7e4b",
+    "state.pkl": "d5510a175c10d251db61a0532116447e5f8ed0bf9325ef98603dd045eede3bd3",
+    "input.xyz": "b68e75d3b1e0b37fd379f6047b28328fd31632c32388cfd651543f0d0b043a2a",
+    "point.json": "deb28f22bcd61a2180003ac1905f66952109381cfd4bfab71b99dc5779c3ed87"
+  },
+  "scope": "Occupied and two empty Gamma orbitals for later projected response; not a completed adjoint or new SCF point",
+  "physical_gpu": "0"
+}

@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-15T19:55:09.018368",
+  "stage": "E1_and_BN_concurrent",
+  "controller_pid": 2994923,
+  "jobid": 250285,
+  "E1_GPU_hours": 36.923787783526606,
+  "E1_finished": false,
+  "BN_finished": true
+}

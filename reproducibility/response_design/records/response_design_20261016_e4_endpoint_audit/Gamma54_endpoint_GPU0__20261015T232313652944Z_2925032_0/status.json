@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-16T07:24:09.753694+08:00",
+  "stage": "failed",
+  "controller_pid": 2925035,
+  "jobid": 250285,
+  "gpus": [
+    0
+  ],
+  "passed": false,
+  "error": "Independent endpoint child incomplete/failed; retain raw record"
+}

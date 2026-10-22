@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-16T13:14:07.459771",
+  "material": "diamond",
+  "scope": "a0 and B only, fresh independent numerical control",
+  "passed": true,
+  "native_gates_passed": true,
+  "a0_relative_error": 0.0,
+  "B_absolute_difference_GPa": 0.07395004078620104,
+  "a0_gate": 0.0001,
+  "B_gate_GPa": 0.1,
+  "coarse": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs/diamond_cheap",
+  "fine": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs/diamond_fine_remaining12h__20261016T031711810531Z_3054343_0",
+  "parameter_FD_certified": false,
+  "full_elastic_tensor_certified": false,
+  "heldout_accessed": false
+}

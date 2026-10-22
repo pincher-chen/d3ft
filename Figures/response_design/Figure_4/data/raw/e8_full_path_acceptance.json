@@ -1,0 +1,63 @@
+{
+  "time": "2026-10-16T16:36:19.547705+08:00",
+  "E8_complete": true,
+  "passed": true,
+  "scope": "MgSiN2 61-point/56-band D3FT-QE electronic-structure comparison from Gamma SCF",
+  "thresholds": {
+    "total_energy_Ha": 0.003,
+    "gap_eV": 0.005,
+    "VBM_aligned_max_eV": 0.02
+  },
+  "checks": {
+    "Gamma_original_gates_passed": true,
+    "Gamma_total_energy_gate": true,
+    "path_gap_uses_same_Gamma_gate": true,
+    "all61x56_bands_use_same_Gamma_max_gate": true,
+    "all61_D3FT_Ritz_original_gate": true,
+    "paths_have_positive_gap": true
+  },
+  "metrics": {
+    "path_gap_D3FT_eV": 4.00039153491455,
+    "path_gap_QE_eV": 4.000383796228113,
+    "absolute_path_gap_difference_eV": 7.738686436553621e-06,
+    "VBM_aligned_all_bands_MAE_eV": 9.580732158694794e-06,
+    "VBM_aligned_all_bands_max_abs_eV": 2.1724800610911643e-05,
+    "Gamma_total_energy_difference_Ha": -1.5970883737281838e-05,
+    "maximum_D3FT_Ritz_Ha": 8.124606042298411e-11
+  },
+  "criterion_statement": "\u95e8\u6cbf\u7528 \u0393 \u9884\u6ce8\u518c\u503c\uff0c\u672a\u53e6\u8bbe\u66f4\u677e\u7684\u8def\u5f84\u95e8",
+  "Gamma_thresholds_preregistered": true,
+  "full_path_application_authorized_after_results": true,
+  "separate_looser_path_gate": false,
+  "MAE_is_reported_not_an_added_threshold": true,
+  "total_energy_gate_applies_to_Gamma_SCF_only": true,
+  "decision": "User explicitly approved extending the unchanged Gamma numerical thresholds to the full path",
+  "limitations": {
+    "SCF_sampling": [
+      1,
+      1,
+      1
+    ],
+    "k_convergence_performed": false,
+    "experimental_comparison": false,
+    "continuous_BZ_gap_certified": false,
+    "parent_reference_path_in_prestrained_cell": true
+  },
+  "original_error_comparison_rejected_and_retained": true,
+  "doublegrid_diagnosis_retained": true,
+  "no_new_calculations_submitted": true,
+  "additional_GPU_hours": 0,
+  "input_sha256": {
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/protocol.json": "1755c5e71f5ec086211a3ee0ce96f3f34021647c9ff3856ae2e819cfd342c445",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/Gamma_acceptance.json": "b05a314219b0465d670d0e667deffea2e90163228304170e318c75279c36afed",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/corrected_comparison.json": "608f1051c3256067cb7d07860311091e6501ac42a605c6cf32371c133113c667",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/corrected_QE_bands.npz": "87efd74e7cb16518b40984f3ea66e9f527a38b0f288c47790f799de66c3db0a4",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/input_audit.json": "2c40c1b8105ca76ce87be1c668b1a9004106a0444ba335b71dabafa891936ee7",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/scf.in": "83638aac3010d8eb982274fb9038ff7372cd7429aa8f27edb68ca762bd9268d5",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/nscf.in": "0f104d2155893c22254b994033b4ee2d8798a69bc7d7bf1028e32aee79736b01",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/scf_data-file-schema.xml": "0059c2f9b328b7fad328ceb51c70a61361f68748b11564ae658f0aa7b601c483",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/nscf_data-file-schema.xml": "06094e10c77b0dbe9dd2e6e8a1c4714cde423edbef27536e557ef1e8f39af42a",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/parallel_single_points__20261016T053925014949Z_1239111_0/comparison.json": "cd8e05b82a2f79107ab2f8cfb33e6bcc9b121ab7024aaac40973f4e91bd4e475",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/parallel_single_points__20261016T053925014949Z_1239111_0/accepted_bindings.json": "de6b29337ab0c95b3c8dc21f91dd341b9a5598c9ac715f27eada2273e5b315ea"
+  }
+}

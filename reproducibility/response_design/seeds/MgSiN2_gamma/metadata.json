@@ -1,0 +1,339 @@
+{
+  "arguments": {
+    "structure": "${D3FT_ROOT}/validation/inputs/response_design_20260930/MgSiN2.json",
+    "pp_dir": "${D3FT_ROOT}/validation/inputs/response_design_20260930/pseudopotentials",
+    "output": "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3",
+    "cutoff": 100.0,
+    "grid": [
+      144
+    ],
+    "k": [
+      1
+    ],
+    "epochs": 3000,
+    "seed": 0,
+    "empty": 0,
+    "convergence_condition": 0,
+    "strain": "[[0.003, 0.00075, -0.0005], [0.00075, -0.002, 0.001], [-0.0005, 0.001, 0.001]]",
+    "displacements": null,
+    "resume_from": null,
+    "resume_quadrature_refinement": false,
+    "resume_geometry_continuation": false,
+    "xc_grid_factor": 4,
+    "local_radial_quadrature": "simpson",
+    "require_stationary": true,
+    "skip_forces": false,
+    "fused_report_all_devices": true,
+    "checkpoint_report_only": false,
+    "learning_rate": 0.01,
+    "final_learning_rate": 1e-05
+  },
+  "source_sha256": "5a99c7b570d92dbb7a010890900ab2f73f18a84ac3d07af2bb88a2b7788d103f",
+  "physical": {
+    "cell_angstrom": [
+      [
+        5.3269329999999995,
+        0.00398325,
+        -0.0026555
+      ],
+      [
+        0.004871250000000001,
+        6.48201,
+        0.006495
+      ],
+      [
+        -0.0025139999999999997,
+        0.0050279999999999995,
+        5.033027999999999
+      ]
+    ],
+    "positions_angstrom": [
+      [
+        0.4528050858,
+        4.042304686725,
+        4.979471114849999
+      ],
+      [
+        4.875285483399999,
+        2.451115924875,
+        2.459157346749999
+      ],
+      [
+        3.1175108317999998,
+        5.693319655725,
+        4.979795692849999
+      ],
+      [
+        2.2105797374,
+        0.8001009558750002,
+        2.4588327687499993
+      ],
+      [
+        0.37349616475,
+        0.8131228815000001,
+        0.0006285880000000001
+      ],
+      [
+        4.957051085249999,
+        5.675384368500001,
+        2.5197249119999996
+      ],
+      [
+        3.0381765802499996,
+        2.4304313985,
+        0.000919392
+      ],
+      [
+        2.29237066975,
+        4.058075851500001,
+        2.5194341079999996
+      ],
+      [
+        0.257949819725,
+        0.622266763425,
+        1.7474567985499998
+      ],
+      [
+        5.070852211475,
+        5.869730924175,
+        4.266824739049999
+      ],
+      [
+        2.9229195874749996,
+        2.6246066744250007,
+        1.7481334055499997
+      ],
+      [
+        2.405882443725,
+        3.8673910131750002,
+        4.266148132049999
+      ],
+      [
+        0.5843946642249999,
+        4.250159007825,
+        2.0685140129499997
+      ],
+      [
+        4.744090100175,
+        2.242473213375,
+        4.58093565825
+      ],
+      [
+        3.2487837789749996,
+        5.479843326825001,
+        2.06841641595
+      ],
+      [
+        2.0797009854249997,
+        1.0127888943749999,
+        4.5810332552499995
+      ]
+    ],
+    "symbols": [
+      "Mg",
+      "Mg",
+      "Mg",
+      "Mg",
+      "Si",
+      "Si",
+      "Si",
+      "Si",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+    ],
+    "spin": 0,
+    "cutoff": 100.0,
+    "grid": [
+      144
+    ],
+    "k": [
+      1
+    ],
+    "empty": 0,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "pp": {
+      "Mg": {
+        "path": "${D3FT_ROOT}/examples/response_design/pseudopotentials/MgSiN2/Mg.upf",
+        "sha256": "005153e25136fbb57f010125fd926aa70f92fbf0965d441de63edd16cc5f3053"
+      },
+      "N": {
+        "path": "${D3FT_ROOT}/examples/response_design/pseudopotentials/MgSiN2/N.upf",
+        "sha256": "460358be74e03cb3aa7c42e7d5d2cff06dd238cb24172009876de93b008cab9b"
+      },
+      "Si": {
+        "path": "${D3FT_ROOT}/examples/response_design/pseudopotentials/MgSiN2/Si.upf",
+        "sha256": "73d21061e1050ef8134ba50a20e61b9d0bcef98d0a9e0a110bbd076e47282eee"
+      }
+    },
+    "xc_grid_factor": 4,
+    "local_radial_quadrature": "simpson",
+    "radial_patch_sha256": "d04374e543c3329cbc4cea76da4ff61b36d3a52cb9879374c24b74e3fc8f96be"
+  },
+  "physical_sha256": "cd2844b4b13a18399faf0b774050ef2b555ed0c79219b0cb86f450c8253b090b",
+  "config": {
+    "band_structure_empty_bands": 8,
+    "band_structure_epoch": 5000,
+    "convergence_condition": 0.0,
+    "convergence_window_size": 30,
+    "crystal": null,
+    "crystal_file_path_path": "${SEED_ROOT}/input.xyz",
+    "cutoff_energy": 100.0,
+    "d3ft": {
+      "free_energy": {
+        "enabled": false,
+        "temp_init": 100.0
+      },
+      "kpoints": {
+        "mesh": "gamma"
+      },
+      "occupation": {
+        "enabled": false,
+        "epsilon_final": 0.001,
+        "epsilon_init": 1.0,
+        "epsilon_schedule": "log",
+        "learning_rate": null,
+        "method": "sinkhorn",
+        "sinkhorn_iters": 50
+      },
+      "optim": {
+        "enabled": true,
+        "init": "random",
+        "lr_final": 1e-05,
+        "lr_schedule": "cosine",
+        "mu": 1.0,
+        "preconditioner": "kinetic",
+        "retraction": "qr"
+      },
+      "parallel": {
+        "k_pool": false
+      },
+      "spectrum": {
+        "enabled": true,
+        "implicit_grad": true,
+        "n_lanczos_iters": 64,
+        "n_probes": 8
+      },
+      "theta_nonlocal": 0.0,
+      "theta_nonlocal_l": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xc_grid_factor": 4,
+      "xc_params": {
+        "gga_c_pbe": {
+          "beta": 0.06672455060314922,
+          "gamma": 0.031090690869654894
+        },
+        "gga_x_pbe": {
+          "kappa": 0.804,
+          "mu": 0.2195149727645171
+        }
+      }
+    },
+    "empty_bands": 0,
+    "epoch": 3000,
+    "eps": 1e-08,
+    "ewald_args": {
+      "ewald_cutoff": 20000.0,
+      "ewald_eta": 0.1
+    },
+    "freq_mask_method": "spherical",
+    "grid_sizes": 144,
+    "jax_debug_nans": false,
+    "jax_enable_x64": true,
+    "k_grid_sizes": 1,
+    "k_path_file": null,
+    "k_path_fine_tuning": true,
+    "k_path_fine_tuning_epoch": 300,
+    "k_path_special_points": null,
+    "num_kpoints": 60,
+    "occupation": "uniform",
+    "optimizer": "d3ft_riem",
+    "optimizer_args": {
+      "b1": 0.9,
+      "b2": 0.99,
+      "learning_rate": 0.01
+    },
+    "parallel_over_k_mesh": false,
+    "parallel_over_k_path": true,
+    "pseudopotential_file_dir": "${D3FT_ROOT}/examples/response_design/pseudopotentials/MgSiN2",
+    "pseudopotential_type": "nc",
+    "save_dir": null,
+    "scheduler": null,
+    "seed": 0,
+    "smearing": 0.001,
+    "spin": 0,
+    "spin_restricted": true,
+    "use_pseudopotential": true,
+    "verbose": false,
+    "xc": "gga_x_pbe+gga_c_pbe",
+    "xla_preallocate": true
+  },
+  "packages": {
+    "jax": "0.6.2",
+    "jaxlib": "0.6.2",
+    "numpy": "2.2.6",
+    "ase": "3.25.0",
+    "optax": "0.2.4"
+  },
+  "python": "3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]",
+  "devices": [
+    "cuda:0"
+  ],
+  "cuda_visible_devices": "0",
+  "code_sha256": {
+    "d3ft/cli.py": "e23ba487a72b1ef81f99cd6734bc3a829f89c6a57b559eacccac246b6fc34f90",
+    "d3ft/__init__.py": "f02e16868fe83b1582afb4385766b9b17a398a922e50e7ba387611a49a710593",
+    "d3ft/config.py": "3599603ce92f36df5fedc403b4dff60bb5659e7ff282b4a45f56cb65d0edec48",
+    "d3ft/pseudopotential/local.py": "26391cce7080d646c2c65ebbaccf4268903a3cf3223bb031c73ab840250066aa",
+    "d3ft/pseudopotential/nonlocal_.py": "5ebec7975bcb2f355efe4b40661450b59e8aaa732e9179029651d26f372c28b1",
+    "d3ft/pseudopotential/beta.py": "30455d27f58358636b4f369d79ceb8f1209640e4ff4651ba84b8cfc97ac9a430",
+    "d3ft/pseudopotential/__init__.py": "13440a84a9b32bef268130995d110a210e2da24ed5ddce3812783f923885c44f",
+    "d3ft/pseudopotential/nlcc.py": "3418854f8550407cc395d4ab66c6ac3ec32c55e3d452bc20af9466d29416971c",
+    "d3ft/pseudopotential/geometry.py": "316904707b4cc44729563991e9789404c6558176218ac1ed921452280279ff1a",
+    "d3ft/utils/crystal_loader.py": "f3c03658690748e651e2292f3cd27829f46b9b08f7957975c69960df0e9c203e",
+    "d3ft/utils/__init__.py": "4448b5765a1ba4b876cdd06ee85aaf5927d5b2ce95da1d8f58cb2ca5491e00c0",
+    "d3ft/utils/uncertainty.py": "869f5d3d999f33a989a3e6438cd8a8db5f54de388b8e070751b365b7342716c6",
+    "d3ft/spectrum/implicit.py": "2f6a69a55b9f5464d3bdf455d3a84b68808444ecdfba8365175b401ba044a748",
+    "d3ft/spectrum/ks_matvec.py": "be9617350e6848467af78adbd3c67665bd16a3f9b1483258fdd96a64f406fb9c",
+    "d3ft/spectrum/lanczos.py": "c51ecb50d6c140c3eb9af7ff6efd14fb9d345798527f5c4e4387446b20f238db",
+    "d3ft/spectrum/__init__.py": "21459051a97485cbc5db3239e3cede234825c100608ed96d2afe20f3b3507baf",
+    "d3ft/occupation/sinkhorn.py": "966215b4a26c90fc240136ee19d2b0b7d563741fe1d6d28bbd0f63e58ebb9fc7",
+    "d3ft/occupation/__init__.py": "39f803c3c0135ea65d59dc724b57ce6967f1feaa6a1e0c7170efa37df70a0a01",
+    "d3ft/optim/stiefel.py": "d98169af132b48aa801a1ba4dc09e0975f39aeb81fa5c29cd8b3de511f85e4ca",
+    "d3ft/optim/riemannian_adam.py": "32ea555530278014af2b5406ee3a0feb3500ed4b9f9084e8b16bacb2829d1a67",
+    "d3ft/optim/preconditioner.py": "65026630c82cea1b2e5620e3002634c3e9789ca02249d75c463e3596b40cf5dd",
+    "d3ft/optim/__init__.py": "fca90629d952a3762edc142122b8979c8e9fb86d7c4dab288df279c2842bb2db",
+    "d3ft/grid/kpoints.py": "cee774e744278c39bc8a7af5fa2ab4fd1e26d565fe0e8464d7d13e3d6e310f66",
+    "d3ft/grid/__init__.py": "58f1f8a7d7bfe577273be2b04807e350154f2f42a763907aa4ae46487ec7504d",
+    "d3ft/parallel/kpool.py": "b0722a8f71bcb2980644fa2f363a6e2700b33b0630b7abd0bb95ec6832743c1f",
+    "d3ft/parallel/__init__.py": "ba255f8ccd53cc1c64e5699c02b6806fd082edb976d4159c562d3ffb047270fd",
+    "d3ft/calc/screening.py": "c67ddb71fff8894d281edaad9440b4e5080991cc269c6716932742665d35898d",
+    "d3ft/calc/band_structure.py": "c9fce4fba6f78b952604068a089249ee3ef73ee1293703d1f64f4e567fdef4ea",
+    "d3ft/calc/hessian.py": "0743c89731c8227703b20eca019edcd35916876f8a28e1bc35c9835522c9f57c",
+    "d3ft/calc/elastic.py": "29736bccfbfca21d9d9cf1b177412c46c0b8fc8ad096fdd995c7f37dea5e3766",
+    "d3ft/calc/implicit.py": "5464b719becf3227485ad06dcd873cf9455b97ad8e6e9c175b87dc145661ce91",
+    "d3ft/calc/bandgap.py": "ce34451fc10d71620320da70230b3a7bcdcfbfa3c65060745f324dcd90c845c8",
+    "d3ft/calc/ground_state.py": "e83f4b0b33f3f4d1cf6b937534d317c91bcbb1117aae7006574fd900fbe61e69",
+    "d3ft/calc/xc_tunable.py": "3a55d0a8c1e2f27d4a8b7c05c6dbb38c870518e482af23107ed4538d0f08df69",
+    "d3ft/calc/forces.py": "c1de789809b593a639249e959fbf86b509dc4a586c45fe2a1b174f1d22dfc95e",
+    "d3ft/calc/stress.py": "8d0c902f3cd89bbdadbf944221d5b3566be71460b663a8c85cf66bce2466d2a1",
+    "d3ft/calc/__init__.py": "f1c44fdeb6b4d52a482da788e65f0cf78a511573a472bfc076f03a67a92d0556",
+    "d3ft/calc/fit.py": "b9b38152864fe4b26e578489c3b173db88fc3e016f17a55fad4651367742320f",
+    "d3ft/calc/stationary.py": "427dad6d43cbb205b74b250feefdde05126e77638a1821fb57105855bdcc4541",
+    "d3ft/calc/design.py": "f5b7dc24329d282c4c350198c15769c0408108f04b36f2b443792f4736f33da2"
+  },
+  "pilot_only": true,
+  "job": "250212",
+  "step": "940",
+  "geometry_angstrom_to_bohr": 1.8897259886,
+  "density_grid_radius_ratio": 2.6115740413914237,
+  "state_sha256": "d5510a175c10d251db61a0532116447e5f8ed0bf9325ef98603dd045eede3bd3"
+}

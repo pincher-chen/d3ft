@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-16T05:08:06.717775",
+  "stage": "failed",
+  "jobid": 250285,
+  "requested_gpus": [
+    2,
+    5
+  ],
+  "controller_pid": 2137295,
+  "timeout_seconds": 43200,
+  "remaining_points": [
+    "iso_+0.002500",
+    "iso_+0.005000"
+  ],
+  "passed": false,
+  "error": "TimeoutExpired(['srun', '--jobid=250285', '--overlap', '--cpu-bind=none', '-N1', '-n1', '-c1', 'nvidia-smi', '--query-gpu=index,memory.used', '--format=csv,noheader,nounits'], 45)"
+}

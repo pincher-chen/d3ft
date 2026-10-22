@@ -1,0 +1,175 @@
+{
+  "mode": "reverse",
+  "results": {
+    "gap_gradient_eV": [
+      -8.461404662947073,
+      -7.651567512427846,
+      -9.647638646861628,
+      -0.09449639980313516,
+      0.03199278323972783,
+      -0.07470992137457641
+    ],
+    "frozen_state_gradient_eV": [
+      -2.58622280561138,
+      -6.513396271042482,
+      -7.303679537973373,
+      -0.06610327293919419,
+      0.03450954263862192,
+      -0.032653912455054425
+    ],
+    "response_record": {
+      "converged": true,
+      "iterations": 23,
+      "residual": 2.603348592392297e-10,
+      "relative_residual": 5.399559234933158e-09,
+      "threshold": 4.82140945051513e-10,
+      "history": [
+        {
+          "iteration": 1,
+          "residual": 0.013229244222414607,
+          "relative_residual": 0.27438541277595013,
+          "seconds": 25.9368711784482
+        },
+        {
+          "iteration": 2,
+          "residual": 0.006424953305953415,
+          "relative_residual": 0.1332588192705135,
+          "seconds": 51.68205760791898
+        },
+        {
+          "iteration": 3,
+          "residual": 0.0023955662656921263,
+          "relative_residual": 0.049686015889734876,
+          "seconds": 77.77963926270604
+        },
+        {
+          "iteration": 4,
+          "residual": 0.0011983321478753286,
+          "relative_residual": 0.02485439496841108,
+          "seconds": 103.48946890234947
+        },
+        {
+          "iteration": 5,
+          "residual": 0.0006176418889116481,
+          "relative_residual": 0.012810401092271016,
+          "seconds": 129.29862106963992
+        },
+        {
+          "iteration": 6,
+          "residual": 0.00022951504342089374,
+          "relative_residual": 0.004760330890303703,
+          "seconds": 155.0083709023893
+        },
+        {
+          "iteration": 7,
+          "residual": 9.621810938465577e-05,
+          "relative_residual": 0.0019956427756695843,
+          "seconds": 181.08757051825523
+        },
+        {
+          "iteration": 8,
+          "residual": 4.419617102626865e-05,
+          "relative_residual": 0.0009166649603166692,
+          "seconds": 207.38806694746017
+        },
+        {
+          "iteration": 9,
+          "residual": 1.8524291011440942e-05,
+          "relative_residual": 0.0003842090409778777,
+          "seconds": 233.03292721882463
+        },
+        {
+          "iteration": 10,
+          "residual": 8.484162500626091e-06,
+          "relative_residual": 0.00017596851268708626,
+          "seconds": 258.96815048903227
+        },
+        {
+          "iteration": 11,
+          "residual": 3.615141615595164e-06,
+          "relative_residual": 7.498101235125166e-05,
+          "seconds": 284.64263213053346
+        },
+        {
+          "iteration": 12,
+          "residual": 1.7351940712727202e-06,
+          "relative_residual": 3.598935309440123e-05,
+          "seconds": 310.38290977850556
+        },
+        {
+          "iteration": 13,
+          "residual": 7.911938440749022e-07,
+          "relative_residual": 1.641001147476428e-05,
+          "seconds": 336.03472028672695
+        },
+        {
+          "iteration": 14,
+          "residual": 3.68773709333078e-07,
+          "relative_residual": 7.648670230521024e-06,
+          "seconds": 361.7308150790632
+        },
+        {
+          "iteration": 15,
+          "residual": 1.4872961495751859e-07,
+          "relative_residual": 3.08477461796214e-06,
+          "seconds": 387.38126830384135
+        },
+        {
+          "iteration": 16,
+          "residual": 6.752447865799826e-08,
+          "relative_residual": 1.4005132596814362e-06,
+          "seconds": 413.27061830833554
+        },
+        {
+          "iteration": 17,
+          "residual": 3.193991512726153e-08,
+          "relative_residual": 6.624601261328054e-07,
+          "seconds": 438.9343711845577
+        },
+        {
+          "iteration": 18,
+          "residual": 1.4486264790181665e-08,
+          "relative_residual": 3.0045705387319725e-07,
+          "seconds": 464.84698820486665
+        },
+        {
+          "iteration": 19,
+          "residual": 5.726787304256717e-09,
+          "relative_residual": 1.1877828180813091e-07,
+          "seconds": 490.9630795940757
+        },
+        {
+          "iteration": 20,
+          "residual": 2.8986638101345895e-09,
+          "relative_residual": 6.012067300828164e-08,
+          "seconds": 516.7324769124389
+        },
+        {
+          "iteration": 21,
+          "residual": 1.3335415728624396e-09,
+          "relative_residual": 2.7658749719336972e-08,
+          "seconds": 542.3811628557742
+        },
+        {
+          "iteration": 22,
+          "residual": 5.191278774278977e-10,
+          "relative_residual": 1.0767139417550049e-08,
+          "seconds": 568.1518984176219
+        },
+        {
+          "iteration": 23,
+          "residual": 2.603348572399617e-10,
+          "relative_residual": 5.399559193466695e-09,
+          "seconds": 593.7972605526447
+        }
+      ]
+    }
+  },
+  "primal_residual_Ha": 1.6548180879198177e-10,
+  "primal_gap_eV": 4.410987371055178,
+  "kernel_symmetry_relative_error": 1.8899917423178868e-16,
+  "kernel_compile_seconds": 113.48567562177777,
+  "solve_and_contract_seconds": 639.0294588245451,
+  "accepted": false,
+  "scope": "Response solve completed; independent merged FD/native/mode acceptance still required"
+}

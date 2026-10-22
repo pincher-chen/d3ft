@@ -1,0 +1,48 @@
+{
+  "k": 4,
+  "passed": false,
+  "energy_Ha": -9.285393700337828,
+  "pressure_GPa": -0.0025592999648956618,
+  "forces_Ha_Bohr": [
+    [
+      -6.605514009800114e-09,
+      -5.014174182400299e-09,
+      -4.987010752223749e-10
+    ],
+    [
+      6.605514009800115e-09,
+      5.014174182400299e-09,
+      4.987010752223749e-10
+    ]
+  ],
+  "stress_Ha_Bohr3": [
+    [
+      -8.698958133337986e-08,
+      -2.514375793830664e-12,
+      7.75393659742953e-11
+    ],
+    [
+      -2.514375793830664e-12,
+      -8.699106688984937e-08,
+      1.022862625825616e-10
+    ],
+    [
+      7.75393659742953e-11,
+      1.022862625825616e-10,
+      -8.698576974865146e-08
+    ]
+  ],
+  "errors": {
+    "energy_Ha_cell": 1.4450453846848177e-06,
+    "stress_Ha_Bohr3": 1.255011548600393e-08
+  },
+  "checks": {
+    "energy_Ha_cell": true,
+    "stress_Ha_Bohr3": true,
+    "QE_at_D3FT_pressure_root": false
+  },
+  "QE_lattice_root_independently_optimized": false,
+  "linearized_QE_lattice_shift_estimate_A": -5.702644391932859e-05,
+  "xml_sha256": "a22dba29bfbb9ddc9836df56373615981b6b4d50a450282661ce93d9a5b78d7d",
+  "unadjusted_comparison": true
+}

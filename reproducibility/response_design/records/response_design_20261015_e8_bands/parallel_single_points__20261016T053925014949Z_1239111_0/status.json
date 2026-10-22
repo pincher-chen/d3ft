@@ -1,0 +1,46 @@
+{
+  "time": "2026-10-16T15:42:20.516570+08:00",
+  "stage": "E8_path_comparison_complete",
+  "jobid": 250285,
+  "controller_pid": 1239136,
+  "completed_points": 61,
+  "total_points": 61,
+  "new_GPU_hours_upper_bound": 13.609685426238382,
+  "legacy_worker_handover_complete": true,
+  "owned_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "active": {},
+  "comparison": {
+    "time": "2026-10-16T15:42:20.387038+08:00",
+    "completed": true,
+    "points": 61,
+    "bands": 56,
+    "all61_D3FT_spectra_completed": true,
+    "QE_SCF_NSFC_completed": true,
+    "SCF_sampling": [
+      1,
+      1,
+      1
+    ],
+    "not_k_convergence": true,
+    "path_gap_D3FT_eV": 4.00039153491455,
+    "path_gap_QE_eV": -1.3810295207495626,
+    "VBM_aligned_all_bands_MAE_eV": 9.566608200417985,
+    "VBM_aligned_all_bands_max_abs_eV": 47.53444420597636,
+    "VBM_aligned_frontier44_55_MAE_eV": 3.9409064914319227,
+    "maximum_D3FT_ritz_Ha": 8.124606042298411e-11,
+    "numerical_agreement_certified": false,
+    "agreement_threshold": null,
+    "comparison_caveat": "Own VBM alignment; same accepted density/model/path as serial E8; QE |G+k| vs fixed D3FT |G| basis; no registered cross-code agreement threshold",
+    "reused_points": 23,
+    "new_GPU_hours_upper_bound": 13.609685426238382,
+    "legacy_elapsed_hours_at_completion": 7.785843199166667
+  }
+}

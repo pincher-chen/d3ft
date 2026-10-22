@@ -1,0 +1,152 @@
+{
+  "time": "2026-10-15T05:05:13.497974",
+  "jobid": 250285,
+  "gpus": [
+    0,
+    1
+  ],
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runtime",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPYCACHEPREFIX": "/dev/shm/response_design_e0_alp_new_retry1/pycache",
+    "CUDA_ROOT": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "CUDA_VISIBLE_DEVICES": "0,1",
+    "D3FT_FUSE_FINAL_DENSITY": "1",
+    "D3FT_REFERENCE_ROOT": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/Performance01/chenp/d3ft",
+    "JAX_PLATFORMS": "cuda",
+    "LD_LIBRARY_PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cublas/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_cupti/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cudnn/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cufft/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusolver/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cusparse/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nccl/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/nvshmem/lib:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/chenp/cutensor-2.3.1/lib:/APP/u22/ai_x86/CUDA/12.2/extras/CUPTI/lib64:/APP/u22/ai_x86/CUDA/12.2/lib64:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/work/xiean/proj/OODCGNEval_H100/models/potnet/functions/gsl/lib/",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc/bin:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.codex/tmp/arg0/codex-arg0i3ERdZ:/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/.nvm/versions/node/v22.22.3/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.npm-global/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/.nvm/versions/node/v22.22.3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.juliaup/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/.nvm/versions/node/v20.20.2/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/bin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/condabin:/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/micromamba/2.1.1/bin:/APP/u22/ai_x86/CUDA/12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PRECALC_BETA_SERIAL": "1",
+    "PYTHONPATH": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runtime:${D3FT_ROOT}/third_party/jrystal_dependency",
+    "XLA_FLAGS": "--xla_gpu_cuda_data_dir=/XYAIFS00/HDD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/sf_install/miniconda3/envs/jrystal/lib/python3.10/site-packages/nvidia/cuda_nvcc",
+    "XLA_PYTHON_CLIENT_ALLOCATOR": "platform",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/dev/shm/response_design_e0_alp_new_retry1",
+    "JAX_COMPILATION_CACHE_DIR": "/dev/shm/response_design_e0_alp_new_retry1/jax_cache",
+    "D3FT_TRACE_STAGES": "1",
+    "D3FT_PHASE3_RESULTS_ROOT": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/runs",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "JAX_COMPILATION_CACHE_MAX_SIZE": "0"
+  },
+  "cheap_settings": {
+    "Si": {
+      "cutoff_Ha": 50,
+      "grid": 60,
+      "k": 8,
+      "XC_factor": 1,
+      "h": 0.005,
+      "epochs": 3000,
+      "empty": 0,
+      "pseudopotentials": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/si/Si.upf": "4fae885f19244f3c05dd527a757ceab6a3033a3245e7a2ee56ddc6e4b2f08581"
+      },
+      "candidate_not_yet_certified": true
+    },
+    "BN": {
+      "cutoff_Ha": 100,
+      "grid": 60,
+      "k": 8,
+      "XC_factor": 4,
+      "h": 0.0025,
+      "epochs": 3000,
+      "empty": 0,
+      "pseudopotentials": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/bn/B.upf": "daf399dbf7b7090bfc216c72eb8bced195884d879c3510e44f2cdb87cc6c163c",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/bn/N.upf": "460358be74e03cb3aa7c42e7d5d2cff06dd238cb24172009876de93b008cab9b"
+      },
+      "candidate_not_yet_certified": true
+    },
+    "diamond": {
+      "cutoff_Ha": 100,
+      "grid": 60,
+      "k": 8,
+      "XC_factor": 1,
+      "h": 0.0025,
+      "epochs": 3000,
+      "empty": 0,
+      "pseudopotentials": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/diamond/C.upf": "1c674ec4fe19ee85db53e6b9ecf7cd40e70eda362cedd83f7c51c9c4081ea064"
+      },
+      "candidate_not_yet_certified": true
+    },
+    "AlAs": {
+      "cutoff_Ha": 50,
+      "grid": 60,
+      "k": 4,
+      "XC_factor": 4,
+      "h": 0.005,
+      "epochs": 9000,
+      "continuation_epochs": 3000,
+      "continuation_residual_gate": 1e-10,
+      "empty": 4,
+      "pseudopotentials": {
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/alp/Al.upf": "d7a0cfbe24ef65d973f75b23f1ce189990ffe280b08ed2c43b016bd8124294df",
+        "/XYFS03/SSD_POOL/nscc-gz_pinchen/nscc-gz_pinchen_4/chenp/d3ft/pseudopotentials/sg15_pbe/gaas/As.upf": "c17bb3ce2e6edf5671f533568832ef56af4eb580e57e968eafaeccd89de970f4"
+      },
+      "candidate_not_yet_certified": true
+    }
+  },
+  "fine_settings": {
+    "Si": {
+      "k": 10
+    },
+    "BN": {
+      "k": 10
+    },
+    "diamond": {
+      "k": 12,
+      "cutoff_Ha": 200,
+      "grid": 80
+    },
+    "AlAs": {
+      "k": 12
+    }
+  },
+  "readable_training_materials": [
+    "Si",
+    "BN",
+    "diamond",
+    "AlAs"
+  ],
+  "sealed_holdouts": [
+    "SiC",
+    "GaP"
+  ],
+  "bulk_only": true,
+  "numerical_gates": {
+    "a0_relative": 0.0001,
+    "B_GPa": 0.1,
+    "electronic_residual_Ha": 1e-06,
+    "root_relative": 1e-05
+  },
+  "Ct_GPU_hours_hard_alarm": 20,
+  "E7_total_GPU_hours_cap": 400,
+  "pilot_GPU_hours_cap": 120,
+  "priority": [
+    "E3 mixed FD",
+    "E3 hn48 formal",
+    "E5 Mg pilot",
+    "E4",
+    "remaining E7 stages"
+  ],
+  "no_historical_fine_acceptance": true,
+  "no_full_fit_submitted": true,
+  "fine_timeout_seconds": {
+    "Si": 14400,
+    "BN": 14400,
+    "diamond": 28800,
+    "AlAs": 54000
+  },
+  "fine_gpu_counts": {
+    "Si": 1,
+    "BN": 1,
+    "diamond": 4,
+    "AlAs": 4
+  },
+  "fine_scope": "Independent freshly optimized a0/B control, not parameter-FD/full elastic certification",
+  "budget_note": "Fine controls are validation overhead within E7 <=400 GPUh, pilot <=120; Ct cheap measured separately. Historical diamond/AlAs costs require larger wall allowance, not relaxed physics gates."
+}

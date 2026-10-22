@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "reverse_repeats": 3,
+  "forward_repeats": 1,
+  "forward_axes": 54,
+  "original_numerical_thresholds_unchanged": true,
+  "exclusive_violation": false,
+  "result": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M2-A/planB_20261021T2130/result.json",
+  "primal_check_evidence": "Unmodified native worker checks primal<=1e-7Ha before warmup; native log and frozen source retained",
+  "no_native_exit0_claim": true
+}

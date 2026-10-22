@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "outcome": "hard64k54gradient_completed",
+  "acceptance": "${D3FT_ROOT}/validation/results/response_design_20261021_internal_review/approved_20261021T144349/M5-A/sharded_approved_20261021T174601/budget45_20261022T073842/run_64k_budget45/acceptance.json",
+  "comparison": {
+    "cosine": 0.9999997766805457,
+    "norm_ratio_k4_over_k2": 0.9998313564922019
+  },
+  "time": "2026-10-22T10:08:16.880091+08:00",
+  "GPU_hours": 35.108986103269785,
+  "cap_GPU_hours": 45
+}

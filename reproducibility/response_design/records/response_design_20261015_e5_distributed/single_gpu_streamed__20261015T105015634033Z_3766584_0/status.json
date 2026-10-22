@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-15T19:10:39.409281",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    0
+  ],
+  "spent_GPU_hours": 17.231207464393652,
+  "root": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/single_gpu_streamed__20261015T105015634033Z_3766584_0",
+  "passed": false,
+  "error": "Single-GPU smoke/memory gate failed; systematic sharding fallback needed, full response not submitted"
+}

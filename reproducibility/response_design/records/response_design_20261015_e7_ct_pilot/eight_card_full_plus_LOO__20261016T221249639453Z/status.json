@@ -1,0 +1,232 @@
+{
+  "time": "2026-10-17T18:52:46.992846+08:00",
+  "stage": "parallel_fits_finished",
+  "controller_pid": 2624899,
+  "jobid": 250285,
+  "node": "hn35",
+  "configured_GPU_pool": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "shared_budget": {
+    "spent_GPU_hours": 152.65391869869805,
+    "reserved_GPU_hours": 84,
+    "cap_GPU_hours": 400
+  },
+  "fits": {
+    "full": {
+      "controller_pid": 2624934,
+      "alive": false,
+      "returncode": 0,
+      "state": {
+        "time": "2026-10-17T09:33:07.654204+08:00",
+        "stage": "selected_fit_complete",
+        "controller_pid": 2624934,
+        "jobid": 250285,
+        "gpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_GPU_hours": 5.782415702281649,
+        "E7_total_spent_GPU_hours": 93.22374454269422,
+        "E7_budget_GPU_hours": 400,
+        "selected_fit": "full",
+        "accepted_updates": {
+          "full": 3
+        }
+      },
+      "DFT_heartbeats": [
+        {
+          "time": "2026-10-17T08:19:21.943981+08:00",
+          "stage": "DFT_active",
+          "gpu": 7,
+          "pid": 2663852,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/full/runs/full_trial2_BN__20261016T222829796049Z_2624934_0"
+        },
+        {
+          "time": "2026-10-17T08:36:43.739840+08:00",
+          "stage": "DFT_active",
+          "gpu": 2,
+          "pid": 2663848,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/full/runs/full_trial2_Si__20261016T222829794861Z_2624934_0"
+        },
+        {
+          "time": "2026-10-17T09:32:56.324860+08:00",
+          "stage": "DFT_active",
+          "gpu": 4,
+          "pid": 3042804,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/full/runs/full_trial2_diamond__20261016T222829796473Z_2624934_0"
+        }
+      ]
+    },
+    "LOO_Si": {
+      "controller_pid": 2624937,
+      "alive": false,
+      "returncode": 0,
+      "state": {
+        "time": "2026-10-17T18:29:09.047233+08:00",
+        "stage": "selected_fit_complete",
+        "controller_pid": 2624937,
+        "jobid": 250285,
+        "gpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_GPU_hours": 19.63664618397565,
+        "E7_total_spent_GPU_hours": 149.0559661908597,
+        "E7_budget_GPU_hours": 400,
+        "selected_fit": "LOO_Si",
+        "accepted_updates": {
+          "LOO_Si": 3
+        }
+      },
+      "DFT_heartbeats": [
+        {
+          "time": "2026-10-17T14:03:40.112679+08:00",
+          "stage": "DFT_active",
+          "gpu": 3,
+          "pid": 3587168,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_Si/runs/LOO_Si_trial2_BN__20261017T021115501662Z_2624937_0"
+        },
+        {
+          "time": "2026-10-17T18:28:58.840993+08:00",
+          "stage": "DFT_active",
+          "gpu": 0,
+          "pid": 423442,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_Si/runs/LOO_Si_validation_Si__20261017T060350352353Z_2624937_0"
+        },
+        {
+          "time": "2026-10-17T14:01:19.844744+08:00",
+          "stage": "DFT_active",
+          "gpu": 0,
+          "pid": 3587165,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_Si/runs/LOO_Si_trial2_diamond__20261017T021115501430Z_2624937_0"
+        }
+      ]
+    },
+    "LOO_BN": {
+      "controller_pid": 2624938,
+      "alive": false,
+      "returncode": 0,
+      "state": {
+        "time": "2026-10-17T18:16:26.229260+08:00",
+        "stage": "selected_fit_complete",
+        "controller_pid": 2624938,
+        "jobid": 250285,
+        "gpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_GPU_hours": 19.30303376027713,
+        "E7_total_spent_GPU_hours": 144.63436876940324,
+        "E7_budget_GPU_hours": 400,
+        "selected_fit": "LOO_BN",
+        "accepted_updates": {
+          "LOO_BN": 3
+        }
+      },
+      "DFT_heartbeats": [
+        {
+          "time": "2026-10-17T18:16:15.303969+08:00",
+          "stage": "DFT_active",
+          "gpu": 1,
+          "pid": 906544,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_BN/runs/LOO_BN_validation_BN__20261017T064004535622Z_2624938_0"
+        },
+        {
+          "time": "2026-10-17T14:39:54.299546+08:00",
+          "stage": "DFT_active",
+          "gpu": 1,
+          "pid": 3576996,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_BN/runs/LOO_BN_trial2_Si__20261017T020805550071Z_2624938_0"
+        },
+        {
+          "time": "2026-10-17T13:50:49.000261+08:00",
+          "stage": "DFT_active",
+          "gpu": 2,
+          "pid": 3576997,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_BN/runs/LOO_BN_trial2_diamond__20261017T020805535093Z_2624938_0"
+        }
+      ]
+    },
+    "LOO_diamond": {
+      "controller_pid": 2624939,
+      "alive": false,
+      "returncode": 0,
+      "state": {
+        "time": "2026-10-17T18:52:31.425500+08:00",
+        "stage": "selected_fit_complete",
+        "controller_pid": 2624939,
+        "jobid": 250285,
+        "gpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_GPU_hours": 20.582525497226033,
+        "E7_total_spent_GPU_hours": 152.65391869869805,
+        "E7_budget_GPU_hours": 400,
+        "selected_fit": "LOO_diamond",
+        "accepted_updates": {
+          "LOO_diamond": 3
+        }
+      },
+      "DFT_heartbeats": [
+        {
+          "time": "2026-10-17T14:40:38.047313+08:00",
+          "stage": "DFT_active",
+          "gpu": 5,
+          "pid": 3626638,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_diamond/runs/LOO_diamond_trial2_BN__20261017T022401661967Z_2624939_0"
+        },
+        {
+          "time": "2026-10-17T15:16:22.003924+08:00",
+          "stage": "DFT_active",
+          "gpu": 4,
+          "pid": 3626637,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_diamond/runs/LOO_diamond_trial2_Si__20261017T022401661647Z_2624939_0"
+        },
+        {
+          "time": "2026-10-17T18:52:21.220716+08:00",
+          "stage": "DFT_active",
+          "gpu": 4,
+          "pid": 1257148,
+          "output": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/LOO_diamond/runs/LOO_diamond_validation_diamond__20261017T071633315854Z_2624939_0"
+        }
+      ]
+    }
+  },
+  "sealed_holdouts": [
+    "SiC",
+    "GaP"
+  ]
+}

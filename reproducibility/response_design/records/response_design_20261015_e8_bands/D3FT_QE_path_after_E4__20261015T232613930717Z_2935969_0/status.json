@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-16T07:54:42.469141+08:00",
+  "stage": "waiting_E4_audit_then_GPU0",
+  "jobid": 250285,
+  "gpus": [
+    0
+  ],
+  "controller_pid": 2939737
+}

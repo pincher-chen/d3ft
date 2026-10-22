@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-16T18:12:58.859253+08:00",
+  "stage": "failed_or_budget_limited",
+  "jobid": 250285,
+  "requested_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "controller_pid": 3719068,
+  "GPU_budget": 60,
+  "active_GPU_hours_completed": 20.505585813992138,
+  "exclusive_reserved_GPU_hours": 20.530330990251,
+  "passed": false,
+  "error": "RuntimeError('start_kpool_SCF child failed/timeout; preserve all partial records')"
+}

@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-16T01:09:05.001034",
+  "stage": "new_FD_process_running",
+  "jobid": 250285,
+  "gpus": [
+    2,
+    3
+  ],
+  "spent_GPU_hours": 52.92531304963772,
+  "controller_pid": 1219999,
+  "axis": 0,
+  "sign": -1,
+  "pid": 1220111,
+  "attempt": 1,
+  "elapsed_seconds": 1966.0517372421455
+}

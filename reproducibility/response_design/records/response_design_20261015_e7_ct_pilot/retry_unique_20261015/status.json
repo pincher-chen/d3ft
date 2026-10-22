@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-15T11:05:16.036320",
+  "stage": "CPU_dispatcher_retired_AlAs_retry_removed",
+  "GPU_diamond_r2_continues_naturally": true,
+  "observer_record": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/diamond_cheap_r2_launch.json",
+  "no_AlAs_retry_authorized": true,
+  "policy_file": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/material_policy.json"
+}

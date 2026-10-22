@@ -1,0 +1,76 @@
+{
+  "time": "2026-10-21T17:22:49.131647",
+  "passed": true,
+  "backend": "cpu",
+  "devices": 8,
+  "nk": 64,
+  "k_per_device": 8,
+  "errors": {
+    "density": 2.7755575615628914e-17,
+    "weighted_edge_density": 0.0,
+    "common_density_tangent": 3.122502256758253e-17,
+    "local_action": 1.2894259225729269e-17,
+    "coupled_Hessian": 8.881784197001252e-16,
+    "adjoint_rhs": 0.0,
+    "adjoint_solution": 5.421010862427522e-20,
+    "full_12_gradient": 1.0842021724855044e-19,
+    "forward_reverse_12": 1.7605272708415276e-12
+  },
+  "cross_k_action_norm": 0.011877734939760326,
+  "electrons": 4.000000000000001,
+  "serial_adjoint": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 3.3494737440031918e-18,
+    "relative_residual": 1.6585202297551022e-16,
+    "threshold": 2.0195555555555546e-10,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.0004890955562903854,
+        "relative_residual": 0.02421797978990686,
+        "seconds": 0.09380980394780636
+      },
+      {
+        "iteration": 2,
+        "residual": 6.872517653520326e-06,
+        "relative_residual": 0.00034029851937545643,
+        "seconds": 0.10500602587126195
+      },
+      {
+        "iteration": 3,
+        "residual": 1.2254394797423608e-20,
+        "relative_residual": 6.067867142210195e-19,
+        "seconds": 0.11488927085883915
+      }
+    ]
+  },
+  "sharded_adjoint": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 3.3231169359913125e-18,
+    "relative_residual": 1.6454694335344314e-16,
+    "threshold": 2.0195555555555546e-10,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.0004890955562903854,
+        "relative_residual": 0.02421797978990686,
+        "seconds": 0.07395320106297731
+      },
+      {
+        "iteration": 2,
+        "residual": 6.872517653520326e-06,
+        "relative_residual": 0.00034029851937545643,
+        "seconds": 0.07979487418197095
+      },
+      {
+        "iteration": 3,
+        "residual": 1.2168401375546831e-20,
+        "relative_residual": 6.025286772662936e-19,
+        "seconds": 0.088508868124336
+      }
+    ]
+  },
+  "scope": "Actual distributed local FFT/psum/Hessian/PCG QA on synthetic insulating blocks; real Si/Mg GPU physics and memory not yet certified"
+}

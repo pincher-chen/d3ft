@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "figures": {
+    "2": {
+      "passed": true,
+      "data_verified": true,
+      "text_outside_canvas": []
+    },
+    "3": {
+      "passed": true,
+      "data_verified": true,
+      "text_outside_canvas": []
+    },
+    "4": {
+      "passed": true,
+      "data_verified": true,
+      "text_outside_canvas": []
+    },
+    "5": {
+      "passed": true,
+      "data_verified": true,
+      "text_outside_canvas": []
+    }
+  },
+  "Figure1": "Final PDF copied byte-for-byte; no generator or draft assets published",
+  "plotting_environments": "Standard panels: Python3.12/Matplotlib3.10.8; band panel: separate recorded Python3.13/Sumo environment"
+}

@@ -1,0 +1,24 @@
+{
+  "completed_updates": 1,
+  "target_eV": 2.211503804355824,
+  "final_gap_eV": 2.2095761239415936,
+  "target_reached": true,
+  "theta": [
+    0.005947928978909716,
+    -0.00392424975015636,
+    0.001967797066097399,
+    0.0029533741061123575,
+    -0.0020251903845342,
+    0.003948334659244422,
+    -0.003625280777878842,
+    0.004475918097844151,
+    -0.00388590030414765,
+    0.003625280777878842,
+    -0.004475918097844151,
+    0.00388590030414765
+  ],
+  "structural_relaxation_performed": false,
+  "scope": "Constrained joint design; nonzero force states are not relaxed equilibrium",
+  "backend_kind": "dft",
+  "physical_DFT_result": true
+}

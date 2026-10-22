@@ -1,0 +1,20 @@
+{
+  "material": "GaAs",
+  "parameter_vector": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "a0_A": 5.75093322184067,
+  "equilibrium_pressure_GPa": -0.000611366900589502,
+  "equilibrium_residual": 9.862317359721466e-13,
+  "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+  "B_root_estimate_GPa": 58.7,
+  "root_relative": 3.4717030130011464e-06,
+  "validation_used_for_updates": false,
+  "optimizer_parameters_frozen": true
+}

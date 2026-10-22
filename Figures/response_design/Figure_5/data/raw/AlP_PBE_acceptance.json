@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-20T06:18:15.288118+08:00",
+  "material": "AlP",
+  "model": "PBE",
+  "passed": true,
+  "a0_A": 5.50697068646717,
+  "reference_a0_A": 5.4635,
+  "relative_error_percent": 0.7956563826698959,
+  "reference_scope": "~300 K local Bessolov et al. 1982 transcription; no new ZPE/thermal correction; original uncertainty unverified",
+  "summary": {
+    "material": "AlP",
+    "parameter_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "a0_A": 5.50697068646717,
+    "equilibrium_pressure_GPa": -0.00012678448809695184,
+    "equilibrium_residual": 5.04630187712108e-13,
+    "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+    "B_root_estimate_GPa": 82.7,
+    "root_relative": 5.11021717440354e-07,
+    "validation_used_for_updates": false,
+    "optimizer_parameters_frozen": true
+  },
+  "used_for_fitting": false,
+  "parameters_changed": false,
+  "bulk_modulus_certified": false,
+  "output": "${D3FT_ROOT}/validation/results/response_design_20261019_B_external/approved_20261019T222716/runs/AlP_PBE__20261019T212753399274Z/worker_results/AlP_PBE__20261019T212753399274Z",
+  "actual_GPU_hours": 6.759784107738071
+}

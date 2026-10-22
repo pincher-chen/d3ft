@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-20T07:54:06.324620+08:00",
+  "stage": "failed_retained_no_automatic_non124_retry",
+  "controller_pid": 3399684,
+  "jobid": 250285,
+  "node": "hn35",
+  "GPU_hours": 1.5952263467841679,
+  "returncode": 1
+}

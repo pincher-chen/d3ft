@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "backend": "Python/matplotlib",
+  "python": "3.12.9",
+  "numpy": "2.2.6",
+  "matplotlib": "3.10.8",
+  "sources_sha256": {
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/mg_mode_acceptance.json": "9fd75e30f0732fa75f6cd4149abf16da268b79475f8b3856aa0f287614f887ed",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/mg_reverse/result.json": "5416f909abb99fe9f8c3b5709eda8a51f2353a3498718dd0c2295496fb9e8c7f",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/mg_forward_0/result.json": "ea72244349c56f38ef0e5ca5e2a6ea20a065dab2ff6c9b4433b77c36df73b0af",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/mg_forward_1/result.json": "d0d2c1c4d7df049da338a9c7f24dd805ec7e2ffef3903473e302379b3fcbac86",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/mg_forward_2/result.json": "1a664fabd53a8e170f63d90fc7934e7442515a9e1856f0fc431db4a843544410",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/formal_timing_20261015/acceptance.json": "bb847b1729b918461bd716a35f534a9a2bfb7282a0d604a582ebe1047a979aac",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/formal_timing_20261015/co_tenancy_observation_20261016_2250.json": "b2c75c35735f28f808bdf65c1a2527e06766beb09debaaf39aab4fe570ebca97",
+    "${D3FT_ROOT}/paper/e3_e8_compile_check_20261019/evidence_extract.json": "164d8766a1b8fc95f95e1011041603053251392fa0abc32b8a4a1c34463da3b7",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/result.json": "90a9275b130a060df15a907addc124706e0d2620e0671d488ef515bc3af46e94",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/design/trajectory.json": "cdf5fc7931474aa0f6d5e522156c81d462e168fa7c89585df25e4b5cacef99f5",
+    "${D3FT_ROOT}/validation/results/response_design_20261016_e4_endpoint_audit/Gamma54_endpoint_GPU0_importfix__20261015T232454954043Z_2931392_0/independent_endpoint_metrics.json": "40a8a22865334a38810b5ced06b8d495a6f63a3afcb3f64f6b5026ba89a25b71",
+    "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/gpu7_design_resume__20261015T204658343637Z_2248349_0/bounded_k2_design__20261015T204805933908Z_2251971_0/result.json": "7ff313fef0a5d259c1bcaa9c9a658d0650ff6af1cf41a6eb31ad174ee4f9e04b",
+    "${D3FT_ROOT}/validation/results/response_design_20261016_e5_k4_transfer/checkpoint2500_budget120__20261016T202234231186Z/acceptance.json": "4e81ae7c5acb114548d7bb10c2118c5d988069f58a42ae2d4f89c0d98a037935",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/ELECTRONIC_POSTPROCESSING_CHECK_20261005.json": "c1671f1de50c63410c7d96c4a60d34ddcbddc12e694dad8b168dc9f69f21afa8",
+    "${D3FT_ROOT}/validation/results/response_design_20261005_band_structure/path_protocol.refined.json": "ec94196b6f9a5c5d7b821fe25261580920f0c99de71a0ec6ae2fc6ebab4293c3",
+    "${D3FT_ROOT}/validation/results/response_design_20261005_band_structure/bands_complete.json": "fcc371e7987618fc10b845bcad939c82430eeab843ef3a7880c74e80a1ef0be6",
+    "${D3FT_ROOT}/validation/results/response_design_20261005_band_structure/source_runtime_audit.json": "16ab2a82d8e6bb2ce3c46c362b9dd733e7b1c7e34428348a0793f048a97af04d",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/plot_r1_response.py": "aae9fdfccd0129ffc3c9942d23d02952a8febbb1e314de173c109f9e9032bae3",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/plot_r34_results.py": "629f1a0d6a4fae59ab1f024373fa55f2b66830dea8ad20dc8b5530f55bd210e0",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/electronic_band_panels.py": "abd224a5b91eca7b67eab2a6faff06d434241dd1f3e9ac1c5c60ccb0472d9a13",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/figures/r1_figure_audit.json": "1df9a7c32f0336ecabd1e142a2bb96fb1024e1f50efd4fbf383d044b0d73798b",
+    "${D3FT_ROOT}/paper_rewriting_output/final_paper/figures/r3_figure_audit.json": "c5efd20fac350239c702c3b25185bc22cabd0c818543cf9512a9de792491c68e"
+  },
+  "script_sha256": "1d6c7c1d91d93f663a350dbdfcc66ec38331f99621fddc012a5661a45ec0aa2e",
+  "source_csv_sha256": {
+    "fig3_joint54_trajectory_source.csv": "6a89b5e612b7f63de3a2bb9d48875090d2328acbaec2d3a7556fa887bc92786c",
+    "fig1_derivative_source.csv": "db188541b4baa699187edc273d0acb2b3e230982483fbbe8fa5f331da0c3aa54",
+    "historical_start_endpoint_bands_source.csv": "3e13a70a123a60cf6510a586500de373a3b3744092ffa891affd4445b9bd614e",
+    "fig1_ideal_linear_source.csv": "c78e9c0e8d9d6c04fd5c33d0dd63a1a255b09e5637b8f961187e2d6b016c86a9",
+    "fig3_kmesh_transfer_source.csv": "94cf7ea9f9b277d86735f6c170a254bfa784b23b57bfd8ea4efb63b0f421d32c",
+    "fig1_timing_source.csv": "b49939e65e121470d5afeda8453fa427e5020b602b7704bdf04a8012a5753e9f",
+    "fig3_structure_source.csv": "9c7972fa6ce07be022b20cbebf6a6c3ee4897c56229a21ffb77094896b71ddf0",
+    "fig3_independent_endpoint_source.csv": "90d2743c910fd4e3092e616c50fc00f7d777120be30cca7aea0fb2702771e9bf",
+    "fig3_joint54_atomic_source.csv": "eb4dd6dc5056b707376b3a2aec6674a5d48be14a0d93ebe958c752c0ed182974",
+    "fig1_summary_source.csv": "82ab3fbf0e42b26c51bf1e834d6f58ae377a9c943683f5c2d957a43e712da657"
+  },
+  "figures": {
+    "fig1_e3_scaling_draft": {
+      "size_mm": [
+        183.0,
+        80.0
+      ],
+      "text_outside_canvas": [],
+      "pdf_fonttype": 42,
+      "svg_editable_text": true,
+      "files": {
+        "fig1_e3_scaling_draft.pdf": "0b8e8931be1154b95686aa9fba8d92fc37ece934915d9e3cf39c23983c517728",
+        "fig1_e3_scaling_draft.svg": "d69df29a2ecd38c73b1b1d88c2500ede7c43a5f0bcba18bc84d3a6821a7b6fda",
+        "fig1_e3_scaling_draft.png": "62294ece59ed759465ec4f784bbda602dcaf57a0b4629d42820fc1c35498adc7",
+        "fig1_e3_scaling_draft.tiff": "8577440d46b72acfa673ac7074cda1ad07c4c6f1cb91c746319465a3acf15680"
+      }
+    },
+    "fig3_e4_joint_design_draft": {
+      "size_mm": [
+        183.0,
+        129.0
+      ],
+      "text_outside_canvas": [],
+      "pdf_fonttype": 42,
+      "svg_editable_text": true,
+      "files": {
+        "fig3_e4_joint_design_draft.pdf": "f24a03ccddf4b42318147df9ab404ade267d125cc9713cad850c5a5e1467da3b",
+        "fig3_e4_joint_design_draft.svg": "78a94aca4f01688f75547ddb96236510f273b4f1f685825e25a558086224f22f",
+        "fig3_e4_joint_design_draft.png": "a2d7b6d564f614a0788faf40a641d7f08f73f7288605439d1f8cd812632c01f8",
+        "fig3_e4_joint_design_draft.tiff": "e5a73a49fee77307b1a0bf0ff3d3adadd1877adb884c22b131d0e53ae5010569"
+      }
+    },
+    "historical_start_endpoint_bands_draft": {
+      "size_mm": [
+        183.0,
+        87.0
+      ],
+      "text_outside_canvas": [],
+      "pdf_fonttype": 42,
+      "svg_editable_text": true,
+      "files": {
+        "historical_start_endpoint_bands_draft.pdf": "0133d2e6836c02ee45b6290cdba4d6235e9f12cce58119d30723f4d450775d5c",
+        "historical_start_endpoint_bands_draft.svg": "07f35824d5ebb5ba99aeff08cb426035a7fe35a44bc8b588cc0477a57c715bd1",
+        "historical_start_endpoint_bands_draft.png": "ffd41c7c6516e789c14e41921319e2c48770e8fe5d2c951f0f0eb91486005870",
+        "historical_start_endpoint_bands_draft.tiff": "f371fd731f871ee46aa3d4d6ef5143de0f99e1bd048cd744a871691c3d4da742"
+      }
+    }
+  },
+  "statistics": "Technical timing repeats n=3, means and individual points; deterministic derivatives/design; no confidence intervals.",
+  "mode_max_difference": 4.818288740215948e-09,
+  "extrapolation": {
+    "source_N": 24,
+    "seconds_per_tangent": 549.6722273552183,
+    "predicted_N54_seconds": 29682.30027718179,
+    "measured_N54_seconds": 31000.11974484396,
+    "relative_difference_to_prediction": 0.04439748453980985,
+    "interpretation": "Consistent with near-linear scaling; not a causal bound on co-tenancy overhead."
+  },
+  "start_force_eV_A": 0.9687374557136683,
+  "endpoint_force_trajectory_eV_A": 1.0031879337961733,
+  "endpoint_force_independent_eV_A": 1.0031889345231637,
+  "accepted_merged_certificates_used": true,
+  "human_visual_review": "pending",
+  "protected_figures_written": false
+}

@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-16T07:56:38.208626+08:00",
+  "status": "complete_limited_scope",
+  "passed": true,
+  "scope": "AlP new NLCC K12 lattice constant and accepted numerical/QE gates only; parameter FD incomplete",
+  "a0_A": 5.506296175971588,
+  "k": 12,
+  "k10_k12_certificate": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/convergence_k10_k12.json",
+  "QE_certificate": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/formal_validation/QE_acceptance.json",
+  "force_certificate": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/extension_20261015/adopted_force_acceptance.json",
+  "parameter_FD_completed_pairs": 0,
+  "parameter_FD_required_pairs": 3,
+  "parameter_FD_certified": false,
+  "response_row_accepted_for_E7": false,
+  "AlP_excluded_from_E7": true,
+  "old_SG15_row_retained": true,
+  "no_new_FD_submission": true,
+  "remaining_children_natural_end": [
+    {
+      "pid": 1582661,
+      "gpus": [
+        2,
+        3
+      ]
+    },
+    {
+      "pid": 2055137,
+      "gpus": [
+        1,
+        4
+      ]
+    }
+  ]
+}

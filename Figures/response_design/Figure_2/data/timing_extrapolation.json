@@ -1,0 +1,8 @@
+{
+  "source_N": 24,
+  "seconds_per_tangent": 549.6722273552183,
+  "predicted_N54_seconds": 29682.30027718179,
+  "measured_N54_seconds": 31000.11974484396,
+  "relative_difference_to_prediction": 0.04439748453980985,
+  "interpretation": "Consistent with near-linear scaling; not a causal bound on co-tenancy overhead."
+}

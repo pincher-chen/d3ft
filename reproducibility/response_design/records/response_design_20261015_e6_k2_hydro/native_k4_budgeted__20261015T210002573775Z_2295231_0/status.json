@@ -1,0 +1,19 @@
+{
+  "time": "2026-10-16T05:00:06.091037+08:00",
+  "stage": "waiting_all8_idle_after_existing_tasks",
+  "controller_pid": 2295496,
+  "jobid": 250285,
+  "requested_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "spent_E6_GPU_hours": 14.22760264611117,
+  "E6_budget_GPU_hours": 60,
+  "completed_geometries": 0
+}

@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-16T05:22:41.878226+08:00",
+  "stage": "failed_or_budget_limited",
+  "controller_pid": 2442634,
+  "jobid": 250285,
+  "requested_gpus": [],
+  "spent_E6_GPU_hours": 14.22760264611117,
+  "E6_budget_GPU_hours": 60,
+  "completed_geometries": 0,
+  "passed": false,
+  "error": "RuntimeError('CPU compact full-functional equivalence failed; GPU not claimed')"
+}

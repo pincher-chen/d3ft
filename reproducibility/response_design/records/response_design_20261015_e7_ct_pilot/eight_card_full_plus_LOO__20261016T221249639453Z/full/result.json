@@ -1,0 +1,261 @@
+{
+  "completed": true,
+  "full_fit_and_three_LOO": {
+    "full": {
+      "completed": true,
+      "training_materials": [
+        "Si",
+        "BN",
+        "diamond"
+      ],
+      "parameter_names": [
+        "x:kappa",
+        "x:mu",
+        "theta_p"
+      ],
+      "vector": [
+        0.0,
+        -0.0174840013874402,
+        0.0,
+        0.0,
+        0.0,
+        -0.03543689751136915,
+        -0.014088007319144703
+      ],
+      "accepted_updates": 3,
+      "trials": 3,
+      "max_updates": 3,
+      "max_attempts": 3,
+      "states": {
+        "Si": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/full/runs/full_trial2_Si__20261016T222829794861Z_2624934_0",
+        "BN": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/full/runs/full_trial2_BN__20261016T222829796049Z_2624934_0",
+        "diamond": "${D3FT_ROOT}/validation/results/response_design_20261015_e7_ct_pilot/eight_card_full_plus_LOO__20261016T221249639453Z/full/runs/full_trial2_diamond__20261016T222829796473Z_2624934_0"
+      },
+      "history": [
+        {
+          "trial": 0,
+          "proposal": {
+            "loss_before": 3.4588746194832543,
+            "predicted_loss": 2.4715806149701907,
+            "singular_values": [
+              2.7056646156565147,
+              0.2545948249198357,
+              0.015359561397540088
+            ],
+            "rank": 3,
+            "parameters": 3,
+            "unique_three_parameter_identifiability": true,
+            "damping": 1.0,
+            "radius": 0.2,
+            "training_materials": [
+              "Si",
+              "BN",
+              "diamond"
+            ],
+            "training_rows": [
+              [
+                "Si",
+                "a0_A"
+              ],
+              [
+                "BN",
+                "B_GPa"
+              ],
+              [
+                "diamond",
+                "a0_A"
+              ],
+              [
+                "diamond",
+                "B_GPa"
+              ]
+            ],
+            "vector_before": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "candidate_vector": [
+              0.0,
+              -0.007868869578510565,
+              0.0,
+              0.0,
+              0.0,
+              -0.005637815702332204,
+              -0.0021958014512437176
+            ],
+            "sealed_external_holdouts": [
+              "SiC",
+              "GaP"
+            ]
+          },
+          "acceptance": {
+            "accepted": true,
+            "loss_before": 3.4588746194832543,
+            "loss_after": 2.468322825963095,
+            "predicted_loss": 2.4715806149701907,
+            "actual_reduction": 0.9905517935201593,
+            "rho": 1.0032997151731946
+          }
+        },
+        {
+          "trial": 1,
+          "proposal": {
+            "loss_before": 2.468322825963095,
+            "predicted_loss": 1.8168620324903053,
+            "singular_values": [
+              2.716319400536994,
+              0.2537217799044103,
+              0.015254761838298941
+            ],
+            "rank": 3,
+            "parameters": 3,
+            "unique_three_parameter_identifiability": true,
+            "damping": 0.5,
+            "radius": 0.30000000000000004,
+            "training_materials": [
+              "Si",
+              "BN",
+              "diamond"
+            ],
+            "training_rows": [
+              [
+                "Si",
+                "a0_A"
+              ],
+              [
+                "BN",
+                "B_GPa"
+              ],
+              [
+                "diamond",
+                "a0_A"
+              ],
+              [
+                "diamond",
+                "B_GPa"
+              ]
+            ],
+            "vector_before": [
+              0.0,
+              -0.007868869578510565,
+              0.0,
+              0.0,
+              0.0,
+              -0.005637815702332204,
+              -0.0021958014512437176
+            ],
+            "candidate_vector": [
+              0.0,
+              -0.014427462294548122,
+              0.0,
+              0.0,
+              0.0,
+              -0.01781755313171213,
+              -0.00701075084865972
+            ],
+            "sealed_external_holdouts": [
+              "SiC",
+              "GaP"
+            ]
+          },
+          "acceptance": {
+            "accepted": true,
+            "loss_before": 2.468322825963095,
+            "loss_after": 1.8123037662302455,
+            "predicted_loss": 1.8168620324903053,
+            "actual_reduction": 0.6560190597328495,
+            "rho": 1.0069969924602227
+          }
+        },
+        {
+          "trial": 2,
+          "proposal": {
+            "loss_before": 1.8123037662302455,
+            "predicted_loss": 1.443306682058638,
+            "singular_values": [
+              2.723766569628707,
+              0.2530336738303693,
+              0.01502137959295814
+            ],
+            "rank": 3,
+            "parameters": 3,
+            "unique_three_parameter_identifiability": true,
+            "damping": 0.25,
+            "radius": 0.4,
+            "training_materials": [
+              "Si",
+              "BN",
+              "diamond"
+            ],
+            "training_rows": [
+              [
+                "Si",
+                "a0_A"
+              ],
+              [
+                "BN",
+                "B_GPa"
+              ],
+              [
+                "diamond",
+                "a0_A"
+              ],
+              [
+                "diamond",
+                "B_GPa"
+              ]
+            ],
+            "vector_before": [
+              0.0,
+              -0.014427462294548122,
+              0.0,
+              0.0,
+              0.0,
+              -0.01781755313171213,
+              -0.00701075084865972
+            ],
+            "candidate_vector": [
+              0.0,
+              -0.0174840013874402,
+              0.0,
+              0.0,
+              0.0,
+              -0.03543689751136915,
+              -0.014088007319144703
+            ],
+            "sealed_external_holdouts": [
+              "SiC",
+              "GaP"
+            ]
+          },
+          "acceptance": {
+            "accepted": true,
+            "loss_before": 1.8123037662302455,
+            "loss_after": 1.4447499833032897,
+            "predicted_loss": 1.443306682058638,
+            "actual_reduction": 0.36755378292695573,
+            "rho": 0.9960885836052283
+          }
+        }
+      ],
+      "unique_parameter_identifiability": true,
+      "validation_used_for_updates": false,
+      "external_holdouts_accessed": false,
+      "converged_to_optimum_claim": false,
+      "nonzero_parameter_fine_validation": "not certified by baseline gates; separate pending numerical validation"
+    }
+  },
+  "training_GPU_hours": 5.782415702281649,
+  "total_E7_GPU_hours": 72.04611049007364,
+  "sealed_holdouts": [
+    "SiC",
+    "GaP"
+  ],
+  "external_generalization_certified": false,
+  "nonzero_parameter_numerical_refinement_complete": false
+}

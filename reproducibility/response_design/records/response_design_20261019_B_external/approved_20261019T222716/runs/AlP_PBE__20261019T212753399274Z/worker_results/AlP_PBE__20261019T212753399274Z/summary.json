@@ -1,0 +1,20 @@
+{
+  "material": "AlP",
+  "parameter_vector": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "a0_A": 5.50697068646717,
+  "equilibrium_pressure_GPa": -0.00012678448809695184,
+  "equilibrium_residual": 5.04630187712108e-13,
+  "scope": "frozen-parameter external a0 only; no EOS/Jacobian/fitting",
+  "B_root_estimate_GPa": 82.7,
+  "root_relative": 5.11021717440354e-07,
+  "validation_used_for_updates": false,
+  "optimizer_parameters_frozen": true
+}

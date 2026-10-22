@@ -1,0 +1,19 @@
+{
+  "time": "2026-10-15T02:36:24.393967",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e3_geometry/formal_timing_20261015/runtime",
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "jobid": 250212,
+  "node": "hn48",
+  "Ns": [
+    1,
+    6,
+    24,
+    54
+  ],
+  "repeats": 3,
+  "actual_N_dimensional_graph": true,
+  "gate": "Si/Mg54/Mg mixed FD PASS plus no repo processes or GPU apps on hn48",
+  "max_active_GPU_hours": 60,
+  "whole_E3_GPU_hours": 120,
+  "formal_GPU_steps_submitted": 0
+}

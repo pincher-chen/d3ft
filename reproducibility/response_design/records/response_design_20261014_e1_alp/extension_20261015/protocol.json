@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-15T03:34:30.961852",
+  "decision": "User: K4 insufficient, refine K10\u2192K12\u2192optional K14",
+  "k_queue": [
+    12,
+    14
+  ],
+  "jobid": 250285,
+  "gpus": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runtime",
+  "cutoff_Ha": 50,
+  "grid": 64,
+  "epochs": 3000,
+  "strain_step": 0.005,
+  "empty_bands": 0,
+  "Miller_mask": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k10/mask.npy",
+  "Miller_sha256": "566ad9db79070c235e8aadffb25beb0de44f6609e8a46fe0861491a7efaaaad8",
+  "reference": "${D3FT_ROOT}/validation/results/response_design_20261014_e1_alp/runs/AlP_NLCC_k10",
+  "lattice_relative_gate": 0.0001,
+  "bulk_absolute_gate_GPa": 0.1,
+  "E1_budget_GPU_hours": 250,
+  "conservative_spent_before_GPU_hours": 12.543287613967744,
+  "parameter_order": [
+    "theta_s",
+    "theta_p",
+    "theta_d",
+    "c:beta",
+    "c:gamma",
+    "x:kappa",
+    "x:mu"
+  ],
+  "adopt": "fine mesh of first passing adjacent pair",
+  "old_SG15_rows_replaced": false,
+  "parameter_FD_and_QE_are_separate_gates": true
+}

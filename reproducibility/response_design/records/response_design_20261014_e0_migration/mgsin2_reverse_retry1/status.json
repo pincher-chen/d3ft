@@ -1,0 +1,7 @@
+{
+  "stage": "failed",
+  "time": "2026-10-14T22:05:13.157966",
+  "pid": 860916,
+  "mode": "reverse",
+  "error": "RESOURCE_EXHAUSTED: Failed to launch CUDA kernel: loop_select_subtract_fusion; block dims: 128x1x1; grid dims: 439x1x1; shared memory size: 0: CUDA_ERROR_OUT_OF_MEMORY: out of memory"
+}

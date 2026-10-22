@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-15T11:54:06.131209",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    7
+  ],
+  "spent_GPU_hours": 0.0,
+  "error": "E5 parent SCF unavailable; no E6 GPU task submitted",
+  "formal_E6_complete": false
+}

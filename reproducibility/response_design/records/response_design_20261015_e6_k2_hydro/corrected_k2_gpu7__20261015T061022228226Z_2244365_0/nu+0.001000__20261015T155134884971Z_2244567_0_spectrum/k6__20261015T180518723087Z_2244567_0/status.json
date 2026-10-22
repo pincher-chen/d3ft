@@ -1,0 +1,7 @@
+{
+  "time": "2026-10-16T03:15:17.129491",
+  "stage": "failed",
+  "jobid": "250285",
+  "step": "3127",
+  "error": "Local k eigenpair gate failed"
+}

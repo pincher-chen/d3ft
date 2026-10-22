@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-16T18:13:20.269102+08:00",
+  "stage": "fit_candidate_DFT",
+  "controller_pid": 1089969,
+  "jobid": 250285,
+  "gpus": [
+    2,
+    3,
+    4
+  ],
+  "training_GPU_hours": 0.0,
+  "E7_total_spent_GPU_hours": 66.26369478779199,
+  "E7_budget_GPU_hours": 400,
+  "fit": "full",
+  "trial": 0,
+  "training_materials": [
+    "Si",
+    "BN",
+    "diamond"
+  ]
+}

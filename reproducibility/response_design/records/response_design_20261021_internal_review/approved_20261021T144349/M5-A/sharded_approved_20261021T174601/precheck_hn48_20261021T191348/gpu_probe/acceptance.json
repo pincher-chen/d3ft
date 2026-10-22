@@ -1,0 +1,49 @@
+{
+  "time": "2026-10-21T19:16:37.535329+08:00",
+  "passed": true,
+  "backend": "gpu",
+  "devices": 4,
+  "nk": 32,
+  "k_per_device": 8,
+  "errors": {
+    "density": 2.0816681711721685e-17,
+    "edge_density": 0.0,
+    "density_tangent": 3.469446951953614e-17,
+    "Hessian": 4.440892098500626e-16,
+    "rhs": 6.505213034913027e-19,
+    "lambda": 2.710505431213761e-19,
+    "reverse12": 3.2526065174565133e-19,
+    "forward12": 3.2526065174565133e-19
+  },
+  "inner_comparison_count": 344,
+  "max_inner_absolute_error": 9.094947017729282e-13,
+  "PCG": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 2.2199797501240133e-18,
+    "relative_residual": 1.5545625680771973e-16,
+    "threshold": 1.4280414283162982e-10,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.00034584278450114104,
+        "relative_residual": 0.02421797978990705,
+        "seconds": 0.787839871365577
+      },
+      {
+        "iteration": 2,
+        "residual": 4.859603836628514e-06,
+        "relative_residual": 0.0003402985193754586,
+        "seconds": 0.817535906098783
+      },
+      {
+        "iteration": 3,
+        "residual": 6.725839713342114e-21,
+        "relative_residual": 4.709835149020902e-19,
+        "seconds": 0.839010548312217
+      }
+    ]
+  },
+  "original_serial_PCG": null,
+  "scope": "Small synthetic32k true device layouts/common-density Hessian/nonzero PCG vsindependentCPU; not Mgphysical64k certificate"
+}

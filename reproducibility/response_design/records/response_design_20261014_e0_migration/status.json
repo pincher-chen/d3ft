@@ -1,0 +1,30 @@
+{
+  "stage": "completed",
+  "time": "2026-10-14T23:15:16.609377",
+  "completed": true,
+  "passed": true,
+  "formal_compute_submitted": false,
+  "protected_files": 124,
+  "physical_checks_submitted": [
+    "si_old",
+    "si_new",
+    "alp_old",
+    "alp_new",
+    "alp_qe",
+    "mgsin2_forward",
+    "mgsin2_reverse_retry1"
+  ],
+  "si_parity_passed": true,
+  "submitted_jobid": 250285,
+  "failures_retained": [
+    "mgsin2_reverse reconstruction OOM"
+  ],
+  "mgsin2_response_passed": true,
+  "alp_QE_energy_passed": false,
+  "last_compute_launch": [
+    "AlP_grid96",
+    "E2_MgSiN2_read_only_audit"
+  ],
+  "physical_acceptance": "${D3FT_ROOT}/validation/results/response_design_20261014_e0_migration/checks/e0_physical_acceptance.json",
+  "scope": "Migration and three physical gates completed; old Phase3 remains paused"
+}

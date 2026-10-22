@@ -1,0 +1,75 @@
+{
+  "assembled": "2026-10-19T17:08:23.762869+08:00",
+  "files": [
+    {
+      "path": "raw/e8_corrected_aligned_bands.npz",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/corrected_aligned_bands.npz",
+      "sha256": "c7711dfdd3a30c1c7c865221a7ab3546da7ded84498f18c97b5f050d9fcc2166"
+    },
+    {
+      "path": "raw/e8_full_path_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/full_path_acceptance.json",
+      "sha256": "d30ae597933e89f461cefbd26edcd6f6d94e7b34a74f0711a08ae85ce18bfe24"
+    },
+    {
+      "path": "raw/e8_scf.in",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/CPU_QE_doublegrid_repair__20261016T080803846376Z_2452222_0/scf.in",
+      "sha256": "83638aac3010d8eb982274fb9038ff7372cd7429aa8f27edb68ca762bd9268d5"
+    },
+    {
+      "path": "raw/e6_latest_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/latest_acceptance.json",
+      "sha256": "ba186a6f7e4f0a21bde9850e9299e0975a6a5408f355884f444c5337f64b382f"
+    },
+    {
+      "path": "raw/e6_k2_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e6_k2_hydro/four_k6_Ritz_repair__20261015T194505546683Z_2020618_0/k2_hydro_acceptance.json",
+      "sha256": "7dfdae60abf484b026be9aade5c0366ef02b8b9900e2df71594b5c2c1dc409fe"
+    },
+    {
+      "path": "raw/e5_k4_transfer_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261016_e5_k4_transfer/checkpoint2500_budget120__20261016T202234231186Z/acceptance.json",
+      "sha256": "59135c085e95d3a6315e928bae0edaf2767bab5ec0770d0c4dee57b53f6235a9"
+    },
+    {
+      "path": "raw/e5_k2_design_result.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e5_distributed/gpu7_design_resume__20261015T204658343637Z_2248349_0/bounded_k2_design__20261015T204805933908Z_2251971_0/result.json",
+      "sha256": "7ff313fef0a5d259c1bcaa9c9a658d0650ff6af1cf41a6eb31ad174ee4f9e04b"
+    },
+    {
+      "path": "e5_kmesh_transfer_source.csv",
+      "original": "${D3FT_ROOT}/paper_rewriting_output/final_paper/Figures/Figure_3/data/fig3_kmesh_transfer_source.csv",
+      "sha256": "68c7f1fd60cb57e2ba8bd25ea59a9d8f4f4d9cfa24cae1c0841ceea7618ea29e"
+    },
+    {
+      "path": "raw/e8_parent_path.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs/path.json",
+      "sha256": "d85ec484a8cb914aa212225dba37953ee6bd54d288254c4d8a69067b96db1d1a"
+    },
+    {
+      "path": "raw/e10_E4_initial_path_bands.npz",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/E4_initial_path_bands.npz",
+      "sha256": "b12944e2e35144cf13b18f5a2980c39dc3766b77da902802a9a8ba8a5fe1e308"
+    },
+    {
+      "path": "raw/e10_E4_initial_path_result.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/E4_initial_path_result.json",
+      "sha256": "b10699e1a5bd41d323577f6187db75162c922cfd4260eeb5d1d27e996809b267"
+    },
+    {
+      "path": "raw/e10_E4_joint54_endpoint_path_bands.npz",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/E4_joint54_endpoint_path_bands.npz",
+      "sha256": "3214a60e3d434fed9c7958bf2ecd6d175dd41c2a85cec4a07ed97b747e40a3b8"
+    },
+    {
+      "path": "raw/e10_E4_joint54_endpoint_path_result.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/E4_joint54_endpoint_path_result.json",
+      "sha256": "c045ed25422c8a7bcdddc6ad7acf65c476debcf065a29bc1385d44a273aeb493"
+    },
+    {
+      "path": "raw/e10_acceptance.json",
+      "original": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/E10_acceptance.json",
+      "sha256": "0070d4518746273874d83982f1cd48951c68600f966dc18d682d2e48283a3c7a"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "size_px": [
+    2400,
+    2160
+  ],
+  "dpi": 600,
+  "camera": {
+    "elevation_degrees": 20,
+    "azimuth_degrees": -58,
+    "zoom_padding": 1.2519
+  },
+  "colors": {
+    "Mg": "#009E73",
+    "Si": "#D55E00",
+    "N": "#0072B2",
+    "arrow": "#34485D",
+    "cell": "#111111",
+    "bonds": "#697780"
+  },
+  "radii_A": {
+    "Mg": 0.3776,
+    "Si": 0.34219999999999995,
+    "N": 0.2596
+  },
+  "cell_line_width_A": 0.0195,
+  "arrow_width_A": 0.039599999999999996,
+  "arrow_amplification": 0,
+  "bonds": {
+    "enabled": true,
+    "Mg_N_cutoff_A": 2.4,
+    "Si_N_cutoff_A": 2.05,
+    "width_A": 0.05175,
+    "pair_cutoffs_A": {
+      "Mg-N": 2.4,
+      "Si-N": 2.05
+    }
+  },
+  "raytracing": {
+    "antialiasing_samples": 64,
+    "ambient_occlusion_samples": 16,
+    "ambient_occlusion_brightness": 0.8,
+    "direct_light_intensity": 0.85,
+    "shadows": true
+  },
+  "font_family": "DejaVu Sans"
+}

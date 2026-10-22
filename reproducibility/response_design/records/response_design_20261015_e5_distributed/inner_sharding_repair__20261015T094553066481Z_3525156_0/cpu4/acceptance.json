@@ -1,0 +1,55 @@
+{
+  "time": "2026-10-15T17:46:46.392074",
+  "passed": true,
+  "devices": 4,
+  "errors": {
+    "complex_contraction": 1.4210854715202004e-14,
+    "async_mixed_contraction": 9.094947017729282e-13,
+    "traced_contraction": 2.2737367544323206e-13,
+    "PCG_solution": 7.021666937153402e-16,
+    "true_residual": 4.2903460937211617e-16
+  },
+  "serial_record": {
+    "converged": true,
+    "iterations": 2,
+    "residual": 4.226042676021766e-15,
+    "relative_residual": 1.2420718242093434e-16,
+    "threshold": 3.402414090434671e-07,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.10650020524057958,
+        "relative_residual": 0.00313013649749416,
+        "seconds": 0.2792459831107408
+      },
+      {
+        "iteration": 2,
+        "residual": 2.068949833640512e-15,
+        "relative_residual": 6.080829019186774e-17,
+        "seconds": 0.2898206750396639
+      }
+    ]
+  },
+  "sharded_record": {
+    "converged": true,
+    "iterations": 2,
+    "residual": 3.7970080666496495e-15,
+    "relative_residual": 1.115974706701431e-16,
+    "threshold": 3.4024140904346725e-07,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.10650020524057986,
+        "relative_residual": 0.003130136497494167,
+        "seconds": 0.05686830007471144
+      },
+      {
+        "iteration": 2,
+        "residual": 2.00221889221906e-16,
+        "relative_residual": 5.884700800669645e-18,
+        "seconds": 0.06558585702441633
+      }
+    ]
+  },
+  "scope": "CPU arithmetic/async mixed expressions/projected PCG equivalence; GPU Mg response still requires a new native run"
+}

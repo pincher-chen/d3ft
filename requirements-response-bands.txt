@@ -1,0 +1,5 @@
+numpy==2.5.4
+matplotlib==3.11.2
+pymatgen==2026.9.24
+sumo==3.0.0
+pillow

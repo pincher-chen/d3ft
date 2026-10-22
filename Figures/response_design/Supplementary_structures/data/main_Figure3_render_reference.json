@@ -1,0 +1,100 @@
+{
+  "ovito": "3.16.1",
+  "python": "3.13.2",
+  "renderer": "Tachyon CPU ray tracer; Qt labels",
+  "headless_platform": "ovitoheadless",
+  "vulkan_icd": "/usr/share/vulkan/icd.d/lvp_icd.x86_64.json",
+  "size_px": [
+    2400,
+    2160
+  ],
+  "atom_counts": {
+    "Mg": 4,
+    "Si": 4,
+    "N": 8
+  },
+  "geometric_bond_counts": {
+    "Mg-N": 16,
+    "N-Si": 16
+  },
+  "text_annotations": false,
+  "actual_endpoint_equals_affine_plus_u_max_error_A": 3.7882023906643525e-16,
+  "visible_atom_positions": "actual endpoint",
+  "arrow_bases": "affinely strained start",
+  "arrow_amplification_display_only": 400,
+  "bond_mode": "both",
+  "bonds_are_geometric_neighbours_only": true,
+  "sphere_radii_are_display_parameters": true,
+  "no_ionic_relaxation": true,
+  "PDF_is_embedded_raster": true,
+  "camera_pos": [
+    2.655765601653993,
+    3.236381437847784,
+    2.480976552098513
+  ],
+  "camera_dir": [
+    -0.4979612222122406,
+    0.7969045380297319,
+    -0.3420201433256687
+  ],
+  "fov": 7.662804131383957,
+  "style_used": {
+    "size_px": [
+      2400,
+      2160
+    ],
+    "dpi": 600,
+    "camera": {
+      "elevation_degrees": 20,
+      "azimuth_degrees": -58,
+      "zoom_padding": 1.2519
+    },
+    "colors": {
+      "Mg": "#009E73",
+      "Si": "#D55E00",
+      "N": "#0072B2",
+      "arrow": "#34485D",
+      "cell": "#111111",
+      "bonds": "#697780"
+    },
+    "radii_A": {
+      "Mg": 0.3776,
+      "Si": 0.34219999999999995,
+      "N": 0.2596
+    },
+    "cell_line_width_A": 0.0195,
+    "arrow_width_A": 0.039599999999999996,
+    "arrow_amplification": 400,
+    "bonds": {
+      "enabled": true,
+      "Mg_N_cutoff_A": 2.4,
+      "Si_N_cutoff_A": 2.05,
+      "width_A": 0.05175
+    },
+    "raytracing": {
+      "antialiasing_samples": 64,
+      "ambient_occlusion_samples": 16,
+      "ambient_occlusion_brightness": 0.8,
+      "direct_light_intensity": 0.85,
+      "shadows": true
+    },
+    "font_family": "DejaVu Sans"
+  },
+  "script_sha256": "347bfc666c5c23e07b1671491e0b979f907180d7a89c4ac45c7e795f9a1d08f5",
+  "source_sha256": {
+    "fig3_structure_source.csv": "9c7972fa6ce07be022b20cbebf6a6c3ee4897c56229a21ffb77094896b71ddf0",
+    "cell_A.json": "5052b6a65fd91d3772b017112bbb121106197b8632f02161a48ff619e6dde4b4",
+    "endpoint_input.xyz": "2a0dad0edfcc6ae7b81dc1a1b7badf0e7351dfd5a54183e69e760af524273b87",
+    "ovito_panel_c_style.json": "73f7e2f43cbd6068b32109e329ebbf3b523feb3d6acb89155e999f16db3e27cb"
+  },
+  "seconds": 131.74162935698405,
+  "outputs_sha256": {
+    "MgSiN2_panel_c_clean.png": "5f532c70dce817a4076c378074e3a1b79844d7e9b759ffd3715fef3d93904e7b",
+    "MgSiN2_panel_c_optimized.ovito": "91cb2a0439e70b34996ee260920d6a02d357540ee37e321d940249053079e930",
+    "MgSiN2_endpoint_optimized.ovito": "1fec1a345acafa446bf862fdb2bbbc80610c324889d2f170f7c16289b6df54fe",
+    "MgSiN2_panel_c_clean.tiff": "edd56831f294bdbb4daa9a0a0065c6915c37d35f67e333529fc0d2597caf38e1",
+    "rendered_atom_source.csv": "e0e1e69e3f2f853c1b97084dd0a4ab2bf0b2d8fce1f918d875db07c1e7cbe202",
+    "MgSiN2_endpoint_clean.png": "72100419748d5ef292d5b7e1c5f76ca731af7d959877785b5cfa7557e7a5fb12",
+    "MgSiN2_panel_c_clean.pdf": "d8b88017fdc7368da9f90048197b842a91d31e4109063f72baff03f0589a7258"
+  }
+}

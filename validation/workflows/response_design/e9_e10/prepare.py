@@ -1,0 +1,13 @@
+import sys,re
+from pathlib import Path
+import numpy as np
+from common import *
+B=Path(sys.argv[1]).resolve();c=read(B/'protocol.json');P=Path(c['project']);base=read(Path(c['E4_protocol']['source'])/'metadata.json');auditroot=Path(read(P/'validation/results/response_design_20261016_e4_endpoint_audit/active_audit.json')['root']);audit=next(auditroot.glob('*/radial_program.json')).parent;rad=read(audit/'radial_program.json')
+for name,src in zip(c['E10']['states'],c['E10']['source_state_directories']):
+ source=Path(src);out=B/'references'/name;out.mkdir(parents=True,exist_ok=False);old=read(source/'metadata.json');pt=read(source/'readout.json');lines=(source/'input.xyz').read_text().splitlines();cell=np.array([float(x) for x in re.search(r'Lattice="([^"]+)"',lines[1]).group(1).split()]).reshape(3,3);positions=np.array([[float(x) for x in l.split()[1:4]] for l in lines[2:]]);physical=dict(base['physical'],cell_angstrom=cell.tolist(),positions_angstrom=positions.tolist(),symbols=[l.split()[0] for l in lines[2:]],k=[1]);meta=dict(physical=physical,config=old['config'],state_sha256=sha(source/'state.pkl'),theta=old['theta'],new_reference_adapter_only=True,E4_source=str(source),frozen_radial_program=dict(grid_kmax=rad['grid_kmax'],beta_kmax=rad['beta_kmax'],tables_file='beta_tables.pkl',tables_sha256=sha(audit/'beta_tables.pkl')))
+ for f in ['state.pkl','mask.npy','input.xyz']:(out/f).symlink_to(source/f)
+ (out/'beta_tables.pkl').symlink_to(audit/'beta_tables.pkl');dump(out/'metadata.json',meta);dump(out/'point.json',dict(stationarity_pass=pt['residual_Ha']<=1e-8,physical_passed=pt['residual_Ha']<=1e-8,residual=pt['residual_Ha'],original_readout=pt,source_sha256=sha(source/'readout.json')))
+ dump(out/'adapter_audit.json',dict(source=str(source),source_hashes={f:sha(source/f) for f in ['metadata.json','readout.json','state.pkl','mask.npy','input.xyz']},source_unchanged=True,geometry_from_actual_E4_input=True,no_new_physical_result=True))
+p=P/'validation/workflows/response_design/e9_e10/e10_scf.py';s=(P/'validation/workflows/response_design/reverse_response/e5_k4_transfer_point.py').read_text().replace('Exact accepted k2 design geometry; no ionic relaxation','Exact E4 54-input-design geometry; no ionic relaxation').replace('Original k4 physical gate failed; no spectral production','E10 k4 physical check failed; no spectral production');p.write_text(s)
+dump(B/'preparation_acceptance.json',dict(passed=True,time=now(),actual_E4_geometry=True,source_files_not_modified=True,radial_program=str(audit),worker_sha256=sha(p)))
+print('Prepared E10 two actual E4 geometry adapters and checkpoint-capable SCF worker')

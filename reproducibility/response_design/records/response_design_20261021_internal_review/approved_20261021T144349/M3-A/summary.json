@@ -1,0 +1,9 @@
+{
+  "outcome": "stopped_failure_or_resource_limit",
+  "error": "RuntimeError('Failed/incomplete points; no new directions/retry; inspect point_index')",
+  "traceback": "Traceback (most recent call last):\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/controller_hn48.py\", line 186, in guarded\n    try:terminal(k,fn())\n                   ^^^^\n  File \"${D3FT_ROOT}/validation/workflows/response_design/validation_extensions_20261021/controller_hn48.py\", line 136, in m3\n    if len(results)!=20 or any(r['returncode'] for r in results):raise RuntimeError('Failed/incomplete points; no new directions/retry; inspect point_index')\n                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Failed/incomplete points; no new directions/retry; inspect point_index\n",
+  "failure_kind": "inspect retained worker logs; no automatic physical-failure claim",
+  "time": "2026-10-21T15:23:57.609594+08:00",
+  "GPU_hours": 3.4458145436313417,
+  "cap_GPU_hours": 25
+}

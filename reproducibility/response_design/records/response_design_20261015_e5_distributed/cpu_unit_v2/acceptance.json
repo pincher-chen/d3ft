@@ -1,0 +1,75 @@
+{
+  "time": "2026-10-15T04:02:31.826940",
+  "passed": true,
+  "backend": "cpu",
+  "devices": 8,
+  "nk": 8,
+  "errors": {
+    "density": 0.0,
+    "weighted_edge_density": 0.0,
+    "common_density_tangent": 0.0,
+    "local_action": 0.0,
+    "coupled_Hessian": 0.0,
+    "adjoint_rhs": 0.0,
+    "adjoint_solution": 5.587850095852341e-20,
+    "full_12_gradient": 4.336808689942018e-19,
+    "forward_reverse_12": 9.988839182878406e-13
+  },
+  "cross_k_action_norm": 0.03151205876669012,
+  "electrons": 4.0,
+  "serial_adjoint": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 1.0462861887516812e-18,
+    "relative_residual": 1.465344307252042e-16,
+    "threshold": 7.140207141581491e-11,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.00017292139225057065,
+        "relative_residual": 0.024217979789907067,
+        "seconds": 0.1479479791596532
+      },
+      {
+        "iteration": 2,
+        "residual": 2.4298019183142814e-06,
+        "relative_residual": 0.00034029851937546207,
+        "seconds": 0.1512423329986632
+      },
+      {
+        "iteration": 3,
+        "residual": 4.3176446157824905e-21,
+        "relative_residual": 6.046945880096935e-19,
+        "seconds": 0.15443578106351197
+      }
+    ]
+  },
+  "sharded_adjoint": {
+    "converged": true,
+    "iterations": 3,
+    "residual": 1.0859088638264008e-18,
+    "relative_residual": 1.5208366400220177e-16,
+    "threshold": 7.14020714158149e-11,
+    "history": [
+      {
+        "iteration": 1,
+        "residual": 0.00017292139225057036,
+        "relative_residual": 0.02421797978990703,
+        "seconds": 0.14336969098076224
+      },
+      {
+        "iteration": 2,
+        "residual": 2.4298019183142695e-06,
+        "relative_residual": 0.00034029851937546045,
+        "seconds": 0.1556652740109712
+      },
+      {
+        "iteration": 3,
+        "residual": 3.70733243009459e-21,
+        "relative_residual": 5.192191706182701e-19,
+        "seconds": 0.16617299197241664
+      }
+    ]
+  },
+  "scope": "Actual distributed local FFT/psum/Hessian/PCG QA on synthetic insulating blocks; real Si/Mg GPU physics and memory not yet certified"
+}

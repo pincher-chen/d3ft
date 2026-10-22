@@ -1,0 +1,21 @@
+{
+  "eigenvalues_Ha": [
+    -0.18502517054938145,
+    0.25065842595869725,
+    0.2524234160555039,
+    0.2541970008892265,
+    0.33592830726406475,
+    0.33761194508070863,
+    0.3407593610645407,
+    0.36836648877822387
+  ],
+  "gap_eV": 2.2240221461549057,
+  "n_occupied": 4,
+  "vbm_adjacent_separation_Ha": 0.0017735848337225857,
+  "cbm_adjacent_separation_Ha": 0.0016836378166438792,
+  "maximum_ritz_residual_Ha": 3.4065803199033095e-14,
+  "orthogonality_max": 9.992007221626409e-16,
+  "saved_orbitals_sha256": "6df878422caa4e4fb5bd8aab66d2ecebb3afcc21e98f1a08e4cb0e4ab0b45be8",
+  "seconds": 61.70025920495391,
+  "matvec_calls": 280
+}

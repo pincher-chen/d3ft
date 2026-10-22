@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "indices": [
+    6,
+    14,
+    22,
+    30,
+    38,
+    46,
+    54,
+    62,
+    70,
+    78,
+    86,
+    94,
+    102,
+    110,
+    118,
+    126
+  ],
+  "bands": 56,
+  "source": "${D3FT_ROOT}/validation/results/response_design_20261019_e9_e10/SCF/E4_joint54_endpoint/SCF__20261019T061206020694Z_1865807/output"
+}

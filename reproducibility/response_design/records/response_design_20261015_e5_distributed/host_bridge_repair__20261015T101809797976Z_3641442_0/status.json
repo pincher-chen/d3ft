@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-15T18:41:40.262794",
+  "stage": "failed",
+  "jobid": 250285,
+  "gpus": [
+    0,
+    5
+  ],
+  "passed": false,
+  "error": "Mg two-iteration gate failed; full adjoint not submitted",
+  "full_adjoint_submitted": false
+}

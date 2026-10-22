@@ -33,8 +33,6 @@ from jrystal._src.grid import g2r_vector_grid
 from jrystal.sbt import sbt_numerical
 
 from .geometry import safe_norm
-from .quadrature import qe_simpson_weights
-from scipy.special import spherical_jn
 
 
 def _compensation_real(z, r, mode: str, alpha: float):
@@ -65,6 +63,7 @@ def potential_local_reciprocal(
   r0_fix: bool = None,
   kmax: float = None,
   alpha_z: bool = True,
+  r_ab=None,
 ) -> Complex[Array, "x y z"]:
   """Local pseudopotential on the reciprocal grid, in the FFT representation.
 
@@ -94,6 +93,14 @@ def potential_local_reciprocal(
     ``Vhat_loc`` scaled to the FFT-array convention used by the Hamiltonian,
     i.e. ``ifftn(result)`` is the real-space local potential.
   """
+  if r_ab is not None:
+    if fourier_transform_method != "sbt" or not alpha_z:
+      raise ValueError("QE local radial metadata requires default SBT/alpha-Z")
+    from .qe_local import qe_local_reciprocal
+    return qe_local_reciprocal(positions,g_vector_grid,r_grid,
+                              local_potential_grid,local_potential_charge,
+                              vol,r_ab=r_ab,kmax=kmax)
+
   if r0_fix is None:
     r0_fix = os.environ.get("VLOC_R0_FIX", "1") == "1"
   comp_mode = os.environ.get("VLOC_COMPENSATION", "bare").lower()
@@ -115,17 +122,6 @@ def potential_local_reciprocal(
     v_prime = v_r + _compensation_real(z, r, comp_mode, comp_alpha)
 
     if fourier_transform_method == "sbt":
-      rr=np.asarray(r); ratios=np.diff(np.log(rr))
-      if np.allclose(ratios,ratios[0],rtol=1e-8,atol=1e-11):
-        # Pure logarithmic UPF meshes have RAB=r*dx. Uniform meshes retain
-        # the previously validated origin correction below.
-        weights=qe_simpson_weights(rr*ratios[0])
-        kk=np.arange(0.,float(kmax)+0.010001,0.01)
-        f_k=np.empty_like(kk)
-        integrand=np.asarray(v_prime)*rr*rr*weights
-        for start in range(0,len(kk),512):
-          f_k[start:start+512]=spherical_jn(0,kk[start:start+512,None]*rr)@integrand
-        return CubicSpline(kk,f_k,axis=0,check=False)(g_radius)*4*jnp.pi
       if r0_fix:
         # sbt() defaults to a LEFT-RECTANGLE rule over the supplied mesh. Prepend
         # r = 0 (where r^2 (V + Z/r) vanishes) and hand it trapezoid weights.

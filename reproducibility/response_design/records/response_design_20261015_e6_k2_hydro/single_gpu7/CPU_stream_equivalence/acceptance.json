@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-15T09:34:25.868635",
+  "passed": true,
+  "errors": {
+    "scalar": 1.4210854715202004e-14,
+    "density": 1.6653345369377348e-16,
+    "coeff_VJP": 2.2887833992611187e-16,
+    "volume_VJP": 1.0061396160665481e-16,
+    "reciprocal_grid_VJP": 2.220446049250313e-16,
+    "k_vector_VJP": 7.105427357601002e-15
+  },
+  "nk": 8,
+  "band_block": 4,
+  "scope": "CPU discrete energy/density and complex coefficient/volume/g/k VJP equivalence; actual Mg GPU memory separate"
+}

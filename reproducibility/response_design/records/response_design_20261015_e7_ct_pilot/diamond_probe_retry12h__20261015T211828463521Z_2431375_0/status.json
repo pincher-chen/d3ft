@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-16T07:56:51.366640",
+  "stage": "waiting_E1_boundary_and_actual_idle_GPU2_5",
+  "jobid": 250285,
+  "requested_gpus": [
+    2,
+    5
+  ],
+  "controller_pid": 2431382,
+  "timeout_seconds": 43200,
+  "remaining_points": [
+    "iso_+0.002500",
+    "iso_+0.005000"
+  ]
+}

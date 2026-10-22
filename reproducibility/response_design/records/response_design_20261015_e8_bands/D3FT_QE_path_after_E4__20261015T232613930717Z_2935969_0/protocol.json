@@ -1,0 +1,356 @@
+{
+  "time": "2026-10-16T07:26:14.026968+08:00",
+  "project": "${D3FT_ROOT}",
+  "runtime": "${D3FT_ROOT}/validation/results/response_design_20261015_e4_joint_design/MgSiN2_Gamma_joint54_r2__20261015T181045980892Z_1588069_0/runtime",
+  "python": "/HOME/nscc-gz_pinchen/nscc-gz_pinchen_4/HDD_POOL/sf_install/miniconda3/envs/jrystal/bin/python",
+  "jobid": 250285,
+  "fixed_gpu": 0,
+  "timeout_seconds": 43200,
+  "GPU_budget": 120,
+  "stage_reservation_GPU_hours": 12,
+  "source": "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3",
+  "qe_bands": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/fresh_QE_bands.npz",
+  "qe_bands_sha256": "3f5e379048c02aba9502d646d8e4f920e8f2a816dae0b33e2669a940ca8a40be",
+  "qe_protocol": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/protocol.json",
+  "path": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/inputs_retry_env_v2/path.json",
+  "k_fractional": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.1
+    ],
+    [
+      0.0,
+      0.0,
+      0.2
+    ],
+    [
+      0.0,
+      0.0,
+      0.30000000000000004
+    ],
+    [
+      0.0,
+      0.0,
+      0.4
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.125,
+      0.0,
+      0.5
+    ],
+    [
+      0.25,
+      0.0,
+      0.5
+    ],
+    [
+      0.375,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.4
+    ],
+    [
+      0.5,
+      0.0,
+      0.3
+    ],
+    [
+      0.5,
+      0.0,
+      0.19999999999999996
+    ],
+    [
+      0.5,
+      0.0,
+      0.09999999999999998
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.4,
+      0.0,
+      0.0
+    ],
+    [
+      0.3,
+      0.0,
+      0.0
+    ],
+    [
+      0.19999999999999996,
+      0.0,
+      0.0
+    ],
+    [
+      0.09999999999999998,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.125,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.375,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.1
+    ],
+    [
+      0.0,
+      0.5,
+      0.2
+    ],
+    [
+      0.0,
+      0.5,
+      0.30000000000000004
+    ],
+    [
+      0.0,
+      0.5,
+      0.4
+    ],
+    [
+      0.0,
+      0.5,
+      0.5
+    ],
+    [
+      0.1,
+      0.5,
+      0.5
+    ],
+    [
+      0.2,
+      0.5,
+      0.5
+    ],
+    [
+      0.30000000000000004,
+      0.5,
+      0.5
+    ],
+    [
+      0.4,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.4166666666666667
+    ],
+    [
+      0.5,
+      0.5,
+      0.33333333333333337
+    ],
+    [
+      0.5,
+      0.5,
+      0.25
+    ],
+    [
+      0.5,
+      0.5,
+      0.16666666666666669
+    ],
+    [
+      0.5,
+      0.5,
+      0.08333333333333337
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.4,
+      0.5,
+      0.0
+    ],
+    [
+      0.3,
+      0.5,
+      0.0
+    ],
+    [
+      0.19999999999999996,
+      0.5,
+      0.0
+    ],
+    [
+      0.09999999999999998,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.125,
+      0.0
+    ],
+    [
+      0.5,
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.375,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.5
+    ],
+    [
+      0.0,
+      0.4,
+      0.5
+    ],
+    [
+      0.0,
+      0.3,
+      0.5
+    ],
+    [
+      0.0,
+      0.19999999999999996,
+      0.5
+    ],
+    [
+      0.0,
+      0.09999999999999998,
+      0.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.125,
+      0.5
+    ],
+    [
+      0.5,
+      0.25,
+      0.5
+    ],
+    [
+      0.5,
+      0.375,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ]
+  ],
+  "edge_indices": {
+    "G": 0,
+    "U": 28
+  },
+  "states": {
+    "start": {
+      "source": "${D3FT_ROOT}/validation/results/response_design_20261002_resource_fill/runs/mgsin2_gamma_strain_ref_fs_r3",
+      "spectrum": "${D3FT_ROOT}/validation/results/response_design_20261015_e8_bands/D3FT_QE_path_after_E4__20261015T232613930717Z_2935969_0/Gamma_source_reference.json",
+      "source_sha256": {
+        "metadata.json": "8f2dafde6eb86220b693e5ee07c841f857db46ff9d22894aff15316fb6aa05f0",
+        "point.json": "deb28f22bcd61a2180003ac1905f66952109381cfd4bfab71b99dc5779c3ed87",
+        "state.pkl": "d5510a175c10d251db61a0532116447e5f8ed0bf9325ef98603dd045eede3bd3",
+        "mask.npy": "f113a2e24810543b1547acade65d3b443b4447643da0f373dc0df61ea89d550e",
+        "density.npy": "fc7ab072bf09893e10c89c9ef7f9262c62361488cea37b460436b355227c7e4b",
+        "input.xyz": "b68e75d3b1e0b37fd379f6047b28328fd31632c32388cfd651543f0d0b043a2a"
+      }
+    }
+  },
+  "accepted_density_only": true,
+  "same_QE_source_geometry": true,
+  "full_path_points": 61,
+  "SCF_sampling": [
+    1,
+    1,
+    1
+  ],
+  "k_convergence_claim": false,
+  "parent_reference_labels": true,
+  "actual_spacegroup": "P1",
+  "no_JCTC_data": true,
+  "not_E6_k4_production": true,
+  "numerical_agreement_threshold": null,
+  "comparison": "Each code own path VBM alignment; report differences without an unregistered agreement PASS; QE |G+k| vs D3FT fixed |G| basis"
+}

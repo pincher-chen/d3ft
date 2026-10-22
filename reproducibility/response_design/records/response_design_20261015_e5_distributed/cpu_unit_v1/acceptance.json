@@ -1,0 +1,33 @@
+{
+  "time": "2026-10-15T04:01:24.752589",
+  "passed": true,
+  "backend": "cpu",
+  "devices": 8,
+  "nk": 8,
+  "errors": {
+    "density": 0.0,
+    "weighted_edge_density": 0.0,
+    "common_density_tangent": 0.0,
+    "local_action": 0.0,
+    "coupled_Hessian": 0.0,
+    "adjoint_rhs": 0.0,
+    "adjoint_solution": 0.0,
+    "full_12_gradient": 0.0,
+    "forward_reverse_12": 0.0
+  },
+  "cross_k_action_norm": 0.03151205876669012,
+  "electrons": 4.0,
+  "serial_adjoint": {
+    "converged": true,
+    "iterations": 0,
+    "residual": 0.0,
+    "relative_residual": 0.0
+  },
+  "sharded_adjoint": {
+    "converged": true,
+    "iterations": 0,
+    "residual": 0.0,
+    "relative_residual": 0.0
+  },
+  "scope": "Actual distributed local FFT/psum/Hessian/PCG QA on synthetic insulating blocks; real Si/Mg GPU physics and memory not yet certified"
+}
